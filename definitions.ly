@@ -678,6 +678,10 @@ tocLabelLong = #(define-music-function
 
 
 tempoGottDuWirst = \tempoMarkup "Grave ed affettuoso"
+tempoJudaeaZittert = \tempoMarkup "Accompagnato"
+
+
+mvDlpf = \once \override DynamicText.X-offset = #-7
 
 
 \include "notes/fl1.ly"
