@@ -118,6 +118,11 @@
       title = "Judäa zittert!"
     }
     \tocLabelLong "judaeazittert" "2" "Accompagnato" "Judäa zittert!"
+    \paper {
+      system-system-spacing.basic-distance = #30
+      system-system-spacing.minimum-distance = #30
+      systems-per-page = #2
+    }
     \score {
       <<
         \new StaffGroup <<
@@ -154,7 +159,7 @@
         \new FiguredBass { \JudaeaZittertBassFigures }
       >>
       \layout { }
-      \midi { \tempo 2 = 80 }
+      \midi { \tempo 4 = 70 }
     }
   }
 }

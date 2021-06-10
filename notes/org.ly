@@ -136,12 +136,70 @@ JudaeaZittertOrgano = {
   \relative c {
     \clef bass
     \key c \major \time 2/2 \tempoJudaeaZittert
-    \mvTr gis2\p-\soloE r8 \tuplet 3/2 8 { gis16(-. gis-. gis-. gis[-. gis-. gis]-. gis-. gis-. gis-.) }
+    gis2\p r8 \tuplet 3/2 8 { gis16(-. gis-. gis-. gis[-. gis-. gis]-. gis-. gis-. gis-.) }
+    gis2 r8 \tuplet 3/2 8 { g16(-.\pocoF g-. g-. g[-. g-. g]-. g-. g-. g-.) }
+    fis2 r
+    r32 \mvTr h'-!\f-\unisono a!-! g!-! fis g fis e d e d cis h cis h ais h4 r
+    g\p r r8 \tuplet 3/2 8 { fis16(-. fis-. fis-. fis[-. fis-. fis-.] fis-. fis-. fis-.) } %5
+    a!2 fis
+    r8 \tuplet 3/2 8 { e16(-.\pocoF e-. e-. e[-. e-. e-.] e-. e-. e-.) } eis'2~\p
+    eis fis8-! r d-! r
+    r16 \mvTr cis\f-\unisono cis'32[ d cis h] a h a gis fis[ gis fis e] dis16 r h8-\dolce h h
+    e4 r r2 %10
+    a4 r d, r
+    r2 dis4\p r
+    e r r fis\f
+    h,8 r r4 e8 r gis4(
+    a8) r r4 a,2~\p %15
+    a~ a4 r
+    a8.[\f a'16 a8. a16] a8 r a r
+    a r r4 r2
+    d,4\p r r2
+    g4 r r2 %20
+    c,!2\ppE d8-! c'!32([\f d c h)] a([ h a g)] fis( g fis e)
+    dis8-! r16 a' a8. a16 a4 r
+    r16 gis gis8 r4 r16 g g8 r4
+    fis r r16 dis(\p dis dis) dis4~
+    dis2 r\fermata %25
+    dis4\f r \tempoJudaeaZittertB r16 e[-!-\unisono h'-! a]-! g-! fis-! e-! d-!
+    cis4 r e r
+    d r r16 h'[-! a!-! g!]-! fis-! e-! d-! cis-!
+    h4-! r d-! r
+    r e-! a,-! r\fermata \bar "|." %30 finis
   }
 }
 
 JudaeaZittertBassFigures = \figuremode {
-
+   <6 5>2 r8 q4.
+   <7+ 5 3>2 r8 <4+ 2>4.
+   <7 5+ _+>1
+   r
+   <6>2 r8 <5+ _+>4. %5
+   <4+ 2>2 <6\\ 4 _!>
+   r8 <5 _+>4. <6 5 [_+]>2
+   r2 <[5+]>4 <6 [_+]>
+   r2 r8 <5+ _+>4 <7 5+ _+>8
+   <_+>1 %10
+   <5 _+>2 <_+>
+   r <6 [_+]>
+   <5 _!>4 <[6+] 4+ 2+>2 <5+ _+>4
+   <5+ 3>2. <6 5>4
+   <_+>2 <5 _+> %15
+   <7+ 4 2>1
+   <_+>
+   r
+   <_+>
+   r %20
+   <6 5>2 <_+>
+   r8. <6+ 4+ 2>16 r2.
+   r16 <6>2 <4+ 2>4..
+   <6>2 r16 <7 5 _+>4..
+   r1 %25
+   <6 [_+]>
+   r2 <[6+] 4+ 2+>
+   <6 _+>1
+   r2 <4+ 2>
+   r4 <5 _+> <_+>2 %30 finis
 }
 
 % Organo = {

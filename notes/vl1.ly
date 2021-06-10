@@ -97,6 +97,36 @@ JudaeaZittertViolinoI = {
   \relative c' {
     \clef treble
     \key c \major \time 2/2 \tempoJudaeaZittert
+    d'2\p r8 \tuplet 3/2 8 { d16(-. d-. d-. d[-. d-. d-.] d-. d-. d-.) }
+    d2 r8 \tuplet 3/2 8 { cis16(-.\pocoF cis-. cis-. cis[-. cis-. cis-.] cis-. cis-. cis-.) }
+    cis2 r
+    r32 h-!\f a!-! g!-! fis-! g-! fis-! e-! d e d cis h cis h ais h4 r
+    e'\p r r8 \tuplet 3/2 8 { cis16(-. cis-. cis-. cis[-. cis-. cis-.] cis-. cis-. cis-.) } %5
+    dis1
+    r8 \tuplet 3/2 8 { e16(-.\pocoF e-. e-. e[-. e-. e-.] e-. e-. e-.) } gis2~\p
+    gis fis8-! r fis,-! r
+    r16 cis\f cis'32[ d cis h] a h a gis] fis[ gis fis e] dis16 r32 h'-\dolce h16([ dis)] dis( fis) fis( a)
+    \tuplet 3/2 8 { gis16(\prall fis gis a[ gis fis] } gis8) r r2 %10
+    <cis, e, a,>4 r <fis a, d,> r
+    r2 fis4\p r
+    g r r cis,\f\prall
+    h8 \tuplet 3/2 8 { h16([\prall-\dolce ais h)] d(\prall cis d) fis([\prall e fis)] g[\f-! h-! a-!] g-! fis-! e-! e[-! fis-! e]-! d-! cis-! h }
+    <cis e, a,>4 r e2\p %15
+    d~ d4 r
+    cis8.[\f cis16 cis8. cis16] \tuplet 3/2 8 { cis-! cis[(\prall^\dolce h] cis[ e d] cis) a'[(\prall gis] a cis h }
+    a8) r r4 r2
+    \tuplet 3/2 8 { r16 fis(\prall^\dolce e fis[ a g] } fis8) r r2
+    h,4\p r r2 %20
+    g2\pp fis8-! c'!32([\f d c h)] a([ h a g)] fis( g fis e)
+    dis8-! r16 dis' dis8. dis16 dis4 r
+    r16 e e8 r4 r16 e e8 r4
+    d r r16 c!(\p c c) c4~
+    c2 r\fermata %25
+    fis4\f r \tempoJudaeaZittertB r16 e,-! h'-! a-! g[-! fis-! e-! d!]-!
+    cis4-! r ais'-! r
+    r16 h[-! cis-! d]-! e-! fis-! gis-! ais-! h-! h,[-! a-! g-!] fis-! e-! d-! cis-!
+    h4-! r h'-! r
+    r gis'-! a-! r\fermata \bar "|." %30 finis
   }
 }
 

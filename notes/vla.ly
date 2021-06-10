@@ -95,7 +95,37 @@ GottDuWirstViola = {
 
 JudaeaZittertViola = {
   \relative c' {
-    \clef treble
+    \clef alto
     \key c \major \time 2/2 \tempoJudaeaZittert
+    e2\p r8 \tuplet 3/2 8 { e16(-. e-. e-. e[-. e-. e-.] e-. e-. e-.) }
+    fis2 r8 \tuplet 3/2 8 { e16(-.\pocoF e-. e-. e[-. e-. e-.] e-. e-. e-.) }
+    e2 r
+    r32 h'-!\f a!-! g!-! fis g fis e d e d cis h cis h ais h4 r
+    e\p r r8 \tuplet 3/2 8 { fis16(-. fis-. fis-. fis[-. fis-. fis-.] fis-. fis-. fis-.) } %5
+    fis2 a!
+    r8 \tuplet 3/2 8 { gis16(-.\pocoF gis-. gis-. gis[-. gis-. gis-.] gis-. gis-. gis-.) } cis,2~\p
+    cis cis8-! r fis,-! r
+    r16 cis'\f cis'32[ d cis h] a h a gis] fis[ gis fis e] dis16 r dis([-\dolce fis)] fis( h) h( dis)
+    h4 r r2 %10
+    a,4 r d r
+    r2 fis4\p r
+    e r r fis\f
+    d8 r r4 h8 r h4
+    a r a'2\p %15
+    gis~ gis4 r
+    e8.[\f e16 e8. e16] e8-! r e r
+    e r r4 r2
+    d4\p r r2
+    g,4 r r2 %20
+    a2\pp a8-! c'!32([\f d c h)] a([ h a g)] fis( g fis e)
+    dis8-! r16 fis fis8. fis16 fis4 r
+    r16 e e8 r4 r16 a a8 r4
+    a r r16 fis(\p fis fis) fis4~
+    fis2 r\fermata %25
+    fis4\f r \tempoJudaeaZittertB r16 e-! h'-! a-! g[-! fis-! e-! d!]-!
+    cis4-! r cis-! r
+    fis r r16 h[-! a!-! g!-!] fis-! e-! d-! cis-!
+    h4-! r e-! r
+    r e-! e-! r\fermata \bar "|." %30 finis
   }
 }

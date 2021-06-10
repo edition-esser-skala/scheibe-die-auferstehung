@@ -679,6 +679,7 @@ tocLabelLong = #(define-music-function
 
 tempoGottDuWirst = \tempoMarkup "Grave ed affettuoso"
 tempoJudaeaZittert = \tempoMarkup "Accompagnato"
+  tempoJudaeaZittertB = \tempoMarkup "Allegro"
 
 
 mvDlpf = \once \override DynamicText.X-offset = #-7
