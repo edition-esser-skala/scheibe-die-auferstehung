@@ -129,3 +129,131 @@ JudaeaZittertViola = {
     r e-! e-! r\fermata \bar "|." %30 finis
   }
 }
+
+MeinGeistViola = {
+  \relative c' {
+    \clef alto
+    \key d \major \time 3/4 \tempoMeinGeist
+    \partial 4 d4\fE d2 r4
+    d2 d4
+    cis( d) cis
+    a8( a) a( a) a-! e'-!
+    fis fis e e e e %5
+    e16 a gis fis e d cis h a8 e'
+    fis fis e e e e
+    e4 r8 cis16 d e8 d16 cis
+    d8 a' a a a cis
+    a a a a a cis %10
+    a a d, d d g
+    g g fis4 r8 g
+    h4 a \parOn a,-\parenthesize-!
+    h-! h-! \parOff a-\parenthesize-!
+    d,2.~ \noBreak %15
+    d2 \bar "S-S" d'4\pp \noBreak
+    d2 r4
+    d2 d4
+    cis8( cis) d( d) cis( cis)
+    a( a) a( a) a-! e'-! %20
+    fis fis\f e e e e\p
+    e16 a\f gis fis e d cis h a8 e'\p
+    fis fis\f e e e e\p
+    e4 r8 cis16\pp d e8 d16 cis
+    d8 fis d fis e cis %25
+    d fis r gis e gis,
+    a cis a cis h gis
+    a cis r d16 e fis e d cis
+    h4 e e,
+    fis fis e %30
+    r8 a a a a a
+    r h h e h e
+    a,4 a e'
+    e e e
+    e r r8 cis %35
+    d4 e h
+    a cis r8 d
+    fis4 e e
+    r8 d d d e e
+    cis8. a'16 a4 r %40
+    e8. e16 e4 r
+    r16 a,\f h cis d e fis gis a4
+    r8 d,\p e4 e
+    cis16 a' e cis a4 r
+    a'2\fE r4 %45
+    a2 a4
+    gis( a) gis
+    e8( e) e( e) cis(\pp cis)
+    d2 r4
+    d2 d4 %50
+    cis8( cis) d( d) cis( cis)
+    a([ a)] a8. a'16[ fis8. d16]
+    d g\f d h g8 r e'4\p
+    e r e\pp
+    fis8 h4 a fis8~ %55
+    fis h4 a fis8
+    a a, r e' fis fis
+    fis d h d cis ais
+    h d h d cis ais
+    h d r e16\f fis g fis e\p d %60
+    cis4 fis fis,
+    g g fis
+    r8 fis h d h d
+    r h h h h h
+    r cis a cis a cis %65
+    r d d a' a a
+    h4 h, h
+    cis r r16 a h cis
+    d8 fis d fis e cis
+    d fis d\fE a' g h %70
+    g g fis4 r8 d\p
+    g, h g h a fis
+    g d' e fis g e
+    e cis d \parOn d16\f-\parenthesize-! cis-! h-! a-! g-! \parOff fis-\parenthesize-!
+    e4\p a a %75
+    h h a
+    a8. d16 d4 a
+    a8. d16 d4 a
+    d16 d e fis g a h cis d8 d,
+    d4 a a %80
+    a h r8 d
+    e4 a, a
+    r8 d d e e e
+    r e e fis fis e
+    fis8. a16 a4 r %85
+    d,8. fis16 fis4 r
+    r16 d e fis g a h cis d4
+    r8 g, a4 a
+    fis16 d' a fis d4 r
+    a'16\f d a fis d8 d d d %90
+    d16 g d h g4 r
+    h'16 e h g e8 e e e
+    e a r cis,16 d e8 d16 cis
+    d8 a' a a a cis,
+    d a' a a a cis, %95
+    d a' d, a' g h
+    g g fis4 r8 g
+    h4 a \parOn a,-\parenthesize-!
+    h-! h-! \parOff a-\parenthesize-!
+    d,2.~ \noBreak %100
+    <d a'>2 r4\fermata \bar "||"
+    \twotwotime \key d \minor \time 2/2 \tempoMeinGeistB
+      b'16(\pp f' f f) f( f f f) f( f f h) h( e, e e) \noBreak
+    e8 cis r16 b(\f a g) fis( d' d\pp d) d( d a d)
+    d( d d d) c( c c c) d8 d r16 d(\f d es)
+    es( b b\pp b) b( b b b) c2^\tenuto %105
+    c16( a) a(\f c) c( f) f( f) f( b,) b(\pp b) b( b) b( b)
+    g8 c c c c f f f
+    f4 b, a r16 ges'(\f f es)
+    des( as as\pp as) as( as as as) as( as as d) d( g, g g)
+    g16.[( c32]) c8 r16 des(\f c b) a!( f' f\pp f) f( f c f) %110
+    f( f f d) g( g g es) c16.([ f32)] f8 r16 f(\f f ges)
+    ges( des des\pp des) des( des des des) es2^\tenuto
+    es16( c) c( es) es( as) as( as) as( as) as( as) as,( as) des( des)
+    b8 es es es es as, as b
+    b4 cis d8 d,\pocoP es4 %115
+    d r b'8\pp b b b
+    a a cis cis a d d g,
+    g c c c c c f f
+    f b, gis4 a b!
+    a r \markDaCapo \bar "S-S" %120 finis
+  }
+}

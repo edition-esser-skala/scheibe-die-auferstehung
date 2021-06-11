@@ -129,3 +129,131 @@ JudaeaZittertViolinoII = {
     r h-! cis-! r\fermata \bar "|." %30 finis
   }
 }
+
+MeinGeistViolinoII = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 3/4 \tempoMeinGeist
+    \partial 4 fis4\fE fis2 g4
+    fis2 g4
+    g( fis) e
+    e\prall d r8 a'
+    a16 d d8 r16 gis e h gis gis a h %5
+    a a gis fis e d cis h a8 a'
+    a16 d d8 r16 gis e h gis gis a h
+    a a cis e a8 e4( fis16 g)
+    \appoggiatura g fis8 e16 d \appoggiatura g fis8 e16 d e8 g
+    \appoggiatura g16 fis8 e16 d \appoggiatura g fis8 e16 d e8 g %10
+    \appoggiatura g16 fis8 e16 d \appoggiatura h' a8 g16 fis \appoggiatura c'16 h8 a16 g
+    \appoggiatura d' cis8 h16 a d4 r8 h,
+    e4. cis8 d4-!
+    fis,-! g-! e-!
+    fis8 fis16( fis) fis8( g) cis,( e) \noBreak %15
+    e4( d) \bar "S-S" fis\pp \noBreak
+    fis8(-. fis-. fis-. fis-.) r16 h( a g)
+    fis8(-. fis-. fis-. fis-.) r16 h( a g)
+    g4( fis) r16 g( fis e)
+    e4\prall d r8 a' %20
+    a16 d d8\f r16 gis e h gis gis\p a h
+    a a\f gis fis e d cis h a8 a'\p
+    a16 d d8\f r16 gis e h gis gis\p a h
+    a a \f cis e a8 e4(\pp fis16 g)
+    \appoggiatura g fis8 e16 d a8 a a a %25
+    a a r h4( cis16 d)
+    \appoggiatura d cis8 h16 a e8 e e e
+    e e <d a' fis'>4 r8 fis
+    h4. gis8 a4
+    cis, d h %30
+    cis8. e16 e8 e e e
+    r e e e e e
+    e8. cis'16 \appoggiatura d cis8 h16 a \appoggiatura cis h8 a16 gis
+    a8. cis16 \appoggiatura d cis8 h16 a \appoggiatura cis h8 a16 gis
+    a a\f h cis d e fis gis a8 e\p %35
+    fis e16 d \appoggiatura d cis8 h16 a gis fis e d
+    cis4 a' r8 fis
+    h4. gis8 a4
+    r8 a a a e e
+    e8. cis'16 cis4 r %40
+    a8. cis16 cis4 r
+    r16 a,\f h cis d e fis gis a4
+    r8 a\p a4 gis\prall
+    a r16 e\f a cis cis a cis e
+    cis2 d4 %45
+    cis2 d4
+    d( cis) h
+    h\prall a a\pp
+    fis8(-. fis-. fis-. fis-.) r16 h( a g)
+    fis8(-. fis-. fis-. fis-.) r16 h( a g) %50
+    g4( fis) r16 g( fis e)
+    e4\prall d8. d'16[ a8. fis16]
+    g g\f d h g8 r16 h'[\p h8. h16]
+    cis a\f cis e a4 a,\pp
+    a8 d4 cis8 d a~ %55
+    a d4 cis8 d a
+    d4\prall cis8 cis4( d16 e)
+    \appoggiatura e d8 cis16 h fis8 fis fis cis'
+    h fis fis fis fis cis'
+    h fis <e h' g'>4\f r8 g\p %60
+    cis4. ais8 h4
+    d, e cis
+    r8 d fis fis fis fis
+    r e e e e e
+    r e e e e e %65
+    r a a d d d
+    d4 e, e
+    r16 a\f h cis d e fis gis a8 e\p
+    \appoggiatura g16 fis8 e16 d a8 a a e'
+    \appoggiatura g16 fis8 e16 d \appoggiatura h' a8\f g16 fis \appoggiatura c' h8 a16 g %70
+    \appoggiatura d' cis8 h16 a d4 r8 d,,\p
+    d d d d d a'
+    g h h a h h
+    a a a d16-!\f cis-! h-! a-! g-! fis-!
+    h4.\p cis8 d4 %75
+    fis, g e
+    fis8. fis16 \appoggiatura g fis8 e16 d \appoggiatura fis e8 d16 cis
+    d8. fis16 \appoggiatura g fis8 e16 d \appoggiatura fis e8 d16 cis
+    d d e fis g a h cis d8 fis,
+    g8. e'16 \appoggiatura e d8 cis16 h a g fis e %80
+    d4 fis r8 g
+    h4. cis8 d fis,
+    r g g h4 h8
+    r a a cis4 a8
+    a8. d16 d4 r %85
+    fis,8. a16 a4 r
+    r16 d, e fis g a h cis d4
+    r8 h32( e16.) d4 cis\prall
+    d r16 fis,\f a d d a d fis
+    d4~ d16 fis d a fis fis g a %90
+    g g d h g e' g h e h e g
+    e4~ e16 g e h gis gis a h
+    a a cis e a8 \once \slurDashed e4( fis16 g)
+    \appoggiatura g fis8 e16 d \appoggiatura g fis8 e16 d e8 g
+    \appoggiatura g fis8 e16 d \appoggiatura g fis8 e16 d e8 g %95
+    \appoggiatura g fis8 e16 d \appoggiatura h' a8 g16 fis \appoggiatura c' h8 a16 g
+    \appoggiatura d' cis8 h16 a d4 r8 h,
+    e4. cis8 d4-!
+    fis,-! g-! e-!
+    fis8 fis16( fis) fis8( g) cis,( e) \noBreak %100
+    e4( d) r\fermata \bar "||"
+    \twotwotime \key d \minor \time 2/2 \tempoMeinGeistB
+      b16(\pp b' b b) b( b b b) h( h h d) d( h h h)
+    a8 e r16 b'(\f a g) fis( a a\pp a) a( a c a)
+    a8( g16) b g( g g es) d16.([ g32)] fis8 r16 d(\f d es)
+    es( es es\pp es) es( es es es) g2-\tenuto %105
+    f16( c) c(\f f) f( a) a( a) f( f) f(\pp f) d( d) d( d)
+    d8( c16) f e8( f16) g \once \slurDashed f( g a b) c8( b16) a
+    b4 e,! f r16 ges(\f f es)
+    des( des des\pp des) des( des des des) d( d d f) f( d d d)
+    \tuplet 3/2 8 { d([ c f)] } e!8 r16 des(\f c b) a!( c' c\pp c) c( c es c) %110
+    c8( b16) b b( b b g) \tuplet 3/2 8 { g([ f b)] } a!8 r16 f(\f f ges)
+    ges( ges ges\pp ges) ges( ges ges ges) b2-\tenuto
+    as16( es) es( as) as( c) c( c) c( des) des( des) f,( f) f( f)
+    f8( es16) as g8( as16) b as( b) c( as) as8. f16
+    es8. g16 g8( a!16) g fis8. g16\pocoP g8( fis16) cis %115
+    \tuplet 3/2 8 { cis([ d g)] } fis8 r4 b,16(\pp f' f f) f( d d d)
+    cis8. g'16 g( f) f( e) d( e) f( f) f( d) d( d)
+    c( d) e( f) g8( f16) e f( f) f( a) a( a) a( a)
+    a( d d d) d8( e16) d cis8. d16 d8( cis16) gis
+    \tuplet 3/2 8 { gis_([ a d] } cis8) r4 \markDaCapo \bar "||" %120 finis
+  }
+}

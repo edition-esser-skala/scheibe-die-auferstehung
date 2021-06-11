@@ -680,10 +680,18 @@ tocLabelLong = #(define-music-function
 tempoGottDuWirst = \tempoMarkup "Grave ed affettuoso"
 tempoJudaeaZittert = \tempoMarkup "Accompagnato"
   tempoJudaeaZittertB = \tempoMarkup "Allegro"
+tempoMeinGeist = \tempoMarkup "Poco allegro"
+  tempoMeinGeistB = \tempoMarkup "Adagio e mesto"
 
 
 mvDlpf = \once \override DynamicText.X-offset = #-7
-
+twotwotime = {
+  \overrideTimeSignatureSettings
+    2/2
+    1/4
+    #'(4)
+    #'((end . (((1 . 16) . (4 4 4 4)) ((1 . 8) . (4 4)))))
+  }
 
 \include "notes/fl1.ly"
 \include "notes/fl2.ly"

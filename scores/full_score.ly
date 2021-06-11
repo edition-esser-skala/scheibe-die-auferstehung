@@ -111,13 +111,64 @@
   %     \midi { \tempo 2 = 80 }
   %   }
   % }
+  % \bookpart {
+  %   \header {
+  %     genre = "A C C O M P A G N A T O"
+  %     number = "2"
+  %     title = "Judäa zittert!"
+  %   }
+  %   \tocLabelLong "judaeazittert" "2" "Accompagnato" "Judäa zittert!"
+  %   \paper {
+  %     system-system-spacing.basic-distance = #30
+  %     system-system-spacing.minimum-distance = #30
+  %     systems-per-page = #2
+  %   }
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \JudaeaZittertViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \JudaeaZittertViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \JudaeaZittertViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T 1"
+  %           \new Voice = "Tenore" { \dynamicUp \JudaeaZittertTenoreNotes }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \JudaeaZittertTenoreLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \JudaeaZittertOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \JudaeaZittertBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 70 }
+  %   }
+  % }
   \bookpart {
     \header {
-      genre = "A C C O M P A G N A T O"
-      number = "2"
-      title = "Judäa zittert!"
+      genre = "A R I A"
+      number = "3"
+      title = "Mein Geiſt voll Furcht und Freude bebet"
     }
-    \tocLabelLong "judaeazittert" "2" "Accompagnato" "Judäa zittert!"
+    \tocLabelLong "meingeist" "3" "Aria" "Mein Geiſt voll Furcht und Freude bebet"
     \paper {
       system-system-spacing.basic-distance = #30
       system-system-spacing.minimum-distance = #30
@@ -130,36 +181,36 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \JudaeaZittertViolinoI
+              \MeinGeistViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \JudaeaZittertViolinoII
+              \MeinGeistViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \JudaeaZittertViola
+            \MeinGeistViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "T 1"
-            \new Voice = "Tenore" { \dynamicUp \JudaeaZittertTenoreNotes }
+            \new Voice = "Tenore" { \dynamicUp \MeinGeistTenoreNotes }
           }
-          \new Lyrics \lyricsto Tenore \JudaeaZittertTenoreLyrics
+          \new Lyrics \lyricsto Tenore \MeinGeistTenoreLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \JudaeaZittertOrgano
+            \MeinGeistOrgano
           }
         >>
-        \new FiguredBass { \JudaeaZittertBassFigures }
+        \new FiguredBass { \MeinGeistBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 70 }
+      \midi { \tempo 4 = 100 }
     }
   }
 }
