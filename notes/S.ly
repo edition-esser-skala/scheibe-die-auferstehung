@@ -134,6 +134,63 @@ GottDuWirstSopranoLyrics = \lyricmode {
   he! %78 finis
 }
 
+TriumphSopranoNotes = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key d \major \time 2/2 \tempoTriumph
+    \partial 2 \mvTr a'2\fE^\tuttiE d a
+    d a
+    h cis
+    d h
+    e2.( d4) %5
+    cis1
+    r2 cis
+    h e
+    a, h4( d)
+    cis2 h %10
+    a1
+    r2 a
+    d a
+    d fis,
+    g h %15
+    a d
+    a2.( g4)
+    fis2 r
+    r d'
+    h cis %20
+    d h
+    e cis
+    d1
+    R\fermata \bar "|." %24 finis
+  }
+}
+
+TriumphSopranoLyrics = \lyricmode {
+  Tri -- umph! Tri --
+  umph! des
+  Herrn Ge --
+  ſalb -- ter
+  ſie -- %5
+  get!
+  Er
+  ſteigt aus
+  ſei -- ner __
+  Fel -- ſen -- %10
+  gruft.
+  Tri --
+  umph! Tri --
+  umph! ein
+  Chor von %15
+  En -- geln
+  flie --
+  get
+  mit
+  lau -- tem %20
+  Ju -- bel
+  durch die
+  Luft. %23 finis
+}
+
 % SopranoNotes = {
 %   \relative c' {
 %     \clef treble

@@ -362,6 +362,63 @@ MeinGeistTenoreLyrics = \lyricmode {
   ſei -- ne Schuld be -- zahlt? %119 finis
 }
 
+TriumphTenoreNotes = {
+  \relative c' {
+    \clef "treble_8"
+    \twotwotime \key d \major \time 2/2 \tempoTriumph
+    \partial 2 \mvTr d\fE^\tuttiE fis d
+    fis d
+    d e
+    fis d
+    e1 %5
+    e
+    r2 e
+    e gis
+    cis, fis
+    e e %10
+    cis1
+    r2 cis
+    d d
+    fis a,
+    g h %15
+    d d
+    d( cis)
+    a r
+    r fis'
+    d e %20
+    fis d
+    g e
+    fis1
+    R\fermata \bar "|." %24 finis
+  }
+}
+
+TriumphTenoreLyrics = \lyricmode {
+  Tri -- umph! Tri --
+  umph! des
+  Herrn Ge --
+  ſalb -- ter
+  ſie -- %5
+  get!
+  Er
+  ſteigt aus
+  ſei -- ner
+  Fel -- ſen -- %10
+  gruft.
+  Tri --
+  umph! Tri --
+  umph! ein
+  Chor von %15
+  En -- geln
+  flie --
+  get
+  mit
+  lau -- tem %20
+  Ju -- bel
+  durch die
+  Luft. %23 finis
+}
+
 % TenoreNotes = {
 %   \relative c' {
 %     \clef "treble_8"

@@ -73,3 +73,34 @@ GottDuWirstFlautoI = {
     R1.\fermata \bar "|." %86 finis
   }
 }
+
+TriumphFlautoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key d \major \time 2/2 \tempoTriumph
+    \partial 2 a''2\fE d a
+    d a
+    h cis
+    d h
+    e2. d4 %5
+    cis1
+    r2 cis
+    h e
+    a, h4( d)
+    cis2 h %10
+    a1
+    r2 a
+    d a
+    d fis,
+    g h %15
+    a d
+    a2. g4
+    fis2 r
+    r d'
+    h cis %20
+    d h
+    e cis
+    d1
+    R\fermata \bar "|." %24 finis
+  }
+}

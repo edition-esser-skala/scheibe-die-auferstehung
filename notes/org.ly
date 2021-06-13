@@ -453,6 +453,64 @@ MeinGeistBassFigures = \figuremode {
   r %120 finis
 }
 
+TriumphOrgano = {
+  \relative c {
+    \clef bass
+    \twotwotime \key d \major \time 2/2 \tempoTriumph
+    \partial 2 \mvTr d2\fE-\tuttiE d d
+    d d
+    g e
+    d g
+    gis1 %5
+    a2 r
+    r a,
+    e e'
+    fis d
+    e e, %10
+    a r
+    r a'4( g!)
+    fis2 fis4( e)
+    d2 d4( c)
+    h2 g %15
+    d'4 e fis g
+    a2 a,
+    d r
+    r d
+    g e %20
+    d g
+    e a
+    d,1~
+    d2 r\fermata \bar "|." %24 finis
+  }
+}
+
+TriumphBassFigures = \figuremode {
+  r2 r1
+  r
+  r2 <6>
+  r1
+  <6>2. <5>4 %5
+  r1
+  r
+  <_+>
+  <5>2 <6 5>
+  <6 4> <[5 _+]> %10
+  r1
+  r
+  <6>
+  r
+  <6> %15
+  r2 <6>4 <5>
+  <6 4>2 <5 3>4 <7>
+  r1
+  r
+  r2 <6\\> %20
+  r1
+  r
+  r
+  r %24 finis
+}
+
 % Organo = {
 %   \relative c {
 %     \clef bass

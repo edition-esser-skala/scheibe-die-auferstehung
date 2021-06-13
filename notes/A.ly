@@ -136,6 +136,63 @@ GottDuWirstAltoLyrics = \lyricmode {
   he! %78 finis
 }
 
+TriumphAltoNotes = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key d \major \time 2/2 \tempoTriumph
+    \partial 2 \mvTr fis2\fE^\tuttiE a fis
+    a fis
+    g g
+    a g
+    h1 %5
+    a
+    r2 a
+    gis h
+    a a
+    a gis %10
+    e1
+    r2 e
+    a a
+    a d,
+    d g %15
+    fis a4( g)
+    fis2( e)
+    d r
+    r a'
+    g g %20
+    a g
+    h a
+    a1
+    R\fermata \bar "|." %24 finis
+  }
+}
+
+TriumphAltoLyrics = \lyricmode {
+  Tri -- umph! Tri --
+  umph! des
+  Herrn Ge --
+  ſalb -- ter
+  ſie -- %5
+  get!
+  Er
+  ſteigt aus
+  ſei -- ner
+  Fel -- ſen -- %10
+  gruft.
+  Tri --
+  umph! Tri --
+  umph! ein
+  Chor von %15
+  En -- geln __
+  flie --
+  get
+  mit
+  lau -- tem %20
+  Ju -- bel
+  durch die
+  Luft. %23 finis
+}
+
 % AltoNotes = {
 %   \relative c' {
 %     \clef treble

@@ -162,55 +162,148 @@
   %     \midi { \tempo 4 = 70 }
   %   }
   % }
+  % \bookpart {
+  %   \header {
+  %     genre = "A R I A"
+  %     number = "3"
+  %     title = "Mein Geiſt voll Furcht und Freude bebet"
+  %   }
+  %   \tocLabelLong "meingeist" "3" "Aria" "Mein Geiſt voll Furcht und Freude bebet"
+  %   \paper {
+  %     system-system-spacing.basic-distance = #30
+  %     system-system-spacing.minimum-distance = #30
+  %     systems-per-page = #2
+  %   }
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \MeinGeistViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \MeinGeistViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \MeinGeistViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T 1"
+  %           \new Voice = "Tenore" { \dynamicUp \MeinGeistTenoreNotes }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \MeinGeistTenoreLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \MeinGeistOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \MeinGeistBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 100 }
+  %   }
+  % }
   \bookpart {
     \header {
-      genre = "A R I A"
-      number = "3"
-      title = "Mein Geiſt voll Furcht und Freude bebet"
+      genre = "C H O R A L"
+      number = "4"
+      title = "Triumph! des Herrn Geſalbter ſieget!"
     }
-    \tocLabelLong "meingeist" "3" "Aria" "Mein Geiſt voll Furcht und Freude bebet"
-    \paper {
-      system-system-spacing.basic-distance = #30
-      system-system-spacing.minimum-distance = #30
-      systems-per-page = #2
-    }
+    \tocLabelLong "triumph" "4" "Choral" "Triumph! des Herrn Geſalbter ſieget!"
     \score {
       <<
+        \new StaffGroup <<
+          \new Staff \with { \smallStaffDistance } {
+            \set Staff.instrumentName= \markup \center-column { "fl" "1, 2" }
+            \partCombine \TriumphFlautoI \TriumphFlautoII
+          }
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = "ob"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \TriumphOboeI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \TriumphOboeII
+            }
+          >>
+        >>
+        \new StaffGroup \with { \smallGroupDistance } <<
+          \new Staff <<
+            \set Staff.instrumentName = \markup \center-column { "clno [D]" "1, 2" }
+            % \transpose c d
+            \partCombine \TriumphClarinoI \TriumphClarinoII
+          >>
+        >>
+        \new Staff {
+          \set Staff.instrumentName = \markup \center-column { "timp" "[D–A]" }
+          % \transpose c d
+          \TriumphTimpani
+        }
         \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \MeinGeistViolinoI
+              \TriumphViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \MeinGeistViolinoII
+              \TriumphViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \MeinGeistViola
+            \TriumphViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "T 1"
-            \new Voice = "Tenore" { \dynamicUp \MeinGeistTenoreNotes }
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \TriumphSopranoNotes }
           }
-          \new Lyrics \lyricsto Tenore \MeinGeistTenoreLyrics
+          \new Lyrics \lyricsto Soprano \TriumphSopranoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \TriumphAltoNotes }
+          }
+          \new Lyrics \lyricsto Alto \TriumphAltoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \TriumphTenoreNotes }
+          }
+          \new Lyrics \lyricsto Tenore \TriumphTenoreLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \TriumphBassoNotes }
+          }
+          \new Lyrics \lyricsto Basso \TriumphBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \MeinGeistOrgano
+            \TriumphOrgano
           }
         >>
-        \new FiguredBass { \MeinGeistBassFigures }
+        \new FiguredBass { \TriumphBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 100 }
+      \midi { \tempo 2 = 60 }
     }
   }
 }

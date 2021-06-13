@@ -258,6 +258,37 @@ MeinGeistViolinoI = {
   }
 }
 
+TriumphViolinoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key d \major \time 2/2 \tempoTriumph
+    \partial 2 r16 fis\fE d fis a fis d' a fis' e d cis h a g fis r a fis a d a fis' d
+    a' g fis e d cis h a r d a d fis d a' fis
+    h a g fis e d cis h g' fis e d cis h a g
+    fis d a' fis d' a fis' d h a h c d e fis g
+    r h, gis h e h gis' e h' a gis fis e d cis d %5
+    cis a e cis a4 r2
+    r r16 cis' a cis e cis e a
+    a gis h a gis fis e dis e h gis' fis e d cis h
+    a h cis d e fis gis a fis e d cis h a gis fis
+    e a cis a e' cis e a gis a gis fis e d cis h %10
+    <cis e, a,>4 r q r
+    q r r16 a e a cis a e' cis
+    d cis h a g! fis e d r a' fis a d a fis' d
+    a' g fis e d cis h a r d a d fis d a' fis
+    g fis e d c h a g r h g h d h d g %15
+    fis g a g g a h a a h c h h cis d cis
+    d cis h a g fis e d e d cis h a g fis g
+    fis32 d e fis g a h cis d8 r r2
+    r r16 d a d fis d a' fis
+    h a g fis e d cis h g' fis e d cis h a g %20
+    fis' e d cis h a g fis r h g h d h g' d
+    h' a g fis e d cis h cis d cis h a g fis e
+    <d a' fis'>4 r q r
+    q r r2\fermata \bar "|." %24 finis
+  }
+}
+
 % ViolinoI = {
 %   \relative c' {
 %     \clef treble

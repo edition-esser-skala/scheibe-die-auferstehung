@@ -45,3 +45,34 @@ GottDuWirstOboeII = {
     R1.\fermata \bar "|." %86 finis
   }
 }
+
+TriumphOboeII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key d \major \time 2/2 \tempoTriumph
+    \partial 2 fis2\fE a fis
+    a fis
+    g g
+    a g
+    h1 %5
+    a
+    r2 a
+    gis h
+    a a~
+    a gis %10
+    a1
+    r2 e
+    a a
+    a d,
+    d g %15
+    fis a4 g
+    fis2( e)
+    d r
+    r a'
+    g g %20
+    a g
+    h a
+    a1
+    R\fermata \bar "|." %24 finis
+  }
+}

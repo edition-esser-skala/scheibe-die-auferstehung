@@ -257,3 +257,34 @@ MeinGeistViola = {
     a r \markDaCapo \bar "S-S" %120 finis
   }
 }
+
+TriumphViola = {
+  \relative c' {
+    \clef alto
+    \twotwotime \key d \major \time 2/2 \tempoTriumph
+    \partial 2 d2\fE d d
+    fis d
+    d e
+    d h
+    e1 %5
+    e
+    r2 e
+    e gis
+    cis, fis
+    e e %10
+    e1
+    r2 cis
+    d d
+    fis a,
+    g d' %15
+    d d
+    d( cis)
+    a r
+    r fis'
+    d e %20
+    fis d
+    g e
+    fis1
+    R\fermata \bar "|." %24 finis
+  }
+}

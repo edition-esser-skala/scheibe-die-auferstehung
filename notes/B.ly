@@ -85,6 +85,63 @@ GottDuWirstBassoLyrics = \lyricmode {
   he! %78 finis
 }
 
+TriumphBassoNotes = {
+  \relative c {
+    \clef bass
+    \twotwotime \key d \major \time 2/2 \tempoTriumph
+    \partial 2 \mvTr d2\fE^\tuttiE d' d,
+    d' d,
+    g e
+    d g
+    gis1 %5
+    a
+    r2 a
+    e e
+    fis d
+    e e %10
+    a1
+    r2 a4( g!)
+    fis2 fis4( e)
+    d2 d4( c)
+    h2 g' %15
+    d4( e) fis( g)
+    a2( a,)
+    d r
+    r d
+    g e %20
+    d g
+    e a
+    d,1
+    R\fermata \bar "|." %24 finis
+  }
+}
+
+TriumphBassoLyrics = \lyricmode {
+  Tri -- umph! Tri --
+  umph! des
+  Herrn Ge --
+  ſalb -- ter
+  ſie -- %5
+  get!
+  Er
+  ſteigt aus
+  ſei -- ner
+  Fel -- ſen -- %10
+  gruft.
+  Tri --
+  umph! Tri --
+  umph! ein __
+  Chor von %15
+  En -- geln __
+  flie --
+  get
+  mit
+  lau -- tem %20
+  Ju -- bel
+  durch die
+  Luft. %23 finis
+}
+
 % BassoNotes = {
 %   \relative c {
 %     \clef bass
