@@ -191,6 +191,40 @@ TriumphSopranoLyrics = \lyricmode {
   Luft. %23 finis
 }
 
+DieFrommenSopranoNotes = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \autoBeamOff \tempoDieFrommen
+    R1*6 %6
+    r2 \tempoDieFrommenB r
+    r8 \mvTr g' d'8. h16 g4 r8 g
+    c4 r8 e c c c8. d16
+    h8 h16 h h8 g g f! f8. g16 %10
+    e8 r16 e g8 e c' r16 b b8. c16
+    a4 f h8 h h8. c16
+    c8 g r4 r8 e' g,8. a16
+    b8 a a8. e16 f4 r8 a
+    g4 r8 g c4 r %15
+    es a,8. b16 b8 f r f
+    g4 r c d8. es16
+    es8 b r4 r2\fermata \bar "|." %18 finis
+  }
+}
+
+DieFrommenSopranoLyrics = \lyricmode {
+  Ent -- ſetzt euch nicht! Ich %8
+  weiß, ihr such -- et eu -- ren
+  Tod -- ten, den Na -- za -- rä -- er Je -- ſus %10
+  hier, daß ihr ihn ſalbt, daß ihr ihn
+  klagt. Hier iſt er nicht vor -- han --
+  den. Er hat es
+  euch zu -- vor ge -- ſagt: Er
+  lebt! Er lebt! %15
+  Er iſt er -- ſtan -- den! Er
+  lebt! Er iſt er --
+  ſtan -- den! %18 finis
+}
+
 % SopranoNotes = {
 %   \relative c' {
 %     \clef treble

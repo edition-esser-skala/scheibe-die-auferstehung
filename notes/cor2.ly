@@ -40,3 +40,10 @@ GottDuWirstCornoII = {
     R1.\fermata \bar "|." %86 finis
   }
 }
+
+SeyGegruessetCornoII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \tempoSeyGegruesset
+  }
+}

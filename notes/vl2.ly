@@ -288,3 +288,30 @@ TriumphViolinoII = {
     q r r2\fermata \bar "|." %24 finis
   }
 }
+
+DieFrommenViolinoII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \tempoDieFrommen
+    R1*6 %6
+    r2 \tempoDieFrommenB r16 \mvTr fis(\p-\dolce fis fis) fis( g) g( a)
+    g1~\pp
+    g2 a
+    d,1 %10
+    e
+    f4 r f r
+    r g\f g2~\p
+    g f4 r
+    r8 g16(\pocoF b) b( d) d( g) r8 g16( es) es( c) c( g) %15
+    es2\p r8 b'16(\pocoF b) b( f) f( f)
+    r8 es16( g) g( b) b( b) as4 r
+    r f\f g2\fermata \bar "|." %18 finis
+  }
+}
+
+SeyGegruessetViolinoII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key es \major \time 2/2 \tempoSeyGegruesset
+  }
+}

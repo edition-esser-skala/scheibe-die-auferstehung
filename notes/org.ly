@@ -511,6 +511,65 @@ TriumphBassFigures = \figuremode {
   r %24 finis
 }
 
+DieFrommenOrgano = {
+  \relative c {
+    \clef bass
+    \twotwotime \key c \major \time 2/2 \tempoDieFrommen
+    dis1\pE
+    e2 g~
+    g fis~
+    fis dis
+    r16 e,-! e'-! fis-! g g a h c,!2~ %5
+    c h
+    e \tempoDieFrommenB d!4 r
+    g,1~\pp
+    g~
+    g %10
+    c
+    f4 r d r
+    r g\fE cis,2~\pE
+    cis d4 r
+    r8 b\pocoF b b r es es es %15
+    c2\p r8 d\pocoF d d
+    r es es es as,4 r
+    r b\f es,2\fermata \bar "|." %18 finis
+  }
+}
+
+DieFrommenBassFigures = \figuremode {
+  \bo <6 [_+]>2 \bc <5 [\t]>
+  <3> <4+ 2>
+  r <6>
+  <6\\> <6 5 [_+]>
+  r <5> %5
+  <4+ 2> <6>
+  <6\\> <_+>
+  r1
+  <6 4>2 <7+ 4 2>
+  <5 3> <7!> %10
+  r2. <7->4
+  r2 <6!>
+  r4 <5 3> <6 5>2
+  r <[_!]>
+  r8 <6>2 q4. %15
+  <6 _->2 r8 <6->4.
+  r8 \bo <[5-]>4. \bc q2
+  r2 <[5-]> %18 finis
+}
+
+SeyGegruessetOrgano = {
+  \relative c {
+    \clef bass
+    \twotwotime \key es \major \time 2/2 \tempoSeyGegruesset
+    \mvTr es2\fE-\soloE d
+    es r
+  }
+}
+
+SeyGegruessetBassFigures = \figuremode {
+
+}
+
 % Organo = {
 %   \relative c {
 %     \clef bass

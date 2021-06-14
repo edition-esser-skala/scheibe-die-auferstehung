@@ -419,6 +419,32 @@ TriumphTenoreLyrics = \lyricmode {
   Luft. %23 finis
 }
 
+DieFrommenTenoreNotes = {
+  \relative c' {
+    \clef "treble_8"
+    \twotwotime \key c \major \time 2/2 \autoBeamOff \tempoDieFrommen
+    r8 h h8. c!16 a8 a h8. fis16
+    g8 r16 h h8 e, r4 cis'8 cis
+    cis e e8. a,16 d4 r8 a
+    dis a r4 a8 a a8. h16
+    g4 r r8 g c! r16 e %5
+    fis,8. a16 a8 r16 a g8 g16 d' d8. h16
+    g8 cis g8. a16 \tempoDieFrommenB fis4 r
+    R1*10 %17
+    R1\fermata \bar "|." %18 finis
+  }
+}
+
+DieFrommenTenoreLyrics = \lyricmode {
+  Die from -- men Töch -- ter Zi -- ons
+  gehn ver -- wun -- dernd durch des
+  off -- nen Gra -- bes Thür; und
+  ſchau -- dernd fah -- ren ſie zu --
+  rück. Sie ſehn, in %5
+  Glanz ge -- hüllt, den Bo -- ten des E -- wi --
+  gen, der freund -- lich ſpricht: %7 finis
+}
+
 % TenoreNotes = {
 %   \relative c' {
 %     \clef "treble_8"

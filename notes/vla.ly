@@ -288,3 +288,30 @@ TriumphViola = {
     R\fermata \bar "|." %24 finis
   }
 }
+
+DieFrommenViola = {
+  \relative c' {
+    \clef alto
+    \twotwotime \key c \major \time 2/2 \tempoDieFrommen
+    R1*6 %6
+    r2 \tempoDieFrommenB r8 \mvTr d\p-\dolce d d
+    d1\pp
+    e2 fis
+    g1~ %10
+    g
+    a4 r d, r
+    r d\f e2~\p
+    e d4 r
+    r8 d\pocoF g g r c, g' g %15
+    c,2\p r8 f\pocoF f b,
+    r b es es es4 r
+    r b\f b2\fermata \bar "|." %18 finis
+  }
+}
+
+SeyGegruessetViola = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key es \major \time 2/2 \tempoSeyGegruesset
+  }
+}

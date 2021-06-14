@@ -289,6 +289,33 @@ TriumphViolinoI = {
   }
 }
 
+DieFrommenViolinoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \tempoDieFrommen
+    R1*6 %6
+    r2 \tempoDieFrommenB r16 \mvTr a'(\p-\dolce a a) a( h) h( c!)
+    h1\pp
+    c
+    h %10
+    c~
+    c4 r h! r
+    r h\prall\f a2~\p
+    a~ a4 r
+    r8 g16(\pocoF b) b( d) d( g) r8 g16( es) es( c) c( g) %15
+    a2\p r8 f'16(\pocoF d) d( b) b( f)
+    r8 g16( b) b( es) es( g) c,4 r
+    r d\prall\f es2\fermata \bar "|." %18 finis
+  }
+}
+
+SeyGegruessetViolinoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key es \major \time 2/2 \tempoSeyGegruesset
+  }
+}
+
 % ViolinoI = {
 %   \relative c' {
 %     \clef treble

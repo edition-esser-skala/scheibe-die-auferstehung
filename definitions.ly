@@ -683,6 +683,9 @@ tempoJudaeaZittert = \tempoMarkup "Accompagnato"
 tempoMeinGeist = \tempoMarkup "Poco allegro"
   tempoMeinGeistB = \tempoMarkup "Adagio e mesto"
 tempoTriumph = \tempoMarkup "Pomposo"
+tempoDieFrommen = \tempoMarkup "Recitativo"
+  tempoDieFrommenB = \tempoMarkup "Accompagnato"
+tempoSeyGegruesset = \tempoMarkup "Poco allegro e pesante"
 
 
 mvDlpf = \once \override DynamicText.X-offset = #-7

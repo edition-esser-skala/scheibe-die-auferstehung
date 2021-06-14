@@ -193,6 +193,17 @@ TriumphAltoLyrics = \lyricmode {
   Luft. %23 finis
 }
 
+SeyGegruessetAltoNotes = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key es \major \time 2/2 \autoBeamOff \tempoSeyGegruesset
+  }
+}
+
+SeyGegruessetAltoLyrics = \lyricmode {
+
+}
+
 % AltoNotes = {
 %   \relative c' {
 %     \clef treble
