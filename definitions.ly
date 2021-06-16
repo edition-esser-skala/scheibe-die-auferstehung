@@ -696,6 +696,7 @@ twotwotime = {
     #'(4)
     #'((end . (((1 . 16) . (4 4 4 4)) ((1 . 8) . (4 4)))))
   }
+calando = \markup \remark  "calando"
 
 \include "notes/fl1.ly"
 \include "notes/fl2.ly"

@@ -254,7 +254,7 @@ MeinGeistViolinoII = {
     cis8. g'16 g( f) f( e) d( e) f( f) f( d) d( d)
     c( d) e( f) g8( f16) e f( f) f( a) a( a) a( a)
     a( d d d) d8( e16) d cis8. d16 d8( cis16) gis
-    \tuplet 3/2 8 { gis_([ a d] } cis8) r4 \markDaCapo \bar "||" %120 finis
+    \tuplet 3/2 8 { gis_([ a d] } cis8) r4 \bar "||" %120 finis
   }
 }
 
@@ -313,5 +313,218 @@ SeyGegruessetViolinoII = {
   \relative c' {
     \clef treble
     \twotwotime \key es \major \time 2/2 \tempoSeyGegruesset
+    g'2\fE f
+    es r
+    as4 as~ as8. c16 \tuplet 3/2 4 { c8( b as) }
+    as4\prall g g8( b) b( es)
+    es4 es4. b,8-! g'( es) %5
+    es4\prall d r2
+    es4 f8 g as b c d
+    es b b4\prall g'8 es es4\prall
+    f8 d d4\prall es8 c c4\prall
+    d8 b c d es f g a %10
+    b b, b4\prall as!8 f f4\prall
+    g8 es es4\prall es'8 b b4\prall
+    c4 c4. c8-! as'( f)
+    b,4 b4. b8-! g'( es)
+    es4 es2 d4 %15
+    d( es) r2
+    c,4\p c4. c8-! as'( f)
+    b,4 b4. b8-! g'( es)
+    es4 es2 d4
+    es8(\f b4.) g'16( f es4.) %20
+    b'16([ g8.)] es'16([ b8.)] g'16([ es8.)] b16([ g8.)]
+    c4 c4. c8-! as'( f)
+    \tuplet 3/2 4 { g([ f es] d c b) } d2\prall \noBreak
+    es4 b es,2 \bar "S-S"
+    g\pp f \noBreak %25
+    es r
+    as4 as~ as8. c16 \tuplet 3/2 4 { \once \slurDashed c8( b as) }
+    as4 g r2
+    es'4 es4. b,8-! g'( es)
+    es4\prall d r2 %30
+    es r
+    r4 b'\f g'8 es es4\prall
+    f8 d d4\prall es8 c c4\prall
+    b r r2
+    r4 f\p as!8 f f4\prall %35
+    g8 es es4\prall f8 d d4\prall
+    es4 es8( g) g( b) b( es)
+    g,4 g a a
+    b8( f4.) d'16(\f c b4.)
+    b4\pp b es, es~ %40
+    es es d( es8) f
+    es4 g2 es4~
+    es es d( es8) f
+    f4( es) es'2
+    g,4 g2( a8 b) %45
+    b4( a) r f\pocoF
+    f r f r
+    <b, f' d'>2 r
+    r4 es2\p es4
+    r f2 b4~ %50
+    b b2 a4
+    a( b) d,8(\f f) f( b)
+    r4 es,2\p es4
+    r f2 b4~
+    b b2 a4 %55
+    a( b) r f
+    f r f r
+    r es2 g4
+    f2 a
+    r8 b\f c d es f g a %60
+    b2 c,
+    b r
+    es4 es~ es8. g16 \tuplet 3/2 4 { \once \slurDashed g8( f es) }
+    es4\prall d d8( b) b( f)
+    f4 f4. d8-! as'!( f) %65
+    f4( es) r2
+    d4 d d g
+    g g g c
+    c2 \tuplet 3/2 4 { as'8 g f es[ d c] }
+    c4( h) r2 %70
+    es,\pp d
+    c r
+    f4 f~ f8. f16 \tuplet 3/2 4 { a8( b c) }
+    b4 f'32( es d8.) b'4 r
+    r b,,8(\f d) d( f) f( b) %75
+    f4\pp f f8. as16 \tuplet 3/2 4 { as8( g f) }
+    f4\prall es4. b8-! g'( es)
+    es4\prall d r2
+    es r
+    r4 g\f des'8 b b4\prall %80
+    c8 as as4\prall b8 g g4\prall
+    as\p r f r
+    es b as'8 f f4\prall
+    g8 es es4\prall f8 d d4\prall
+    g g es es~ %85
+    es es d d
+    es8( b4.) g'16(\f f es4.)
+    b'16([ g8.)] es'16([ b8.)] g'16([ es8.)] b16([ g8.)]
+    as4\pp as as as~
+    as as g( as8) b %90
+    as4 es as as~
+    as as g( as8) b
+    as4 as as as
+    f f a a
+    f2 r %95
+    <es b' g'>\f r
+    r4 g\pp g g
+    as as'8( as as4) es,
+    es8-! g( as b) b( as) as( g)
+    f4 f'8( f f4) f,4~ %100
+    f8 f( g as) as( g) g( f)
+    es4 b' b b
+    c1~
+    c
+    b2 r4\fermata b %105
+    b r b4. f8
+    es4 es'8(\f b) b( g) g( es)
+    r4 es\p es f
+    r es es es'~
+    es es2 d4 %110
+    d( es) <g b, es,>\f r
+    q r r2
+    r4 es,2\pE f4
+    es4.(\prall d16 es f4) d
+    es es8(\f g) g( b) b( es) %115
+    f,4(\pp f) f( f)
+    es( es) es( es)
+    f( f) f( f)
+    es d d8( f) f( b)
+    b4 a8 g f es d c %120
+    b d d4 r2
+    g4\pp g g es~
+    es es d( es8) f
+    es4 g2 g4~
+    g g2 es4 %125
+    es( d) r2
+    r4 es es f
+    r es es es'
+    r as,2 f4
+    r es2 f4 %130
+    es4.(\prall d16 es f4) d
+    r8 es\f f g as b c d
+    es2 f,
+    es r
+    as4 as~ as8. c16 \tuplet 3/2 4 { c8( b as) } %135
+    as4\prall g g8( b) b( es)
+    es4 es4. b,8-! g'( es)
+    es4\prall d r2
+    es4 f8 g as b c d
+    es g, g4\prall as8 f f4\prall %140
+    g8 es es4\prall f8 d d4\prall
+    es8( b4.) g'16( f es4.)
+    b'16([ g8.)] es'16([ b8.)] g'16([ es8.)] b16([ g8.)]
+    c4 c4. c8-! as'( f)
+    \tuplet 3/2 4 { g([ f es] d c b) } f'2\prall \noBreak %145
+    es4 b es,2\fermata \bar "||"
+    g1~\p \noBreak
+    g~
+    g2 c~
+    c c %150
+    h r
+    b1
+    a
+    b2 r
+    b1 %155
+    ces
+    b
+    es,
+    f2 r
+    as!1 %160
+    g!
+    as~
+    as
+    g2 r
+    r8 b4\pocoF b b g8 %165
+    f( f) f( f) f( f) f( f)
+    r c'4 c c a8
+    g( g) g( g) g( g) g( g)
+    r2 fis\p
+    g h %170
+    c r
+    r8 f,4\f\cresc f f f8
+    es( es) es( es) d( d) d( d)
+    es2\! r
+    r as\pp %175
+    g c~
+    c f,~
+    f f
+    e r
+    es1~ %180
+    es2( d!4) f
+    f2( e4) g
+    f2 r
+    f r
+    r b, %185
+    c1
+    b2 f'
+    es r
+    ges1
+    f %190
+    ges4( des) des( des)
+    des( des) c!( c)
+    des2 r
+    r8 \mvTrr f4\mf-\calando f f f8
+    f( f f f) e( e e e) %195
+    r es4 es es es8
+    es( es es es) d!( d d d)
+    r2 cis
+    d a'
+    b r %200
+    b4(\pp b) b( b)
+    as( as) ges( ges)
+    ges2 f
+    es1~
+    es %205
+    f4\f f4. f8-! des'( b)
+    g16( f es4.) b'16( as g4.)
+    c4 c4. c8-! as'( f)
+    d!16( c b4.) d16( c b4.)
+    b16([ g8.)] es'16([ b8.)] g'16([ es8.)] b16([ g8.)] %210
+    c4 c4. c8-! as'( f)
+    \tuplet 3/2 4 { g([ f es] d c b) } f'2-\parenthesize-\prall
+    es4 b es,2 \bar "S-S" %213 finis
   }
 }

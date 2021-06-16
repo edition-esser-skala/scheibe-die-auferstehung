@@ -326,7 +326,7 @@ MeinGeistOrgano = {
     a a a a d d h h
     c c c c f f f f
     b,4 b a r
-    r2 \markDaCapo \bar "S-S" %120 finis
+    r2 \bar "S-S" %120 finis
   }
 }
 
@@ -563,11 +563,434 @@ SeyGegruessetOrgano = {
     \twotwotime \key es \major \time 2/2 \tempoSeyGegruesset
     \mvTr es2\fE-\soloE d
     es r
+    es4 es es es
+    es es'8( b) b( g) g( es)
+    es4 es es es %5
+    b b8( d) d( f) f( as)
+    g2 r
+    r4 g es c
+    d b' c, f
+    b,2 r %10
+    r4 b' b b
+    es, es g es
+    r as8 g as4 f
+    r g8 f g4 es
+    as2 b %15
+    es,4 es,8( g) g( b) b( es)
+    r4 as,8\p g as4 f
+    r g8 f g4 es
+    as2 b
+    es,4\f es8( g) g( b) b( es) %20
+    es,4 es8( g) g( b) b( es)
+    r4 as8 g as4 f
+    b2 b, \noBreak
+    es, r \bar "S-S"
+    es'\ppE d \noBreak %25
+    es r
+    es4 es es es
+    es es, r2
+    es'4 es es es,
+    b' b8(\f d) d( f) f( as) %30
+    g2\p r
+    r4 g\f es c
+    d b' c, f
+    b,2 r
+    r4 b\p b b %35
+    es es, f' b,
+    es es8( g) g( b) b( es)
+    c4 c f, f
+    b, b8(\f d) d( f) f( as!)
+    g4\pp g c, c %40
+    as as b b
+    es es c c
+    as as b b
+    es es g g
+    e e c c %45
+    f2 r4 es\pocoF
+    d r a r
+    b r r2
+    r4 es8\p d es4 c
+    r d8 c d4 b %50
+    es2 f
+    b,4 b8(\f d) d( f) f( b)
+    r4 es,8\p d es4 c
+    r d8 c d4 b
+    es2 f %55
+    b,4 b'8( f) f( d) d( b)
+    b4 r b r
+    r es8 d es4 c
+    f2 f,
+    b r %60
+    b'\f a
+    b r
+    b,4 b b b
+    b b8( d) d( f) f( b)
+    d,4 d d d %65
+    es es, r2
+    h'4 h h h
+    c c c c
+    f f f f
+    g4. as8 g f es d %70
+    c2\pp h
+    c r
+    a4 a f f
+    b b r2
+    r4 b8(\fE d) d( f) f( b) %75
+    d,4\ppE d d d
+    es es es es,
+    b' b8(\f d) d( f) f( as!)
+    g2\pE r
+    r4 es\f es es %80
+    es es es es
+    as,\p r des r
+    es es es es
+    es es b b
+    es, es c' c %85
+    as as b b
+    es es,8(\f g) g( b) b( es)
+    es4 es,8( g) g( b) b( es)
+    c4\ppE c f f
+    des des es es %90
+    as, as f' f
+    des des es es
+    as, as as as
+    a a f' f
+    b,2 r %95
+    es,\fE r
+    r4 es'\ppE es es
+    as, as' r as
+    g r e r
+    f f, r f' %100
+    d r d r
+    es es, r2
+    es'8 c c es es g g c
+    f,1
+    b,2 r4\fermata as! %105
+    g r d' r
+    es es'8(\f b) b( g) g( es)
+    r4 as8\pE g as4 f
+    r g8 f g4 es
+    as,2 b %110
+    es4 es8(\fE b) b( g) g( es)
+    es4 r r2
+    r4 as8\pE g as4 f
+    b2 b
+    es,4 es'8(\f g) g( b) b( es) %115
+    es,4(\ppE es) d( d)
+    des( des) ces( ces)
+    b( b) b( b)
+    b b'8( f) f( d!) d( b)
+    b2 r %120
+    r4 b8(\f d) d( f) f( as!)
+    g4\pp g c c
+    as as b b
+    es, es c' c
+    as as a a %125
+    b2 r
+    r4 as8 g as4 f
+    r g8 f g4 es
+    r as,8 g as4 b
+    r c8 b c4 as %130
+    b2 b
+    es, r
+    es'\f d
+    es r
+    es4 es es es %135
+    es es'8( b) b( g) g( es)
+    es4 es es es
+    b' b,8( d) d( f) f( as)
+    g2 r
+    r4 es es es %140
+    es es b b
+    es es,8( g) g( b) b( es)
+    es4 es,8( g) g( b) b( es)
+    r4 as8 g as4 f
+    b2 b, \noBreak %145
+    es, r\fermata \bar "||"
+    r4 es'(\pE d c) \noBreak
+    r g( g' f)
+    r es( d c)
+    r as'( g fis) %150
+    g g, g' f
+    e1
+    r4 f, f'( es)
+    r des( c b)
+    r ges'( f es) %155
+    r ces'( b as)
+    r ges( f es)
+    ces1
+    b2 r
+    d!1 %160
+    des
+    c4( c) c( c)
+    f( f) f( f)
+    es2 r
+    e4(\pocoF e) e( e) %165
+    f( f) f( f)
+    fis( fis) fis( fis)
+    g( g) g( g)
+    as1\pE
+    g2 g, %170
+    c r
+    f\f\cresc f
+    g g,
+    c\! r
+    r4 as'(\pp g f) %175
+    r c c'( b)
+    r \once \slurDashed as( g f)
+    r b,( c des)
+    c c c'( b)
+    r a!( g f) %180
+    r b, b'( as)
+    r g c c,
+    f2 r
+    b, r
+    r4 ges( f es) %185
+    r a!( g f)
+    r b b b
+    es2 r
+    c1
+    ces %190
+    b4( b) b( b)
+    es( es) es( es)
+    des2 r
+    \mvTrr b4(\mf-\calando b) b( b)
+    c( c) c( c) %195
+    a( a) a( a)
+    b( b) b( b)
+    es1
+    d2 d,
+    g r %200
+    g'4\ppE g g g
+    as as as, as
+    des1
+    es
+    as, %205
+    r4 des8\f c des4 b
+    es es8( g) g( b) b( es)
+    r4 as,8 g as4 f
+    b, b8( d) d( f) f( b)
+    es,4 es8( g) g( b) b( es) %210
+    r4 as,8 g as4 f
+    b2 b,
+    es, r \bar "S-S" %213 finis
   }
 }
 
 SeyGegruessetBassFigures = \figuremode {
-
+  r2 <6>
+  r1
+  <6 4>
+  <\t \t>4 <5 3> <\t \t>2
+  r1 %5
+  <6 4>4 <5 3>2.
+  <6>1
+  r4 <6>2 <6!>4
+  <[6]>2 <7>4 <7 _!>
+  r1 %10
+  r2 <7->
+  r <6>
+  r1
+  r4 <6>2.
+  <6 5>2 <6 4>4 <5 3> %15
+  \bo <[9 7]>4 \bc <[10 8]> <6>2
+  r1
+  r4 <6>2.
+  <6 5>2 <6 4>4 <5 3>
+  r2 <6> %20
+  r q
+  r1
+  <6 4>2 <5 3>
+  r1
+  r2 <6> %25
+  r1
+  <6 4>
+  <\t \t>4 <5 3>2.
+  r1
+  <6 4>4 <5 3>2. %30
+  <6>1
+  r4 <6>2 <6!>4
+  <6>2 <5>4 <_!>
+  r1
+  r2 <7-> %35
+  r <6 4 3>4 <7>
+  r2 <6>
+  <5> <7 _!>
+  r1
+  <[6]> %40
+  <6 5>
+  r2 <5>
+  <6 5>1
+  <9 4>4 <8 3> <6>2
+  <6> <_!> %45
+  <4>4 <_!>2 <4! 2>4
+  <6>2 q
+  r1
+  r
+  r4 <6>2. %50
+  <6 5>2 <6 4>4 <5 _!>
+  <9 7! 5> <10 8 \t> <6>2
+  r1
+  r4 <6>2.
+  <6 5>2 <6 4>4 <5 _!> %55
+  <9 7!> <10 8> <6 4>2
+  r1
+  r
+  <6 4>2 <5 _!>
+  r1 %60
+  r2 <6>
+  r1
+  <6 4>
+  <\t \t>4 <5 3>2.
+  <6 5->1 %65
+  <9 4>4 <8 3>2.
+  <6 5>1
+  r
+  r
+  <4>4 <_!>2. %70
+  r2 <6>
+  r1
+  <6>2 <7 _!>
+  r1
+  r %75
+  <6 5->
+  <9 4>4 <8 3>2.
+  <6 4>4 <5 3>2.
+  <6>1
+  r2 <7-> %80
+  <6 4> <7- 5 3>
+  r <6>
+  r \bo <[6 4]>
+  \bo <[5 3]> <7 _!>
+  r <5> %85
+  <6 5>1
+  r
+  r
+  <6>
+  <6 5> %90
+  r
+  <6 5>2. <7->4
+  <4-> <3>2.
+  <6>2 <[5] _!>4 <7 \t>
+  <4> <_!>2. %95
+  r1
+  r
+  r
+  <6>2 <7->4 <6>
+  r1 %100
+  <6 5>2 \bo <[7]>4 \bc <[6]>
+  r1
+  <6>
+  <7 _!>
+  \bo <[4]>4 \bc <[3]>2 <4 2>4 %105
+  <6>2 q
+  r1
+  r
+  r4 <6>2.
+  <6 5>2 <6 4>4 <5 3> %110
+  <9 7> <10 8>2.
+  r1
+  r
+  <6 4>2 <7 5 3>
+  r1 %115
+  <6 4! 2>2 <6 5->
+  <4 2> <6! [5-]>
+  <_!> <7->
+  <6 4>4 <5 3>2.
+  r1 %120
+  r
+  <6>2 <5>
+  <6 5>1
+  r
+  <7 5>2 <[\t \t]> %125
+  <6 4>4 <5 3>2.
+  r1
+  r4 <6>2.
+  r <7>4
+  r <5>2 <6>4 %130
+  <6 4>2 <7 5 3>
+  r1
+  r2 <6>
+  r1
+  <6 4> %135
+  <\t \t>4 <5 3>2.
+  r1
+  <6 4>4 <5 3>2.
+  <6>1
+  r2 <6 4> %140
+  <5 3> <7 5>
+  r1
+  r
+  r
+  <6 4>2 <5 3> %145
+  r1
+  r4 <6>2.
+  r4 <5 4> <\t _!>2
+  r4 <6>2.
+  r4 <5> <6 4> <7 5 [_!]> %150
+  <_!>2. <\t>4
+  <6 5->1
+  r4 <_!>2 <\t>4
+  r4 <6>2.
+  r4 <6>2 \bassFigureExtendersOn q4 %155
+  r4 <6>2 q4
+  r4 <6>2 q4 \bassFigureExtendersOff
+  \bo <7 [5-]>2 \bc <6! [\t]>
+  <_!>1
+  <6 5-> %160
+  <4! 2>
+  <6>
+  <7 5>2 <6!>
+  <5>1
+  <7-> %165
+  <4>2 <_!>
+  <7- 5 _!>1
+  <5 4>2 <\t _!>
+  <6\\>1
+  <_!> %170
+  r
+  <_->
+  <6 4>2 <5 _!>
+  r1
+  r4 <6>2. %175
+  r4 <5 4> <\t _!>2
+  r4 <6>2.
+  r4 <9 _-> <[\tllur]> <6>
+  <_!>2. <\t>4
+  r <6 [5-]>2 <7- [_!]>4 %180
+  r <4> <_!> <\t>
+  r <7> <7 _!>2
+  <_!>1
+  <_->
+  r4 <6>2 \bassFigureExtendersOn q4 \bassFigureExtendersOff %185
+  r <6>2 <7 [_!]>4
+  r <5 4> <\t _!> <7 \t>
+  <_!>1
+  <6 5->
+  <6 4 2-> %190
+  <6- _->
+  <7- _->2 <6! \t>
+  r1
+  <_->
+  <5 4>2 <\t _!> %195
+  <6 5->1
+  <5 4>2 <\t _!>
+  <6\\>1
+  <5! _+>
+  r %200
+  <6 3>2 <6 5->
+  <4-> <7- 3>
+  <7 4-> <6 3>4 <5>
+  <5 4>2 <\t _!>
+  \bo <[9]> \bc <[8]> %205
+  r2. <_->4
+  r1
+  r
+  <_!>
+  r %210
+  r
+  <6 4>2 <5 3>
+  r1 %213 finis
 }
 
 % Organo = {

@@ -264,7 +264,7 @@ MeinGeistTenoreNotes = {
     a8([ g16)] b! b([ a)] a([ g)] f([ g)] a a a([ g)] g([ f)]
     e([ f)] g([ a)] b8 a16([ g)] a32([ g f8.)] f4
     f32([ d'16.)] d8 d([ cis16)] d e4 r
-    r2 \markDaCapo \bar "S-S" %120 finis
+    r2 \bar "S-S" %120 finis
   }
 }
 

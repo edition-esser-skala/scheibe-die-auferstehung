@@ -254,7 +254,7 @@ MeinGeistViola = {
     a a cis cis a d d g,
     g c c c c c f f
     f b, gis4 a b!
-    a r \markDaCapo \bar "S-S" %120 finis
+    a r \bar "S-S" %120 finis
   }
 }
 
@@ -311,7 +311,220 @@ DieFrommenViola = {
 
 SeyGegruessetViola = {
   \relative c' {
-    \clef treble
+    \clef alto
     \twotwotime \key es \major \time 2/2 \tempoSeyGegruesset
+    b2\fE b
+    b r
+    es4 es es es
+    es es es8( g) g( b)
+    b4 b, b b %5
+    b b8( d) d( f) f( b,)
+    b2 r
+    r4 es b' a
+    b b2 a4
+    b2 r %10
+    r4 d, d d
+    es b b g'
+    r es2 f4
+    r es2 b'4
+    c2 b %15
+    b4 es,,8( g) g( b) b( es)
+    r4 es,2\p f4
+    r es2 b'4
+    c2 b
+    b16(\f as g4.) es'8( b4.) %20
+    g'16([ es8.)] b'16([ g8.)] es'16([ b8.)] g16([ es8.)]
+    r4 es as c
+    b2 b \noBreak
+    es, r \bar "S-S"
+    b\pp b \noBreak %25
+    b r
+    es4 es es es
+    es es r2
+    b4 b b b
+    b b8(\f d) d( f) f( as) %30
+    b,2\p r
+    r4 es\f b' a
+    b b g a
+    f r r2
+    r4 d\p d d %35
+    es b b b
+    b es,8( g) g( b) b( es)
+    c4 c c f
+    f16( es d4.) b'8(\f f4.)
+    es4\pp b g g %40
+    c c b b
+    b b c c
+    c c b b
+    b b b b
+    c c e e %45
+    c2 r4 a\pocoF
+    b r f' r
+    b,2 r
+    r4 b2\pE c4
+    r b2 f'4 %50
+    g2 f
+    f4 b,8(\f d) d( f) f( b)
+    r4 b,2\p c4
+    r b2 f'4
+    g2 f %55
+    f r4 b,
+    d r b r
+    r b2 es4
+    f2 f
+    b, r %60
+    d\f f
+    f r
+    b4 b b b
+    b b b8( f) f( d)
+    b4 b b b %65
+    b b r2
+    g4 g g d'
+    c c c es
+    f f2 f4
+    d2 r %70
+    g,\pp g
+    g r
+    f'4 f a f
+    f f r2
+    r4 b,8(\f d) d( f) f( b) %75
+    b,4\pp b b b
+    b b b b
+    b b8(\f d) d( f) f( as!)
+    b,2\pE r
+    r4 es\f g g %80
+    es es es es
+    es\p r des r
+    b g es' es
+    es b b b
+    b b c c %85
+    c c b b
+    b8( g4.) es'8(\f b4.)
+    g'16([ es8.)] b'16([ g8.)] es'16([ b8.)] g16([ es8.)]
+    es4\pp es f f
+    f f es es %90
+    es c c f
+    f f es es
+    es es es es
+    f f c c
+    b2 r %95
+    es\f r
+    r4 es\pp es es
+    es es r as,
+    b r g' r
+    c, c r c %100
+    b r b r
+    b g' g g
+    g1
+    a
+    f2 r4\fermata d %105
+    es r b r
+    b es'8(\f b) b( g) g( es)
+    r4 as,\p as c
+    r b b b'
+    c2 b %110
+    b es,4\f r
+    es r r2
+    r4 as,2\p c4
+    b2 b
+    g4 es'8(\f g) g( b) b( es) %115
+    c,4(\pp c) b( b)
+    b( b) es( es)
+    \slurDashed d!( d) d( d) \slurSolid
+    b b b8( d) d( f)
+    f2 r %120
+    r4 b,8(\f d) d( f) f( as!)
+    b,4\pp b c c
+    c c b b
+    b b c c
+    c c c c %125
+    b2 r
+    r4 as as c
+    r b b g
+    r es'2 b4
+    r c2 c4 %130
+    b2 b
+    es, r
+    b'\f b
+    b r
+    es4 es es es %135
+    es es es8( g) g( b)
+    b4 b, b b
+    b b8( d) d( f) f( as)
+    b,2 r
+    r4 es es es %140
+    es b b b
+    b16( as g4.) es'8( b4.)
+    g'16([ es8.)] b'16([ g8.)] es'16([ b8.)] g16([ es8.)]
+    r4 es2 f4
+    b,2 d' \noBreak %145
+    es, r\fermata \bar "||"
+    r4 c(\p d es) \noBreak
+    d2 d
+    r4 es( d c)
+    r as'( g fis) %150
+    g g, g'2~
+    g1
+    f2 c
+    b r
+    es2.( ges4) %155
+    as1
+    es~
+    es
+    d!2 r
+    f1 %160
+    es2 b
+    c1~
+    c2 f
+    b, r
+    r8 des4\pocoF des des des8 %165
+    c( c) c( c) c( c) c( c)
+    r es!4 es es es8
+    d!( d) d( d) d( d) d( d)
+    r2 c\p
+    d g %170
+    g r
+    r8 c,4\f-\cresc c c c8
+    c( c) c( c) g( g) g( g)
+    g2\! r
+    r c~\pp %175
+    c g'
+    f as,
+    des des
+    g, c~
+    c f,~ %180
+    f b
+    d! c
+    c r
+    b r
+    r4 ges( f es) %185
+    c2 f~
+    f b~
+    b r
+    es1
+    des %190
+    des4( des) des( des)
+    es,( es) es( es)
+    as2 r
+    r8 \mvTrr b4\mf-\calando b b des8
+    c( c c c) c( c c c) %195
+    r f,4 f f c'8
+    b( b b b) b( b b b)
+    r2 g
+    a d
+    d r %200
+    es4(\pp es) es( es)
+    \slurDashed es( es) es( es) \slurSolid
+    des1
+    b
+    c %205
+    r4 as2\f b4
+    b16( as g4.) g'16( f es4.)
+    r4 es2 f4
+    f16( es d!4.) b'8( f4.)
+    g16([ es8.)] b'16([ g8.)] es'16([ b8.)] g16([ es8.)] %210
+    r4 es2 as8( c)
+    b2 d
+    es, r \bar "S-S" %213 finis
   }
 }

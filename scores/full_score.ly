@@ -370,6 +370,11 @@
       title = "Sey gegrüßet, Fürſt des Lebens!"
     }
     \tocLabelLong "seygegruesset" "6" "Aria" "Sey gegrüßet, Fürſt des Lebens!"
+    \paper {
+      system-system-spacing.basic-distance = #25
+      system-system-spacing.minimum-distance = #25
+      systems-per-page = #2
+    }
     \score {
       <<
         \new StaffGroup <<
@@ -413,7 +418,7 @@
         \new FiguredBass { \SeyGegruessetBassFigures }
       >>
       \layout { }
-      \midi { \tempo 2 = 60 }
+      \midi { \tempo 2 = 90 }
     }
   }
 }
