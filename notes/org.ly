@@ -993,6 +993,78 @@ SeyGegruessetBassFigures = \figuremode {
   r1 %213 finis
 }
 
+WerIstDieOrgano = {
+  \relative c {
+    \clef bass
+    \twotwotime \key c \major \time 2/2 \tempoWerIstDie
+    des1
+    e!~
+    e2 f
+    es4 r a,!2
+    b1 %5
+    e!2 f
+    b,4 r des2~
+    des c4 r
+    f2 fis
+    g4 es d r %10
+    es r e2
+    f1
+    es
+    fis,~
+    fis2 f~ %15
+    f h!
+    c r
+    fis1
+    g2 gis
+    a r %20
+    cis, d
+    gis,1~
+    gis2 a
+    dis e
+    r8 e d8.([\prall cis32 d)] cis2~ %25
+    cis d
+    h a4 r
+    ais1
+    h2 cis
+    \tempoWerIstDieB r8 d16 e fis8 d g2 %30
+    r4 a d,2\fermata \bar "|." %31 finis
+  }
+}
+
+WerIstDieBassFigures = \figuremode {
+  <6->1
+  <7- 5->
+  <6 5->2 <[5] _->4 <6! \t>
+  <[5-]>2 <6>
+  <_!>1 %5
+  <6 5->
+  r2 <6->
+  r <_!>
+  q <6 5>
+  <_->4 <6> <_+>2 %10
+  <5-> <6 5->
+  r <4! 2>
+  <6>1
+  <7- 5>
+  <6 5>2 <4! 2> %15
+  r <6 5>
+  r1
+  <6>
+  <_!>2 <6>
+  r1 %20
+  <6 5!>2 <4>4. <_+>8
+  <6>1
+  <\t>4 <5!> <4> <_+>
+  <6 5 [_+]>2 <4>4. <_+>8
+  r <_+> <4+ 2>4 <6>2 %25
+  r <_+>
+  <7>4 <6\\> <_+>2
+  \bo <6 [_+]> \bc <5 [\t]>
+  <5+>4 <6> <6 5>2
+  r8 <_+> <6>4 <3> <4+ 2> %30
+  r <_+> q2 %31 finis
+}
+
 % Organo = {
 %   \relative c {
 %     \clef bass

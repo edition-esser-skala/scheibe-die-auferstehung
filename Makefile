@@ -1,7 +1,7 @@
 # change the following variables according to the current project
 project = Scheibe_Die_Auferstehung
-notes = fl1 fl2 ob1 ob2 cor1 cor2 clno1 clno2 timp vl1 vl2 vla S A T B org
-scores = full_score fl1 fl2ob1 ob2 cor12 ottoni vl1 vl2 vla coro b org
+notes = fl1 fl2 ob1 ob2 cor1 cor2 clno1 clno2 timp vl1 vl2 vla S A T B soli org
+scores = full_score fl1 fl2 ob1 ob2 cor12 ottoni vl1 vl2 vla coro b org
 
 # general definitions
 zipname = $(project:%=%_engraving_files)

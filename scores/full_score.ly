@@ -314,8 +314,8 @@
   %   }
   %   \tocLabelLong "diefrommen" "5" "Accompagnato" "Die frommen Töchter Zions gehn verwundert"
   %   \paper {
-  %     system-system-spacing.basic-distance = #25
-  %     system-system-spacing.minimum-distance = #25
+  %     system-system-spacing.basic-distance = #30
+  %     system-system-spacing.minimum-distance = #30
   %     systems-per-page = #2
   %   }
   %   \score {
@@ -339,21 +339,15 @@
   %       >>
   %       \new ChoirStaff <<
   %         \new Staff {
-  %           \set Staff.instrumentName = "S"
-  %           \new Voice = "Soprano" { \dynamicUp \DieFrommenSopranoNotes }
+  %           \set Staff.instrumentName = \markup \center-column { "S" "T 1" }
+  %           \new Voice = "Soli" { \dynamicUp \DieFrommenSoliNotes }
   %         }
-  %         \new Lyrics \lyricsto Soprano \DieFrommenSopranoLyrics
-  %
-  %         \new Staff {
-  %           \set Staff.instrumentName = "T 1"
-  %           \new Voice = "Tenore" { \dynamicUp \DieFrommenTenoreNotes }
-  %         }
-  %         \new Lyrics \lyricsto Tenore \DieFrommenTenoreLyrics
+  %         \new Lyrics \lyricsto Soli \DieFrommenSoliLyrics
   %       >>
   %       \new StaffGroup <<
   %         \new Staff {
   %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
-  %           \transpose c c,
+  %           % \transpose c c,
   %           \DieFrommenOrgano
   %         }
   %       >>
@@ -363,62 +357,92 @@
   %     \midi { \tempo 4 = 70 }
   %   }
   % }
+  % \bookpart {
+  %   \header {
+  %     genre = "A R I A"
+  %     number = "6"
+  %     title = "Sey gegrüßet, Fürſt des Lebens!"
+  %   }
+  %   \tocLabelLong "seygegruesset" "6" "Aria" "Sey gegrüßet, Fürſt des Lebens!"
+  %   \paper {
+  %     system-system-spacing.basic-distance = #25
+  %     system-system-spacing.minimum-distance = #25
+  %     systems-per-page = #2
+  %   }
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new Staff <<
+  %           \set Staff.instrumentName = \markup \center-column { "cor [Es]" "1, 2" }
+  %           % \transpose c es
+  %           \partCombine \SeyGegruessetCornoI \SeyGegruessetCornoII
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \SeyGegruessetViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \SeyGegruessetViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \SeyGegruessetViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \SeyGegruessetAltoNotes }
+  %         }
+  %         \new Lyrics \lyricsto Alto \SeyGegruessetAltoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \SeyGegruessetOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \SeyGegruessetBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 2 = 90 }
+  %   }
+  % }
   \bookpart {
     \header {
-      genre = "A R I A"
-      number = "6"
-      title = "Sey gegrüßet, Fürſt des Lebens!"
+      genre = "R E C I T A T I V O"
+      number = "7"
+      title = "Wer iſt die Sionitin"
     }
-    \tocLabelLong "seygegruesset" "6" "Aria" "Sey gegrüßet, Fürſt des Lebens!"
-    \paper {
-      system-system-spacing.basic-distance = #25
-      system-system-spacing.minimum-distance = #25
-      systems-per-page = #2
-    }
+    \tocLabelLong "weristdie" "7" "Recitativo" "Wer iſt die Sionitin"
+    \paper { systems-per-page = #5 }
     \score {
       <<
-        \new StaffGroup <<
-          \new Staff <<
-            \set Staff.instrumentName = \markup \center-column { "cor [Es]" "1, 2" }
-            % \transpose c es
-            \partCombine \SeyGegruessetCornoI \SeyGegruessetCornoII
-          >>
-        >>
-        \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
-            \set GrandStaff.instrumentName = "vl"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \SeyGegruessetViolinoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \SeyGegruessetViolinoII
-            }
-          >>
-          \new Staff {
-            \set Staff.instrumentName = "vla"
-            \SeyGegruessetViola
-          }
-        >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \SeyGegruessetAltoNotes }
+            \set Staff.instrumentName = \markup \center-column { "A" "T" "B" }
+            \new Voice = "Soli" { \dynamicUp \WerIstDieSoliNotes }
           }
-          \new Lyrics \lyricsto Alto \SeyGegruessetAltoLyrics
+          \new Lyrics \lyricsto Soli \WerIstDieSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \SeyGegruessetOrgano
+            \WerIstDieOrgano
           }
         >>
-        \new FiguredBass { \SeyGegruessetBassFigures }
+        \new FiguredBass { \WerIstDieBassFigures }
       >>
       \layout { }
-      \midi { \tempo 2 = 90 }
+      \midi { \tempo 4 = 70 }
     }
   }
 }

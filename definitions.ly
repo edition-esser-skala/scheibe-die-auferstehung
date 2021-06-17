@@ -686,6 +686,8 @@ tempoTriumph = \tempoMarkup "Pomposo"
 tempoDieFrommen = \tempoMarkup "Recitativo"
   tempoDieFrommenB = \tempoMarkup "Accompagnato"
 tempoSeyGegruesset = \tempoMarkup "Poco allegro e pesante"
+tempoWerIstDie = \tempoMarkup "Recitativo"
+  tempoWerIstDieB = \tempoMarkup "Poco vivace"
 
 
 mvDlpf = \once \override DynamicText.X-offset = #-7
@@ -696,7 +698,12 @@ twotwotime = {
     #'(4)
     #'((end . (((1 . 16) . (4 4 4 4)) ((1 . 8) . (4 4)))))
   }
-calando = \markup \remark  "calando"
+calando = \markup \remark "calando"
+SCanto = \markup \remark "Canto"
+SAlto = \markup \remark "Alto"
+STenore = \markup \remark "Tenore"
+SBasso = \markup \remark "Basso"
+
 
 \include "notes/fl1.ly"
 \include "notes/fl2.ly"
@@ -714,4 +721,5 @@ calando = \markup \remark  "calando"
 \include "notes/A.ly"
 \include "notes/T.ly"
 \include "notes/B.ly"
+\include "notes/soli.ly"
 \include "notes/org.ly"
