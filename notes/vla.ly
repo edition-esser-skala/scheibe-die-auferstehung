@@ -528,3 +528,247 @@ SeyGegruessetViola = {
     es, r \bar "S-S" %213 finis
   }
 }
+
+VaterDeinerViola = {
+  \relative c' {
+    \clef alto
+    \key g \major \time 3/4 \tempoVaterDeiner
+    \mvTr g'2\fE-\conSordino g4
+    g r fis
+    g r d
+    \tuplet 3/2 4 { d8( c h) } h( a) a( g)
+    h2 r4 %5
+    r c2~
+    c r4
+    r h2
+    a4 cis8( h) h( a)
+    a2 h4 %10
+    h a a
+    a r a
+    a r r
+    a' r a
+    a r r %15
+    R2.*3
+    d,2\pocoFE r4
+    e2 r4 %20
+    d2 c4
+    h( a) d,
+    d2\p r4
+    e2 r4
+    d'2\f g4 %25
+    g d e
+    e d d \noBreak
+    g,2 r4 \bar "S-S"
+    g'2\p g4 \noBreak
+    g r a, %30
+    d r d
+    \tuplet 3/2 4 { d8( c h) } h( a) a( g)
+    h2 r4
+    r c2~
+    c r4 %35
+    r h2
+    a4 cis8( h) h( a)
+    a2 h4
+    h a a
+    a2 r4 %40
+    R2.*3
+    dis2 r4
+    r e8( d) d( cis) %45
+    cis2 r4
+    r d8( e) e( fis)
+    fis4 fis8( e) e( d)
+    g,4 g' e
+    c d d %50
+    g,2 g'4
+    g d e
+    e2 a4
+    a2 r4
+    h2 e,4 %55
+    e2 r4
+    cis2 fis4
+    fis2 h,4
+    h e( d)
+    d8( cis) cis4 fis %60
+    fis fis h,
+    h h h
+    a a a
+    a a a
+    g g g %65
+    g gis cis
+    cis cis fis,
+    fis r fis
+    fis r fis
+    fis r h %70
+    h2 h4
+    a2 r8 a
+    a2 c!4
+    h2 e,4
+    e a r %75
+    R2.*2
+    r4 ais2
+    h4 fis dis
+    h' h e %80
+    cis cis h
+    g fis fis
+    fis h h
+    h h h
+    d2~\fp d8 h %85
+    a2 r4
+    R2.*4 %90
+    a2\f r4
+    h2 r4
+    a2 d4
+    d a h
+    h a a %95
+    d,2 r4
+    d'2\pp r4
+    d r cis
+    d r a
+    a d d %100
+    d2 r4
+    R2.*2
+    r4 h2~
+    h e4 %105
+    e2 c4
+    a f'2
+    e4 e, r
+    a r h
+    e, r e' %110
+    e r a
+    f e e
+    e2\f a4
+    a2 fis4\pp
+    fis fis fis %115
+    e e r
+    h2 r4
+    r c2~
+    c r4
+    r h8( c) c( d) %120
+    a2 a4
+    a2 g4
+    c a d
+    d2 f4
+    e e e %125
+    e2 r4
+    dis2 r4
+    r e8( d) d( cis)
+    cis2 r4
+    r d8( e) e( fis) %130
+    fis4 r r
+    R2.*2
+    r4 r c
+    c g a %135
+    g d' e
+    e a, a
+    a a d
+    d2 h4
+    g2 cis,4 %140
+    d2 h'4
+    h2 e4
+    a,2 ais4
+    h h r
+    r g g %145
+    r c! a
+    a a a
+    g g g
+    g g g
+    fis fis fis %150
+    fis fis h
+    h r h
+    h r h
+    h r e
+    e8. c16 h4 h %155
+    h r h
+    a r a
+    a a e'
+    d d d
+    e d d %160
+    d g, g
+    g g g
+    a2.\fp
+    a2 r4
+    a2 r4 %165
+    h2 gis4
+    d'( c) h
+    e2 cis4
+    a d, r
+    d2 r4 %170
+    e2 r4
+    d'2\pocoF g4
+    g d e
+    e d d
+    h2\f g'4 %175
+    g2 r4
+    a2 r4
+    c,2 d4
+    d r d
+    d r r %180
+    R2.*2
+    d2\fE r4
+    e2 r4
+    d2 g4 %185
+    g d e
+    e d d \noBreak
+    g,2 r4\fermata \bar "||"
+    e'4\pp g g \noBreak
+    a fis fis %190
+    g e e
+    fis fis8 e d g
+    e4 a d,
+    g, g'8 fis e d
+    cis d16 e fis8 e d cis %195
+    h4 e e,
+    a8 a' a, h cis d
+    e d cis a h cis
+    d4 d r
+    fis2.\fpp %200
+    e2 g,4
+    c2 c4
+    h2 h4
+    h2 h4
+    e,2 e'4 %205
+    dis fis4. h,8
+    h4 e r
+    e r fis,
+    h r h
+    h r e %210
+    e8. c16 h4 h
+    h h h
+    cis a a
+    g a a
+    a a a %215
+    g g r
+    e'2 a,4
+    g g r
+    g2 c4
+    c( b) g %220
+    c2 r4
+    R2.*2
+    d2.~\fp
+    d4 c a %225
+    a2 a4
+    g h4. h8
+    c4 g c
+    c c4. c8
+    d4 g,2 %230
+    g4 c r
+    c r d
+    g, r g
+    g2 r4
+    R2.*2 %236
+    r4 a4. a8
+    g4 g g
+    a8. a'16 g4 g
+    e g2\f %240
+    a4 d,2
+    d4 r d
+    d r r
+    R2.*2 %245
+    d2\fE r4
+    e2 r4
+    d2 g4
+    g d e
+    e d d %250
+    g,2 r4 \bar "S-S" %251 finis
+  }
+}

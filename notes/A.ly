@@ -524,6 +524,345 @@ SeyGegruessetAltoLyrics = \lyricmode {
   ab! %205 finis
 }
 
+VaterDeinerAltoNotes = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 3/4 \autoBeamOff \tempoVaterDeiner
+    R2.*28 \bar "S-S" %28
+    R2.*11 %39
+    \mvTr a'4(\pE^\soloE d) a %40
+    a8([ h)] \once \stemUp h4.( a16[ g)]
+    fis8([ g)] g4.( fis16[ e)]
+    \tuplet 3/2 4 { fis8([ e d)] } d2
+    c'!4( h) a
+    \tuplet 3/2 4 { g8([ fis e)] } e2 %45
+    h'4( a) g
+    \tuplet 3/2 4 { fis8([ e d)] } d2
+    d4( a') c!
+    c( h8) d g,4~
+    \tuplet 3/2 4 { g8[ c] a } g4( fis8.) g16 %50
+    g2 r4
+    e( fis) g
+    R2.
+    fis16([ e a g)] g4( fis)
+    fis16([ e g fis] e4.) h'8 %55
+    h4( a) r
+    r cis4. cis8
+    cis4( h) fis
+    g( cis) h
+    h8([ ais)] ais4 r %60
+    cis( d8[ h]) a([ fis)]
+    g2.~
+    g16[ a] h4 g e8
+    fis2.~
+    fis16[ g] a4 fis dis8 %65
+    e2.~
+    e16[ fis] g!4 fis e8
+    d([ e)] e4.( d16[ cis)]
+    d8([ e)] e4.( d16[ cis)]
+    \slurDashed d8[( e) e( fis]) \slurSolid fis4~ %70
+    fis16[ e] g([ fis)] e4. d'8
+    d4( cis) r8 g
+    g4( fis) a
+    ais( h8[ g]) fis([ d)]
+    d16([ cis fis e)] e4 r %75
+    R2.*2
+    r4 fis8([ g)] g([ e)]
+    e([ dis)] dis4 r
+    r h'4.( cis8) %80
+    h4( ais) h~
+    \tuplet 3/2 4 { h8[ e] cis } h4( ais8.) h16
+    h2 r4
+    r g16([ fis e8)] e4
+    r h'4. g8 %85
+    fis4( e) r
+    R2.*10 %96
+    a4( d) a
+    a8([ h)] \once \stemUp h4.( a16[ g)]
+    fis8([ g)] g4.( fis16[ e)]
+    \tuplet 3/2 4 { fis8([ e d)] } d2 %100
+    R2.*3
+    r4 d'4. d8
+    f4( e) d %105
+    d( c) e,
+    f( h) a
+    a8([ gis)] gis4 r
+    a8([ d)] d4.( c16[ h)]
+    a8([ h)] \once \stemUp h4.( a16[ gis)] %110
+    \slurDashed a8[( h) h( c]) \slurSolid c4~
+    \tuplet 3/2 4 { c8[ d] h } a4( gis8.) a16
+    a2 r4
+    r4 a4.( h16[ c!)]
+    h2 r4 %115
+    R2.*9 %124
+    r4 h4.( c16[ d)] %125
+    c2 r4
+    c( h) a
+    \tuplet 3/2 4 { g8([ fis e)] } e2
+    h'4( a) g
+    \tuplet 3/2 4 { fis8([ e d)] } d2 %130
+    d4( a') c
+    c( h8) g c4~
+    c8. a16 a4( g8.) f16
+    f4( e) r
+    a( h) c %135
+    r c h
+    h16([ a c h] a4.) g8
+    g4( fis) r
+    R2.*2 %140
+    r4 a4. a8
+    a4( g) h
+    h( c8[ a)] g([ e)]
+    e16([ dis g fis)] fis4 r
+    R2. %145
+    r4 e8([ fis)] fis([ g)]
+    fis2.~
+    fis16[ g] a4 f d8
+    e2.~
+    e16[ fis!] g4 e cis8 %150
+    e16[ dis] c'!4 h a8
+    g([ a)] a4.( g16[ fis)]
+    g8([ a)] a4.( g16[ fis)]
+    \slurDashed g8[( a) a( h]) \slurSolid h4~
+    \tuplet 3/2 4 { h8[ c] a } g4( fis8.) h16 %155
+    a4( gis) r
+    r8 e a([ h)] h([ g)]
+    g([ fis)] fis4 a~
+    a a16([ h c8)] h4~
+    \tuplet 3/2 4 { h8[ c] a } g4( fis8.) g16 %160
+    g4 h16([ a g8)] g4
+    R2.
+    r4 g4. g8
+    g4( fis) r8 a
+    c4( h) a %165
+    a( gis) h
+    h8([ c)] c4 gis
+    gis8([ a) a( h)] h([ g)]
+    g16([ fis h a)] a4 r
+    g16([ fis h a)] a4( g) %170
+    g16([ fis h a)] a4( g)
+    g2 h16([ c d8)]
+    d4 c h~
+    \tuplet 3/2 4 { h8[ c] a } g4( fis8.) g16
+    g2 r4 %175
+    R2.*12 \noBreak %187
+    R2.\fermata \bar "||"
+    R2.*5 %193
+    r4 h2~
+    h4 a r8 a %195
+    d8. h16 a4( gis8.) h16
+    cis4 e,4. fis8
+    \tuplet 3/2 4 { g([ a)] h } a4. g8
+    g16([ fis h a)] a4 r
+    r a4. a8 %200
+    a4( g) h
+    h( c) a
+    g8([ fis)] h4. a8
+    a4( gis4.) gis8
+    gis4( a) a %205
+    a8([ c) c( h)] h([ a)]
+    a([ g!)] g([ a) a( h)]
+    h([ c)] c4._( h16[ a)]
+    g8([ a)] a4.( g16[ fis)]
+    \slurDashed g8[( a) a( h]) \slurSolid h4~ %210
+    \tuplet 3/2 4 { h8[ c a] } g4( fis8.) e16
+    e4 g2~
+    g4 fis r8 fis
+    h8. g16 fis4( e8.) g16
+    fis4 d'2~ %215
+    d4 c! r
+    r c4. c8
+    c4 h r
+    R2.*2 %220
+    r4 e,4. g8
+    \tuplet 3/2 4 { g([ fis!)] c' } c4( h8.) a16
+    a([ g c h)] h4 r
+    r h4. h8
+    h4( a) c~ %225
+    c a f
+    e( d) r
+    r c'4. b8
+    b4( a4.) a8
+    a4( g) f %230
+    f8([ e)] e([ f) f( g)]
+    g([ a)] a4.( g16[ f)]
+    e8([ f)] f4.( e16[ d)]
+    e8([ f)] f([ g)] g4
+    r8 c e, f f g %235
+    g([ a)] a4 r
+    r d4. d8
+    d4. c16([ h)] c4~
+    \tuplet 3/2 4 { c8[ a d] } c4( h8.) c16
+    c2 r4 %240
+    R2.*11 \bar "S-S" %251 finis
+  }
+}
+
+VaterDeinerAltoLyrics = \lyricmode {
+  Mei -- ſter %40
+  der ge --
+  rühr -- ten __
+  Sün -- der,
+  die dich
+  ſuch -- te, %45
+  die dich
+  lieb -- te,
+  fand bey
+  dir, bey dir __
+  den er -- ſten %50
+  Troſt.
+  Trö -- ſter!
+
+  Va -- ter!
+  Men -- ſchen -- %55
+  freund!
+  O wie
+  wird durch
+  je -- de
+  Zäh -- re %60
+  dein __ Er --
+  bar --
+  _ _ _
+  _
+  _ _ _ %65
+  _
+  _ _ _
+  _ _
+  _ _
+  _ _ %70
+  mend Herz er --
+  weicht! wie
+  wird durch
+  je -- de
+  Zäh -- re %75
+
+  dein er -- %78
+  bar -- mend,
+  dein __ %80
+  er -- bar --
+  mend Herz er --
+  weicht!
+  Va -- ter!
+  Men -- ſchen -- %85
+  freund!
+
+  Mei -- ſter %97
+  der ge --
+  rühr -- ten __
+  Sün -- der. %100
+
+  O wie %104
+  wird, wie %105
+  wird durch
+  je -- de
+  Zäh -- re
+  dein er --
+  bar -- _ %110
+  _ _
+  mend Herz er --
+  weicht!
+  Trö --
+  ſter! %115
+
+  Trö -- %125
+  ſter!
+  Die dich
+  ſuch -- te,
+  die dich
+  lieb -- te, %130
+  fand bey
+  dir, bey dir __
+  den er -- ſten
+  Troſt.
+  Trö -- ſter! %135
+  Va -- ter!
+  Men -- ſchen --
+  freund!
+
+  O wie %141
+  wird durch
+  je -- de
+  Zäh -- re
+  %145
+  dein er --
+  bar --
+  _ _ _
+  _
+  _ _ _ %150
+  _ _ _ _
+  _ _
+  _ _
+  _ _
+  mend Herz er -- %155
+  weicht!
+  durch je -- de
+  Zäh -- re! dein __
+  er -- bar --
+  mend Herz er -- %160
+  weicht! Trö -- ſter!
+
+  Men -- ſchen --
+  freund! wie
+  wird durch %165
+  je -- de
+  Zäh -- re, durch
+  je -- de
+  Zäh -- re
+  dein __ er -- %170
+  bar -- mend,
+  dein er --
+  bar -- _ _
+  mend Herz er --
+  weicht! %175
+
+  Sagt, __ %194
+  _ wer %195
+  unſ -- rem Got -- te
+  gleicht, der die
+  Miſ -- ſe -- thä -- ter
+  lie -- bet?
+  Lie -- be, %200
+  die du
+  ſelbſt ge --
+  weint. O wie
+  wird, wie
+  wird durch %205
+  je -- de
+  Zäh -- re __
+  dein all --
+  gü -- tig __
+  Herz __ _ %210
+  _ er --
+  weicht! Sagt, __
+  _ wer
+  unſ -- rem Got -- te
+  gleicht? Sagt, __ %215
+  _
+  unſ -- rem
+  Got -- te?
+
+  der die %221
+  Miſ -- ſe -- thä -- ter
+  lie -- bet?
+  Lie -- be,
+  die du __ %225
+  ſelbſt ge --
+  weint.
+  O wie
+  wird durch
+  je -- de %230
+  Zäh -- re __
+  dein all --
+  gü -- tig __
+  Herz er -- weicht!
+  wie wird durch je -- de %235
+  Zäh -- re
+  dein all --
+  gü -- tig Herz __
+  _ er --
+  weicht! %240 finis
+}
+
 % AltoNotes = {
 %   \relative c' {
 %     \clef treble

@@ -419,6 +419,347 @@ TriumphTenoreLyrics = \lyricmode {
   Luft. %23 finis
 }
 
+VaterDeinerTenoreNotes = {
+  \relative c' {
+    \clef "treble_8"
+    \key g \major \time 3/4 \autoBeamOff \tempoVaterDeiner
+    R2.*28 \bar "S-S" %28
+    \mvTr d4(\pE^\soloE g) d
+    d8([ e)] e4.( d16[ c)] %30
+    h8([ c)] c4._( h16[ a)]
+    \tuplet 3/2 4 { h8([ a g)] } g2
+    f'4( e) d
+    \tuplet 3/2 4 { c8([ h a)] } a2
+    e'4( d) c %35
+    \tuplet 3/2 4 { h8([ a g)] } g2
+    a4( e') g,
+    g( fis8.) a16 d4~
+    \tuplet 3/2 4 { d8[ g] e } d4( cis8.) d16
+    d2 r4 %40
+    R2.*10 %50
+    r4 d2~
+    d4 c h
+    r e2~
+    e8[ fis16 e] e4( d)
+    d h4.( cis16[ d)] %55
+    d8([ cis)] e4. e8
+    g4( fis) e
+    e( d) fis~
+    fis e d
+    d8([ cis)] cis4 r %60
+    R2.
+    r4 g'8([ e)] d([ h)]
+    cis2.~
+    cis16[ d] e4 c a8
+    h2.~ %65
+    h16[ cis] d4 h gis8
+    h16[ ais] e'4 d cis8
+    h([ cis)] cis4._( h16[ ais)]
+    h8([ cis)] cis4._( h16[ ais)]
+    \slurDashed h8[( cis) cis( d]) \slurSolid d4 %70
+    h g'4. fis8
+    fis4( e) r
+    R2.*2
+    r4 r r8 e %75
+    e4( d) fis
+    fis( g8[ e)] d([ h)]
+    h16([ ais d cis)] cis4 r
+    r h8([ c)] c([ a)]
+    a([ g)] g4 g'~ %80
+    g8[( fis]) fis([ e)] d4~
+    \tuplet 3/2 4 { d8[ g] e } d4( cis8.) h16
+    h4 d16([ cis h8)] h4
+    R2.
+    r4 d4. d8 %85
+    d4( cis) r
+    R2.*14 %100
+    d4( g) d
+    d8([ e)] e4.( d16[ c)]
+    h8([ c)] c4._( h16[ a])
+    h([ a g8)] g4 r
+    r h4. h8 %105
+    h4( a) e'~
+    e d c
+    c8([ h)] h4 r
+    c8([ f)] f4.( e16[ d)]
+    c8([ d)] d4.( c16[ h]) %110
+    \slurDashed c8[( d) d( e]) \slurSolid e4~
+    \tuplet 3/2 4 { e8[ f] d } c4( h8.) e16
+    d4( cis) r
+    R2.
+    r4 fis,4.( g16[ a)] %115
+    g2 r4
+    f'( e) d
+    \tuplet 3/2 4 { c8([ h a)] } a2
+    e'4( d) c
+    \tuplet 3/2 4 { h8([ a g)] } g2 %120
+    a4( e') g,
+    g( fis8.) d16 g4~
+    g8. e'16 e4( d8.) c16
+    c4( h) d~
+    d8.[ f16] e4 r %125
+    R2.*8 %133
+    r4 g2~
+    g4 f e %135
+    e( fis) g~
+    g e4. e8
+    e([ d)] a4. c!8
+    c4( h) d?
+    dis( e8[ c)] h([ g)] %140
+    g16([ fis h a)] a4 r
+    R2.*2
+    r4 h8([ c!)] c([ a!)]
+    a([ g) g( a) a( h)] %145
+    c2.~
+    c16[ d] e4 c a8
+    h2.~
+    h16[ c] d4 h gis8
+    a2.~ %150
+    a8 dis4 e fis8
+    e([ fis)] fis4.( e16[ dis)]
+    e8([ fis)] fis4.( e16[ dis)]
+    \slurDashed e8[( fis) fis( g]) \slurSolid g4~
+    \tuplet 3/2 4 { g8[ a] fis } e4( dis8.) dis16 %155
+    e8 h e([ f)] f([ d)]
+    d([ cis)] cis4 r
+    r a4. g'8
+    g4 fis g~
+    \tuplet 3/2 4 { g8[ e] c } h4( a8.) g16 %160
+    g2 r4
+    r e'16([ d c8)] c4
+    r e4. c8
+    a2 r4
+    R2. %165
+    r4 h4. h8
+    f'4( e) d
+    d( cis4.) e8
+    e16([ d g fis)] fis4 r
+    h,16([ a d c)] c4( h) %170
+    h16([ a d c)] c4( h)
+    g'2 d16([ e f8)]
+    e4 fis g~
+    \tuplet 3/2 4 { g8[ e] c } h4( a8.) g16
+    g2 r4 %175
+    R2.*12 \noBreak %187
+    R2.\fermata
+    r4 e'2~ \noBreak
+    e4 d r8 d %190
+    g8. e16 d4( cis8.) e16
+    fis4 a,4. h8
+    \tuplet 3/2 4 { c([ d)] e } d4. c8
+    c16([ h e d)] d4 r
+    R2.*5 %199
+    r4 c!4. c8 %200
+    c4( h) e
+    e( a) fis
+    e( dis) r
+    r e4. d8
+    d4( cis4.) g'8 %205
+    g4( fis4.) fis8
+    fis([ e)] e([ fis) fis( g)]
+    g([ a)] a4.( g16[ fis)]
+    e8([ fis)] fis4.( e16[ dis)]
+    \slurDashed e8[( fis) fis( g]) \slurSolid g4~ %210
+    \tuplet 3/2 4 { g8[ a fis] } e4( dis8.) e16
+    e4 e2~
+    e4 d! r8 d
+    g8. e16 d4( cis8.) e16
+    d4 f2~ %215
+    f4 e r
+    r e4. e8
+    e4 d r
+    r g,4. c8
+    \tuplet 3/2 4 { b([ a)] cis } cis4( d8.) f16 %220
+    f([ e a g)] g4 r
+    R2.*2
+    r4 d4. d8
+    d4( c) e~ %225
+    e f d
+    c8([ h)] g'4. f8
+    f4( e4.) e8
+    e4( f4.) f8
+    f4( e) d %230
+    d8([ c)] c([ d) d( e)]
+    e([ f)] f4.( e16[ d)]
+    c8([ d)] d4.( c16[ h)]
+    c8([ d)] d([ e)] e4
+    r8 e c d d e %235
+    e([ f)] f4 r
+    r f4. f8
+    f4. e16[( d]) e4~
+    \tuplet 3/2 4 { e8[ c f] } e4( d8.) c16
+    c2 r4 %240
+    R2.*11 \bar "S-S" %251 finis
+  }
+}
+
+VaterDeinerTenoreLyrics = \lyricmode {
+  Va -- ter %29
+  dei -- ner __ %30
+  ſchwa -- chen __
+  Kin -- der,
+  der Ge --
+  fall -- ne,
+  der Be -- %35
+  trüb -- te
+  hört von
+  dir, von dir __
+  den er -- ſten
+  Troſt. %40
+
+  Trö -- %51
+  _ ſter!
+  Va --
+  ter!
+  Men -- ſchen -- %55
+  freund! O wie
+  wird, wie
+  wird durch __
+  je -- de
+  Zäh -- re %60
+
+  dein er --
+  bar --
+  _ _ _
+  _ %65
+  _ _ _
+  _ _ _ _
+  _ _
+  _ _
+  _ _ %70
+  mend Herz er --
+  weicht!
+
+  wie %75
+  wird durch
+  je -- de
+  Zäh -- re
+  dein er --
+  bar -- mend, dein __ %80
+  er -- bar --
+  mend Herz er --
+  weicht! Trö -- ſter!
+
+  Men -- ſchen -- %85
+  freund!
+
+  Va -- ter %101
+  dei -- ner __
+  ſchwa -- chen __
+  Kin -- der,
+  O wie %105
+  wird durch __
+  je -- de
+  Zäh -- re
+  dein er --
+  bar -- _ %110
+  _ _
+  mend Herz er --
+  weicht!
+
+  Va -- %115
+  ter!
+  der Ge --
+  fall -- ne,
+  der Be --
+  trüb -- te %120
+  hört von
+  dir, von dir __
+  den er -- ſten
+  Troſt. Va --
+  ter! %125
+
+  Trö -- %134
+  _ ſter! %135
+  Va -- ter! __
+  Men -- ſchen --
+  freund! O wie
+  wird durch
+  je -- de %140
+  Zäh -- re
+
+  dein er -- %144
+  bar -- %145
+  _
+  _ _ _
+  _
+  _ _ _
+  _ %150
+  _ _ _
+  _ _
+  _ _
+  _ _
+  mend Herz er -- %155
+  weicht! durch je -- de
+  Zäh -- re
+  dein er --
+  bar -- _ _
+  mend Herz er -- %160
+  weicht!
+  Va -- ter!
+  Men -- ſchen --
+  freund!
+  %165
+  O wie
+  wird durch
+  je -- de
+  Zäh -- re
+  dein er -- %170
+  bar -- mend,
+  dein er --
+  bar -- _ _
+  mend Herz er --
+  weicht! %175
+
+  Sagt, __ %189
+  _ wer %190
+  unſ -- rem Got -- te
+  gleicht, der die
+  Miſ -- ſe -- that ver --
+  gie -- bet?
+
+  Lie -- be, %200
+  die du
+  ſelbſt ge --
+  weint.
+  O wie
+  wird durch %205
+  je -- de
+  Zäh -- re __
+  dein all --
+  gü -- tig __
+  Herz __ _ %210
+  _ er --
+  weicht! Sagt, __
+  _ wer
+  unſ -- rem Got -- te
+  gleicht? Sagt __ %215
+  _
+  unſ -- rem
+  Got -- te?
+  der die
+  Miſ -- ſe -- that ver -- %220
+  gie -- bet?
+
+  Lie -- be, %224
+  die du __ %225
+  ſelbſt ge --
+  weint. O wie
+  wird, wie
+  wird durch
+  je -- de %230
+  Zäh -- re __
+  dein all --
+  gü -- tig __
+  Herz er -- weicht!
+  wie wird durch je -- de %235
+  Zäh -- re
+  dein all --
+  gü -- tig Herz __
+  _ er --
+  weicht! %240 finis
+}
+
 % TenoreNotes = {
 %   \relative c' {
 %     \clef "treble_8"

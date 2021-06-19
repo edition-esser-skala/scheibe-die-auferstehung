@@ -688,8 +688,11 @@ tempoDieFrommen = \tempoMarkup "Recitativo"
 tempoSeyGegruesset = \tempoMarkup "Poco allegro e pesante"
 tempoWerIstDie = \tempoMarkup "Recitativo"
   tempoWerIstDieB = \tempoMarkup "Poco vivace"
+tempoVaterDeiner = \tempoMarkup "Larghetto e con tenerezza"
 
 
+fpp   = \dynScript "fpp"  ##f
+fppE  = \dynScript "fpp"  ##t
 mvDlpf = \once \override DynamicText.X-offset = #-7
 twotwotime = {
   \overrideTimeSignatureSettings
@@ -699,6 +702,7 @@ twotwotime = {
     #'((end . (((1 . 16) . (4 4 4 4)) ((1 . 8) . (4 4)))))
   }
 calando = \markup \remark "calando"
+conSordino = \markup \remark "con sordino"
 SCanto = \markup \remark "Canto"
 SAlto = \markup \remark "Alto"
 STenore = \markup \remark "Tenore"

@@ -104,3 +104,166 @@ TriumphFlautoII = {
     R\fermata \bar "|." %24 finis
   }
 }
+
+VaterDeinerFlautoII = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 3/4 \tempoVaterDeiner
+    h'2\fE h4
+    h8( c) c4._( h16 a)
+    g8( a) a4.( g16 fis)
+    \tuplet 3/2 4 { g8( fis g) } g2
+    f'4( e d) %5
+    \tuplet 3/2 4 { c8( h a) } a2
+    e'4( d c)
+    \tuplet 3/2 4 { h8( a g) } g2
+    a e'4
+    e( d) fis~ %10
+    \tuplet 3/2 4 { fis8( g e) } d4( cis8.) d16
+    d4 r r
+    d8( e) e4.( d16 cis)
+    d8( e) e4.( d16 cis)
+    d8( e) e( fis) fis4 %15
+    g8(\ppE a) a4.( g16 fis)
+    \slurDashed g8( a) a( h) \slurSolid h4~
+    \tuplet 3/2 4 { h8( c a) } \once \slurDashed g4( fis8.) g16
+    h,(\pocoFE a d c) c4( h)
+    h16( a d c) c4( h) %20
+    r8 g'( d f) \tuplet 3/2 4 { e( c a) }
+    g4( fis) r
+    h16(\pE a d c) c4( h)
+    h16( a d c) c4( h)
+    r8 g(\fE h d) h16( c d8)~ %25
+    d4 c h~
+    \tuplet 3/2 4 { h8( c a) } g4( fis8.) g16 \noBreak
+    g2 r4 \bar "S-S"
+    R2.*11 %39
+    fis'2\p fis4 %40
+    fis8( g) g4.( fis16 e)
+    d8( e) e4.( d16 cis)
+    \tuplet 3/2 4 { d8( cis d) } a2
+    fis'2.
+    e2 r4 %45
+    e2.
+    d2 r4
+    d2 a'4
+    a( g) h,~
+    \tuplet 3/2 4 { h8( c a) } g4( fis8.) g16 %50
+    g2 r4
+    R2.*10 %61
+    R2.
+    r4 cis2~
+    cis16 d e4( c a8)
+    h2.~ %65
+    h16 cis d4( h gis8)
+    h16( ais) \once \slurDashed e'4( d cis8)
+    h8( cis) cis4._( h16 ais)
+    h8( cis) cis4._( h16 ais)
+    h8( cis) cis( d) d4 %70
+    h8. a16 g4. fis8
+    fis4( e) r
+    R2.*2
+    r4 r r8 cis' %75
+    cis4( h) d
+    h2 gis4
+    fis8( h16 ais) ais4 r
+    R2.*8 %86
+    d8( e) e4.( d16 cis)
+    d8( e) e4.( d16 cis)
+    d8( e) e( fis) fis4~
+    \tuplet 3/2 4 { fis8( g e) } d4( cis8.) d16 %90
+    fis,(\fE e a g) g4( fis)
+    fis16( e a g) g4( fis)
+    r8 d d fis fis16( g a8)~
+    a4 g fis~
+    \tuplet 3/2 4 { fis8( g' e) } d4( cis8.) d16 %95
+    d2 r4
+    R2.*4 %100
+    d4(\ppE g) h,
+    h8( c) c4._( h16 a)
+    g8( a) a4.( g16 fis)
+    \tuplet 3/2 4 { g8( a h) } h4 r
+    R2.*8 %112
+    r8 a\f cis e cis16( d e8)
+    e4( d) r
+    R2.*12 %126
+    fis2.\pp
+    e2 r4
+    e2.
+    d2 r4 %130
+    d2 a'4
+    a( g4.) g8
+    a8. f16 f4( e8.) d16
+    c2 r4
+    R2.*9 %143
+    r4 h8( c!) c( a!)
+    a( g) g( a) a( h) %145
+    c2.~
+    c16 d e4( c a8)
+    h2.~
+    h16 c \once \slurDashed d4( h gis8)
+    a2.~ %150
+    a8 \once \slurDashed a'4( g! fis8)
+    e( fis) fis4.( e16 dis)
+    e8( fis) fis4.( e16 dis)
+    e8( fis) fis( g) g4~
+    \tuplet 3/2 4 { g8( a fis) } \once \slurDashed e4( dis8.) dis16 %155
+    e2 r4
+    R2.*12 %168
+    r4 fis,8( g) g( a)
+    g16( fis h a) a4( g) %170
+    g16( fis h a) a4( g)
+    g'2\pocoFE r4
+    R2.*2
+    r8 g,\fE h d h16( c d8) %175
+    c16( h e d) d4( c)
+    c16( h e d) d4( c)
+    r8 a' f( d) d( a)
+    g( a) a4.( g16 fis)
+    h8(\ppE c) c4._( h16 a) %180
+    h8( c) c( d) d4~
+    \tuplet 3/2 4 { d8( e c) } h4( a8.) h16
+    h(\fE a d c) c4( h)
+    h16( a d c) c4( h)
+    r8 g h d h16( c d8)~ %185
+    d4 c h~
+    \tuplet 3/2 4 { h8( c a) } g4( fis8.) g16 \noBreak
+    g2 r4\fermata \bar "||"
+    R2.*5 %193
+    r4 g'2~\ppE
+    g4 fis r8 fis %195
+    fis8. d16 cis4( h8.) d16
+    cis4 cis4. fis8
+    h,4 e4. e8
+    e16( d g fis) fis8( g) g( a)
+    a2\fppE r4 %200
+    R2.*11 %211
+    r4 e2~
+    e4 d r8 d
+    g8. e16 d4( cis8.) e16
+    d4 f2~ %215
+    f4 e c!~
+    c e2~
+    e4 d r
+    R2.*2 %220
+    r4 e4. e8
+    \tuplet 3/2 4 { e8( d a') } a4( g8.) fis16
+    fis( e a g) g4 r
+    R2.*11 %234
+    c,2.~ %235
+    c4 r r
+    R2.*3
+    r4 c2~\fE %240
+    c4 h a
+    \slurDashed g8( a) a4.( g16 fis) \slurSolid
+    h8(\ppE c) c4._( h16 a)
+    h8( c) c( d) d4~
+    \tuplet 3/2 4 { d8( e c) } h4( a8.) h16 %245
+    h(\fE a d c) c4( h)
+    h16( a d c) c4( h)
+    r8 g h d h16( c d8)~
+    d4 c h~
+    \tuplet 3/2 4 { h8( c a) } g4( fis8.) g16 %250
+    g2 r4 \bar "S-S" %251 finis
+  }
+}

@@ -104,3 +104,164 @@ TriumphFlautoI = {
     R\fermata \bar "|." %24 finis
   }
 }
+
+VaterDeinerFlautoI = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 3/4 \tempoVaterDeiner
+    d'4(\fE g) d
+    d8( e) e4.( d16 c)
+    h8( c) c4._( h16 a)
+    \tuplet 3/2 4 { \pa h8( a g) } g2 \pd
+    f'4( e d) %5
+    \tuplet 3/2 4 { c8( h a) } a2
+    e'4( d c)
+    \tuplet 3/2 4 { h8( a g) } g2
+    a4( e') g
+    g( fis) d'~ %10
+    \tuplet 3/2 4 { d8( h g) } \pa fis4( e8.) d16
+    d4 \pd r r
+    fis8( g) g4.( fis16 e)
+    fis8( g) g4.( fis16 e)
+    fis8( g) g( a) a4 %15
+    h8(\ppE c) c4.( h16 a)
+    h8( c) c( d) d4~
+    \tuplet 3/2 4 { d8( e c) } \pa h4( a8.) g16 \pd
+    g16(\pocoFE fis h a) a4( g)
+    g16( fis h a) a4( g) %20
+    r8 g( d f) \tuplet 3/2 4 { e( c a) }
+    g4( fis) r
+    g'16(\pE fis h a) a4( g)
+    g16( fis h a) a4( g)
+    r8 g,(\fE h d) d16( e f8) %25
+    e4 fis\prall g~
+    \tuplet 3/2 4 { g8( e c) } \pa h4( a8.) g16 \noBreak
+    g2 \pd r4 \bar "S-S"
+    R2.*11 %39
+    a'4(\p d) a %40
+    a8( h) h4.( a16 g)
+    fis8( g) g4.( fis16 e)
+    \tuplet 3/2 4 { \pa fis8( e d) \pd } d2
+    c'4( h a)
+    \tuplet 3/2 4 { g8( fis e) } e2 %45
+    h'4( a g)
+    \tuplet 3/2 4 { fis8( e d) } d2
+    d4( a') c
+    c( h8) d, g4~
+    \tuplet 3/2 4 { g8( e c) } \pa h4( a8.) g16 %50
+    g2 \pd r4
+    R2.*10 %61
+    \pa r4 g'2~
+    g16 a h4( g e8)
+    fis2.~
+    fis16 g a4( fis dis8) %65
+    e2.~
+    e16 fis \pd \once \slurDashed g!4( fis e8)
+    d8( e) e4.( d16 cis)
+    d8( e) e4.( d16 cis)
+    d8( e) e( fis) fis4~ %70
+    fis16( e g fis) e4. d8
+    d4( cis) r
+    R2.*2
+    r4 r r8 e %75
+    e4( d) fis
+    fis( g8[ e)] d( h)
+    h16( ais d cis) cis4 r
+    R2.*8 %86
+    fis8( g) g4.( fis16 e)
+    fis8( g) g4.( fis16 e)
+    fis8( g) g( a) a4~
+    \tuplet 3/2 4 { a8( h g) } \pa fis4( e8.) d16 \pd %90
+    d(\fE cis fis e) e4( d)
+    d16( cis fis e) e4( d)
+    r8 d fis, a a16( h c8)
+    h4 cis\prall d~
+    \tuplet 3/2 4 { d8( h' g) } \pa fis4( e8.) d16 %95
+    d2 \pd r4
+    R2.*4 %100
+    d4(\ppE g) d
+    d8( e) e4.( d16 c)
+    h8( c) c4.( h16 a)
+    \tuplet 3/2 4 { h8( c d) } d4 r
+    R2.*8 %112
+    r8 a\f cis e e16( fis g!8)
+    g4( fis) r
+    R2.*12 %126
+    c'4(\pp h a)
+    \tuplet 3/2 4 { g8( fis e) } e2
+    h'4( a g)
+    \tuplet 3/2 4 { fis8( e d) } d2 %130
+    d4( a') c
+    c( h8) g c4~
+    c8.[ a16] a4( g8.) f16
+    f4( e) r
+    R2.*11 %145
+    r4 e8( fis) fis( g)
+    fis2.~
+    fis16 g a4( f d8)
+    e2.~
+    e16 fis g4( e cis8) %150
+    e16( dis) c'!4( h a8)
+    g( a) a4.( g16 fis)
+    g8( a) a4.( g16 fis)
+    g8( a) a( h) h4~
+    \tuplet 3/2 4 { h8( c a) } g4( fis8.) h16 %155
+    a4( gis) r
+    R2.*12 %168
+    r4 a,8( h) h( c)
+    h16( a d c) c4( h) %170
+    h16( a d c) c4( h)
+    \pao g'2\pocoFE r4
+    R2.*2
+    r8 g,\fE h d d16( e f8) %175
+    e16( d g f) f4( e)
+    e16( d g f) f4( e)
+    r8 \pa a f( d) d( c) \pd
+    h( c) c4._( h16 a)
+    g'8(\ppE a) a4.( g16 fis) %180
+    g8( a) a( h) h4~
+    \tuplet 3/2 4 { h8( c a) } g4( fis8.) g16
+    g16(\fE fis h a) a4( g)
+    g16( fis h a) a4( g)
+    r8 g, h d d16( e f8) %185
+    e4 fis\prall g~
+    \tuplet 3/2 4 { g8( e c) } \pa h4( a8.) g16 \noBreak
+    g2 \pd r4\fermata \bar "||"
+    R2.*5 %193
+    r4 h'2~\ppE
+    h4 a r8 a %195
+    d8. h16 a4( gis8.) h16
+    a4 e4. \pa fis8
+    \tuplet 3/2 4 { g( a h) } \pd a4. g8
+    g16( fis h a) a8( h) h( c)
+    c2\fppE r4 %200
+    R2.*11 %211
+    r4 g2~
+    g4 fis r8 fis
+    h8. g16 fis4( e8.) g16
+    fis4 d'2~ %215
+    d4 c! e,~
+    e c'2~
+    c4 h r
+    R2.*2 %220
+    r4 \pao e,4. g8
+    \tuplet 3/2 4 { g( fis c') } c4( h8.) a16
+    a( g c h) h4 r
+    R2.*11 %234
+    \pa c,2.~ %235
+    c4 \pd r r
+    R2.*3
+    r4 e2~\fE %240
+    e4 d c
+    h8( c) c4._( h16 a)
+    g'8(\ppE a) a4.( g16 fis)
+    g8( a) a( h) h4~
+    \tuplet 3/2 4 { h8( c a) } g4( fis8.) g16 %245
+    g(\fE fis h a) a4( g)
+    g16( fis h a) a4( g)
+    r8 \pa g, h d \pd d16( e f8)
+    e4 fis\prall g~
+    \tuplet 3/2 4 { g8( e c) } \pa h4( a8.) g16 %250
+    g2 \pd r4 \bar "S-S" %251 finis
+  }
+}

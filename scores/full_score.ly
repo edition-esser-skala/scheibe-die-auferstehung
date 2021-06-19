@@ -415,34 +415,105 @@
   %     \midi { \tempo 2 = 90 }
   %   }
   % }
+  % \bookpart {
+  %   \header {
+  %     genre = "R E C I T A T I V O"
+  %     number = "7"
+  %     title = "Wer iſt die Sionitin"
+  %   }
+  %   \tocLabelLong "weristdie" "7" "Recitativo" "Wer iſt die Sionitin"
+  %   \paper { systems-per-page = #5 }
+  %   \score {
+  %     <<
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "A" "T" "B" }
+  %           \new Voice = "Soli" { \dynamicUp \WerIstDieSoliNotes }
+  %         }
+  %         \new Lyrics \lyricsto Soli \WerIstDieSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \WerIstDieOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \WerIstDieBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 70 }
+  %   }
+  % }
   \bookpart {
     \header {
-      genre = "R E C I T A T I V O"
-      number = "7"
-      title = "Wer iſt die Sionitin"
+      genre = "D U E T T O"
+      number = "8"
+      title = "Vater deiner ſchwachen Kinder"
     }
-    \tocLabelLong "weristdie" "7" "Recitativo" "Wer iſt die Sionitin"
-    \paper { systems-per-page = #5 }
+    \tocLabelLong "vaterdeiner" "8" "Duetto" "Vater deiner ſchwachen Kinder"
+    \paper {
+      top-system-spacing.basic-distance = #12
+      top-system-spacing.minimum-distance = #12
+      top-markup-spacing.basic-distance = #0
+      top-markup-spacing.minimum-distance = #0
+      markup-system-spacing.basic-distance = #12
+      markup-system-spacing.minimum-distance = #12
+      system-system-spacing.basic-distance = #20
+      system-system-spacing.minimum-distance = #20
+      systems-per-page = #2
+    }
     \score {
       <<
+        \new StaffGroup <<
+          \new Staff \with { \smallStaffDistance } {
+            \set Staff.instrumentName= \markup \center-column { "fl" "1, 2" }
+            \set Staff.soloText = \markup \remark \medium "fl 1"
+            \set Staff.soloIIText = \markup \remark \medium "fl 2"
+            \partCombine \VaterDeinerFlautoI \VaterDeinerFlautoII
+          }
+        >>
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \VaterDeinerViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \VaterDeinerViolinoII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "vla"
+            \VaterDeinerViola
+          }
+        >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "A" "T" "B" }
-            \new Voice = "Soli" { \dynamicUp \WerIstDieSoliNotes }
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \VaterDeinerAltoNotes }
           }
-          \new Lyrics \lyricsto Soli \WerIstDieSoliLyrics
+          \new Lyrics \lyricsto Alto \VaterDeinerAltoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \VaterDeinerTenoreNotes }
+          }
+          \new Lyrics \lyricsto Tenore \VaterDeinerTenoreLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \WerIstDieOrgano
+            \VaterDeinerOrgano
           }
         >>
-        \new FiguredBass { \WerIstDieBassFigures }
+        \new FiguredBass { \VaterDeinerBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 70 }
+      \midi { \tempo 4 = 100 }
     }
   }
 }
