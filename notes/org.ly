@@ -1449,6 +1449,64 @@ VaterDeinerBassFigures = \figuremode {
   r2. %251 finis
 }
 
+FreundinnenOrgano = {
+  \relative c {
+    \clef bass
+    \twotwotime \key c \major \time 2/2 \tempoFreundinnen
+    e1~
+    e2 f!
+    e4 r cis2~
+    cis d4 r
+    dis1 %5
+    e
+    c2 h4 r
+    gis r a r
+    fis'2 g~
+    g c, %10
+    r4 d \tempoFreundinnenB g, r
+    h1\p
+    c4 r b16(\p b) b( b) b4~
+    b r a2~
+    a g4 r %15
+    es'1\pp
+    as,
+    g4 r a2~\pE
+    a c4 r
+    h! r h r %20
+    cis r r2
+    d1~
+    d2 r4 e\f
+    a, r r2\fermata \bar "|." %24 finis
+  }
+}
+
+FreundinnenBassFigures = \figuremode {
+  <6>1
+  r2 <5>4 <6>
+  <_+>2 <6>
+  <6 5!>2 <_+>
+  <7!>4 <6> <6 5>2 %5
+  r1
+  <7>4 <6> <5+ _+>2
+  <6>1
+  <6 5>
+  r %10
+  r4 <_+>2.
+  <6>1
+  r2 <4 2>
+  r <6!>
+  <6\\> <_-> %15
+  <[5-]>1
+  <5->2 <4! 2->
+  <6- [_-]> <6>
+  r <4+ 2>
+  <6> <6\\> %20
+  <6>1
+  <_+>
+  <4+ 2>2. <_+>4
+  <[_+]>1 %24 finiss
+}
+
 % Organo = {
 %   \relative c {
 %     \clef bass

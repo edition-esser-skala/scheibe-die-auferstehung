@@ -777,3 +777,25 @@ VaterDeinerViolinoII = {
     g8. h,16 a4( g) \bar "S-S" %251 finis
   }
 }
+
+FreundinnenViolinoII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \tempoFreundinnen
+    R1*10 %10
+    r2 \tempoFreundinnenB r16 g'(\fE h d) g( h fis g)
+    g,1\p
+    r16 e'\pocoF h( c) f,!( e) e( d) c(\p c) c( c) c4~
+    c r r2
+    r r16 g'(\f b d) g( b fis g) %15
+    es1~\pp
+    es2 d!
+    r16 es,(\f g b) es( g d es) f,2~\p
+    f fis4 r
+    d r d r %20
+    e r r2
+    d1
+    e2 r4 e\f
+    e r r2\fermata \bar "|." %24 finis
+  }
+}

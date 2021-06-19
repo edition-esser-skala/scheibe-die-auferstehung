@@ -772,3 +772,25 @@ VaterDeinerViola = {
     g,2 r4 \bar "S-S" %251 finis
   }
 }
+
+FreundinnenViola = {
+  \relative c' {
+    \clef alto
+    \twotwotime \key c \major \time 2/2 \tempoFreundinnen
+    R1*10 %10
+    r2 \tempoFreundinnenB r
+    d1\p
+    c4 r g16(\p g) g( g) g4~
+    g r r2
+    r g4 r %15
+    b'1\pp
+    c2^\critnote b~
+    b4 r c,2~\p
+    c d4 r
+    g, r h! r %20
+    a r r2
+    a1
+    h2 r4 h\f
+    cis r r2\fermata \bar "|." %24 finis
+  }
+}

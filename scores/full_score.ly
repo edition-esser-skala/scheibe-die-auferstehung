@@ -445,75 +445,126 @@
   %     \midi { \tempo 4 = 70 }
   %   }
   % }
+  % \bookpart {
+  %   \header {
+  %     genre = "D U E T T O"
+  %     number = "8"
+  %     title = "Vater deiner ſchwachen Kinder"
+  %   }
+  %   \tocLabelLong "vaterdeiner" "8" "Duetto" "Vater deiner ſchwachen Kinder"
+  %   \paper {
+  %     top-system-spacing.basic-distance = #12
+  %     top-system-spacing.minimum-distance = #12
+  %     top-markup-spacing.basic-distance = #0
+  %     top-markup-spacing.minimum-distance = #0
+  %     markup-system-spacing.basic-distance = #12
+  %     markup-system-spacing.minimum-distance = #12
+  %     system-system-spacing.basic-distance = #20
+  %     system-system-spacing.minimum-distance = #20
+  %     systems-per-page = #2
+  %   }
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new Staff \with { \smallStaffDistance } {
+  %           \set Staff.instrumentName= \markup \center-column { "fl" "1, 2" }
+  %           \set Staff.soloText = \markup \remark \medium "fl 1"
+  %           \set Staff.soloIIText = \markup \remark \medium "fl 2"
+  %           \partCombine \VaterDeinerFlautoI \VaterDeinerFlautoII
+  %         }
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \VaterDeinerViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \VaterDeinerViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \VaterDeinerViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \VaterDeinerAltoNotes }
+  %         }
+  %         \new Lyrics \lyricsto Alto \VaterDeinerAltoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \VaterDeinerTenoreNotes }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \VaterDeinerTenoreLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \VaterDeinerOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \VaterDeinerBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 100 }
+  %   }
+  % }
   \bookpart {
     \header {
-      genre = "D U E T T O"
-      number = "8"
-      title = "Vater deiner ſchwachen Kinder"
+      genre = "A C C O M P A G N A T O"
+      number = "9"
+      title = "Freundinnen Jeſu!"
     }
-    \tocLabelLong "vaterdeiner" "8" "Duetto" "Vater deiner ſchwachen Kinder"
+    \tocLabelLong "freundinnen" "9" "Accompagnato" "Freundinnen Jeſu!"
     \paper {
-      top-system-spacing.basic-distance = #12
-      top-system-spacing.minimum-distance = #12
-      top-markup-spacing.basic-distance = #0
-      top-markup-spacing.minimum-distance = #0
-      markup-system-spacing.basic-distance = #12
-      markup-system-spacing.minimum-distance = #12
-      system-system-spacing.basic-distance = #20
-      system-system-spacing.minimum-distance = #20
+      system-system-spacing.basic-distance = #30
+      system-system-spacing.minimum-distance = #30
       systems-per-page = #2
     }
     \score {
       <<
         \new StaffGroup <<
-          \new Staff \with { \smallStaffDistance } {
-            \set Staff.instrumentName= \markup \center-column { "fl" "1, 2" }
-            \set Staff.soloText = \markup \remark \medium "fl 1"
-            \set Staff.soloIIText = \markup \remark \medium "fl 2"
-            \partCombine \VaterDeinerFlautoI \VaterDeinerFlautoII
-          }
-        >>
-        \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \VaterDeinerViolinoI
+              \FreundinnenViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \VaterDeinerViolinoII
+              \FreundinnenViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \VaterDeinerViola
+            \FreundinnenViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \VaterDeinerAltoNotes }
+            \set Staff.instrumentName = \markup \center-column { "T 1" "B" }
+            \new Voice = "Soli" { \dynamicUp \FreundinnenSoliNotes }
           }
-          \new Lyrics \lyricsto Alto \VaterDeinerAltoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \VaterDeinerTenoreNotes }
-          }
-          \new Lyrics \lyricsto Tenore \VaterDeinerTenoreLyrics
+          \new Lyrics \lyricsto Soli \FreundinnenSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \VaterDeinerOrgano
+            \FreundinnenOrgano
           }
         >>
-        \new FiguredBass { \VaterDeinerBassFigures }
+        \new FiguredBass { \FreundinnenBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 100 }
+      \midi { \tempo 4 = 70 }
     }
   }
 }

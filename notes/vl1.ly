@@ -779,6 +779,28 @@ VaterDeinerViolinoI = {
   }
 }
 
+FreundinnenViolinoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \tempoFreundinnen
+    R1*10 %10
+    r2 \tempoFreundinnenB r16 g'(\fE h d) g( h fis g)
+    d1\p
+    r16 e\pocoF h( c) a( g) g( f!) e(\p e) e( e) e4~
+    e r r2
+    r r16 g(\f b d) g( b fis g) %15
+    g1\pp
+    as2 f
+    r16 es,(\f g b) es( g d es) c2~\p
+    c a4 r
+    g r gis r %20
+    a r r2
+    fis1
+    gis2 r4 gis\f
+    a r r2\fermata \bar "|." %24 finis
+  }
+}
+
 % ViolinoI = {
 %   \relative c' {
 %     \clef treble
