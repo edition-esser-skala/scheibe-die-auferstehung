@@ -191,6 +191,233 @@ TriumphSopranoLyrics = \lyricmode {
   Luft. %23 finis
 }
 
+TodWoSopranoNotes = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key h \minor \time 2/2 \autoBeamOff \tempoTodWo
+    \mvTr d'2\fE^\tuttiE r8. fis,16 h8. d16
+    d4 cis r2
+    d r8. a16 d8. fis16
+    fis4 e r a,
+    d2 r4 d %5
+    eis,2 eis4 h'
+    ais cis r2
+    a2 r8. fis'16 fis8. a,16
+    gis4 h r e,
+    a2 cis %10
+    h h4. d8
+    cis4 e r2
+    dis8.([ fis16)] fis4 r h,
+    e2 r4 g
+    fis2 r4 a, %15
+    a8.([ d16)] d4 r d
+    cis e r d
+    cis2 r4 fis,
+    e a r2
+    R1*8 %27
+    a4 a cis h8([ a)]
+    d2 cis4 fis
+    e fis8([ d)] cis4 d8 h %30
+    cis4 h8([ a)] h4 cis
+    d2 d
+    h4 cis d2~
+    d4 g8([ e)] d4 e8 cis
+    d4 d d d8 h %35
+    cis8.([ d16)] e4 e e8 cis
+    d8.([ e16)] fis4 r2
+    R1*2
+    fis4 g8([ e)] fis4 e8([ d)] %40
+    g2 r
+    r cis,4 fis
+    e fis8([ d)] cis4 d8 h
+    cis8.([ d16)] e4 r2
+    e4 fis8([ d)] cis4 d8([ h)] %45
+    cis2 r
+    e4 fis8([ d)] cis4 d8([ h)]
+    cis4 h8([ a)] cis4 h8 a
+    d2 cis4 fis
+    e d8 fis e2~ %50
+    e4 fis8 d cis4( d8[ h)]
+    a2 r
+    R1
+    a2 r8. e16 a8. cis16
+    cis4 h r2 %55
+    a2 r8. fis'16 fis8. a,16
+    a4 gis r cis
+    cis2 r4 cis
+    h2 d
+    cis cis4. e8 %60
+    d4 fis r2
+    dis8.([ fis16)] fis4 r h,
+    e2 r4 h
+    ais cis r d
+    cis2 r4 h %65
+    ais cis r2
+    R1*8 %74
+    h4 h d! cis8([ h)] %75
+    e2 d4 g!
+    fis g8([ e)] d4 e8 cis
+    d4 cis8([ h)] cis4 dis
+    e h e2
+    cis!4 dis e2~ %80
+    e4 a8([ fis)] e4 fis8 dis
+    e4 e e d8 h
+    cis!4 h8([ a)] h4 cis
+    d a d2
+    h4 cis d2~ %85
+    d4 g8([ e)] d4 e8 cis
+    d4 d d c8 a
+    h([ a)] g4 r2
+    R1
+    r2 d'~ %90
+    d4 g8([ e)] d4 e8 cis!
+    d8.([ e16)] fis4 r2
+    fis4 g8([ e)] d4 e8([ cis)]
+    d2 r
+    r d %95
+    h4 cis d2~
+    d4 g8([ e)] d4 e8 cis
+    d4 d fis e8([ d)]
+    g2 fis4 g
+    fis h,8([ e)] d4 e8 cis %100
+    d4 a d2~
+    d4 h8 e d4( cis)
+    d2 r
+    d,4 d fis e8([ d)]
+    a'4 a cis h8 a %105
+    d4 d e a,8 g'
+    fis4 fis r2
+    a, g4 c
+    h c8([ a)] g4 a8 fis
+    g8.([ a16]) h4 fis' h,8. a16 %110
+    g8.([ a16)] g4 r2
+    g fis4 h
+    a h8 g fis4 g8 e
+    fis8.([ g16)] a4 e' a,8. g16
+    fis8.([ g16)] fis4 r2 %115
+    a4 h8([ g)] fis4 g8([ e)]
+    fis2 d'
+    h4 cis d2~
+    d4 d d cis8 e
+    d1~ %120
+    d4 h8 e d4( cis!)
+    d2 a4 a8. a16
+    a4 d r2
+    R1\fermata \bar "|." %124 finis
+  }
+}
+
+TodWoSopranoLyrics = \lyricmode {
+  Tod! wo iſt dein
+  Sta -- chel?
+  Tod! wo iſt dein
+  Sta -- chel? dein
+  Sieg, o %5
+  Höl -- le! wo
+  iſt er?
+  Tod! wo iſt dein
+  Sta -- chel? dein
+  Sieg, o %10
+  Höl -- le! wo
+  iſt er?
+  Höl -- le! dein
+  Sieg? dein
+  Sieg, o %15
+  Höl -- le! wo
+  iſt er? dein
+  Sieg, wo
+  iſt er?
+
+  Un -- ſer iſt der %28
+  Sieg! Dank ſey
+  Gott! und Je -- ſus iſt %30
+  Sie -- ger! Dank ſey
+  Gott! Dank,
+  Dank ſey Gott! __
+  und Je -- ſus iſt
+  Sie -- ger! Je -- ſus iſt %35
+  Sie -- ger! Je -- ſus iſt
+  Sie -- ger!
+
+  Un -- ſer iſt der %40
+  Sieg!
+  Dank ſey
+  Gott! und Je -- ſus iſt
+  Sie -- ger!
+  Un -- ſer iſt der %45
+  Sieg!
+  Dank ſey Gott! und
+  Je -- ſus, Je -- ſus iſt
+  Sie -- ger! und
+  Je -- ſus, und Je -- %50
+  ſus iſt Sie --
+  ger!
+
+  Tod! wo iſt dein
+  Sta -- chel? %55
+  Tod! wo iſt dein
+  Sta -- chel? dein
+  Sieg, dein
+  Sieg, o
+  Höl -- le! wo %60
+  iſt er?
+  Höl -- le! dein
+  Sieg, wo
+  iſt er? dein
+  Sieg, wo %65
+  iſt er?
+
+  Un -- ſer iſt der %75
+  Sieg! Dank ſey
+  Gott! und Je -- ſus iſt
+  Sie -- ger! Je -- ſus,
+  Je -- ſus! Dank,
+  Dank ſey Gott! __ %80
+  und Je -- ſus iſt
+  Sie -- ger! Je -- ſus iſt
+  Sie -- ger! Je -- ſus,
+  Je -- ſus! Dank,
+  Dank ſey Gott! __ %85
+  und Je -- ſus iſt
+  Sie -- ger! Je -- ſus iſt
+  Sie -- ger!
+
+  Je -- %90
+  ſus, Je -- ſus iſt
+  Sie -- ger!
+  Un -- ſer iſt der
+  Sieg!
+  Dank, %95
+  Dank ſey Gott! __
+  und Je -- ſus iſt
+  Sie -- ger! Je -- ſus,
+  Je -- ſus! und
+  Je -- ſus, Je -- ſus iſt %100
+  Sie -- ger! Je --
+  ſus iſt Sie --
+  ger!
+  Un -- ſer iſt
+  der Sieg! und Je -- ſus iſt %105
+  Sie -- ger! Je -- ſus iſt
+  Sie -- ger!
+  Tod! Tod! wo
+  iſt dein Sta -- chel, dein
+  Sta -- chel? Je -- ſus iſt %110
+  Sie -- ger!
+  Dein Sieg, o
+  Höl -- le! o Höl -- le! wo
+  iſt er? Je -- ſus iſt
+  Sie -- ger! %115
+  Un -- ſer iſt der
+  Sieg! Dank,
+  Dank ſey Gott! __
+  und Je -- ſus, und
+  Je -- %120
+  ſus iſt Sie --
+  ger! Je -- ſus iſt
+  Sie -- ger! %123 finis
+}
+
 % SopranoNotes = {
 %   \relative c' {
 %     \clef treble

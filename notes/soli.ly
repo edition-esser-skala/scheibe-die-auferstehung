@@ -174,3 +174,172 @@ FreundinnenSoliLyrics = \lyricmode {
   euch zu mei -- nem Gott und eu -- rem
   Gott gen Him -- mel he -- be. %23 finis
 }
+
+DortSehSoliNotes = {
+  \relative c' {
+    \clef "treble_8"
+    \twotwotime \key c \major \time 2/2 \autoBeamOff \tempoDortSeh
+    r4 fis^\STenore cis8 cis e8. d16
+    h8 h16 h d8 h h4 r8 h
+    e e e d h4 r
+    r8 h h8. c!16 a!8 r16 a a8 h
+    c8. a16 a8 fis g g r e %5
+    gis gis h8. a16 a4 r8 a
+    d d d c a4 r
+    r8 e a r16 e g!8 g g a
+    f!8. f16 f8 r16 f b8 b b8. d16
+    b4 r8 f as as as8. b16 %10
+    g4 r8 g c g b8. a16
+    \tempoDortSehB f4 r \clef bass r8 a^\SBasso fis a
+    d a a8. b16 c8 c c8. b16
+    g8 g r b g g b g
+    es es16 es g8 es c a' fis8. g16 %15
+    g8 d r4 r2
+    r4 r8 c g'8. g16 g8 es
+    c4 r8 g' c g es'8. c16
+    c8 g r es as8. as16 as8 c
+    as8. as16 as8 r16 e f8 f r f %20
+    es es r4 es8 es f c
+    des4 r8 des ges ges r4
+    ges8. ges16 ges8 b b e,! r g
+    as as as f f f e!8. f16
+    f8 c r4 r8 as' f as %25
+    des8. as16 as8 r16 as ces8 ces ces8. des16
+    b4 r8 b ges es a8. b16
+    b8 f r4 r8 f d! f
+    b8. f16 f8 r16 f as8 as as8. f16
+    f4 r8 as f f f8. d16 %30
+    c4 r8 c e! e e g
+    b g g e r c' c a!
+    fis fis fis8. b16 g4 r8 d
+    gis gis gis8. d16 d4 r8 f
+    d d d8. h!16 c4 r8 c' %35
+    fis, fis r4 fis8 fis a8. h16
+    gis8 gis16 gis h8. c!16 a8 a gis8. c16
+    \appoggiatura h8 a4 r r r8 e
+    g! g g8. b16 g4 r8 b
+    g g a8. e16 fis8 fis r4 %40
+    r8 d d d d8. h16 h8 fis'
+    d d d8. e16 cis4 r8 e
+    dis dis a'8. g!16 e4 r
+    r8 e e8. g16 e8 e fis cis
+    d!4 r r8 gis eis gis %45
+    cis8. gis16 gis8 h a! a cis8. a16
+    \appoggiatura gis8 fis4 r r r8 a
+    fis fis gis8. dis16 e4 r8 gis
+    a fis his8. cis16 cis8 gis r4
+    r r8 e cis cis a'8. e16 %50
+    e4 r8 g! e e fis cis
+    d!4 r r8 d d d
+    g g f!8. g16 e8 e r4
+    r2 r8 c e g
+    c8. g16 g8 r16 g c8 g b8. a16 %55
+    a8 a c8. a16 f4 r8 f
+    d' d b a f4 r
+    R1
+    r8 f f c16 c a'8 f c'8. b16
+    b4 r8 f b b d8. f,16 %60
+    g4 r r r8 b
+    g g b8. g16 es4 r
+    r8 c' c8. es,16 d8 r16 f d8 f
+    g g a8. b16 b8 f r4
+    R1 %65
+    r2 \clef "treble_8" \tempoDortSehC r8 b^\STenore b d
+    c c c8. g16 a4 r8 a
+    d d d a b4 r8 g
+    cis cis cis8. d16 d8 a r4
+    r8 a a8. b16 g8 d' d8. es16 %70
+    es8 c c b g4 r
+    r8 g g g b b d8. b16
+    g8 r16 b b8. c16 a4 r8 c
+    d d e!8. f16 f8 c r4
+    R1\fermata \bar "|." %75 finis
+  }
+}
+
+DortSehSoliLyrics = \lyricmode {
+  Dort ſeh ich aus den
+  To -- ren Je -- ru -- ſa -- lems zween
+  Schü -- ler Je -- ſu gehn.
+  In Zwei -- feln ganz, und ganz in
+  Trau -- rig -- keit ver -- lo -- ren, gehn %5
+  ſie durch Wald und Feld, und
+  kla -- gen ih -- ren Herrn.
+  Der Herr ge -- ſellt ſich zu den
+  Trau -- ren -- den, um -- ne -- belt ihr Ge --
+  ſicht, hört ih -- re Zwei -- fel %10
+  an, giebt ih -- nen Un -- ter --
+  richt: Der Held aus
+  Ju -- da, dem die Völ -- ker die -- nen
+  ſol -- len, muß erſt den Spott der
+  Hey -- den, und ſei -- nes Volks Ver -- ach -- tung %15
+  lei -- den.
+  Der mäch -- ti -- ge Pro --
+  phet von Wor -- ten und von
+  Tha -- ten muß durch den Freund, der
+  mit ihm aß, ver -- ra -- then, ver -- %20
+  wor -- fen durch den an -- dern
+  Freund, ver -- la -- ßen
+  in der Noth von al -- len, den
+  bö -- ſen Rot -- ten in die Hän -- de
+  fal -- len. Es tre -- ten %25
+  Frev -- ler auf, und zeu -- gen wi -- der
+  ihn: So ſpricht der Mund der
+  Vä -- ter. Der Kö -- nig
+  Iſ -- ra -- els ver -- birgt ſein An -- ge --
+  ſicht vor Schmach und Spei -- chel %30
+  nicht. Er hält die Wan -- gen
+  ih -- ren Strei -- chen, den Rü -- cken
+  ih -- ren Schlä -- gen dar. Zur
+  Schlacht -- bank hin -- ge -- führt, thut
+  er den Mund nicht auf. Ge -- %35
+  rech -- net un -- ter Miſ -- ſe --
+  thä -- ter, fleht er für ſie zu Gott hi --
+  nauf. Durch --
+  gra -- ben hat man ihn, an
+  Hand und Fuß durch -- gra -- ben. %40
+  Mit E -- ßig tränkt man ihn in
+  ſei -- nem gro -- ßen Durſt, und
+  mi -- ſchet Gal -- le drein.
+  Sie ſchüt -- teln ih -- ren Kopf um
+  ihn. Er wird auf %45
+  kur -- ze Zeit von Gott ver -- laſ -- ſen
+  ſeyn. Die
+  Völ -- ker wer -- den ſehn, wen
+  ſie durch -- ſto -- chen ha -- ben!
+  Man thei -- let ſein Ge -- %50
+  wand, wirft um ſein Kleid das
+  Loos. Er wird be --
+  gra -- ben, wie die Rei -- chen.
+  Und un -- ver --
+  weſt am Fleiſch zieht Gott ihn aus dem %55
+  Schooß der Erd her -- vor, und
+  ſtellt ihn auf den Fels.
+
+  Er ge -- het in ſei -- ne Herr -- lich --
+  keit zu ſei -- nem Va -- ter %60
+  ein. Sein
+  Reich wird e -- wig ſein,
+  ſein Na -- me bleibt, ſo lan -- ge
+  Mond und Son -- ne ſte -- het.
+  %65
+  Die Re -- de
+  heilt der Freun -- de Schmerz. Mit
+  Lie -- be wird ihr Herz zu
+  die -- ſem Gaſt ent -- zün -- det.
+  Sie la -- gern ſich. Er bricht das %70
+  Brodt, und ſa -- get Dank.
+  Die Jün -- ger ken -- nen ſei -- nen
+  Dank; der Ne -- bel fällt, ſie
+  ſehn ihn, er ver -- ſchwin -- det. %74 finis
+}
+% SoliNotes = {
+%   \relative c' {
+%     \clef "treble_8"
+%
+%   }
+% }
+%
+% SoliLyrics = \lyricmode {
+%
+% }

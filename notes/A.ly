@@ -863,6 +863,251 @@ VaterDeinerAltoLyrics = \lyricmode {
   weicht! %240 finis
 }
 
+TodWoAltoNotes = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key h \minor \time 2/2 \autoBeamOff \tempoTodWo
+    \mvTr h'2\fE^\tuttiE r8. d,16 fis8. h16
+    h4 ais r2
+    a r8. fis16 a8. a16
+    a4 a r a
+    d2 r4 d %5
+    eis,2 eis4 gis
+    fis ais r2
+    fis r8. a16 a8. fis16
+    e4 gis r e
+    a2 a %10
+    a gis4. h8
+    a4 a r2
+    h4 h r h
+    e2 r4 a,
+    a2 r4 a %15
+    a8.([ d16)] d4 r gis,
+    a a r fis
+    e2 r4 d
+    cis e r2
+    R1*4 %23
+    d4 d fis e8([ d)]
+    g2 fis4 h %25
+    a h8([ g)] fis4 g8 e
+    fis4 e8([ d)] fis4 gis
+    a2 a
+    fis4 gis a2~
+    a4 d8([ h)] a4 h8 gis %30
+    a4 a a g8 e
+    fis4 fis fis2
+    e d4 g
+    fis g8 g a2~
+    a4 a2 h4 %35
+    a8.([ h16)] cis4 cis cis8 cis
+    h8.([ cis16)] d4 r2
+    r h~
+    h4 e8([ cis)] h4 cis8([ ais)]
+    h1~ %40
+    h4 cis d h8 cis
+    d4 cis8([ h)] cis4 h8([ a)]
+    e'4 d8([ h)] a4 h8 gis
+    a8.([ h16)] cis4 r2
+    cis4 d8([ h)] a4 h8([ gis)] %45
+    a2 r
+    cis4 d8([ h)] a4 h8([ gis)]
+    a4 e a2
+    fis4 gis a2~
+    a4 r8 a a4 h8 gis %50
+    a4 a8 a a4( h8[ gis)]
+    a2 r
+    R1
+    e2 r8. cis16 e8. a16
+    a4 gis r2 %55
+    fis r8. a16 a8. fis16
+    fis4 eis r gis
+    fis2 r4 fis
+    fis2 h
+    h ais4. cis8 %60
+    h4 h r2
+    h4 h r h
+    e2 r4 eis,
+    fis ais r h
+    ais2 r4 fis %65
+    fis ais r2
+    r h
+    gis4 ais h2~
+    h4 e8([ cis)] h4 cis8 ais
+    h4 h h h8 gis %70
+    a!8([ gis)] fis4 r2
+    r4 cis'2 h4
+    a h8([ gis)] fis4 gis8 eis
+    fis4 cis r2
+    R1*4 %78
+    e4 e g fis8([ e)]
+    a2 g4 c %80
+    h c8([ a)] g4 a8 fis
+    g4 fis8([ e)] fis4 gis
+    a2 r
+    d,4 d fis e8([ d)]
+    g2 fis4 h %85
+    a h8([ g)] fis4 g8 e
+    fis4 e8([ d)] e4 fis
+    g2 r
+    r4 d'2 c4
+    h e,8([ fis)] g4 fis8([ a)] %90
+    g4 h8([ g)] fis4 g8 e
+    fis8.([ g16)] a4 r2
+    a4 h8([ g)] fis4 g8([ e)]
+    fis2 r
+    d4 d fis e8([ d)] %95
+    g2 fis4 h
+    a h8([ g)] fis4 g8 e
+    fis8.([ g16)] fis4 d'2
+    h4 cis d2~
+    d4. h8 a2~ %100
+    a8[ g] fis4 a g8([ h)]
+    a4 g8 h a2
+    a r
+    d,4 d fis e8([ d)]
+    a'4 a cis h8 a %105
+    d4 d e a,8 a
+    a4 a r2
+    fis e4 e
+    e a8([ fis)] e4 fis8 dis
+    e8.([ fis16)] g4 fis fis8. fis16 %110
+    e8.([ fis16)] e4 r2
+    e d!4 d
+    d g8 e d4 e8 cis
+    d8.([ e16)] fis4 e e8. e16
+    d8.([ e16)] d4 r2 %115
+    fis4 g8([ e)] d4 e8([ cis)]
+    d2 fis4 e8([ d)]
+    g2 fis4 h
+    a h e, e8 g!
+    g4 fis r a %120
+    g g8 g fis4( e)
+    fis2 fis4 fis8 fis
+    fis4 a r2
+    R1\fermata \bar "|." %124 finis
+  }
+}
+
+TodWoAltoLyrics = \lyricmode {
+  Tod! wo iſt dein
+  Sta -- chel?
+  Tod! wo iſt dein
+  Sta -- chel? dein
+  Sieg, o %5
+  Höl -- le! wo
+  iſt er?
+  Tod! wo iſt dein
+  Sta -- chel? dein
+  Sieg, o %10
+  Höl -- le! wo
+  iſt er?
+  Höl -- le! dein
+  Sieg? dein
+  Sieg, o %15
+  Höl -- le! wo
+  iſt er? dein
+  Sieg, wo
+  iſt er?
+
+  Un -- ſer iſt der %24
+  Sieg! Dank ſey %25
+  Gott! und Je -- ſus iſt
+  Sie -- ger! Dank ſey
+  Gott! Dank,
+  Dank ſey Gott! __
+  und Je -- ſus iſt %30
+  Sie -- ger! Je -- ſus iſt
+  Sie -- ger! Dank
+  ſey Gott! und
+  Je -- ſus, und Je --
+  ſus iſt %35
+  Sie -- ger! Je -- ſus iſt
+  Sie -- ger!
+  Dank __
+  ſey Gott! und
+  Je -- %40
+  ſus, Je -- ſus iſt
+  Sie -- ger! Dank ſey
+  Gott! und Je -- ſus iſt
+  Sie -- ger!
+  Un -- ſer iſt der %45
+  Sieg!
+  Dank ſey Gott und
+  Je -- ſus! Dank,
+  Dank ſey Gott! __
+  und Je -- ſus, und %50
+  Je -- ſus iſt Sie --
+  ger!
+
+  Tod! wo iſt dein
+  Sta -- chel? %55
+  Tod! wo iſt dein
+  Sta -- chel? dein
+  Sieg, dein
+  Sieg, o
+  Höl -- le! wo %60
+  iſt er?
+  Höl -- le! dein
+  Sieg, wo
+  iſt er? dein
+  Sieg, wo %65
+  iſt er?
+  Dank,
+  Dank ſey Gott! __
+  und Je -- ſus iſt
+  Sie -- ger! Je -- ſus iſt %70
+  Sie -- ger!
+  Dank ſey
+  Gott! und Je -- ſus iſt
+  Sie -- ger!
+
+  Un -- ſer iſt der %79
+  Sieg! Dank ſey %80
+  Gott! und Je -- ſus iſt
+  Sie -- ger! Dank ſey
+  Gott!
+  Un -- ſer iſt der
+  Sieg! Dank ſey %85
+  Gott! und Je -- ſus iſt
+  Sie -- ger! Dank ſey
+  Gott!
+  Un -- ſer
+  iſt der Sieg! und %90
+  Je -- ſus, Je -- ſus iſt
+  Sie -- ger!
+  Un -- ſer iſt der
+  Sieg!
+  Un -- ſer iſt der %95
+  Sieg! Dank ſey
+  Gott! und Je -- ſus iſt
+  Sie -- ger! Dank,
+  Dank ſey Gott! __
+  und Je -- %100
+  ſus, Je -- ſus,
+  Je -- ſus iſt Sie --
+  ger!
+  Un -- ſer iſt
+  der Sieg! und Je -- ſus iſt %105
+  Sie -- ger! Je -- ſus iſt
+  Sie -- ger!
+  Tod! Tod! wo
+  iſt dein Sta -- chel, dein
+  Sta -- chel? Je -- ſus iſt %110
+  Sie -- ger!
+  Dein Sieg, o
+  Höl -- le! o Höl -- le! wo
+  iſt er? Je -- ſus iſt
+  Sie -- ger! %115
+  Un -- ſer iſt der
+  Sieg! Dank ſey
+  Gott! Dank ſey
+  Gott! und Je -- ſus iſt
+  Sie -- ger! und %120
+  Je -- ſus iſt Sie --
+  ger! Je -- ſus iſt
+  Sie -- ger! %123 finis
+}
+
 % AltoNotes = {
 %   \relative c' {
 %     \clef treble

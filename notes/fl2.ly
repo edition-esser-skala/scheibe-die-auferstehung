@@ -267,3 +267,119 @@ VaterDeinerFlautoII = {
     g2 r4 \bar "S-S" %251 finis
   }
 }
+
+TodWoFlautoII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key h \minor \time 2/2 \tempoTodWo
+    h''2\fE r8. d,16[ d8. h'16]
+    h4 ais r2
+    fis r8. d16[ fis8. fis16]
+    fis4\prall e r e
+    fis2 r4 d' %5
+    eis,2 eis4 gis
+    fis ais r2
+    fis r8. fis16[ fis8. fis16]
+    e4 gis r e
+    a2 a~ %10
+    a gis4. h8
+    a4 cis r2
+    fis,8. fis16 fis4 r h
+    h2 r4 g!
+    fis2 r4 e %15
+    d8. d'16 d4 r gis,
+    a cis r8. cis,16[ d8. d16]
+    cis4 a'~ a8.[ cis,16 d8. d16]
+    cis4 a' r2
+    R1*8 %27
+    a,4 a cis h8 a
+    d2 cis4 fis
+    e fis8 d cis4 d8 h %30
+    cis4 h8 a h4 cis
+    d2 d
+    h4 cis d2~
+    d4 g8 e d4 e8 cis
+    d4 d d d8 h %35
+    a8. h16 cis4 cis8 e4 cis8
+    h8. cis16 d4 r2
+    R1*2
+    fis4 g8 e fis4 e8 d %40
+    g4 e8 g fis4 h8 a
+    a4 e2 fis4
+    e fis8 d cis4 d8 h
+    cis8. d16 e4 r2
+    e4 fis8 d cis4 d8 h %45
+    cis2 r
+    e4 fis8 d cis4 d8 h
+    cis4 h8 a a'2
+    fis4 gis a2~
+    a8 a, a'2 h8 gis %50
+    a4 a2 h8 gis
+    a4 r r a8. a16
+    a8 gis16 fis e d cis h a4 cis8. cis16
+    cis2 r8. cis16[ cis8. a'16]
+    a4 gis r2 %55
+    fis r8. fis16[ fis8. fis16]
+    fis4 eis r eis
+    fis2 r8 e4 e8
+    d2 h'~
+    h ais4. cis8 %60
+    h4 d r2
+    dis,8. h'16 h4 r h,
+    e2 r4 eis
+    fis ais r h
+    ais2 r4 d, %65
+    cis ais' r2
+    R1*8 %74
+    h,4 h d! cis8 h %75
+    e2 d4 g!
+    fis g8 e d4 e8 cis
+    d4 cis8 h cis4 dis
+    e h e2
+    cis!4 dis e2~ %80
+    e4 a8 fis e4 fis8 dis
+    e4 e e d8 h
+    cis!4 h8 a h4 cis
+    d a d2
+    h4 cis d2~ %85
+    d4 g8 e d4 e8 cis
+    d4 d d c8 a
+    h a g4 r2
+    R1
+    r2 d'~ %90
+    d4 g8 e d4 e8 cis!
+    d8. e16 fis4 r2
+    fis4 g8 e d4 e8 cis
+    d2 r
+    r d %95
+    h4 cis d2~
+    d4 g8 e d4 e8 cis
+    d4 d fis e8 d
+    g2 fis4 g
+    fis h,8 e d4 e8 cis %100
+    d4 a d2~
+    d4 h8 e d4 cis
+    d2 d4 d8. d16
+    d4 d fis e8 d
+    a'4 a cis h8 a %105
+    d4 d e a,8. g16
+    fis4 fis8. fis16 fis4 r
+    fis2 e~
+    e4 a8 fis e4 fis8 dis
+    e4 g fis fis8. fis16 %110
+    e8. fis16 e4 r2
+    e d!~
+    d4 g8 e d4 e8 cis
+    d4 fis e a8. g16
+    fis8. e16 fis4 fis2~ %115
+    fis4 g8 e d4 e8 cis
+    d4 d fis e8 d
+    g2 fis4 h
+    a h e, e8 g
+    g4\prall fis r a %120
+    h h8 g fis4 e
+    fis2 fis4 fis8. fis16
+    fis d' cis h a g fis e d4 fis8. fis16
+    fis2 r\fermata \bar "|." %124 finis
+  }
+}

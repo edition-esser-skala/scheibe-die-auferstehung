@@ -794,3 +794,374 @@ FreundinnenViola = {
     cis r r2\fermata \bar "|." %24 finis
   }
 }
+
+IchFolgeViola = {
+  \relative c' {
+    \clef alto
+    \twofourtime \key a \major \time 2/4 \tempoIchFolge
+    \partial 8 r8 r cis\fE e gis
+    a a4 gis8
+    a e a, r
+    r e' e gis
+    e a, fis h %5
+    h gis16 a h8 gis'
+    a a cis a
+    e gis r h
+    cis a h e,
+    a a4 gis8 %10
+    a4 r8 a,
+    a d e d
+    cis a'4 h8
+    e, a4 fis8
+    e4 gis %15
+    a, r8 e'
+    e4 r8 e
+    e e e cis'
+    d, r e r
+    fis,4 e' %20
+    e8 d16. fis32 e8 gis
+    a,4 r
+    r8 cis\p e gis
+    a a4 gis8
+    a e a, r %25
+    r e' e gis
+    e a, fis h
+    h gis16 a h8 e
+    e4 r8 e
+    e4 r8 gis %30
+    cis, fis4 fis8
+    e e4 dis8
+    e4 r8 e
+    e a h a
+    gis e4 fis8 %35
+    h, e4 cis8
+    h4 h
+    gis\pocoFE r8 h
+    h4 r8 h
+    h h h gis'\p %40
+    a a, fis h
+    h h h h
+    cis cis cis cis
+    cis cis h h
+    h h h h %45
+    h h a a
+    a a a a
+    fis h r dis
+    e4 r8 e
+    e e4 fis8 %50
+    h, e4 cis8
+    h4 h
+    gis r8 h
+    h4 r8 h
+    h h\f h gis' %55
+    a4 h,
+    cis h
+    h8 cis' h h
+    gis4 r
+    r8 e\p h dis %60
+    h4 h
+    h8 h e, r
+    r h' h dis
+    h h cis h
+    h gis16 a h8 h %65
+    a e'4 e8~
+    e d!16 cis d8 fis
+    h, d4 d8~
+    d cis16 h cis8 e
+    a, cis4 cis8~ %70
+    cis h16 ais h8 dis
+    e,4 fis
+    gis r8 e'
+    e4 e
+    e8 a, h e %75
+    e4 e
+    e8 h cis eis
+    fis a cis ais
+    h fis4 dis8
+    e4 e %80
+    e8 cis16 d e8 cis
+    d a r d
+    e cis r cis
+    d d h gis'
+    a4 r8 a %85
+    a a4 h8
+    e, a4 fis8
+    e4 e
+    cis r
+    r8 fis, fis d' %90
+    r h h e
+    e4 e
+    e8 e a, cis
+    a2
+    e4. r8\fermata %95
+    a8\f r r e'
+    e4 r8 e
+    e e e cis\p
+    d fis gis e
+    e a r4 %100
+    e8 e e a,
+    a a a d
+    h fis' fis h,
+    h h h e
+    cis gis' gis cis, %105
+    cis cis cis fis
+    fis d d dis
+    e h r e
+    e d e a
+    a a4 h8 %110
+    e, a4 fis8
+    e4 e
+    cis r8 e
+    e4 r8 e
+    e e\f e cis %115
+    d4 e
+    fis, e'
+    e gis
+    a8 a4 h8
+    e, a4 h,8 %120
+    e4 e
+    e8 d16. fis32 e8 gis
+    a,4 r8\fermata e'8\p
+    d4 r8 fis
+    g4 h, %125
+    a16. a'32\f e16. cis32 a4~
+    a( g)\prall
+    fis\p r8 cis'
+    a4 a
+    a8 a'\f a cis %130
+    a4 r8 h,\p
+    h4 r8 e
+    e4 cis
+    h~ h16. h'32\f fis16. dis32
+    h4( a!)\prall %135
+    gis8\p r e' dis
+    h gis16 a gis8 e'
+    cis4 e8 gis
+    a a4 gis8
+    a a, r4 %140
+    d,4( d)
+    d( d)
+    d( d)
+    d( d8) d'
+    d4 g, %145
+    fis8 fis4( a8)
+    a4( a)
+    a r
+    fis a
+    a g32( a h8.) %150
+    a4 a
+    fis h
+    gis!8 gis4 cis8
+    cis4 cis
+    cis cis %155
+    cis a
+    h h
+    a d
+    cis cis
+    a \tempoIchFolgeB r %160
+    r8 \once \slurDashed fis( fis fis)
+    dis4 r
+    dis'2^\tenuto
+    cis4.^\critnote r8
+    r8. a16[ a8. a16] %165
+    gis4 fis
+    gis gis
+    cis, r8 \markDaCapo \bar "||" %168 finis
+  }
+}
+
+TodWoViola = {
+  \relative c' {
+    \clef alto
+    \twotwotime \key h \minor \time 2/2 \tempoTodWo
+    r8. h16[\fE d8. d16] d8.[ h16 fis'8. fis16]
+    fis4 fis8. fis16 fis8.[ fis16 fis8. fis16]
+    r8. d16[ fis8. fis16] fis8.[ d16 a'8. a16]
+    a4 a8. a16 a8.[ a16 a8. a16]
+    r8. a,16[ d8. d16] d8.[ a16 fis'8. fis16] %5
+    h,4. h8 cis4. cis8
+    cis8.[ cis16 cis8. ais'16] ais4 r
+    r8. h16[ h8. h,16] h8.[ h16 h8. h16]
+    h8.[ gis16 e'8. e16] e8.[ h16 gis'8. gis16]
+    a8.[ a,16 e'8. e16] fis8.[ cis16 cis'8. cis16] %10
+    h8.[ h,16 h8. h16] h8.[ gis16 gis'8. gis16]
+    e8.[ cis16 a'8. a16] a8.[ e16 e8. e16]
+    fis8.[ dis16 h'8. h16] h8.[ fis16 dis'8. dis16]
+    e8.[ h,16 e8. e16] e8.[ e16 a8. a16]
+    a8.[ fis16 d8. d16] a'8.[ a16 a8. a16] %15
+    h4. h8 h4. d,8
+    e8.[ a16 e8. cis16] a8.[ cis16 a8. a16]
+    a8.[ a'16 e8. cis16] a8.[ cis16 a8. a16]
+    a8.[ e'16 e8. e16] e4 r
+    a,4 a cis h8 a %20
+    d2 cis4 fis
+    e fis8 d cis4 d8 h
+    cis4 h8 a h4 cis
+    d2 d
+    h4 cis d2~ %25
+    d4 g8 e d4 e8 cis
+    d4 d d d8 h
+    cis h a4 fis' fis
+    h, e a, d
+    cis d e e %30
+    a, d g,! a
+    a2 a4 a
+    h a a g
+    a g8 h d4 cis8 e
+    d4 fis2 e4 %35
+    e2 r
+    h4 h d cis8 h
+    e2 d4 g!
+    fis g8 e d4 e8 cis
+    d4 e8 cis d4 e8 fis %40
+    e4 e8 g fis4 d8 e
+    fis4 e2 d4
+    cis fis e e
+    e2 e4 e
+    e d8 fis e4 e %45
+    e2 e4 e
+    e d8 fis e4 e
+    e d8 cis fis2
+    fis4 e e d
+    cis fis8 d cis4 d8 h %50
+    cis4 d8 d e4 e
+    e2 e16 a gis fis e d cis h
+    a a' gis fis e d cis h a4 e'8. e16
+    e8.[ a,16 cis8. cis16] cis8.[ a16 e'8. e16]
+    e8. e16 e4 r2 %55
+    r8. fis,16[ a8. a16] a8.[ fis16 cis'8. cis16]
+    cis8. cis16 cis4 r2
+    fis8.[ fis16 fis8. cis'16] cis8.[ fis,16 fis8. cis16]
+    h8.[ h16 fis'8. fis16] g!8.[ d16 d'8. d16]
+    cis8.[ cis,16 cis8. cis16] cis8.[ ais16 ais'8. ais16] %60
+    fis8.[ d16 h'8. h16] h8.[ fis16 d'8. d16]
+    dis8.[ fis,16 h8. h16] h8.[ fis16 dis'8. dis16]
+    e8.[ h,16 h8. h16] h8.[ h16 h8. h16]
+    cis2 r8. ais'16[ fis8. fis16]
+    fis2 r8. ais16[ fis8. fis16] %65
+    fis8.[ ais16 ais8. ais16] ais4 r
+    h, h d cis8 h
+    e2 d4 g!
+    fis g8 e d4 e8 cis
+    d4 cis8 h dis4 eis %70
+    fis2 fis
+    dis4 eis fis2~
+    fis4 fis, cis'2~
+    cis4 fis fis e!8 cis
+    d! cis h4 r2 %75
+    r4 fis'2 e4
+    d e8 cis h4 cis8 ais
+    h4 g' e fis
+    h,2 r
+    r4 h2 a4 %80
+    h a8 c h4 h~
+    h a8 g a4 e'~
+    e d8 cis! d4 e
+    a, fis h h
+    e a, d g, %85
+    fis g a a
+    a2 r
+    g4 g h a8 g
+    c2 h4 e
+    d e8 c h4 c8 a %90
+    h4 h a a
+    a r a a
+    a g'8 h a4 a
+    a r a a
+    a r h, h %95
+    h a a g
+    a8 d4 h8 a4 a
+    a2 h4 fis'
+    e e d h
+    a g8 g' fis4 g8 e %100
+    fis e d4 fis g8 d
+    d4 d8 g, a4 a
+    a16 d cis h a g fis e d4 a'8. a16
+    a4 a a a
+    a a e' d8 cis %105
+    d4 fis a a
+    a16 d cis h a g fis e d4 r
+    r8 dis e fis h,4 a'
+    e e8 fis e4 h
+    h r h h %110
+    h16 e' d! c! h a g fis e4 r
+    r8 cis! d e a,4 g'
+    d d8 e d4 a
+    a r a a
+    a16 d' cis h a g fis e d4 d8. d16 %115
+    d4 h a a
+    a fis h h
+    h a a g
+    fis gis \once \tieDashed a2~
+    a4 a d e8 fis %120
+    g4 d8 h' a4 a
+    a16 d cis h a g fis e d4 a'8. a16
+    a d cis h a g fis e d4 a'8. a16
+    a2 r\fermata \bar "|." %124 finis
+  }
+}
+
+DortSehViola = {
+  \relative c' {
+    \clef alto
+    \twotwotime \key c \major \time 2/2 \tempoDortSeh
+    R1*11 %11
+    \tempoDortSehB r8. f16[\f f8. f16] d2~\p
+    d1
+    r8. d16\f es4~\p es2~
+    es c %15
+    r8. d16[\pocoF d8. d16] d8.. as'32\f g16. f!32 es16. d32
+    c4 r r2
+    R1
+    r2 es~\p
+    es4 r f r %20
+    es1
+    des4 r r2
+    b2~ b4 r
+    as r as r
+    r8. as16[\f g8. e!16] f4 r %25
+    r2 ces'4\p r
+    b r es r
+    r8. f,16[\pocoF f8. f16] f4 r
+    r2 b\p
+    d!1 %30
+    r8. c16\f c4~\p c2~
+    c1~
+    c2 r8. g'16\f f!4~\p
+    f1~
+    f2 r8. e16\f fis4~\p %35
+    fis1
+    d!2 c4 r
+    r8 e\pocoP e gis e4 r
+    e1~\p
+    e2 r8 d16( fis) fis( a) a( d,) %40
+    d1~
+    d2 cis4 r
+    dis2 r8 e( fis g)
+    ais,2 r
+    r8 h'( cis d!) eis,2~ %45
+    eis fis4 r
+    r8 \once \slurDashed fis( gis a!) \appoggiatura cis, his4 r
+    r2 gis4 r
+    fis r r8. gis16[\f gis8. gis16]
+    gis4 r e'\p r %50
+    r2 cis4 r
+    r8. d16[\f h8. h16] h2\p
+    g r8. c!16[\f e8. e16]
+    e8.[ c16 g'8. g16] g4 r
+    r2 c,\p %55
+    f4 r r2
+    f4 r r c\f
+    a8.[ f16 c'8. c16] c4 a'
+    a r r2
+    \tuplet 6/4 4 { r16 d,-! es-! f-! g-! a-! } b8-! r r2 %60
+    r8. es,,16[\f b'8. b16] b4 g'
+    g8 r r4 r8. c,16[ g'8. g16]
+    c,2\p f,4 r
+    es' r r c\f
+    d8.[ b16 f'8. f16] f4 d %65
+    f8.[ b16 b8. b16] \tempoDortSehC b4 r
+    R1*8 %74
+    R1\fermata \bar "|." %75 finis
+  }
+}

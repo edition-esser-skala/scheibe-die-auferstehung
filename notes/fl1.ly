@@ -265,3 +265,128 @@ VaterDeinerFlautoI = {
     g2 \pd r4 \bar "S-S" %251 finis
   }
 }
+
+TodWoFlautoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key h \minor \time 2/2 \tempoTodWo
+    d''2\fE r8. fis,16[ h8. d16]
+    d4 cis r2
+    d r8. fis,16[ a8. d16]
+    d4-\parenthesize-\prall cis r cis
+    d2 r4 \pa d %5
+    eis,2 eis4 \pd h'
+    ais cis r2
+    a r8. a16[ a8. a16]
+    gis4 h r \pa e,
+    a2 \pd cis %10
+    h h4. d8
+    cis4 e r2
+    dis8. dis16 dis4 r \pao h
+    e2 r4 e
+    d!2 r4 a %15
+    \pa a8. d16 d4 \pd r d
+    cis e r8. e,16[ fis8. fis16]
+    e4 \pa a~ a8.[ e16 fis8. fis16]
+    e4 a \pd r2
+    R1*4 %23
+    d,4 d fis e8 d
+    g2 fis4 h %25
+    a h8 g fis4 g8 e
+    fis4 e8 d fis4 gis
+    \pa a2 a
+    fis4 gis a2~
+    a4 d8 h a4 h8 gis %30
+    a4 a2 g8 e
+    fis4 d' a g8 fis
+    e2 d4 g
+    fis g8 g a2~
+    a4 a2 h8 d, \pd %35
+    cis8. d16 e4 e8 cis'4 e,8
+    d8. e16 fis4 r2
+    r h~
+    h4 e8 cis h4 cis8 ais
+    \pa h4 h h2~ %40
+    h4 cis d h8 cis
+    d4 cis8 h cis4 h8 a \pd
+    e'4 d8 h a4 h8 gis
+    a8. h16 cis4 r2
+    cis4 d8 h a4 h8 gis %45
+    a2 r
+    cis4 d8 h a4 h8 gis
+    \pa a4 a cis h8 a
+    d2 cis4 fis,
+    e d8 fis e2~ %50
+    e4 fis8 d' cis4 d8 h
+    a4 \pd r r cis8. cis16
+    cis[ a gis fis] e d cis h a4 a'8. a16
+    a2 r8. e16[ a8. cis16]
+    cis4 h r2 %55
+    a r8. a16[ a8. a16]
+    a4 gis r cis
+    cis2 r8 cis4 cis8
+    h2 d
+    cis cis4. e8 %60
+    d4 fis r2
+    h,8. dis16 dis4 r \pa h,
+    e2 \pd r4 h'
+    ais cis r d
+    cis2 r4 h %65
+    ais cis r2
+    r h
+    gis4 ais h2~
+    h4 e8 cis h4 cis8 ais
+    h4 h2 h8 gis %70
+    a! gis fis4 r2
+    r4 cis'2 h4
+    a h8 gis fis4 gis8 eis
+    fis4 cis r2
+    R1*4 %78
+    \pa e4 e g fis8 e
+    a2 g4 c %80
+    h c8 a g4 a8 fis
+    g4 fis8 e fis4 gis
+    a2 r
+    d,4 d fis e8 d
+    g!2 fis4 h %85
+    a h8 g fis4 g8 e
+    fis4 e8 d e4 fis
+    g2 r
+    r4 d'2 c4
+    h e,8 fis g4 fis8 a %90
+    g4 h8 g fis4 g8 e \pd
+    fis8. g16 a4 r2
+    a4 h8 g fis4 g8 e
+    fis2 r
+    \pa d4 d fis e8 d %95
+    g2 fis4 h
+    a h8 g fis4 g8 e
+    fis4 a d2
+    h4 cis d2~
+    d4 r r2 %100
+    r a4 g8 h
+    a4 h8 g fis4 e
+    d2 d4 d8. d16
+    d4 d fis e8 d
+    a'4 a cis h8 a %105
+    d4 d e a,8. g16
+    fis4 \pd d'8. d16 d4 r
+    a2 g4 c
+    h c8 a g4 a8 fis
+    g4 e' \pa fis, fis8. a16 \pd %110
+    g8. a16 g4 r2
+    g fis4 h
+    a h8 g fis4 g8 e
+    fis4 d' e \pa a,8. g16
+    fis8. g16 fis4 \pd a2~ %115
+    a4 h8 g fis4 g8 e
+    \pa fis2 d'
+    h4 cis d2~
+    d4 d2 cis8 e
+    d1~ %120
+    d4 h8 e \pd d4 cis
+    d2 a4 a8. a16
+    a d cis h a g fis e d4 d'8. d16
+    d2 r\fermata \bar "|." %124 finis
+  }
+}

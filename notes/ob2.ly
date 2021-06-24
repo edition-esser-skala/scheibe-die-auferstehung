@@ -76,3 +76,128 @@ TriumphOboeII = {
     R\fermata \bar "|." %24 finis
   }
 }
+
+TodWoOboeII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key h \minor \time 2/2 \tempoTodWo
+    h'2\fE r8. d,16[ fis8. h16]
+    h4 ais r2
+    a r8. fis16[ a8. d16]
+    d4 cis r a
+    d2 r4 d %5
+    eis,2 eis4 gis
+    fis ais r2
+    fis r8. a16[ a8. fis16]
+    e4 gis r e
+    a2 a~ %10
+    a gis4. h8
+    a4 cis r2
+    h4 h r h
+    e2 r4 a,
+    a2 r4 a %15
+    a8. fis16 fis4 r gis
+    a cis r fis,
+    e2 r4 fis
+    e e r2
+    R1*4 %23
+    d4 d fis e8 d
+    g2 fis4 h %25
+    a h8 g fis4 g8 e
+    fis4 e8 d fis4 gis
+    a2 a
+    fis4 gis a2~
+    a4 d8 h a4 h8 gis %30
+    a4 a a g8 e
+    fis4 fis fis2
+    e d4 g
+    fis g8 g a2~
+    a4 a2 h4 %35
+    a8. h16 cis4 cis cis8 fis,
+    h8. cis16 d4 r2
+    r h~
+    h4 e8 cis h4 cis8 ais
+    h1~ %40
+    h4 cis d h8 cis
+    d4 cis8 h cis4 h8 a
+    e'4 d8 h a4 h8 gis
+    a8. h16 cis4 r2
+    cis4 d8 h a4 h8 gis %45
+    a2 r
+    cis4 d8 h a4 h8 gis
+    a4 e a2
+    fis4 gis a2~
+    a4 r8 a a4 h8 gis %50
+    a4 a8 a a4 h8 gis
+    a2 r4 a8. a16
+    a2 r4 a8. a16
+    a2 r8. e16[ e8. a16]
+    a4 gis r2 %55
+    fis r8. a16[ a8. fis16]
+    fis4 eis r gis
+    fis2 r4 fis
+    fis2 h~
+    h ais4. cis8 %60
+    h4 d r2
+    h4 h r h
+    e2 r4 eis,
+    fis ais r h
+    ais2 r4 fis %65
+    fis ais r2
+    r h
+    gis4 ais h2~
+    h4 e8 cis h4 cis8 ais
+    h4 h2 h8 gis %70
+    a! gis fis4 r2
+    r4 cis'2 h4
+    a h8 gis fis4 gis8 eis
+    fis4 cis' r2
+    R1*4 %78
+    e,4 e g fis8 e
+    a2 g4 c %80
+    h c8 a g4 a8 fis
+    g4 fis8 e fis4 gis
+    a2 r
+    d,4 d fis e8 d
+    g2 fis4 h %85
+    a h8 g fis4 g8 e
+    fis4 e8 d e4 fis
+    g2 r
+    r4 d'2 c4
+    h e,8 fis g4 fis8 a %90
+    g4 h8 g fis4 g8 e
+    fis8. g16 a4 r2
+    a4 h8 g fis4 g8 e
+    fis2 r
+    d4 d fis e8 d %95
+    g2 fis4 h
+    a h8 g fis4 g8 e
+    fis8. g16 fis4 d'2
+    h4 cis d2~
+    d4. h8 a2~ %100
+    a8 g fis4 a g8 h
+    a4 h8 g fis4 e
+    fis2 r4 d8. d16
+    d4 d fis e8 d
+    a'4 a cis h8 a %105
+    d4 d e a,8 a
+    a4 a8. a16 a4 r
+    fis2 e~
+    e4 a8 fis e4 fis8 dis
+    e8. fis16 g4 fis fis8. fis16 %110
+    e8. fis16 e4 r2
+    e d!~
+    d4 g8 e d4 e8 cis
+    d8. e16 fis4 e e8. e16
+    d8. e16 d4 fis2~ %115
+    fis4 g8 e d4 e8 cis
+    d4 d fis e8 d
+    g2 fis4 h
+    a h e, e8 g!
+    g4\prall fis r a %120
+    g g8 g fis4 e
+    fis2 fis4 fis8. fis16
+    fis4 a a d8. d16
+    d2 r\fermata \bar "|." %124 finis
+  }
+}

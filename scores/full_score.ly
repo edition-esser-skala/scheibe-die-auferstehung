@@ -516,13 +516,211 @@
   %     \midi { \tempo 4 = 100 }
   %   }
   % }
+  % \bookpart {
+  %   \header {
+  %     genre = "A C C O M P A G N A T O"
+  %     number = "9"
+  %     title = "Freundinnen Jeſu!"
+  %   }
+  %   \tocLabelLong "freundinnen" "9" "Accompagnato" "Freundinnen Jeſu!"
+  %   \paper {
+  %     system-system-spacing.basic-distance = #30
+  %     system-system-spacing.minimum-distance = #30
+  %     systems-per-page = #2
+  %   }
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \FreundinnenViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \FreundinnenViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \FreundinnenViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "T 1" "B" }
+  %           \new Voice = "Soli" { \dynamicUp \FreundinnenSoliNotes }
+  %         }
+  %         \new Lyrics \lyricsto Soli \FreundinnenSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \FreundinnenOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \FreundinnenBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 70 }
+  %   }
+  % }
+  % \bookpart {
+  %   \header {
+  %     genre = "A R I A"
+  %     number = "10"
+  %     title = "Ich folge dir, erklärter Held!"
+  %   }
+  %   \tocLabelLong "ichfolge" "10" "Aria" "Ich folge dir, erklärter Held!"
+  %   \paper {
+  %     system-system-spacing.basic-distance = #30
+  %     system-system-spacing.minimum-distance = #30
+  %     systems-per-page = #2
+  %   }
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \IchFolgeViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \IchFolgeViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \IchFolgeViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \IchFolgeBassoNotes }
+  %         }
+  %         \new Lyrics \lyricsto Basso \IchFolgeBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \IchFolgeOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \IchFolgeBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 80 }
+  %   }
+  % }
+  % \bookpart {
+  %   \header {
+  %     genre = "C O R O"
+  %     number = "11"
+  %     title = "Tod! wo iſt dein Stachel?"
+  %   }
+  %   \tocLabelLong "todwo" "1" "Coro" "Tod! wo iſt dein Stachel?"
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new Staff \with { \smallStaffDistance } {
+  %           \set Staff.instrumentName= \markup \center-column { "fl" "1, 2" }
+  %           \set Staff.soloText = \markup \remark \medium "fl 1"
+  %           \set Staff.soloIIText = \markup \remark \medium "fl 2"
+  %           \partCombine \TodWoFlautoI \TodWoFlautoII
+  %         }
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "ob"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \TodWoOboeI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \TodWoOboeII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup \with { \smallGroupDistance } <<
+  %         \new Staff <<
+  %           \set Staff.instrumentName = \markup \center-column { "clno [D]" "1, 2" }
+  %           \set Staff.soloText = \markup \remark \medium "clno 1"
+  %           % \transpose c d
+  %           \partCombine \TodWoClarinoI \TodWoClarinoII
+  %         >>
+  %       >>
+  %       \new Staff {
+  %         \set Staff.instrumentName = \markup \center-column { "timp" "[D–A]" }
+  %         % \transpose c d
+  %         \TodWoTimpani
+  %       }
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \TodWoViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \TodWoViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \TodWoViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \TodWoSopranoNotes }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \TodWoSopranoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \TodWoAltoNotes }
+  %         }
+  %         \new Lyrics \lyricsto Alto \TodWoAltoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \TodWoTenoreNotes }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \TodWoTenoreLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \TodWoBassoNotes }
+  %         }
+  %         \new Lyrics \lyricsto Basso \TodWoBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \TodWoOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \TodWoBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 2 = 65 }
+  %   }
+  % }
   \bookpart {
     \header {
       genre = "A C C O M P A G N A T O"
-      number = "9"
-      title = "Freundinnen Jeſu!"
+      number = "12"
+      title = "Dort ſeh ich aus den Toren Jeruſalems"
     }
-    \tocLabelLong "freundinnen" "9" "Accompagnato" "Freundinnen Jeſu!"
+    \tocLabelLong "dortseh" "12" "Accompagnato" "Dort ſeh ich aus den Toren Jeruſalems"
     \paper {
       system-system-spacing.basic-distance = #30
       system-system-spacing.minimum-distance = #30
@@ -535,33 +733,33 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \FreundinnenViolinoI
+              \DortSehViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \FreundinnenViolinoII
+              \DortSehViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \FreundinnenViola
+            \DortSehViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "T 1" "B" }
-            \new Voice = "Soli" { \dynamicUp \FreundinnenSoliNotes }
+            \new Voice = "Soli" { \dynamicUp \DortSehSoliNotes }
           }
-          \new Lyrics \lyricsto Soli \FreundinnenSoliLyrics
+          \new Lyrics \lyricsto Soli \DortSehSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \FreundinnenOrgano
+            \DortSehOrgano
           }
         >>
-        \new FiguredBass { \FreundinnenBassFigures }
+        \new FiguredBass { \DortSehBassFigures }
       >>
       \layout { }
       \midi { \tempo 4 = 70 }

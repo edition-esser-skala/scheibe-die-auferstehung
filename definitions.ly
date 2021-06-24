@@ -691,6 +691,12 @@ tempoWerIstDie = \tempoMarkup "Recitativo"
 tempoVaterDeiner = \tempoMarkup "Larghetto e con tenerezza"
 tempoFreundinnen = \tempoMarkup "Recitativo"
   tempoFreundinnenB = \tempoMarkup "Accompagnato"
+tempoIchFolge = \tempoMarkup "Vivace"
+  tempoIchFolgeB = \tempoMarkup "Adagio"
+tempoTodWo = \tempoMarkup "Poco allegro ma pomposo"
+tempoDortSeh = \tempoMarkup "Recitativo"
+  tempoDortSehB = \tempoMarkup "Accompagnato"
+  tempoDortSehC = \tempoMarkup "Recitativo"
 
 
 fpp   = \dynScript "fpp"  ##f
