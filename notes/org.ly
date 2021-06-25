@@ -2260,6 +2260,238 @@ DortSehBassFigures = \figuremode {
   r %75 finis
 }
 
+WillkommenOrgano = {
+  \relative c {
+    \clef bass
+    \twotwotime \key b \major \time 2/2 \tempoWillkommen
+    \partial 8 r8 r \mvTr b'\fE-\soloE b b g g g g
+    a4 r8 f b b,16 c d8 b
+    es4 f b,8 b16 c d8 b
+    es es es es e e e e
+    f f f f f4 r8 b,\p %5
+    f' f f f f4 r8 es\f
+    d4 b b r
+    es f b,8 d( c b)
+    f'4 f, b8 d(\p c b)
+    f'4 f f r8 es\f %10
+    d4 b b r
+    es f b, r
+    es r f8 es d es
+    f4 f, b r
+    r8 b'\pp b b g g g g %15
+    a4 r8 f b b,16\f c d8 b
+    es4\pp f b8 b, r b
+    es es es es e e e e
+    f f f f f4 r8 b,
+    f' f f f f f, f' es %20
+    d d d d g g g g
+    a4 r8 f b b,16 a b8 g
+    f f f f d' d d d
+    b4 c f8 f,16 g a8 f
+    b2-\tasto^\tenuto h %25
+    c r4 r8 c
+    f,4 g a r
+    fis' r r r8 d
+    g4 r8 fis g4 a
+    b r e, r %30
+    r r8 c f f16 g a8 f
+    b, b b b h h h h
+    c4 c c r8 b\pocoF
+    a4 f f r
+    b c f,8 a'(\pp g f) %35
+    c'4 c, f8 a( g f)
+    c4 c c r8 b\pocoF
+    a4 f f r
+    b c f r
+    b, r c8 b a b %40
+    c4 c, f r
+    r8 f'\f f f d d d d
+    e4 r8 c f f16 g a8 f
+    b,4 c f,8 f'16 g a8 f
+    b, b b b h h h h %45
+    c c c c c4 r8 f,\p
+    c' c c c c4 r
+    r8 f\pp f f d d d d
+    e4 r8 c f f,16\f g a8 f
+    c'4\pp e f fis %50
+    g a b r
+    r8 es, es es as as as as
+    h,4 g c a!
+    b r8 f' b b,16\f c d8 b
+    es\pp es e e f f f f %55
+    f4 f, b r8 b
+    f'4 f, b r
+    r e f r
+    r e f r
+    r8 d d d g g g g %60
+    a,4 r8 f' b, b'16 c b8 as
+    g g g g c, c c c
+    as4 b es8 es16\f f g8 es
+    \mvTrr b2\pp-\tasto es
+    f r4 r8 a,! %65
+    b4 c d r
+    h r r r8 g
+    c4 e f g
+    a r fis r
+    r r8 d g g16 a g8 f %70
+    es! es es es e e e e
+    f f f f f f, f' es\pocoF
+    d4 b b r8 g'
+    es4 f b,8 d(\pp c b)
+    f'4 f, b8 d( c b) %75
+    f'4 f f8 f, f' es\pocoF
+    d4 b b r
+    es\pp r r8 d16 c b8 es
+    r d16 c b8 es d4 r
+    a r b es %80
+    f f, b r
+    r8 b'\f b b g g g g
+    a4 r8 f b b16 c d8 b
+    es,4 f b,8 b16 c d8 b
+    es es es es e e e e %85
+    f f f f f4 r8 b,\p
+    f' f f f f4 r8 es\f
+    d4 b b r
+    es f b, r
+    es r f8 es d es \noBreak %90
+    f4 f, b r\fermata \bar "||"
+    \time 3/4 \tempoWillkommenB
+      \set Score.currentBarNumber = #91
+      \partial 4 r4 \noBreak \mvTrr g'\pp-\tasto g g \noBreak
+    c, d d,
+    g8 g[-!\f b-! d-! g-!] g,-!\p
+    fis'-! a-! fis-! d-! b'-! g-! %95
+    d2 r4
+    es8 g b g es d
+    cis4 d d,
+    g'8 g,[\f-! b-! d-! g-!] f!\p
+    es4 es es %100
+    f g g,
+    c8 c[-!\f es-! g-! c-!] b!\p
+    a!4 r8. a16[ b8. b,16]
+    f'8 f,[-!\f a-! c-! f] e\p
+    f8. b,16 c4 c, %105
+    r8 f[-!\f a-! c-! f-!] f,\p
+    c'4 c c
+    cis cis cis
+    d8 d[-!\f f-! a-! d] d,\p
+    g4 g es! %110
+    d8 d[-!\f fis-! a-! d-!] r
+    es,!2\p r4
+    R2.
+    as8 b c b as g
+    fis4 g g, %115
+    c8 c[-!\f es-! g-! c-!] e,\p
+    f4 es d
+    es es e
+    f8 f, a c f es
+    d4. c8 b4 %120
+    es f f,
+    b8 b[\f-! d-! f-! b]-! as\p
+    g4 r8. es16[ c8. as16]
+    es'8 es,[\f-! g-! b-! es]-! d\p
+    es8. as,16 b4 b %125
+    c2 as4~
+    as b b
+    es,2 r4 \markDaCapo \bar "||" %128 finis
+  }
+}
+
+WillkommenBassFigures = \figuremode {
+  r8 r1
+  <6>4. <7>8 r4 <6>
+  q <8>8 <7> r4 <6>
+  <6 5>2 <\t \t>
+  <5>8 <7- 5>4 <6 4>8 <\t \t> <5 3>4. %5
+  <5 3>8 <7 5>4 <6 4>8 <\t \t> <5 3>4 <4 2>8
+  <6>1
+  <6>2 r8 q q4
+  <6 4>8 <5 3> <6 4> <7 5> r <6> q4
+  <6 4>8 <5 3> <7 5> <6 4> <\t \t> <5 3>4 <4 2>8 %10
+  <6>1
+  q
+  r2 r8 <\t> <6> <5>
+  <6 4>4 <5 3>2.
+  r1 %15
+  <6>4. <7>8 r4 <6>
+  <6>1
+  <6 5>2 <\t \t>
+  <5 3>8 <7- 5>4 <6 4>8 <\t \t> <5 3>4.
+  <[5 3]>8 <7- 5>4 <6 4>8 <\t \t> <5 3>4 <4 2>8 %20
+  <6>1
+  <6>4. <7>2 <6!>8
+  r1
+  <6>4 <_!>2 <6>4
+  r1 %25
+  r2.. <_!>8
+  r4 <6!> <6>2
+  q2.. <7 _+>8
+  r4. <6> <6\\>4
+  <6>2 q %30
+  r4. <7 _!> <6>4
+  <6 5>2 <\t \t>
+  <5 _!>8 <7 5> <\t \t> <6 4> <\t \t> <5 _!>4 <4! 2>8
+  <6>1
+  <6>4 <_!>4. <6>8 <6!> <3> %35
+  <6 4> <5 _!> <8 6 4> <7 5 _!> r <6> <6!> <3>
+  <6 4> <5 _!> <7 5> <6 4> <\t \t> <5 _!>4 <4! 2>8
+  <6>1
+  <6>4 <_!>2.
+  r2 r8 <\t> <6> <5> %40
+  <6 4>4 <5 _!>2.
+  r1
+  <6>4. <[7 _!]> <6>4
+  q <_!>2 <6>4
+  <6 5>2 <\t \t> %45
+  <5 _!>8 <7 5>4 <6 4>8 <\t \t> <5 _!>4.
+  <5 _!>8 <7 5>4 <6 4>8 <\t \t> <5 _!>4.
+  r1
+  <6>4. <7 _!> <6>4
+  <[_!]> <6>8 <5> r4 <6>8 <5> %50
+  r4 <6\\> <6>2
+  r8 <6>4. <5>2
+  <6>4 <_!>2 <6>8 <5>
+  r4. <7> <6>4
+  <6 5> <\t \t> <9 4> <8 3>8 <6 4> %55
+  <5 3> <6 4> <\t \t> <7 5> <9 4> <8 3>4.
+  <5 3>8 <6 4> <\t \t> <7 5> <9 4> <8 3>4.
+  r4 <6 5>2.
+  r4 <6 5>2.
+  r8 <6>2.. %60
+  <6>4. <7>2 <4 2>8
+  <6>1
+  <6>4 <8>8 <7-> r4 <6>
+  r1
+  r2.. <6>8 %65
+  r4 <6> q2
+  q2.. <7 _!>8
+  r4 <6>2 <6!>4
+  <6>2 q
+  r4. <7 _+>2 <4 2>8 %70
+  <6 5>2 <\t \t>
+  <5 3>8 <7 5> <\t \t> <6 4> <\t \t> <5 3>4 <4 2>8
+  <6>1
+  <[6]>2 r8 <6> q <3>
+  <6 4> <5 3> <8 6 4> <7 5 3> r <6> q <3> %75
+  <6 4> <5 3> <7 5> <6 4> <\t \t> <5 3>4 <4 2>8
+  <6>1
+  r2 r8 <6>4.
+  r8 <6>4. q2
+  q1 %80
+  <6 4>4 <5 3>2.
+  r1
+  <6>4. <7> <6>4
+  <6>2. q4
+  <6 5>2 <\t \t> %85
+  <5 3>8 <7 5>4 <6 4>8 <\t \t> <5 3>4.
+  <5 3>8 <7 5>4 <6 4>8 <\t \t> <5 3>4 <4 2>8
+  <6>1
+  q
+  q2 r8 <\t> <6>4 %90
+  <6 4> <5 3>2.
+  r4 r2.*37 %128 finis
+}
+
 % Organo = {
 %   \relative c {
 %     \clef bass

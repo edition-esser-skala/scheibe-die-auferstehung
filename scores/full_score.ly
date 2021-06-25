@@ -714,13 +714,64 @@
   %     \midi { \tempo 2 = 65 }
   %   }
   % }
+  % \bookpart {
+  %   \header {
+  %     genre = "A C C O M P A G N A T O"
+  %     number = "12"
+  %     title = "Dort ſeh ich aus den Toren Jeruſalems"
+  %   }
+  %   \tocLabelLong "dortseh" "12" "Accompagnato" "Dort ſeh ich aus den Toren Jeruſalems"
+  %   \paper {
+  %     system-system-spacing.basic-distance = #30
+  %     system-system-spacing.minimum-distance = #30
+  %     systems-per-page = #2
+  %   }
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \DortSehViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \DortSehViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \DortSehViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "T 1" "B" }
+  %           \new Voice = "Soli" { \dynamicUp \DortSehSoliNotes }
+  %         }
+  %         \new Lyrics \lyricsto Soli \DortSehSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \DortSehOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \DortSehBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 70 }
+  %   }
+  % }
   \bookpart {
     \header {
-      genre = "A C C O M P A G N A T O"
-      number = "12"
-      title = "Dort ſeh ich aus den Toren Jeruſalems"
+      genre = "A R I A"
+      number = "13"
+      title = "Willkommen, Heyland!"
     }
-    \tocLabelLong "dortseh" "12" "Accompagnato" "Dort ſeh ich aus den Toren Jeruſalems"
+    \tocLabelLong "willkommen" "13" "Aria" "Willkommen, Heyland!"
     \paper {
       system-system-spacing.basic-distance = #30
       system-system-spacing.minimum-distance = #30
@@ -733,36 +784,36 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \DortSehViolinoI
+              \WillkommenViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \DortSehViolinoII
+              \WillkommenViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \DortSehViola
+            \WillkommenViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "T 1" "B" }
-            \new Voice = "Soli" { \dynamicUp \DortSehSoliNotes }
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \WillkommenSopranoNotes }
           }
-          \new Lyrics \lyricsto Soli \DortSehSoliLyrics
+          \new Lyrics \lyricsto Soprano \WillkommenSopranoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \DortSehOrgano
+            \WillkommenOrgano
           }
         >>
-        \new FiguredBass { \DortSehBassFigures }
+        \new FiguredBass { \WillkommenBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 70 }
+      \midi { \tempo 4 = 110 }
     }
   }
 }

@@ -697,6 +697,8 @@ tempoTodWo = \tempoMarkup "Poco allegro ma pomposo"
 tempoDortSeh = \tempoMarkup "Recitativo"
   tempoDortSehB = \tempoMarkup "Accompagnato"
   tempoDortSehC = \tempoMarkup "Recitativo"
+tempoWillkommen = \tempoMarkup "Vivace e grazioso"
+  tempoWillkommenB = \tempoMarkup "Larghetto e pesante"
 
 
 fpp   = \dynScript "fpp"  ##f

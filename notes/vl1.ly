@@ -1157,6 +1157,143 @@ DortSehViolinoI = {
   }
 }
 
+WillkommenViolinoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key b \major \time 2/2 \tempoWillkommen
+    \partial 8 f8\fE b4\prall b\prall d32( c b8.) b4\turn
+    c16 es d c f8 es d16 c d es f g a b
+    c b a g f8 es d16 c b8 r d
+    c4 c c8.( d16) c4
+    c16( d es4) d8 d( c) r d\p %5
+    c16( d es4) d8 d( c) r f\f
+    b,8.( d16) d8.( f16) f es d es f g a b
+    c4 a\prall b8 b,( c d)
+    d( c) f( es) d16 c b8 r d\p
+    d( c) es( d) d( c) r f\f %10
+    b,8.( d16) d8.( f16) f es d es f g a b
+    c4 a\prall b8. f16 es( d c b)
+    g'8. g16 f( es d c) a'8.(\prall g32 a) b8 es,
+    \tuplet 6/4 4 { d16( f es d c b) } f8-! a'-! b b,, r f'\pp
+    b4 b d32( c b8.) b4 %15
+    c16( es d c) f8 es d16 c d\f es f g a b
+    c\pp b a g f8 es d16 c b8 r d
+    c4 c c8.( d16) c4
+    c16( d es4) d8 d( c) r d
+    c16( d es4) d8 d( c) r f, %20
+    b4 b d32( c b8.) b4
+    c16( es d c) f8 es d16 c b c b c d e
+    f4 f a32( g f8.) f4
+    g16( f e d c8) b a16 g f8 r c'
+    c4( d8.) f16 f4. a,8 %25
+    \appoggiatura a4 g2 r4 r8 c
+    a16 f g a b c d e f c a'\f f c' a f c
+    d4\pp r8 a a16( c b a) d8 c
+    b16 a g es'\f d c b a\pp b g a b c d e fis
+    g  d b'\f g d' b g d c4\pp r8 g %30
+    g16( b a g) c8 b a16 g f8 r a
+    g4 g g8.( a16) g4
+    g16( a b4) a8 a g r c\pocoF
+    f,8.( a16) a8.( c16) c b a b c d e f
+    g4 e f8 f,(\pp g a) %35
+    a( g) c( b) a16 g f8 r a
+    a( g) b( a) a\prall g r c\pocoF
+    f,8.( a16) a8.( c16) c b a b c d e f
+    g4 e f8 c\pp c c
+    r d d d e4( f8) b, %40
+    a32( g f8.) g4\prall f r8 c\f
+    f4 f a32( g f8.) f4
+    g16 b a g c8 b a16 g a b c d e f
+    g f e d c8 b a16 g f8 r a
+    g4 g g8.( a16) g4 %45
+    g16( a b4) a8 a( g) r a\p
+    g16( a b4) a8 a( g) r c\pp
+    f,4 f a32( g f8.) f4
+    g16( b a g) c8 b a16 g a\f b c d e f
+    g,8\pp c4 b8 a d4 c8 %50
+    b16 g a b c d e fis g g,\f b d g d b g
+    c4\pp c es32( d c8.) c4
+    d8 g4 f8 es f4 es8
+    d es f es d16 c d\f es f g a b
+    r8 g4\pp b,8 b4( a8) d %55
+    c( d) d( es) es( d) r d
+    c( d) d( es) es( d) r4
+    f( g8.) b,16 a g a\f b c d e f
+    f4(\pp g8.) b,16 a g f8 r f
+    b4 b d32( c b8.) b4 %60
+    c16( es d c) f8 es d16 c b8 r b
+    es4 es g32( f es8.) es4
+    f16( es d c b8) as g16 f g\f as b c d es
+    g,4\pp f8. f'16 f4( g8.) es16
+    \appoggiatura d4 c2 r4 r8 f %65
+    d16 f es d c b a g f b d\f b f' d b f
+    g4\pp r8 d' d16( f es d) g8 f
+    es16 d c d c b! a g a f g a b c d e
+    f c a'\f f c' a f c d4\pp r8 a
+    a16( c) b( a) d8 c b16 a g8 r d' %70
+    c4 c c8.( d16) c4
+    c16( d es4) d8 d c r f,\pocoF
+    b8.( d16) d8.( f16) f8 g16( f) es( d c b)
+    c4 a b8 b(\pp c d)
+    d( c) f( es) d16 c b8 r d %75
+    d( c) es( d) d-! c-! r f\pocoF
+    b,8.( d16) d8.( f16) f es d es f g a b
+    g4\pp f16( es d c) f8 f4 g16( es)
+    f8 f4 g16( es) f8 b, b b
+    r c c c d16( f es d) g8 es %80
+    d32( c b8.) c4\prall b r8 f\f
+    b4 b d32( c b8.) b4
+    c16( es d c) f8 es d16 c d es f g a b
+    c b a g f8 es d16 c b8 r d
+    c4 c c8.( d16) c4 %85
+    c16( d es4) d8 d( c) r d\p
+    c16( d es4) d8 d( c) r f\f
+    b,8.( d16) d8.( f16) f es d es f g a b
+    c4 a\prall b8. f16 es( d c b)
+    g'8. g16 f( es d c) f, a g f b8 es \noBreak %90
+    \tuplet 6/4 4 { d16( f es d c b) } f8-! a'-! b b,, r4\fermata \bar "||"
+    \time 3/4 \tempoWillkommenB
+      \set Score.currentBarNumber = #91
+      \partial 4 g'4\pp \noBreak d'4. es8 d4 \noBreak
+    es32( d c8.) b4 a
+    b8 g,[-!\f b-! d-! g-!] g,-!\p
+    d''-! a-! fis-! d-! b'-! g-! %95
+    d'2 d,4
+    g4. g8 g4~
+    g8 b b4( a8.) d,16
+    b'8 g,[-!\f b-! d-! g-!] g\p
+    c4. d8 c4 %100
+    f32( es d8.) c4 d
+    es8 c,[-!\f es-! g-! c-!] c\p
+    f4 f,8.[ f'16 d8. b16]
+    c8 f,[-!\f a-! c-! f-!] b,\p
+    a8. d16 c( b a8) g16( f e8) %105
+    f8 f[-!\f a-! c-! f-!] a,\p
+    g4. a8 g4
+    b a4. g8
+    f d[-!\f f-! a-! d-!] a\p
+    b4 g' cis, %110
+    d8 d,[-!\f fis-! a-! d-!] r
+    g,2\p r4
+    r r g
+    c4. c8 c4~
+    c8 es, es4( d8.) h'16 %115
+    c8 c,[-!\f es-! g-! c-!] c\p
+    a!4. c8 b!4~
+    b8 g' g16( f es8) d16( c b8)
+    a32( g f8.) f4 f'8. a,16
+    b4. es8 d4 %120
+    g8. es16 d4( c8.) f,16
+    d'8 b,[-!\f d-! f-! b-!] b\p
+    es4 es, as8. c16
+    b8 es,[-!\f g-! b-! es-!] as,\p
+    g8. c16 b( as g8) f16( es d8) %125
+    es2 c'4~
+    c f, d'
+    es2 r4 \markDaCapo \bar "||" %128 finis
+  }
+}
+
 % ViolinoI = {
 %   \relative c' {
 %     \clef treble

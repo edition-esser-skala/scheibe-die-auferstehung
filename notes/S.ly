@@ -418,6 +418,225 @@ TodWoSopranoLyrics = \lyricmode {
   Sie -- ger! %123 finis
 }
 
+WillkommenSopranoNotes = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key b \major \time 2/2 \autoBeamOff \tempoWillkommen
+    \partial 8 r8 R1*13 %13
+    r2 r4 r8 \mvTr f\pE^\soloE
+    b4 b d32([ c b8.)] b4 %15
+    c16([ es d c] f8) es d16([ c)] b8 r4
+    c16([ b a g] f8) es' d16([ c)] b8 r d
+    c4 c c8.([ d16)] c4
+    c16([ d] es4) d8 d([ c)] r d
+    c16([ d] es4) d8 d([ c)] r f, %20
+    b4 b d32([ c b8.)] b4
+    c16([ es d c] f8) es d16([ c)] b8 r b
+    f'4 f a32([ g f8.)] f4
+    g16([ f e d] c8) b a16([ g)] f8 r c'
+    c4( d8.) f16 f4. a,8 %25
+    \appoggiatura a4 g2 r4 r8 c
+    a16([ f g a] b[ c)] d([ e)] f8 f, r4
+    d' r8 a a16([ c)] b([ a)] d8 c
+    b16([ a)] g8 r d' b16([ g a b] c[ d)] e([ fis)]
+    g8 g, r4 c r8 g %30
+    g16([ b)] a([ g)] c8 b a16([ g)] f8 r a
+    g4 g g8.([ a16)] g4
+    g16([ a] b4) a8 a g r c
+    f,8.([ a16)] a8. c16 c([ b a b] c[ d)] e([ f)]
+    g4 e f8 f, g a %35
+    a g c b a16([ g)] f8 r a
+    a g b a a g r c
+    f,8.([ a16)] a8. c16 c([ b a b] c[ d)] e([ f)]
+    g4 e f8 c b16[ a g f]
+    d'8.[ d16] c[ b a g] e'8.[\prall d32 e] f8 b, %40
+    a32([ g f8.)] g4\prall f r
+    R1*5 %46
+    r2 r4 r8 c'
+    f,4 f a32([ g f8.)] f4
+    g16([ b a g] c8) b a16([ g)] f8 r4
+    g16[ b a g] c[ b a g] a[ c b a] d[ c b a] %50
+    b[ g a b] c[ d] e([ fis)] g8 g, r g
+    c4 c es32([ d c8.)] c4
+    d16[ f es d] g[ f es d] es[ g f es] f[ es d c]
+    d[ b! es c] f8 es d16([ c)] b8 r f
+    g4 g8.([ a32 b)] b4( a8) d %55
+    c([ d)] d([ es)] es([ d)] r d
+    c([ d)] d([ es)] es([ d)] r4
+    f( g8.) b,16 a([ g)] f8 r f'
+    f4( g8.) b,16 a([ g)] f8 r f
+    b4 b d32([ c b8.)] b4 %60
+    c16([ es d c] f8) es d16([ c)] b8 r b
+    es4 es g32([ f es8.)] es4
+    f16([ es d c] b8) as g16([ f)] es8 r g
+    g4( f8.) f'16 f4( g8.) es16
+    \appoggiatura d4 c2 r4 r8 f %65
+    d16([ f es d] c[ b]) a([ g)] f8 b r4
+    g r8 d' d16([ f)] es([ d)] g8 f
+    es16([ d)] c8 r c a16([ f g a] b[ c)] d([ e)]
+    f8 f, r4 d' r8 a
+    a16([ c)] b([ a)] d8 c b16([ a)] g8 r d' %70
+    c4 c c8.([ d16)] c4
+    c16([ d] es4) d8 d c r f,
+    b8.([ d16)] d8. f16 f8([ g16 f] es[ d)] c([ b)]
+    c4 a b8 b c d
+    d c f es d16([ c)] b8 r d %75
+    d c es d d c r f
+    b,8.([ d16)] d8.([ f16)] f4 b,8 b
+    g'4 f16[ es d c] f4.\prall g16[ es]
+    f4.\prall g16[ es] f[ b, a b] c[ b a b]
+    r c[ b c] d[ c b c] d[ f es d] g8 es %80
+    d32([ c b8.)] c4\prall b r
+    R1*9 \noBreak %90
+    R1\fermata \bar "||"
+    \time 3/4 \tempoWillkommenB
+      \set Score.currentBarNumber = #91
+      \partial 4 g4 \noBreak d'4. es8 d4 \noBreak
+     es32([ d c8.)] b4 a
+     b32([ a g8.)] g4 r8 g
+     d' a fis d b' g %95
+     d'2 d,4
+     g4. b8 g4~
+     g8 b b4( a8.) d,16
+     b'32([ a g8.)] g4 r8 g
+     c4. d8 c4 %100
+     f32([ es d8.)] c4 d
+     es32([ d c8.)] c4 r8 c
+     f4 f, d'8. b16
+     c2 r8 b
+     a8. d16 c([ b a8)] g16([ f e8)] %105
+     f2 r8 a
+     g4. a8 g4
+     b a4. g8
+     f32([ e d8.)] d4 r8 a'
+     b g d' b g' cis, %110
+     d2 r8 d
+     g,4. as8 g4
+     r r g
+     c4. es8 c4~
+     c8 es, es4( d8.) h'16 %115
+     c4 c, r8 c'
+     a!4. c8 b4~
+     b8 g' g16([ f es8)] d16([ c b8)]
+     a32([ g f8.)] f4 f'8. a,16
+     b[ f g a] b[ c d es] f[ d c b] %120
+     g'8. es16 d4( c8.) f,16
+     d'32([ c b8.)] b4 r8 b
+     es4 es, as8. c16
+     b2 r8 as
+     g8. c16 b([ as g8)] f16([ es d8)] %125
+     es2 c'4~
+     c f, d'
+     es2 r4 \markDaCapo \bar "||" %128 finis
+  }
+}
+
+WillkommenSopranoLyrics = \lyricmode {
+  Will -- %14
+  kom -- men, Hey -- land! %15
+  Freut __ euch, Vä -- ter!
+  Freut __ euch, Vä -- ter! Die
+  Hoff -- nung Zi -- ons
+  iſt __ er -- füllt, ſie
+  iſt __ er -- füllt! O %20
+  dankt, ihr un -- ge --
+  bohr -- nen Kin -- der! Gott
+  nimmt für ei -- ne
+  Welt __ voll Sün -- der ſein
+  gro -- ßes Op -- fer %25
+  an. Will --
+  kom -- men, Hey -- land!
+  Dankt, ihr un -- ge -- bohr -- nen
+  Kin -- der! Will -- kom -- men,
+  Hey -- land! Dankt, ihr %30
+  un -- ge -- bohr -- nen Kin -- der! Gott
+  nimmt für ei -- ne
+  Welt __ voll Sün -- der ſein
+  gro -- ßes, ſein gro -- ßes
+  Op -- fer an. Gott nimmt für %35
+  ei -- ne Welt voll Sün -- der, für
+  ei -- ne Welt voll Sün -- der ſein
+  gro -- ßes, ſein gro -- ßes
+  Op -- fer an, ſein gro --
+  _ _ _ _ ßes %40
+  Op -- fer an.
+
+  Will -- %47
+  kom -- men, Hey -- land!
+  Freut __ euch, Vä -- ter!
+  Freut __ _ _ _ %50
+  _ _ euch, Vä -- ter! Will --
+  kom -- men, Hey -- land!
+  Freut __ _ _ _
+  _ _ euch, Vä -- ter! Die
+  Hoff -- nung __ Zi -- ons %55
+  iſt __ er -- füllt, ſie
+  iſt __ er -- füllt!
+  ſie, __ die Hoff -- nung! die
+  Hoff -- nung Zi -- ons! O
+  dankt, ihr un -- ge -- %60
+  bohr -- nen Kin -- der! Gott
+  nimmt für ei -- ne
+  Welt __ voll Sün -- der ſein
+  gro -- ßes Op -- fer
+  an. Will -- %65
+  kom -- men, Hey -- land!
+  Dankt, ihr un -- ge -- bohr -- nen
+  Kin -- der! Will -- kom -- men,
+  Hey -- land! Dankt, ihr
+  un -- ge -- bohr -- nen Kin -- der! Gott %70
+  nimmt für ei -- ne
+  Welt __ voll Sün -- der ſein
+  gro -- ßes, ſein gro -- ßes
+  Op -- fer an. Gott nimmt für
+  ei -- ne Welt voll Sün -- der, für %75
+  ei -- ne Welt voll Sün -- der ſein
+  gro -- ßes __ Op -- fer, ſein
+  gro -- _ _ _
+  _ _ _ _
+  _ _ _ _ ßes %80
+  Op -- fer an.
+
+  Der %91
+  Hei -- li -- ge
+  ſtirbt für Ver --
+  rä -- ther: So
+  wird des Rich -- ters Spruch er -- %95
+  füllt. Er
+  tritt das Haupt __
+  der Höl -- le
+  nie -- der, er
+  brin -- get die %100
+  Re -- bel -- len
+  wie -- der: Der
+  Him -- mel nimmt uns
+  an, der
+  Him -- mel nimmt uns __ %105
+  an. Der
+  Hei -- li -- ge
+  ſtirbt für Ver --
+  rä -- ther: So
+  wird des Rich -- ters Spruch er -- %110
+  füllt. Der
+  Hei -- li -- ge!
+  Er
+  tritt das Haupt __
+  der Höl -- le %115
+  nie -- der, er
+  brin -- get die __
+  Re -- bel -- len __
+  wie -- der, die Re --
+  bel -- _ _ %120
+  _ len bringt er
+  wie -- der: Der
+  Him -- mel nimmt uns
+  an, der
+  Him -- mel nimmt uns __ %125
+  an! Uns __
+  nimmt er
+  an! %128 finis
+}
+
 % SopranoNotes = {
 %   \relative c' {
 %     \clef treble

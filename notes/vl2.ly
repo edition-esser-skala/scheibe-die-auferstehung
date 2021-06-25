@@ -1164,3 +1164,140 @@ DortSehViolinoII = {
     R1\fermata \bar "|." %75 finis
   }
 }
+
+WillkommenViolinoII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key b \major \time 2/2 \tempoWillkommen
+    \partial 8 f8\fE b4\prall b\prall d32( c b8.) b4\turn
+    c16 es d c f8 es d16 c d es f g a b
+    c b a g f8 es d16 c b8 r b~
+    b b4 b b b8
+    a16( b c4) b8 b( a) r b\p %5
+    a16( b c4) b8 b( a) r a\f
+    b8.( d16) d8.( f16) f es d es f g a b
+    c4 a\prall b8 b,( a b)
+    b( a) d( c) b f r b\p
+    b( a) c( b) b( a) r a\f %10
+    b8.( d16) d8.( f16) f es d es f g a b
+    c4 a\prall b8. f16 es( d c b)
+    g'8. g16 f( es d c) a'8.(\prall g32 a) b8 es,
+    \tuplet 6/4 4 { d16( f es d c b) } f8-! a'-! b b,, r4
+    r8 f'\pp f f g g g g %15
+    f4 r8 c' d16 c d\f es f g a b
+    g,4\pp a b8 f r b~
+    b b4 b b b8
+    a16( b c4) b8 b( a) r b
+    a16( b c4) b8 b( a) r f %20
+    f f f f g g g g
+    f4 r8 c' b f4 b8
+    a a a a a a a a
+    d4 e, f8 c r a'
+    a4( b8.) d16 d4. f,8 %25
+    \appoggiatura f4 e2 r4 r8 c'
+    a16 f g a b c d e f c a'\f f c' a f c
+    a4\pp r8 a a16( c b a) d8 c
+    b16 a g es'\f d c b a\pp b g a b c d e fis
+    g  d b'\f g d' b g d c4\pp r8 g %30
+    g16( b a g) c8 b a16 g f8 r f~
+    f f4 f f f8
+    e16( f g4) f8 f e r e\pocoF
+    f4 f8.( a16) a g f g a b c a
+    b4 g a8 f(\pp e f) %35
+    f( e) a( g) f c r f
+    f( e) g( f) f e r e\pocoF
+    f4 f8.( a16) a g f g a b c a
+    b4 g a8 a\pp a a
+    r b b b g4 f8 f %40
+    f4 e\prall f r8 c\f
+    f4 f a32( g f8.) f4
+    g16 b a g c8 b a16 g a b c d e f
+    g f e d c8 b a16 g f8 r f~
+    f f4 f f f8 %45
+    e16( f g4) f8 f( e) r f\p
+    e16( f g4) f8 f( e) r4
+    r8 c\pp c c d d d d
+    c4 r8 g' f16 g a\f b c d e f
+    e,4\pp g f a %50
+    g8 a16 b c d e fis g g,\f b d g d b g
+    r8 g\pp g g as as as as
+    g4 d' c c
+    b!8 c d c b16 c d\f es f g a b
+    r8 b,4\pp g8 g4( f8) b %55
+    a( b) b( c) c( b) r b
+    a( b) b( c) c( b) r4
+    r g f16 g a\f b c d e f
+    r4 g,\pp f r
+    r8 f f f g g g g %60
+    f4 r8 c' b f r b
+    b b b b c c c c
+    c4 f, es16 f g\f as b c d es
+    es,4\pp d8. d'16 d4( es8.) c16
+    \appoggiatura b4 a!2 r4 r8 c %65
+    d16 f es d c b a g f b d\f b f' d b f
+    g4\pp r8 d' d16( f es d) g8 d
+    c c16 d c b! a g a f g a b c d e
+    f c a'\f f c' a f c a4\pp r8 a
+    a16( c) b( a) d8 a g d r b'~ %70
+    b b4 b b b8
+    a16( b c4) b8 b a r f\pocoF
+    f8.( b16) b8.( d16) d8 g16( f) es( d c b)
+    g4 f f8 b(\pp a b)
+    b( a) d( c) b f r b %75
+    b( a) c( b) b-! a-! r a\pocoF
+    b4 b8.( d16) d c b c d es f d
+    es4\pp r r8 b4 b8~
+    b b4 b8 b f f f
+    r c' c c b4 b %80
+    b a b r8 f\f
+    b4 b d32( c b8.) b4
+    c16( es d c) f8 es d16 c d es f g a b
+    c b a g f8 es d16 c b8 r b~
+    b b4 b b b8 %85
+    a16( b c4) b8 b( a) r b\p
+    a16( b c4) b8 b( a) r f'\f
+    b,8.( d16) d8.( f16) f es d es f g a b
+    g4 c, d8. f16 es( d c b)
+    g'8. g16 f( es d c) f, a g f b8 es \noBreak %90
+    \tuplet 6/4 4 { d16( f es d c b) } f8-! a'-! b b,, r4\fermata \bar "||"
+    \time 3/4 \tempoWillkommenB
+      \set Score.currentBarNumber = #91
+      \partial 4 r4 \noBreak b'4.\pp c8 b4 \noBreak
+    c32( b a8.) g4 fis
+    g8 g,[-!\f b-! d-! g-!] g,-!\p
+    d''-! a-! fis-! d-! b'-! g-! %95
+    d'2 d,4
+    es4. es8 es4
+    e8. g16 g4( fis8.) d16
+    d8 g,[-!\f b-! d-! g-!] g\p
+    g4 g g %100
+    as32( g f8.) es4 h'
+    c8 c,[-!\f es-! g-! c-!] c\p
+    c4 r8. c16[ b8. b16]
+    a8 f[-!\f a-! c-! f-!] g,\p
+    f8. d'16 c( b a8) g16( f e8) %105
+    f8 f[-!\f a-! c-! f-!] f,\p
+    e4. f8 e4
+    g f4. e8
+    d d[-!\f f-! a-! d-!] fis,\p
+    g4 b g %110
+    fis8 d[-!\f fis-! a-! d-!] r
+    es,!2\p r4
+    R2.
+    es4. es8 es4~
+    es8 c c4( h8.) d16 %115
+    c8 c[-!\f es-! g-! c-!] g\p
+    f4. f8 f4
+    es c' g
+    f c c8. f16
+    f4. a8 b4 %120
+    b8. c16 b4( a8.) f16
+    f8 b,[-!\f d-! f-! b-!] f\p
+    es4 r8. es16[ es8. as16]
+    g8 es[-!\f g-! b-! es-!] f,\p
+    es8. c'16 b( as g8) f16( es d8) %125
+    es2 es4~
+    es d f
+    g2 r4 \markDaCapo \bar "||" %128 finis
+  }
+}

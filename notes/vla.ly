@@ -1165,3 +1165,140 @@ DortSehViola = {
     R1\fermata \bar "|." %75 finis
   }
 }
+
+WillkommenViola = {
+  \relative c' {
+    \clef alto
+    \twotwotime \key b \major \time 2/2 \tempoWillkommen
+    \partial 8 r8 r d\fE d d d d d d
+    f4 r8 a b b4 f8
+    g4 a\prall b8 d,16 es f8 f
+    g g g g g g g g
+    f f f f f4 r8 f\p %5
+    f f f f f4 r8 f\f
+    f8.( b16) b8.( d16) d4 r
+    g, c, d8 d( es f)
+    f4 f f8 d(\p es f)
+    f4 f f r8 f\f %10
+    f8.( b16) b8.( d16) d4 r
+    g, c, d r
+    es r c8 f4 g8
+    f4 f b, r
+    r8 d\pp d d d d d d %15
+    c4 r8 a' f f\f b d,
+    es4\pp c b8 d r f
+    g g g g g g g g
+    f f f f f4 r8 f
+    f f f f f4 r8 a, %20
+    b d d d d d d d
+    c4 r8 a' f d16 es d8 g
+    c, c c c d d d d
+    b4 c c8 a16 b c8 f
+    f2 h, %25
+    c r4 r8 e
+    f4 g, c r
+    d r r r8 fis
+    g4 r8 d d4 a
+    d r g r %30
+    r r8 e f a,16 b c8 c
+    d d d d d d d d
+    c c c c c4 r8 c\pocoF
+    c4 c8.( f16) f4 r
+    d c c8 c(\pp b c) %35
+    c4 c c8 c( b c)
+    c4 c c r8 c\pocoF
+    c4 c8.( f16) f4 r
+    d c c8 f\pp f f
+    r f f g c,4 c8 d %40
+    c4 c a r
+    r8 a\f a a a a a a
+    c4 r8 e f c f f
+    d4 e\prall f8 a,16 b c8 c
+    d d d d d d d d %45
+    c c c c c4 r8 c\p
+    c c c c c4 r
+    r8 a\pp a a a a a a
+    g4 r8 e' c f4\f c8
+    c4\pp c c d %50
+    d a d r
+    r8 es es es es es es es
+    d4 h' g c
+    f, r8 a f b4\f d,8
+    r c4\pp c8 c4. f8 %55
+    f4 f f r8 f
+    f4 f f r
+    r c c r
+    r c c r
+    r8 d d d d d d d %60
+    f4 r8 a f d16 es d8 d
+    es es es es es g g g
+    as4 d, es8 b4\f g'8
+    b,2~\pp b4 g'
+    f2 r4 r8 f %65
+    f4 es f r
+    d r r r8 h'
+    g4 g f b,
+    c r d r
+    r r8 fis d b r g' %70
+    g g g g g g g g
+    f f f f f f r a,\pocoF
+    b4 f'8.( b16) b4 r8 d,
+    es4 c d8 f(\pp es f)
+    f4 f f8 f( es f) %75
+    f4 f f8 f r f\pocoF
+    f4 f8.( b16) b4 r
+    b\pp r r8 f16 es d8 g
+    r f16 es d8 es b d d d
+    r f f f f4 es8 g %80
+    f4 f d r
+    r8 d\f d d d d d d
+    f4 r8 a b f4 d8
+    g4 a b8 b,16 c d8 f
+    g g g g g g g g %85
+    f f f f f4 r8 f\p
+    f f f f f4 r8 a\f
+    f8.( b16) b8.( d16) d4 r
+    es, f f r
+    es r c8 f4 g8 \noBreak %90
+    f4 f b, r\fermata \bar "||"
+    \time 3/4 \tempoWillkommenB
+      \set Score.currentBarNumber = #91
+      \partial 4 r4 \noBreak g'\pp g g \noBreak
+    c, d d
+    d8 g,[-!\f b-! d-! g-!] g,-!\p
+    a'-! a-! fis-! d-! b'-! g-! %95
+    d2 r4
+    b b b
+    e d d
+    g,8 g[-!\f b-! d-! g-!] d\p
+    c4 c c %100
+    as g g'
+    g8 c,[-!\f es-! g-! c-!] g\p
+    f4 r8. f16[ f8. f16]
+    f8 f,[-!\f a-! c-! f-!] c\p
+    c8. b16 c4 c %105
+    a8 f[-!\f a-! c-! f-!] c\p
+    c4 c c
+    e a, a
+    a8 d[-!\f f-! a-! d-!] d,\p
+    d4 d es! %110
+    d8 d[-!\f fis-! a-! d-!] r
+    b,2\p r4
+    R2.
+    as4. as8 as4
+    a g g %115
+    g8 c[-!\f es-! g-! c-!] c,\p
+    c4 f b,
+    g' c, c
+    c c a8. c16
+    b4. c8 f4 %120
+    es8. g16 f4 f,
+    b8 b[-!\f d-! f-! b-!] d,\p
+    b4 r8. g'16[ es8. es16]
+    es8 es[-!\f g-! b-! es-!] b,\p
+    b8. as16 b4 b %125
+    g2 as4~
+    as b b
+    b2 r4 \markDaCapo \bar "||" %128 finis
+  }
+}
