@@ -190,3 +190,32 @@ SeyGegruessetCornoII = {
     e2 r \bar "S-S" %213 finis
   }
 }
+
+TriumphbCornoII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \tempoTriumphb
+    \partial 2 e'8.\fE e16 \tuplet 3/2 4 { e8 c d } e4 r e8. e16 \tuplet 3/2 4 { e8 c d }
+    e4 r e8. e16 \tuplet 3/2 4 { e8 d e }
+    \tuplet 3/2 4 { f( f f f[ f f]) d( d d d[ d d]) }
+    c4 r r2
+    \tuplet 3/2 4 { r8 \slurDashed d( d d[ d d)] } d4 r %5
+    \tuplet 3/2 4 { r8 g,( g g[ g g)] \slurSolid } g4 r
+    R1
+    R
+    \tuplet 3/2 4 { r8 d'( d d[ g g)] fis( fis fis fis[ fis fis]) }
+    g4 r \tuplet 3/2 4 { r8 g, g g[ g g] } %10
+    \tuplet 3/2 4 { g g' fis } g4 g2
+    g8. e16 \tuplet 3/2 4 { e8( c d) } e4 r
+    \tuplet 3/2 4 { c8([ c c] c e e) } e4 r
+    r2 \tuplet 3/2 4 { f8([ f f] f f f) }
+    \tuplet 3/2 4 { f([ f f] f f f) e([ e e] e e e) } %15
+    \tuplet 3/2 4 { e([ e e] e e e) d([ d d] d d d) }
+    \tuplet 3/2 4 { c([ e e] e e e) } e8. e16 \tuplet 3/2 4 { \once \slurDashed e8( d e) }
+    f4 r \tuplet 3/2 4 { \once \slurDashed d8([ d d] d d d) }
+    c8. e16 \tuplet 3/2 4 { \once \slurDashed e8( d e) } f4 r
+    \tuplet 3/2 4 { d8([ d d] d d d) d([ g, g] g g g) } %20
+    \tuplet 3/2 4 { g([ c c] c c c) c([ e e] e e e) }
+    e2 r\fermata \bar "|." %22 finis
+  }
+}

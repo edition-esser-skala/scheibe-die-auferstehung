@@ -637,6 +637,59 @@ WillkommenSopranoLyrics = \lyricmode {
   an! %128 finis
 }
 
+TriumphbSopranoNotes = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key f \major \time 2/2 \tempoTriumphb
+    \partial 2 \mvTr c'2\fE^\tuttiE f c
+    f c
+    d e
+    f d
+    g2.( f4) %5
+    e2 e
+    d g
+    c, d4( f)
+    e2 d
+    c r %10
+    r c
+    f c
+    f a,
+    b d
+    c f %15
+    c2.( b4)
+    a2 f'
+    d e
+    f d
+    g e %20
+    f1
+    R\fermata \bar "|." %22 finis
+  }
+}
+
+TriumphbSopranoLyrics = \lyricmode {
+  Tri -- umph! Tri --
+  umph! der
+  Fürſt des
+  Le -- bens
+  ſie -- %5
+  get! Ge --
+  fe -- ßelt
+  führt er __
+  Höll und
+  Tod. %10
+  Tri --
+  umph! Tri --
+  umph! die
+  Sie -- ges --
+  fah -- ne %15
+  flie --
+  get! Sein
+  Kleid iſt
+  noch vom
+  Blu -- te %20
+  roth. %21 finis
+}
+
 % SopranoNotes = {
 %   \relative c' {
 %     \clef treble

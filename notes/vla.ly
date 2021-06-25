@@ -1302,3 +1302,32 @@ WillkommenViola = {
     b2 r4 \markDaCapo \bar "||" %128 finis
   }
 }
+
+TriumphbViola = {
+  \relative c' {
+    \clef alto
+    \twotwotime \key f \major \time 2/2 \tempoTriumphb
+    \partial 2 f2\fE c f
+    c f
+    f g
+    a f
+    g1 %5
+    g2 g
+    g d
+    c c
+    c h
+    e r %10
+    r e
+    c f
+    c c
+    b f'
+    f f %15
+    f e
+    c c
+    b b
+    c b
+    d c %20
+    c1
+    R\fermata \bar "|." %22 finis
+  }
+}

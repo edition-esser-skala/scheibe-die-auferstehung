@@ -2492,6 +2492,60 @@ WillkommenBassFigures = \figuremode {
   r4 r2.*37 %128 finis
 }
 
+TriumphbOrgano = {
+  \relative c {
+    \clef bass
+    \twotwotime \key f \major \time 2/2 \tempoTriumphb
+    \partial 2 \mvTr f8.\fE-\tutti f,16 \tuplet 3/2 4 { f'8 a g } \tuplet 3/2 4 { f[ f, a] c a c } f8. f,16 \tuplet 3/2 4 { f'8 a g }
+    \tuplet 3/2 4 { f[ f, a] c a c } f8. f,16 \tuplet 3/2 4 { a'8 g f }
+    b8. f16 \tuplet 3/2 4 { b8 c a } g8. g,16 \tuplet 3/2 4 { b'8 a g }
+    f8. f,16 \tuplet 3/2 4 { f'8 g a } b8. b,16 \tuplet 3/2 4 { b'8 d c }
+    \tuplet 3/2 4 { h g d g[ d h] g h d h[ d g] } %5
+    \tuplet 3/2 4 { c,[ e g] c e d c[ c, d] e d c }
+    g'8. g,16 \tuplet 3/2 4 { g8 h a g[ h d] h d g }
+    a8. a,16 \tuplet 3/2 4 { a8 h g } f8. f'16 \tuplet 3/2 4 { f8 e d }
+    \tuplet 3/2 4 { g e c e[ c g] g h d h[ d g] }
+    c,8. c'16 \tuplet 3/2 4 { c8 e d c[ e c] c g e } %10
+    c4 r c'8. c,16 \tuplet 3/2 4 { c'8 d b! }
+    a8. a,16 \tuplet 3/2 4 { a'8 c b a[ f c] f c a }
+    \tuplet 3/2 4 { f a c a[ c f] } f8. f,16 \tuplet 3/2 4 { f'8 g es }
+    d8. d,16 \tuplet 3/2 4 { d'8 es c b[ d f] d f b }
+    f8. f,16 \tuplet 3/2 4 { f'8 f g } a8. a,16 \tuplet 3/2 4 { a'8 a b } %15
+    \tuplet 3/2 4 { c[ a f] a f c c[ e g] e g c }
+    \tuplet 3/2 4 { f, f, a c[ a c] } f8. f,16 \tuplet 3/2 4 { a8 g f }
+    \tuplet 3/2 4 { b d f b[ c a] } g8. g,16 \tuplet 3/2 4 { b'8 a g }
+    f8. f,16 \tuplet 3/2 4 { f'8 g a } b8. b,16 \tuplet 3/2 4 { b'8 c a }
+    g8. g,16 \tuplet 3/2 4 { b8 a g } c8. c,16 \tuplet 3/2 4 { b'8 a g } %20
+    \tuplet 3/2 4 { f[ a c] a c f f[ c' a] f c a }
+    f2 r\fermata \bar "|." %22 finis
+  }
+}
+
+TriumphbBassFigures = \figuremode {
+  r2 r1
+  r
+  r2 <6>
+  r1
+  <6>2 <[_!]>4 <6 5> %5
+  r1
+  <5 4>2 <\t _!>
+  <5> <6 5>
+  <6 4> <5 _!>
+  r1 %10
+  r
+  <6>
+  r
+  <6>
+  <5 4>2 <8 6 3> %15
+  <6 4>2 <[5 3]>4 <6 5>
+  r4 <6 4>2.
+  r2 <6>
+  r1
+  r %20
+  r
+  r %22 finis
+}
+
 % Organo = {
 %   \relative c {
 %     \clef bass

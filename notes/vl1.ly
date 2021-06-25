@@ -1294,6 +1294,35 @@ WillkommenViolinoI = {
   }
 }
 
+TriumphbViolinoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key f \major \time 2/2 \tempoTriumphb
+    \partial 2 c'2\fE f c
+    f c
+    d e
+    f d
+    g2. f4 %5
+    e2 e
+    d g
+    c, d4 f
+    e2 d
+    c r %10
+    r c
+    f c
+    f a,
+    b d
+    c f %15
+    c2. b4
+    a2 f'
+    d e
+    f d
+    g e %20
+    f1
+    R\fermata \bar "|." %22 finis
+  }
+}
+
 % ViolinoI = {
 %   \relative c' {
 %     \clef treble

@@ -1017,6 +1017,59 @@ TodWoTenoreLyrics = \lyricmode {
   Sie -- ger! %123 finis
 }
 
+TriumphbTenoreNotes = {
+  \relative c' {
+    \clef "treble_8"
+    \twotwotime \key f \major \time 2/2 \tempoTriumphb
+    \partial 2 \mvTr f2\fE^\tuttiE c f
+    c f
+    f g
+    a f
+    g1 %5
+    g2 g
+    g d
+    c c
+    c h
+    e r %10
+    r e
+    c f
+    c c
+    b f'
+    f f %15
+    f( e)
+    c c
+    b b
+    c b
+    d c %20
+    c1
+    R\fermata \bar "|." %22 finis
+  }
+}
+
+TriumphbTenoreLyrics = \lyricmode {
+  Tri -- umph! Tri --
+  umph! der
+  Fürſt des
+  Le -- bens
+  ſie -- %5
+  get! Ge --
+  fe -- ßelt
+  führt er
+  Höll und
+  Tod. %10
+  Tri --
+  umph! Tri --
+  umph! die
+  Sie -- ges --
+  fah -- ne %15
+  flie --
+  get! Sein
+  Kleid iſt
+  noch vom
+  Blu -- te %20
+  roth. %21 finis
+}
+
 % TenoreNotes = {
 %   \relative c' {
 %     \clef "treble_8"

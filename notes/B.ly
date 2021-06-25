@@ -678,6 +678,59 @@ TodWoBassoLyrics = \lyricmode {
   Sie -- ger! %123 finis
 }
 
+TriumphbBassoNotes = {
+  \relative c {
+    \clef bass
+    \twotwotime \key f \major \time 2/2 \tempoTriumphb
+    \partial 2 \mvTr f2\fE^\tuttiE f f
+    f f
+    b g
+    f b
+    h1 %5
+    c2 c
+    g g
+    e f
+    g g
+    c, r %10
+    r c'
+    a f
+    f f
+    f f
+    f c' %15
+    c1
+    f,2 f
+    b g
+    f b
+    g c %20
+    f,1
+    R\fermata \bar "|." %22 finis
+  }
+}
+
+TriumphbBassoLyrics = \lyricmode {
+  Tri -- umph! Tri --
+  umph! der
+  Fürſt des
+  Le -- bens
+  ſie -- %5
+  get! Ge --
+  fe -- ßelt
+  führt er
+  Höll und
+  Tod. %10
+  Tri --
+  umph! Tri --
+  umph! die
+  Sie -- ges --
+  fah -- ne %15
+  flie --
+  get! Sein
+  Kleid iſt
+  noch vom
+  Blu -- te %20
+  roth. %21 finis
+}
+
 % BassoNotes = {
 %   \relative c {
 %     \clef bass

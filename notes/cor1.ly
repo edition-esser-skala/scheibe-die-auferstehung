@@ -190,3 +190,32 @@ SeyGegruessetCornoI = {
     c2 r \bar "S-S" %213 finis
   }
 }
+
+TriumphbCornoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \tempoTriumphb
+    \partial 2 g''8.\fE g16 \tuplet 3/2 4 { g8 e f } g4 r g8. g16 \tuplet 3/2 4 { g8 e f }
+    g4 r g8. g16 \tuplet 3/2 4 { g8 f g }
+    \tuplet 3/2 4 { a( a a a[ a a]) f( f f f[ f f)] }
+    e4 r r2
+    \tuplet 3/2 4 { r8 d( d d[ d d)] } d4 r %5
+    \tuplet 3/2 4 { r8 d( d d[ d d)] } d4 r
+    R1
+    r2 g~
+    \tuplet 3/2 4 { g8[ h( h] h h h) a( a a a[ a a)] }
+    \pao g4 r \tuplet 3/2 4 { r8 d d d[ g g] } %10
+    \tuplet 3/2 4 { g h a } \pa g4 g2 \pd
+    c8. g16 \tuplet 3/2 4 { g8( e f) } g4 r
+    \tuplet 3/2 4 { e8([ e e] e g g) } g4 r
+    r2 \tuplet 3/2 4 { a8([ a a] a a a) }
+    \tuplet 3/2 4 { g([ g g] g g g) c([ c c] c c c) } %15
+    \tuplet 3/2 4 { g([ g g] g g g) g([ f f] f f f) }
+    \tuplet 3/2 4 { e([ g g] g g g) } g8. g16 \tuplet 3/2 4 { g8( f g) }
+    a4 r \tuplet 3/2 4 { f8([ f f] f f f) }
+    e8. g16 \tuplet 3/2 4 { g8( f g) } a4 r
+    \tuplet 3/2 4 { f8([ f f] f f f) f([ d d] d e f) } %20
+    \tuplet 3/2 4 { e([ e e] e e e) e([ g g] g c c) }
+    c2 r\fermata \bar "|." %22 finis
+  }
+}

@@ -1108,6 +1108,59 @@ TodWoAltoLyrics = \lyricmode {
   Sie -- ger! %123 finis
 }
 
+TriumphbAltoNotes = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key f \major \time 2/2 \tempoTriumphb
+    \partial 2 \mvTr a'2\fE^\tuttiE a a
+    a a
+    b b
+    c b
+    d1 %5
+    c2 c
+    c h
+    c a
+    g g
+    g r %10
+    r g
+    f a
+    a f
+    f b
+    b a %15
+    a( g)
+    f a
+    f g
+    a f
+    b g %20
+    a1
+    R\fermata \bar "|." %22 finis
+  }
+}
+
+TriumphbAltoLyrics = \lyricmode {
+  Tri -- umph! Tri --
+  umph! der
+  Fürſt des
+  Le -- bens
+  ſie -- %5
+  get! Ge --
+  fe -- ßelt
+  führt er
+  Höll und
+  Tod. %10
+  Tri --
+  umph! Tri --
+  umph! die
+  Sie -- ges --
+  fah -- ne %15
+  flie --
+  get! Sein
+  Kleid iſt
+  noch vom
+  Blu -- te %20
+  roth. %21 finis
+}
+
 % AltoNotes = {
 %   \relative c' {
 %     \clef treble

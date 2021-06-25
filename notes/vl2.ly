@@ -1301,3 +1301,32 @@ WillkommenViolinoII = {
     g2 r4 \markDaCapo \bar "||" %128 finis
   }
 }
+
+TriumphbViolinoII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key f \major \time 2/2 \tempoTriumphb
+    \partial 2 a'2\fE a a
+    a a
+    b b
+    c b
+    d1 %5
+    c2 c
+    c h
+    c a
+    g g
+    g r %10
+    r g
+    f a
+    a f
+    f b
+    b a %15
+    a g
+    f a
+    f g
+    a f
+    b g %20
+    a1
+    R\fermata \bar "|." %22 finis
+  }
+}
