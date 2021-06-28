@@ -2546,6 +2546,98 @@ TriumphbBassFigures = \figuremode {
   r %22 finis
 }
 
+EilfOrgano = {
+  \relative c {
+    \clef bass
+    \twotwotime \key c \major \time 2/2 \tempoEilf
+    g'1\pE
+    e!2 f~
+    f es~
+    es d4 es
+    r f fis2~ %5
+    fis g~
+    g c,
+    r4 d es2~
+    es1
+    d2 g %10
+    f4 r fis2~
+    fis g
+    e d4 r
+    h1
+    c! %15
+    r4 d dis2~
+    dis e~
+    e a
+    fis a
+    g gis~ %20
+    gis a4 r
+    d,2 dis~
+    dis e4 r
+    eis r fis r
+    h, r r cis %25
+    \tempoEilfB d r r2
+    r \tempoEilfC r
+    fis g
+    e c~
+    c h4 r %30
+    \tempoEilfD r8 e( e e) r e( e e)
+    r e( e e) e2
+    a,4 r \tempoEilfE r16 \mvTr a-!\f-\unisono cis-! e-! a-! e-! cis'-! a-!
+    dis,1\p
+    e4\f r a, r %35
+    r h e, r
+    r8 e'(\pp e e) r a,( a a)
+    r d!( d d) r h( h h)
+    r a( a a) ais4\f r
+    h r e r %40
+    r fis h, r\fermata \bar "|." %41 finis
+  }
+}
+
+EilfBassFigures = \figuremode {
+  <6- [_-]>1
+  <6 5->2 <_->
+  <6! [_-]> <[5-]>
+  <4! 2> <6->4 <[5-]>
+  r2 <6> %5
+  <5> <_->
+  r <_->4 <4+ 2>
+  r <_+> <5->2
+  <\t> <4! 2>
+  <6-> <6! _-> %10
+  r <6>
+  <5> <_!>
+  <6\\> <_+>
+  <6>1
+  r2 <4+ 2> %15
+  r4 <_+> \bo <6 [_+]>2
+  \bc <5 [\t]>1
+  r2 <_+>
+  <6> <[6+] 4+ 2>
+  <6> q %20
+  <5!> <_+>
+  <4>4 <_+> \bo <6 [_+]>2
+  <5 [\t]> <_+>
+  <6+ [_+]> <5+>
+  <5+>2. <5+ _+>4 %25
+  <_+>1
+  r
+  <6 5!>
+  r2 <7>8 <6>4.
+  <4+ 2>2 <6> %30
+  r1
+  r2 <5 _+>4 <6+ 4>8. <7! 5 _+>16
+  <9 4>8 <8 _+>2..
+  <6 5 [_+]>1
+  <_+>2 q %35
+  r4 <5+ _+> <_+>2
+  r8 <_+>2 q4.
+  r8 q2 <7>8 <6\\>4
+  r8 \bo <[_+]>4. \bc <6 5 [\t]>2
+  <[5+] _+> <_+> %40
+  r4 <5+ _+> <[5+] _+>2 %41 finis
+}
+
 % Organo = {
 %   \relative c {
 %     \clef bass

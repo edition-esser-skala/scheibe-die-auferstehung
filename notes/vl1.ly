@@ -1323,6 +1323,28 @@ TriumphbViolinoI = {
   }
 }
 
+EilfViolinoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \tempoEilf
+    R1*25 %25
+    \tempoEilfB \mvTr g'16(\p-\dolce fis a g h a c! h) d( cis fis e g fis h a)
+    a( fis fis g a a h cis) \tempoEilfC d4 r
+    R1*3 %30
+    \tempoEilfD r8 h,(\p h h) r h( h h)
+    r h( h h) h4( cis8.) d!16
+    \appoggiatura d8 cis4 r \tempoEilfE r16 a,-!\f cis-! e-! a-! e-! cis'-! a-!
+    fis'1\p
+    e4\f r cis r %35
+    r dis-! e-! r
+    r8 gis,(\pp h e) r \once \slurDashed cis( e g)
+    r fis( d! h) a4( gis8.) d16
+    d8( cis e a ) e'4\f r
+    dis r h r %40
+    r ais-! h-! r\fermata \bar "|." %41 finis
+  }
+}
+
 % ViolinoI = {
 %   \relative c' {
 %     \clef treble

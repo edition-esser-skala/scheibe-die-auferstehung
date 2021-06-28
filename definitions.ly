@@ -700,11 +700,17 @@ tempoDortSeh = \tempoMarkup "Recitativo"
 tempoWillkommen = \tempoMarkup "Vivace e grazioso"
   tempoWillkommenB = \tempoMarkup "Larghetto e pesante"
 tempoTriumphb = \tempoMarkup "[Tempo deest]"
+tempoEilf = \tempoMarkup "Recitativo"
+  tempoEilfB = \tempoMarkup "Accompagnato"
+  tempoEilfC = \tempoMarkup "Recitativo"
+  tempoEilfD = \tempoMarkup "Arioso, Adagio"
+  tempoEilfE = \tempoMarkup "Accompagnato"
 
 
 fpp   = \dynScript "fpp"  ##f
 fppE  = \dynScript "fpp"  ##t
 mvDlpf = \once \override DynamicText.X-offset = #-7
+forceclef = \set Staff.forceClef = ##t
 twotwotime = {
   \overrideTimeSignatureSettings
     2/2
@@ -716,7 +722,8 @@ calando = \markup \remark "calando"
 conSordino = \markup \remark "con sordino"
 SCanto = \markup \remark "Canto"
 SAlto = \markup \remark "Alto"
-STenore = \markup \remark "Tenore"
+STenoreI = \markup \remark "Tenore I"
+STenoreII = \markup \remark "Tenore II"
 SBasso = \markup \remark "Basso"
 
 

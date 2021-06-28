@@ -1331,3 +1331,25 @@ TriumphbViola = {
     R\fermata \bar "|." %22 finis
   }
 }
+
+EilfViola = {
+  \relative c' {
+    \clef alto
+    \twotwotime \key c \major \time 2/2 \tempoEilf
+    R1*25 %25
+    \tempoEilfB r8 d\p d d d4 r
+    d r \tempoEilfC r2
+    R1*3 %30
+    \tempoEilfD r8 e(\p e e) r e( e e)
+    r \once \slurDashed e( e e) e2
+    e4 r \tempoEilfE r16 a,-!\f cis-! e-! a-! e-! cis'-! a-!
+    a1\p
+    gis4\f r e r %35
+    r h h r
+    r8 h(\pp e gis) r e( a cis)
+    r a( fis d!) r h( h d,)
+    r e( a cis) fis4\f r
+    fis r e r %40
+    r cis-! dis-! r\fermata \bar "|." %41 finis
+  }
+}

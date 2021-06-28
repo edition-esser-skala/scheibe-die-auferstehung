@@ -1330,3 +1330,25 @@ TriumphbViolinoII = {
     R\fermata \bar "|." %22 finis
   }
 }
+
+EilfViolinoII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \tempoEilf
+    R1*25 %25
+    \tempoEilfB \mvTr e16(\p-\dolce d fis e g fis a g) fis( e d' cis e d g fis)
+    fis( d d e fis fis g e) \tempoEilfC fis4 r
+    R1*3 %30
+    \tempoEilfD r8 g,(\p g g) r g( g g)
+    r g( g g) gis4( a8.) h16
+    \appoggiatura h8 a4 r \tempoEilfE r16 a,-! cis-! e-! a-! e-! cis'-! a-!
+    h1\p
+    h4\f r a r %35
+    r fis-! gis-! r
+    r8 e(\pp gis h) r a( cis e)
+    r d!( a fis) r d( d gis,)
+    r \once \slurDashed a( cis e) cis'4\f r
+    h r gis r %40
+    r fis-! fis-! r\fermata \bar "|." %41 finis
+  }
+}

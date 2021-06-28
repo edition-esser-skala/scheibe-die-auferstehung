@@ -4,7 +4,7 @@ DieFrommenSoliNotes = {
   \relative c' {
     \clef "treble_8"
     \twotwotime \key c \major \time 2/2 \autoBeamOff \tempoDieFrommen
-    r8 h^\STenore h8. c!16 a8 a h8. fis16
+    r8 h^\STenoreI h8. c!16 a8 a h8. fis16
     g8 r16 h h8 e, r4 cis'8 cis
     cis e e8. a,16 d4 r8 a
     dis a r4 a8 a a8. h16
@@ -50,7 +50,7 @@ WerIstDieSoliNotes = {
   \relative c' {
     \clef "treble_8"
     \twotwotime \key c \major \time 2/2 \autoBeamOff \tempoWerIstDie
-    r8 b^\STenore b f des'8. b16 b8 b
+    r8 b^\STenoreI b f des'8. b16 b8 b
     r4 b8 b b g16 g des'8 b
     b b c g as4 r8 as
     g b r4 r8 c c f,
@@ -67,11 +67,11 @@ WerIstDieSoliNotes = {
     d8 a c8. d16 h!8 h h8. d16 %15
     d8 g,16 g g8 a f f f8. g16
     e!4 \clef bass r8 g,^\SBasso g c r4
-    \clef "treble_8" r8 a^\STenore a a d8. a16 a8 d
+    \clef "treble_8" r8 a^\STenoreI a a d8. a16 a8 d
     h!8 r16 h h8 g e'8. e16 e8 h
     c4 \clef bass r8 e,^\SBasso e a r4 %20
     \clef treble r8 e'^\SAlto e g r4 g8([ fis)]
-    \clef "treble_8" r8 h,^\STenore e h h gis gis e
+    \clef "treble_8" r8 h,^\STenoreI e h h gis gis e
     e e r d' d4 cis8 r
     r4 a8. h16 r8 a4( gis8)
     \clef bass r4 r8 e^\SBasso a a a cis %25
@@ -122,7 +122,7 @@ FreundinnenSoliNotes = {
   \relative c' {
     \clef "treble_8"
     \twotwotime \key c \major \time 2/2 \autoBeamOff \tempoFreundinnen
-    r8 c^\STenore c8. e16 c8 c r4
+    r8 c^\STenoreI c8. e16 c8 c r4
     e8. c16 c8 g a a a8. gis16
     gis8 h r4 r a8. h16
     g!8 g g8. a16 fis8 a r c!
@@ -134,7 +134,7 @@ FreundinnenSoliNotes = {
     h g d' d e e c h %10
     g4 r \tempoFreundinnenB r2
     \clef bass r8 d^\SBasso g g r4 f!8. g16
-    e4 r \clef "treble_8" r r8 c'^\STenore
+    e4 r \clef "treble_8" r r8 c'^\STenoreI
     c g g8. a16 f!8 f r c'
     fis, fis g8. a16 b8 b r4 %15
     \clef bass r8 b^\SBasso g b es b des8. c16
@@ -179,7 +179,7 @@ DortSehSoliNotes = {
   \relative c' {
     \clef "treble_8"
     \twotwotime \key c \major \time 2/2 \autoBeamOff \tempoDortSeh
-    r4 fis^\STenore cis8 cis e8. d16
+    r4 fis^\STenoreI cis8 cis e8. d16
     h8 h16 h d8 h h4 r8 h
     e e e d h4 r
     r8 h h8. c!16 a!8 r16 a a8 h
@@ -244,7 +244,7 @@ DortSehSoliNotes = {
     r8 c' c8. es,16 d8 r16 f d8 f
     g g a8. b16 b8 f r4
     R1 %65
-    r2 \clef "treble_8" \tempoDortSehC r8 b^\STenore b d
+    r2 \clef "treble_8" \tempoDortSehC r8 b^\STenoreI b d
     c c c8. g16 a4 r8 a
     d d d a b4 r8 g
     cis cis cis8. d16 d8 a r4
@@ -333,6 +333,99 @@ DortSehSoliLyrics = \lyricmode {
   Dank; der Ne -- bel fällt, ſie
   ſehn ihn, er ver -- ſchwin -- det. %74 finis
 }
+
+EilfSoliNotes = {
+  \relative c' {
+    \clef "treble_8"
+    \twotwotime \key c \major \time 2/2 \autoBeamOff \tempoEilf
+    r8 b^\STenoreI b es es8. b16 b8 b
+    b b c g as as r f
+    d'! d d8. es16 es8 es r es16 c
+    a!4 r8 c b b es d
+    b4 r \forceclef \clef "treble_8" r8 d^\STenoreII d a %5
+    r4 c8. d16 b8 r16 d d8 b
+    g g d' d16 es es8. fis,16 fis8. g16
+    g8 d r4 \clef treble r8 g'^\SAlto g as
+    b8. b16 es8 c a! a c4
+    r8 b b d b b b8. a16 %10
+    a8 c r4 r8 d d a
+    c8. c16 c8 d h! h h g
+    cis8. g16 g8. fis16 a4 r
+    \forceclef \clef treble g^\SCanto d'8. h16 g8 g d'8. e!16
+    c!4 r8 e fis, a c8. h16 %15
+    g4 \clef "treble_8" r8 a,^\STenoreI h h h8. c16
+    a8 a r fis g g g a
+    h h cis8. d16 cis8 r16 e e8. fis16
+    d4 \forceclef \clef "treble_8" r8 a^\STenoreII dis dis fis8. h,16
+    e4 r8 h e r16 h h8 cis %20
+    d! d d8. e16 cis8 cis r a^\markup \remark "con Tenerezza"
+    g!8. fis16 fis4 r8 h h cis
+    a a a8. h16 gis4 r
+    cis cis8. gis16 a8 r16 a cis8 fis,
+    d' d h a fis4 r %25
+    \tempoEilfB R1
+    r2 \forceclef \clef "treble_8" \tempoEilfC r8 d'^\STenoreI d a
+    c!8 c c8. d16 h8 h d8. h16
+    g8 g16 g g8 h h a c a
+    fis4 r8 a g4 r %30
+    \clef bass \tempoEilfD r h^\SBasso h g
+    fis e h'( cis8.) d16
+    \appoggiatura d8 cis4 r \tempoEilfE r2
+    r8 a a cis a8. a16 a4
+    r gis cis8 cis r a16 gis %35
+    e4 r r \clef "treble_8" r8 h'^\STenoreII
+    e4 r8 h \appoggiatura d! cis4 r8 e
+    fis4 r8 fis, a4( gis8.) d16
+    d8 cis r4 \clef bass r8 cis'^\SBasso cis fis,
+    dis'8. h16 h4 r8 gis ais8. h16 %40
+    h8 fis r4 r2\fermata \bar "|." %41 finis
+  }
+}
+
+EilfSoliLyrics = \lyricmode {
+  Eilf aus -- er -- wähl -- te Jün -- ger,
+  bey ver -- ſchloß -- nen Thü -- ren, die
+  Wut der Fein -- de ſcheu -- end, freu -- en
+  ſich, daß Je -- ſus wie -- der
+  lebt. Ihr glaubt es, %5
+  a -- ber mich, er -- wi -- dert
+  Tho -- mas, mich ſoll kein falſch Ge -- ſicht ver --
+  füh -- ren. Iſt er den
+  Ga -- li -- lä -- e -- rin -- nen nicht,
+  auch die -- ſem Si -- mon nicht er -- %10
+  ſchie -- nen? Sahn ihn nicht
+  Kle -- o -- phas und ſein Ge -- fähr -- te
+  dort bey Em -- ma -- hus?
+  Ja, hier, mein Freund, an die -- ſem
+  Ort ſahn wir ihn al -- le %15
+  ſelbſt. Es wa -- ren ſei -- ne
+  Mie -- nen, die Wor -- te wa -- ren
+  ſei -- nen Wor -- ten gleich, er aß mit
+  uns. Be -- tro -- gen hat man
+  euch! Ihr ſelbſt, aus Sehn -- ſucht, %20
+  habt euch gern be -- tro -- gen! Laßt
+  mich ihn ſehn, mit al -- len
+  Nä -- gel -- ma -- len ſehn:
+  Dann glaub auch ich, es ſey mein
+  heiß -- ter Wunſch ge -- ſchehn. %25
+
+  Und nun zer --
+  fließt die Wol -- ke, die den Herrn um --
+  zo -- gen, der mit -- ten un -- ter ih -- nen
+  ſteht, und ſpricht: %30
+  Der Frie -- de
+  Got -- tes ſey __ mit
+  euch!
+  Und du, Schwach -- gläu -- bi -- ger!
+  Komm, ſie -- he, zweif -- le %35
+  nicht! Mein
+  Herr! mein Gott! ich
+  ſeh, ich glaub, ich
+  ſchwei -- ge. So geh in
+  al -- le Welt, und ſey mein %40
+  Zeu -- ge! %41 finis
+}
+
 % SoliNotes = {
 %   \relative c' {
 %     \clef "treble_8"
