@@ -2638,6 +2638,318 @@ EilfBassFigures = \figuremode {
   r4 <5+ _+> <[5+] _+>2 %41 finis
 }
 
+MeinHerrOrgano = {
+  \relative c {
+    \clef bass
+    \key e \major \time 3/4 \tempoMeinHerr
+    \partial 8 r8 r4 \mvTrr e\pp-\soloE e
+    r a, a
+    r h h
+    r cis cis
+    \tempoMeinHerrB gis\f gis'\pE e %5
+    h dis h
+    e e, r
+    cis'' a h
+    e, e, dis'
+    e cis ais %10
+    h h' a!
+    gis a h
+    e, gis e
+    a, a' dis,!
+    e gis eis %15
+    fis fis, cis'
+    fis ais fis
+    h, h' h,
+    e cis\f fis\p
+    h,\pp h' h, %20
+    e cis\f fis\p
+    h, h'\fE h,\ppE
+    e ais, ais
+    h his his
+    cis dis dis %25
+    e e, r
+    h' r8. gis'16[ e8. fis16]
+    h,4 r8. gis'16[ e8. fis16]
+    h,4 r r
+    r e fis %30
+    h, r8 h\f h h
+    gis'4 e fis
+    h,8 h' h,4 a'!
+    gis a h
+    e, e dis %35
+    e cis ais
+    h h r8 fis
+    h2 r8 fis\pE
+    h2 r4
+    \tempoMeinHerrC r h\pp h %40
+    r e e
+    r e e
+    r fis fis
+    \tempoMeinHerrD h,\f h'\pp h,
+    e e, e' %45
+    h h h
+    h h a
+    gis a h
+    e e, r
+    a fis' dis %50
+    e e, d'
+    cis d e
+    a, d dis
+    e gis eis
+    fis gis gis %55
+    a a, r
+    r r8 e' dis! h
+    e,4 r8 e' dis h
+    e,4 gis2(
+    a4) ais2( %60
+    h4) dis\f h\p
+    e r8 e dis h
+    e4 eis\f cis\p
+    fis r8 fis eis cis
+    fis4 fis\f h,\p %65
+    e! cis\f fis\p
+    h,2\pp r4
+    R2.
+    e4 a, ais
+    h dis his %70
+    cis dis dis
+    e e, h'
+    e e, e'
+    a, h h
+    e r8 gis, a h %75
+    e,4 r r
+    r r r8 e'
+    a4\pocoFE h h,
+    e,2 r4
+    cis''\f a h %80
+    e, gis eis
+    fis gis gis
+    a a, gis'
+    a fis dis!
+    e e, r8 h' %85
+    e4 e, r8 h'\p
+    e4 e, r8 e'\f
+    a4 h h, \noBreak
+    e2\fermata r8
+    \time 3/8 \tempoMeinHerrE \newSpacingSection
+      \partial 8 r \mvTrr a8(\pp-\tasto a a) \noBreak %90
+    a( a a)
+    a( a a)
+    a( a a)
+    a( a a)
+    a( a a) %95
+    a( a a)
+    a( a a)
+    d,( d d)
+    d( d d)
+    cis( cis cis) %100
+    cis( cis cis)
+    gis'( gis gis)
+    a( a a)
+    e( e e)
+    e4 eis8 %105
+    fis( fis fis)
+    fis( fis fis)
+    fis( fis fis)
+    fis( fis fis)
+    fis( fis fis) %110
+    fis( fis fis)
+    fis( fis fis)
+    fis( fis fis)
+    h,( h h)
+    h( h h) %115
+    h( h h)
+    h( h h)
+    h( h h)
+    h( h h)
+    h( h h) %120
+    h( h dis!)
+    e( e e)
+    d( d d)
+    cis( cis cis)
+    a( a a) %125
+    e'( e e)
+    e( e e)
+    a,( a a)
+    a( a a)
+    d( d d) %130
+    d( d d)
+    d( d d)
+    cis( cis d)
+    e( e e)
+    e( e e) %135
+    a,( a a)
+    a( a a)
+    ais( ais ais)
+    ais( ais ais)
+    h( h h) %140
+    h( h h)
+    cis( cis cis)
+    cis( cis cis)
+    cis( cis cis)
+    cis( h a) %145
+    h( h h)
+    cis( cis cis)
+    d( d d)
+    h( h h)
+    cis( cis cis) %150
+    cis( cis cis)
+    \once \slurDashed fis,( fis fis)
+    fis4 fis'8
+    cis4 r8
+    cis4 r8 %155
+    R4.
+    fis,4 fis'8
+    eis4 r8
+    fis4 r8
+    eis4.( %160
+    fis4) r8
+    r r a
+    gis4 r8
+    a4 r8
+    h,4. %165
+    e4 r8
+    e4.(
+    eis4) r8
+    r d'( cis
+    h gis fis %170
+    eis4) r8
+    fis4 r8
+    dis!4 r8
+    e!4 r8
+    fis4 r8 %175
+    gis4 r8
+    a4 a8
+    dis,!4 r8
+    e4 r8
+    dis!4.( %180
+    e4) r8
+    dis4.(
+    cis4) r8
+    fis4 r8
+    r gis( fis %185
+    e4) r8
+    r \once \slurDashed a( gis
+    fis4) r8
+    r his( ais
+    gis4) r8 %190
+    cis,4 r8
+    r8 gis'( ais
+    his ais gis)
+    r r his,
+    cis4. %195
+    a'
+    fis
+    gis
+    cis,~
+    cis4 r8 %200
+    R4.*7 %207
+    r8 r e\pocoF
+    a( a a)
+    a( a a) %210
+    gis( gis gis)
+    gis( gis gis)
+    dis( dis dis)
+    e( e e)
+    h( h h) %215
+    h4 \markDaCapo \bar "||" %216 finis
+  }
+}
+
+MeinHerrBassFigures = \figuremode {
+  r8 r2.
+  r
+  r
+  r
+  <6>4 q2 %5
+  r4 <6> <7>
+  r2.
+  r4 <6> <3>
+  r2 <6>4
+  r2 <7 5>4 %10
+  <6 4> <5 3> <4 2>
+  <6> <6>2
+  r4 <6>2
+  r <7>8 <6>
+  r4 <6 5!> <7!>8 <6> %15
+  r2 <7 _+>4
+  r <6 5!> <7 _+>
+  <9 7+>8 <10 8> r4 <8>8 <7!>
+  <9 4!> <8 3> <6\\>4 <7 _+>
+  <9 4>8 <8 3>4. <8>8 <7!> %20
+  <9 4!> <8 3> <6\\>4 <7 _+>
+  \bo <[9 4]>8 \bc <[8 3]> r2
+  r4 <7 5> <6 \t>
+  r <7! 5> <7>8 <6>
+  r4 <7 5> <7>8 <6> %25
+  r2.
+  r2 r8. <_+>16
+  r2 r8. <_+>16
+  r2.
+  r2 <_+>4 %30
+  r2.
+  r4 <6> <_+>
+  r2 <4 2>4
+  <6> q2
+  r <6>4 %35
+  r2 <7 5>4
+  <6 4> <5 3>4. <7 _+>8
+  <9 4>4 <8 3>4. <7 _+>8
+  <9 4>4 <8 3>2
+  r2. %40
+  r
+  r
+  r
+  r2 <7!>4
+  r2. %45
+  <6 4>4 <5 3> <6 4>
+  <\t \t> <5 3> <4 2>
+  <6> q2
+  r2.
+  r2 <7 5>4 %50
+  <6 4> <5 3> <4 2>
+  <6> q2
+  r <6 5>4
+  r <6 5!> <7! 5>8 <6>
+  <5> <6!> <7 5!>4 <\t \t>8 <6 \t> %55
+  r2.
+  r2 <6>8 <7>
+  r2 <6>8 <7>
+  <9 4> <8 3> <6 5!>2
+  <9 4!>8 <8 3> <6 5>2 %60
+  \bo <[9 4]>8 \bc <[8 _+]> <6 5!>4 <7>
+  r2 <6 [5]>4
+  r <6 5> <[7 _+]>
+  r2 <6 5>4
+  r <6\\> <7 _+> %65
+  <9 4>8 <8 3> <6\\>4 <7 [_+]>
+  <9 4> <8 3>2
+  r2.
+  r4 <7> <6 5>
+  r <6 5> <7 5>8 <6> %70
+  <5> <6!> <7 5>4 <7>8 <6>
+  r2 <7>4
+  r2 <7!>4
+  <9 7>8 <10 8> <_+>4 <7>
+  r4. <6>8 q <7> %75
+  r2.
+  r
+  <5>8 <6> <_+>2
+  r2.
+  r4 <6>2 %80
+  r4 <6 5!> <7!>8 <6>
+  <5> <6!> <7 5!>4 <6 \t>
+  r2 <6>4
+  r2 <7 5>4
+  <6 4> <5 3>4. <7>8 %85
+  <9 4> <8 3>2 <7>8
+  <9 4> <8 3>2 <7!>8
+  <5> <6> <3>2
+  r2.
+  r4.*126 %215
+  r4 %216
+}
+
 % Organo = {
 %   \relative c {
 %     \clef bass

@@ -1352,3 +1352,227 @@ EilfViolinoII = {
     r fis-! fis-! r\fermata \bar "|." %41 finis
   }
 }
+
+MeinHerrViolinoII = {
+  \relative c' {
+    \clef treble
+    \key e \major \time 3/4 \tempoMeinHerr
+    \partial 8 r8 r4 gis'8(\pp gis gis gis)
+    r4 a8( a a a)
+    r4 dis,8( dis dis dis)
+    r4 cis8( cis cis cis)
+    \tempoMeinHerrB e4\f r8 e16(\p gis) gis( h) h( e) %5
+    dis8-! h'-! r fis16( dis) dis( fis,) fis( fis)
+    e8-! e'-! r e,16( gis) gis( h) h( e)
+    gis,4 a fis
+    e e fis
+    e8. gis16 gis4. e8 %10
+    e4( dis8) fis16( h) h( dis) dis( fis)
+    h,4 a fis
+    e8 gis16( h) h8 e,16( fis) gis-! gis( a h)
+    a4 e fis
+    e8. h'16 h4~ h16( a) a( gis) %15
+    fis4 r8 a \appoggiatura a16 gis8 fis16( eis)
+    fis8 a r cis4 h16( ais)
+    ais8( h) r dis4 dis,16( fis)
+    fis8( e) ais2\fp
+    r4 r8 dis4\pp dis,16( fis) %20
+    fis8( e) ais2\fp
+    r8 dis,16(\f fis) fis( h) h (dis) h4~\pp
+    h8. e,16 cis4 cis
+    h fis' dis
+    cis8. a'16 a4~ a16( gis) gis( fis) %25
+    e4 r r
+    dis r8. gis16[ gis8. fis16]
+    fis4 r8. gis16[ gis8. fis16]
+    fis8( dis) dis( dis) dis( dis)
+    r4 h' fis %30
+    fis r8 h,16(\f dis) dis( fis) fis( h)
+    h4 gis ais
+    h r8 dis,16( fis) fis( h) h( dis)
+    h4 a! fis
+    e r8 gis fis fis %35
+    e8. gis16 gis4. e8
+    e4( dis16) dis( cis e dis h' ais cis,)
+    cis4( h16) dis(\p cis e dis h' ais cis,)
+    cis4( h) r
+    \tempoMeinHerrC r dis8(\pp dis dis dis) %40
+    r4 e8( e e e)
+    r4 gis8( gis gis gis)
+    r4 fis8( fis fis fis)
+    \tempoMeinHerrD <h, fis' dis'!>4\f r8 fis'16(\pp h) h( dis) dis( fis)
+    e4 r8 e,16( gis) gis( h) h( e) %45
+    e4( dis8.) fis,16 e8. gis16
+    e4( dis8) dis16( fis) fis( h) h( dis)
+    h4 a fis
+    e r8 e16( gis) gis( h) h( gis)
+    a8. cis16 cis4. a8 %50
+    a4( gis8) h, e gis
+    a4 fis gis
+    e8.[ cis16 d8. fis16] h,4
+    h h'~ h16( a) a( gis)
+    fis8. d'16 d4~ d16( cis) cis( h) %55
+    a4 r r
+    r r8 h h8. fis16
+    e4 r8 h' h8. fis16
+    fis8( e) r h'( h h)
+    h( a) r cis( cis cis) %60
+    cis( h) a!2\fp
+    R2.
+    r4 h2\fp
+    R2.
+    r4 fis2\fp %65
+    r4 ais2\fp
+    cis,4(\pp h16) h'\f cis dis e fis gis ais
+    h4 r8 fis\pp e32( dis16.) cis32( h16.)
+    h8. gis16 gis4( fis8.) fis16
+    fis4 fis~ fis16( e) e( dis) %70
+    cis8. a'16 a4~ a16( gis) gis( fis)
+    e4 r8 gis \appoggiatura gis16 fis8 e16( dis)
+    e8 e' r h,4( a16 gis)
+    gis8( a) r4 r
+    r8 e'16(\f gis) gis( h) h( e) cis8.\pp fis,16 %75
+    e8( gis) gis( gis) gis( gis)
+    r4 r8 e16(\f gis) gis( h) h( gis)
+    a-!\pocoF a'-! gis-! fis-! fis-! e-! dis!-! cis-! h-! a-! gis-! fis-!
+    e4 r8 gis16(\f h) h( e) e( gis)
+    gis,4-\critnote a fis %80
+    e h'~ h16( a) a( gis)
+    fis8. d'16 d4~ d16( cis) cis( h)
+    a4 r8 cis h h
+    a8. cis16 cis8~ cis32( d cis h cis8.) a16
+    a4( gis16) gis( fis a gis e' dis fis,) %85
+    fis4( e16) gis(\p fis a gis e' dis fis,)
+    fis4( e8) e16(\f gis) gis( h) h( gis)
+    a-! a'-! gis-! fis-! fis-! e-! dis!-! cis-! h-! a-! gis-! fis-! \noBreak
+    e2\fermata r8
+    \time 3/8 \tempoMeinHerrE \newSpacingSection
+      \partial 8 r8 e(\pp e e) \noBreak %90
+    e( e e)
+    gis( gis gis)
+    gis( gis gis)
+    a( a a)
+    cis( cis cis) %95
+    cis( cis cis)
+    cis4 a8
+    a( a a)
+    a( a a)
+    a( a a) %100
+    a( a a)
+    h( h h)
+    a( a a)
+    a( a a)
+    gis4 r8 %105
+    cis,( cis cis)
+    cis( cis cis)
+    eis( eis eis)
+    eis( eis eis)
+    fis( fis fis) %110
+    a( a a)
+    a( a a)
+    a4 ais8
+    ais( ais ais)
+    h( h h) %115
+    e,( e e)
+    dis!( dis dis)
+    fis( fis fis)
+    e( e e)
+    e( e e) %120
+    dis!4 fis8
+    e( e e)
+    e( e e)
+    e( e e)
+    a( a a) %125
+    gis( gis gis)
+    h( h h)
+    a( e e)
+    e( e e)
+    d( d d) %130
+    a'( a a)
+    gis( gis gis)
+    a( a a)
+    a( e e)
+    e( e e) %135
+    e( e e)
+    e( e e)
+    cis'( cis cis)
+    cis( cis cis)
+    h( h h) %140
+    d,( d d)
+    cis( cis cis)
+    cis( cis fis)
+    fis( fis fis)
+    eis4 fis8 %145
+    fis( fis fis)
+    h( h h)
+    a( a a)
+    a( h gis)
+    fis( fis fis) %150
+    eis( eis eis)
+    cis( cis cis)
+    cis4 fis8
+    eis( fis eis)
+    eis( h' a %155
+    gis fis eis)
+    fis4 a8
+    gis4 r8
+    a4 r8
+    h4.( %160
+    a4) r8
+    r r dis!
+    dis( e h)
+    h( cis fis,)
+    e( dis fis) %165
+    fis( e) r
+    gis4.~
+    gis4 r8
+    fis4.(
+    gis~) %170
+    gis4 r8
+    fis4 r8
+    fis4 r8
+    e!4 r8
+    a4 r8 %175
+    h4 r8
+    a4 a8
+    fis4 r8
+    gis4 r8
+    a4.( %180
+    gis4) r8
+    fis4.(
+    e4) gis8
+    gis( a fis)
+    his4.~ %185
+    his8 dis( cis)
+    cis4.~
+    cis8 e( dis)
+    dis4.~
+    dis8 gis fis %190
+    e dis cis
+    gis4.~
+    gis4 r8
+    r r gis
+    gis4. %195
+    a
+    a
+    gis
+    gis~
+    gis4 fis8 %200
+    cis4 r8
+    cis4 r8
+    R4.
+    fis4 r8
+    h,4 r8 %205
+    h4 r8
+    R4.
+    e4 gis8\pocoF
+    a( a a)
+    a( a a) %210
+    h( h h)
+    e,( e e)
+    \once \slurDashed fis( fis fis)
+    e16( fis gis4)
+    e4.( %215
+    dis4) \markDaCapo \bar "||" %216 finis
+  }
+}

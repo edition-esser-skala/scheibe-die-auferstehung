@@ -1345,6 +1345,230 @@ EilfViolinoI = {
   }
 }
 
+MeinHerrViolinoI = {
+  \relative c' {
+    \clef treble
+    \key e \major \time 3/4 \tempoMeinHerr
+    \partial 8 r8 r4 h'8(\pp h h h)
+    r4 cis8( cis cis cis)
+    r4 fis,8( fis fis fis)
+    r4 e8( e e e)
+    \tempoMeinHerrB h'4\f r8 gis16(\p h) h( e) e( gis) %5
+    fis8-! h-! r fis16( dis) dis( h) h( a)
+    gis8-! e'-! r e,16( gis) gis( h) h( e)
+    e8 e32( gis16.) fis16( e dis cis h8) a
+    gis16 fis e8 r gis fis h
+    gis8. e'16 e4. gis,8 %10
+    gis4( fis8) fis16( h) h( dis) dis( fis)
+    e8 e32( gis16.) fis16( e dis cis h8) a
+    gis h e,16( fis) gis( a) h-! h( cis d)
+    cis h a8 r cis cis16( h) h( a)
+    gis8. d'16 d4~ d16( cis) cis( h) %15
+    a gis fis8 r cis' \appoggiatura cis16 h8 a16( gis)
+    a8 fis' r e!4( dis!16 cis)
+    cis8( dis) r fis4 fis,16( a!)
+    a8( gis) e'2\fp
+    r4 r8 fis4\pp fis,16( a!) %20
+    a8( gis) e'2\fp
+    r8 fis,16(\f h) h( dis) dis( fis) e32(\pp dis16.) cis32( h16.)
+    gis'8. gis,16 gis4( fis8.) e'16
+    dis cis h8 r a! a16( gis) gis( fis)
+    e8. cis'16 cis4~ cis16( h) h( a) %25
+    gis fis e8 r4 r
+    fis r8. h16[ gis'8. ais,16]
+    h4 r8. h16[ gis'8. ais,16]
+    h8( fis) fis( fis) fis( fis)
+    r4 gis' ais, %30
+    h r8 dis,16(\f fis) fis( h) h( dis)
+    h8 h32( dis16.) cis16( h ais gis fis8) e'
+    dis16 cis h8 r fis16( h) h( dis) dis( fis)
+    e8 e32( gis16.) fis16( e dis cis h8) a!
+    gis16 fis e8 r gis fis h %35
+    gis8. e'16 e4. gis,8
+    gis4( fis16) h( ais cis h dis cis e,)
+    e4( dis16) h'(\p ais cis h dis cis e,)
+    e4( dis) r
+    \tempoMeinHerrC r4 fis8(\pp fis fis fis) %40
+    r4 gis8( gis gis gis)
+    r4 h8( h h h)
+    r4 a!8( a a a)
+    \tempoMeinHerrD <dis! fis, h,>4\f r8 h16(\pp dis) dis( fis) fis( a)
+    gis4 r8 gis,16( h) h( e) e( gis) %45
+    gis4( fis8.) a,16 gis8. e'16
+    gis,4( fis8) fis16( h) h( dis) dis( fis)
+    e8 e32( gis16.) fis16( e dis cis h8) a
+    gis16 fis e8 r e16( gis) gis( h) h( e)
+    cis8. a'16 a4. cis,8 %50
+    cis4( h8) e, gis h
+    a a32( cis16.) \once \slurDashed h16( a gis fis e8) d'
+    cis8. e,16 fis fis'( d a) fis-! fis( gis a)
+    gis fis e8 r d' d16( cis) cis( h)
+    a8. fis'16 fis4~ fis16( e) e( d) %55
+    cis h a8 r4 r
+    r r8 gis' fis8. a,16
+    gis4 r8 gis' fis8. a,16
+    a8( gis) r d'( d d)
+    d( cis) r e( e e) %60
+    e( dis!) fis2\fp
+    R2.
+    r4 gis2\fp
+    R2.
+    r4 a,2\fp %65
+    r4 e'2\fp
+    e,4(\pp dis16) h'\f cis dis e fis gis ais
+    h4 r8 fis\pp e32( dis16.) cis32( h16.)
+    gis'8. gis,16 gis4( fis8.) e'16
+    dis cis h8 r a! a16( gis) gis( fis) %70
+    e8. cis'16 cis4~ cis16( h) h( a)
+    gis fis e8 r h' \appoggiatura h16 a8 gis16( fis)
+    gis8 e' r d,4( cis16 h)
+    h8( cis) r4 r
+    r8 gis'16(\f h) h( e) e( gis) fis8.\pp a,16 %75
+    gis8( h) h( h) h( h)
+    r4 r8 e,16(\f gis) gis( h) h( d)
+    cis-!\pocoF a'-! gis-! fis-! fis-! e-! dis-! cis-! h-! a-! gis-! fis-!
+    e4 r8 gis16(\f h) h( e) e( gis)
+    e8 e32( gis16.) fis16( e dis cis h8) a %80
+    gis16 fis e8 r d' d16( cis) cis( h)
+    a8. fis'16 fis4~ fis16( e) e( d)
+    cis h a8 r cis h e
+    cis8. a'16 a8~ a32( h a gis a8.) cis,16
+    cis4( h16) e( dis fis e gis fis a,) %85
+    a4( gis16) e'(\p dis fis e gis fis a,)
+    a4( gis8) e16(\f gis) gis( h) h( d)
+    cis-! a'-! gis-! fis-! fis-! e-! dis-! cis-! h-! a-! gis-! fis-! \noBreak
+    e2\fermata r8
+    \time 3/8 \tempoMeinHerrE \newSpacingSection
+      \partial 8 e'8\pp a,4. \noBreak %90
+    \appoggiatura { cis16 h } a4.
+    h
+    \appoggiatura { d16 cis } h4.
+    cis
+    e %95
+    a~
+    a4 e8
+    fis4.
+    fis,
+    e %100
+    e'
+    d16( cis h4)
+    cis16( h a4)
+    cis4.(
+    h4) cis8 %105
+    fis,4.
+    \appoggiatura { a16 gis } fis4.
+    gis
+    \appoggiatura { h16 a } gis4.
+    a %110
+    cis
+    fis~
+    fis4 cis8
+    e!4.(
+    dis! %115
+    cis
+    h
+    a!
+    gis)
+    gis( %120
+    fis4) a8
+    gis4.
+    \appoggiatura { gis16 a } h4.
+    a
+    \appoggiatura { a16 h } cis4. %125
+    h
+    \appoggiatura { h16 cis } d4.
+    cis16( h a4)
+    a4 e8
+    fis4. %130
+    fis'
+    e~
+    e8( a d,)
+    cis16( h a4)
+    h4.\prall %135
+    a~
+    a4 r8
+    e'4.
+    g16( fis e4)
+    d4.~ %140
+    d8 h gis!
+    fis4.(
+    eis4) a8
+    a4.
+    gis4 cis8 %145
+    d4.
+    eis
+    fis~
+    fis8( d h)
+    a16( gis fis4) %150
+    gis4.\prall
+    fis~
+    fis4 a8
+    gis( a gis)
+    gis( d' cis %155
+    h a gis)
+    a4 cis8
+    cis( d cis)
+    cis( fis cis)
+    cis( d cis) %160
+    cis( fis cis)
+    r r dis!
+    dis( e h)
+    h( cis a)
+    gis( fis a) %165
+    a( gis) r
+    cis( h d
+    d cis) r
+    h4.~
+    h~ %170
+    h4 r8
+    r a4~
+    a8 h( a
+    gis fis e)
+    r d'4~ %175
+    d8 cis( his
+    cis4) cis8
+    h!( cis h)
+    h( e h)
+    h( cis h) %180
+    h( e h)
+    r r his
+    his( cis gis)
+    gis( a fis)
+    his4.~ %185
+    his8 dis( cis)
+    cis4.~
+    cis8 e( dis)
+    dis4.~
+    dis8 gis fis %190
+    e dis cis
+    gis4.~
+    gis4 r8
+    r r fis'
+    e16( dis cis4) %195
+    cis4.
+    dis
+    his
+    cis~
+    cis4 fis,8 %200
+    cis4 r8
+    cis4 r8
+    R4.
+    fis4 r8
+    h,4 r8 %205
+    h4 r8
+    R4.
+    e4 h'8\pocoF
+    cis4.
+    cis' %210
+    h
+    h,
+    a16( gis fis4)
+    gis16( a h4)
+    gis4.( %215
+    fis4) \markDaCapo \bar "||" %216 finis
+  }
+}
+
 % ViolinoI = {
 %   \relative c' {
 %     \clef treble

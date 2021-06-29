@@ -705,6 +705,11 @@ tempoEilf = \tempoMarkup "Recitativo"
   tempoEilfC = \tempoMarkup "Recitativo"
   tempoEilfD = \tempoMarkup "Arioso, Adagio"
   tempoEilfE = \tempoMarkup "Accompagnato"
+tempoMeinHerr = \tempoMarkup "Larghetto"
+  tempoMeinHerrB = \tempoMarkup "Poco allegro e spiritoso"
+  tempoMeinHerrC = \tempoMarkup "Larghetto"
+  tempoMeinHerrD = \tempoMarkup "Poco allegro e spiritoso"
+  tempoMeinHerrE = \tempoMarkup "Allegretto e cantabile"
 
 
 fpp   = \dynScript "fpp"  ##f

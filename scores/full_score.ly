@@ -900,52 +900,109 @@
   %     \midi { \tempo 2 = 70 }
   %   }
   % }
+  % \bookpart {
+  %   \header {
+  %     genre = "A C C O M P A G N A T O"
+  %     number = "15"
+  %     title = "Eilf auserwählte Jünger"
+  %   }
+  %   \tocLabelLong "eilf" "15" "Accompagnato" "Eilf auserwählte Jünger"
+  %   \paper {
+  %     system-system-spacing.basic-distance = #30
+  %     system-system-spacing.minimum-distance = #30
+  %     systems-per-page = #2
+  %   }
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \EilfViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \EilfViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \EilfViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "T 1" "B" }
+  %           \new Voice = "Soli" { \dynamicUp \EilfSoliNotes }
+  %         }
+  %         \new Lyrics \lyricsto Soli \EilfSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \EilfOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \EilfBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 70 }
+  %   }
+  % }
   \bookpart {
     \header {
-      genre = "A C C O M P A G N A T O"
-      number = "15"
-      title = "Eilf auserwählte Jünger"
+      genre = "A R I A"
+      number = "16"
+      title = "Mein Herr! mein Gott!"
     }
-    \tocLabelLong "eilf" "15" "Accompagnato" "Eilf auserwählte Jünger"
+    \tocLabelLong "meinherr" "16" "Aria" "Mein Herr! mein Gott!"
     \paper {
-      system-system-spacing.basic-distance = #30
-      system-system-spacing.minimum-distance = #30
+      system-system-spacing.basic-distance = #25
+      system-system-spacing.minimum-distance = #25
       systems-per-page = #2
     }
     \score {
       <<
         \new StaffGroup <<
+          \new Staff <<
+            \set Staff.instrumentName = \markup \center-column { "fl" "1, 2" }
+            \partCombine \MeinHerrFlautoI \MeinHerrFlautoII
+          >>
+        >>
+        \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \EilfViolinoI
+              \MeinHerrViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \EilfViolinoII
+              \MeinHerrViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \EilfViola
+            \MeinHerrViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "T 1" "B" }
-            \new Voice = "Soli" { \dynamicUp \EilfSoliNotes }
+            \set Staff.instrumentName = "T 2"
+            \new Voice = "Tenore" { \dynamicUp \MeinHerrTenoreNotes }
           }
-          \new Lyrics \lyricsto Soli \EilfSoliLyrics
+          \new Lyrics \lyricsto Tenore \MeinHerrTenoreLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \EilfOrgano
+            \MeinHerrOrgano
           }
         >>
-        \new FiguredBass { \EilfBassFigures }
+        \new FiguredBass { \MeinHerrBassFigures }
       >>
       \layout { }
       \midi { \tempo 4 = 70 }

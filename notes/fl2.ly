@@ -383,3 +383,136 @@ TodWoFlautoII = {
     fis2 r\fermata \bar "|." %124 finis
   }
 }
+
+MeinHerrFlautoII = {
+  \relative c' {
+    \clef treble
+    \key e \major \time 3/4 \tempoMeinHerr
+    \partial 8 r8 R2.*4
+    \tempoMeinHerrB h''2.~\fpE %5
+    h~
+    h16 e, gis h e4 r
+    R2.*8 %15
+    r4 fis,16(\pE gis) gis( a) \appoggiatura a gis8 fis16( eis)
+    fis( gis) gis( a) cis,8 cis4( h16 ais)
+    ais8( h16) dis dis4 r
+    r r8 e4\fE cis8\pE
+    cis(\ppE h16) dis dis4 r %20
+    r r8 e4\fE cis8\pE
+    cis(\ppE h) dis4\fE r
+    R2.*3 %25
+    r4 e16(\ppE fis) fis( gis) gis8. e16
+    dis( cis) cis( h) h4 r
+    dis16( cis) cis( h) h4 r
+    r8 fis16( h) h8 h16( dis) dis8 dis16( fis)
+    dis4 r r %30
+    r r8 dis16(\fE fis) fis( h) h( dis)
+    h8 h32( dis16.) cis16( h ais gis fis8) e
+    dis16 cis h8 r fis16( h) h( dis) dis( fis)
+    e8 e32( gis16.) fis16( e dis cis h8) a'!
+    gis16 fis e8 r gis fis h %35
+    gis8. gis16 gis4. e8
+    e4( dis16) h( ais cis h dis cis e)
+    e4( dis16) h(\pE ais cis h dis cis e)
+    e4( dis) r
+    \tempoMeinHerrC R2.*4 %43
+    \tempoMeinHerrD h'2.~\fppE
+    h~ %45
+    h8. e,16 dis8. fis16 e8. gis16
+    e4( dis) r
+    R2.
+    r8 e16( gis) gis( gis) gis( e) e8 e
+    e8. a16 a4. cis,8 %50
+    cis4( h) r
+    R2.*4 %55
+    r4 a16( h) h( cis) cis8. a16
+    gis8 gis16( h) h( e) e( gis) fis8. fis16
+    e8 gis,16( h) h( e) e( gis) fis8. fis16
+    fis8( e16) d d2
+    d8( cis16) e e2 %60
+    e8( dis) r dis4\fE dis16(\pE fis)
+    fis( e a gis) gis8.( fis32 e) fis8.( e32 dis)
+    e16( fis) fis( gis) r8 eis4\fE eis16(\pE gis)
+    gis( fis h a) a8.( gis32 fis) gis8.( fis32 eis)
+    fis16( gis) gis( a) r8 fis4\fE dis!16(\pE fis) %65
+    fis8( e!) r e4\fE ais,16(\pE cis)
+    cis4( h16) h\fE cis dis e fis gis ais
+    h fis dis' h h4 r
+    R2.*3 %71
+    r4 e,16(\ppE fis) fis( gis) \appoggiatura gis fis8 e16( dis)
+    e( fis) fis( gis) gis8 h,4( a16 gis)
+    gis8( a) fis4.( gis16 a)
+    gis4 r r %75
+    r8 e16( gis) gis8 gis16( h) h8 h16( e)
+    e( fis) fis( gis) gis4 r
+    R2.
+    r4 r8 gis,16(\fE h) h( e) e( gis)
+    e8 e32( gis16.) fis16( e dis cis h8) a %80
+    gis16 fis e8 r d' d16( cis) cis( h)
+    a8. fis'16 fis4~ fis16( e) e( d)
+    cis h a8 r cis h e
+    cis8. cis16 cis8~ cis32( d cis h cis8.) a16
+    a4( gis16) gis( fis a gis e' dis fis,) %85
+    fis4( e16) gis(\pE fis a gis e' dis fis,)
+    fis4( e8) e16(\fE gis) gis( h) h( gis)
+    a-! a'-! gis-! fis-! fis-! e-! dis-! cis-! h-! a-! gis-! fis-!
+    e2\fermata r8
+    \time 3/8 \tempoMeinHerrE \newSpacingSection
+      \partial 8 r8 R4.*4 %93
+    a8(\ppE cis cis)
+    cis( cis cis) %95
+    cis( a' a)
+    a4 r8
+    R4.*12 %109
+    fis,8( a a) %110
+    a( a a)
+    a( fis' fis)
+    fis4 cis8
+    cis4.(
+    h %115
+    e
+    dis!
+    fis
+    e)
+    e( %120
+    dis4) r8
+    R4.*6 %127
+    cis16( h a4)
+    cis16( h a4)
+    R4.*6 %135
+    cis16( h a4)
+    cis16( h a4)
+    e'4.~
+    e4 r8
+    d4.~ %140
+    d4 r8
+    R4.*3
+    r8 r cis %145
+    h4.~
+    h
+    a~
+    a8( h' gis)
+    fis4. %150
+    eis
+    fis8( cis a')
+    fis4 r8
+    R4.*46 %199
+    r8 r fis %200
+    eis( fis eis)
+    eis( h' a
+    gis fis eis)
+    fis4 fis8
+    dis!( e! dis) %205
+    \once \slurDashed dis( a' gis
+    fis e dis)
+    e4 h8\pocoFE
+    cis4.
+    cis' %210
+    h
+    e
+    a,16( gis fis4)
+    e16( fis gis4)
+    e4.( %215
+    dis4) \markDaCapo \bar "||" %216 finis
+  }
+}

@@ -1070,6 +1070,390 @@ TriumphbTenoreLyrics = \lyricmode {
   roth. %21 finis
 }
 
+MeinHerrTenoreNotes = {
+  \relative c' {
+    \clef "treble_8"
+    \key e \major \time 3/4 \autoBeamOff \tempoMeinHerr
+    \partial 8 \mvTr h8\pE^\soloE e2 r8 h
+    d4( cis) r8 cis
+    e4( dis) r8 h
+    a4( gis) r
+    \tempoMeinHerrB r8 h e4 gis %5
+    fis8. fis,16 h4 a
+    gis r8 e gis h
+    e e32([ gis16.)] fis16([ e dis cis] h8) a
+    gis16([ fis)] e8 r gis fis h
+    gis8. e'16 e4. gis,8 %10
+    gis4( fis8) h dis dis
+    e e32([ gis16.)] fis16([ e dis cis] h8) a
+    gis h e,16([ fis)] gis([ a)] h h([ cis d)]
+    cis([ h)] a8 r cis cis16([ h)] h([ a)]
+    gis8. d'16 d4~ d16[ cis] cis([ h)] %15
+    a([ gis)] fis8 r cis' \appoggiatura cis16 h8 a16([ gis)]
+    a8 gis16([ fis)] cis'8 e!4 dis!16([ cis)]
+    cis8([ dis)] r fis16([ dis)] dis([ h) h( fis)]
+    a!8([ gis)] r16 ais([ h cis)] cis[( cis dis e)]
+    e8([ dis)] r fis16([ dis)] dis([ h) h( fis)] %20
+    a!8([ gis)] r16 ais([ h cis)] cis[( cis dis e)]
+    e8([ dis)] r fis e32([ dis16.)] cis32([ h16.)]
+    gis'8. gis,16 gis4( fis8.) e'16
+    dis([ cis)] h8 r a! a16([ gis)] gis([ fis)]
+    e8. cis'16 cis4~ cis16[ h] h([ a)] %25
+    gis([ fis)] e8 r4 r8 e
+    h'8.([ ais16)] h4 gis'8. ais,16
+    h8 h dis cis16([ h)] gis'8. ais,16
+    h4 dis fis
+    r gis ais, %30
+    h2 r4
+    R2.*7 %38
+    r4 r r8 fis
+    \tempoMeinHerrC h2 r8 fis %40
+    a!4( gis) r8 h
+    e2 r8 e
+    d4( cis) r
+    \tempoMeinHerrD r8 fis, h4 a!
+    gis8 h e4 gis %45
+    gis( fis8.) a,16 gis8. e'16
+    gis,4( fis8) fis h dis
+    e e32([ gis16.)] fis16([ e dis cis] h8) a
+    gis16([ fis)] e8 r e gis h
+    cis8. a16 a4. cis8 %50
+    cis4( h8) e, gis h
+    a a32([ cis16.)] h16([ a gis fis] e8) d'
+    cis8. e,16  fis8. d'16 fis,8([ gis16)] a
+    gis([ fis)] e8 r d' d16([ cis)] cis([ h)]
+    a8. fis'16 fis4~ fis16[ e] e([ d)] %55
+    cis([ h)] a8 r4 r8 a
+    e'4 e, fis8. a16
+    gis8 h e e, fis8. a16
+    a8([ gis)] r h16([ gis)] gis([ e) e( d')]
+    d8([ cis)] r cis16([ ais)] ais([ fis) fis( e')] %60
+    e8([ dis)] r fis16([ dis)] dis([ h) h( fis)]
+    a([ gis) cis( h)] h8.([\prall a32 gis)] a8.([\prall gis32 fis)]
+    gis4 r8 gis'16([ eis)] eis([ cis) cis( gis)]
+    h([ a) d( cis)] cis8.([\prall h32 a)] h8.([\prall a32 gis)]
+    a4 r16 dis([ e fis] fis[ dis h a)] %65
+    a8([ gis)] r16 ais([ h cis] cis[ ais fis e)]
+    e4( dis) r
+    r r8 fis' e32([ dis16.)] cis32([ h16.)]
+    gis'8. gis,16 gis4( fis8.) e'16
+    dis([ cis)] h8 r a! a16([ gis)] gis([ fis)] %70
+    e8. cis'16 cis4~ cis16[ h] h([ a)]
+    gis([ fis)] e8 r h' \appoggiatura h16 a8 gis16([ fis)]
+    gis8 fis16([ e)] h'8 d4 cis16([ h)]
+    h8([ cis)] dis4.( e16[ fis)]
+    e4 e, fis8. a16 %75
+    gis4 h e
+    r r r8 h
+    cis8. a16 fis4 dis'
+    e2 r4
+    R2.*9 \noBreak %88
+    r2\fermata r8
+    \time 3/8 \tempoMeinHerrE \newSpacingSection
+      \partial 8 e a,4. \noBreak %90
+    \appoggiatura { cis16[ h] } a4.
+    h
+    \appoggiatura { d16[ cis] } h4.
+    cis
+    e %95
+    a~
+    a4 e8
+    fis4.
+    fis,
+    e %100
+    e'
+    d16([ cis] h4)
+    cis16([ h] a4)
+    cis4.(
+    h4) cis8 %105
+    fis,4.
+    \appoggiatura { a16[ gis] } fis4.
+    gis
+    \appoggiatura { h16[ a] } gis4.
+    a %110
+    cis
+    fis~
+    fis4 cis8
+    e!4.
+    dis! %115
+    cis
+    h
+    a!
+    gis
+    gis( %120
+    fis4) a8
+    gis4.
+    \appoggiatura { gis16[ a] } h4.
+    a
+    \appoggiatura { a16[ h] } cis4. %125
+    h
+    \appoggiatura { h16[ cis] } d4.
+    cis16([ h] a4)
+    a4 e8
+    fis4. %130
+    fis'
+    e~
+    e8[ a] d,
+    cis16([ h] a4)
+    h4.\prall %135
+    a~
+    a4 r8
+    e'4.
+    g16([ fis] e4)
+    d4.~ %140
+    d8 h gis!
+    fis4.(
+    eis4) a8
+    a4.
+    gis4 cis8 %145
+    d4.
+    eis
+    fis~
+    fis8[ d] h
+    a16([ gis] fis4) %150
+    gis4.\prall
+    fis~
+    fis4 a8
+    gis([ a)] gis
+    gis([ d')] cis %155
+    h([ a)] gis
+    a4 cis8
+    cis([ d)] cis
+    cis([ fis)] cis
+    cis([ d)] cis %160
+    cis([ fis)] cis
+    r r dis!
+    dis([ e)] h
+    h([ cis)] a
+    gis[ fis a] %165
+    a[ gis] r
+    cis[ h d]
+    d[ cis] r
+    h4.~
+    h~ %170
+    h4 r8
+    r a4~
+    a8 h a
+    gis([ fis)] e
+    r d'4~ %175
+    d8[ cis] his
+    cis4 cis8
+    h!([ cis)] h
+    h([ e)] h
+    h([ cis)] h %180
+    h([ e)] h
+    r r his
+    his([ cis)] gis
+    gis([ a)] fis
+    his4.~ %185
+    his8[ dis cis]
+    cis4.~
+    cis8[ e dis]
+    dis4.~
+    dis8[ gis fis] %190
+    e[ dis cis]
+    gis4 r8
+    gis4 r8
+    r r fis'
+    e16([ dis] cis4) %195
+    cis4.
+    dis
+    his
+    cis~
+    cis4 r8 %200
+    R4.*15 %215
+    r8 r \markDaCapo \bar "||" %216 finis
+  }
+}
+
+MeinHerrTenoreLyrics = \lyricmode {
+  Mein Herr! mein
+  Gott! mein
+  Herr! mein
+  Gott!
+  Dein iſt das %5
+  Reich, die Macht iſt
+  dein! So -- wahr dein
+  Fuß dieß Land __ be --
+  tre -- ten, wirſt du der
+  Er -- de Schutz -- gott %10
+  ſeyn. __ Je -- ho -- vens
+  Sohn, Je -- ho -- vens
+  Sohn wird uns, wird uns ver --
+  tre -- ten! Ver -- ſöhn -- te,
+  kommt, ihn an -- zu -- %15
+  be -- ten! Er -- löſ -- te,
+  ſagt ihm Dank! ſagt ihm
+  Dank! __ _ _
+  _ _ _
+  _ _ _ %20
+  _ _ _
+  _ Je -- ho -- vens
+  Sohn wird ihn __ ver --
+  tre -- ten! Ver -- ſöhn -- te,
+  kommt, ihn an -- zu -- %25
+  be -- ten! Er --
+  löſ -- te, ſagt ihm
+  Dank! Er -- löſ -- te, ſagt ihm
+  Dank! Dank! Dank!
+  ſagt ihm %30
+  Dank!
+
+  Mein %39
+  Herr! mein %40
+  Gott! mein
+  Herr! mein
+  Gott!
+  Dein iſt das
+  Reich, die Macht iſt %45
+  dein! __ die Macht iſt
+  dein! __ So -- wahr dein
+  Fuß dieß Land __ be --
+  tre -- ten, wirſt du der
+  Er -- de Schutz -- gott %50
+  ſeyn. __ Je -- ho -- vens
+  Sohn, Je -- ho -- vens
+  Sohn wird ihn, wird ihn ver --
+  tre -- ten! Ver -- ſöhn -- te,
+  kommt, ihn an -- zu -- %55
+  be -- ten! Er --
+  löſ -- te, ſagt ihm
+  Dank! Er -- löſ -- te, ſagt ihm
+  Dank! __ _ _
+  _ _ _ %60
+  _ _ _
+  _ _ _
+  _ _ _
+  _ _ _
+  _ _ %65
+  _ _
+  _
+  Je -- ho -- vens
+  Sohn wird uns __ ver --
+  tre -- ten! Ver -- ſöhn -- te, %70
+  kommt, ihn an -- zu --
+  be -- ten! Er -- löſ -- te,
+  ſagt ihm Dank! ſagt ihm
+  Dank! Er --
+  löſ -- te, ſagt ihm %75
+  Dank! Dank! Dank!
+  Er --
+  löſ -- te, ſagt ihm
+  Dank!
+
+  Zu %89
+  dir %90
+  ſteigt
+  mein
+  Ge --
+  ſang
+  em -- %95
+  por, __
+  aus
+  je --
+  dem
+  Thal, %100
+  aus
+  je --
+  dem __
+  Hain. __
+  Zu %105
+  dir
+  ſteigt
+  mein
+  Ge --
+  ſang %110
+  em --
+  por, __
+  aus
+  je --
+  dem %115
+  Thal,
+  aus
+  je --
+  dem
+  Hain. %120
+  __ Dir
+  will
+  ich
+  auf
+  dem %125
+  Feld
+  Al --
+  tä --
+  re, und
+  auf %130
+  den
+  Hü --
+  geln
+  Tem --
+  pel %135
+  weyhn. __
+
+  Ich
+  will __
+  dir __ %140
+  auf dem
+  Feld __
+  Al --
+  tä --
+  re, und %145
+  auf
+  den
+  Hü --
+  geln
+  Tem -- %150
+  pel
+  weyhn. __
+  Lallt
+  mei -- ne
+  Zun -- ge %155
+  nicht mehr
+  Dank: ſo
+  ſey der
+  Ehr -- furcht
+  from -- me %160
+  Zäh -- re
+  mein
+  letz -- ter
+  Lob -- ge --
+  ſang. __ %165
+  _
+  _
+  _
+  _
+
+  Lallt __ %172
+  mei -- ne
+  Zun -- ge
+  nicht __ %175
+  mehr
+  Dank: ſo
+  ſey der
+  Ehr -- furcht
+  from -- me %180
+  Zäh -- re
+  mein
+  letz -- ter
+  Lob -- ge --
+  ſang. __ %185
+
+  _
+
+  _
+  %190
+  _
+  _
+  _
+  mein
+  letz -- %195
+  ter
+  Lob --
+  ge --
+  ſang. __
+  %200 finis
+}
+
 % TenoreNotes = {
 %   \relative c' {
 %     \clef "treble_8"

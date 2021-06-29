@@ -1353,3 +1353,227 @@ EilfViola = {
     r cis-! dis-! r\fermata \bar "|." %41 finis
   }
 }
+
+MeinHerrViola = {
+  \relative c' {
+    \clef alto
+    \key e \major \time 3/4 \tempoMeinHerr
+    \partial 8 r8 r4 e8(\pp e e e)
+    r4 e8( e e e)
+    r4 h8( h h h)
+    r4 gis8( gis gis gis)
+    \tempoMeinHerrB e4\f r8 h'16(\p e) e( gis) gis( h) %5
+    h8-! dis,-! r h h h
+    h4 gis r
+    cis cis dis
+    h h h
+    h cis cis %10
+    h h h
+    h cis dis
+    h h e
+    e cis fis
+    h, gis cis %15
+    cis cis cis
+    cis fis, fis'
+    fis r8 h,( h h)
+    h4 cis2\fp
+    r4 r8 h\pp h h %20
+    h4 cis2\fp
+    r8 h16(\f dis) dis( fis) fis( h) fis4\pp
+    e2 fis,4
+    fis dis' dis
+    gis, fis' fis, %25
+    h r r
+    h r8. dis16[ e8. cis16]
+    dis4 r8. dis16[ e8. cis16]
+    dis8( h) h( h) h( h)
+    r4 e cis %30
+    dis r8 fis,16(\f h) h( dis) dis( fis)
+    gis4 cis, cis
+    h r8 h16( dis) dis( fis) fis( h)
+    e,4 cis dis
+    h h h %35
+    h cis cis
+    h h r8 fis
+    fis2 r8 fis\p
+    fis2 r4
+    \tempoMeinHerrC r h8(\pp h h h) %40
+    r4 h8( h h h)
+    r4 e8( e e e)
+    r4 cis8( cis cis cis)
+    \tempoMeinHerrD h4\f r8 dis!16(\pp fis) fis( h) h( dis)
+    h4 r8 h,16( e) e( gis) gis( h) %45
+    h4 h, h
+    h h8 h16( dis) dis( fis) fis( dis)
+    e4 cis dis
+    h e, r
+    e' fis fis %50
+    e~ e8 gis, h e
+    e4 d h
+    a a h
+    e, e gis
+    cis h h %55
+    e, r r
+    r r8 e' fis dis!
+    h4 r8 e fis dis
+    h4 r8 e( e e)
+    e4 r8 fis( fis fis) %60
+    fis4 h,2\fp
+    R2.
+    r4 cis2\fp
+    R2.
+    r4 dis!2\fp %65
+    r4 cis2\fp
+    fis,\pp r4
+    R2.
+    e'4 cis cis
+    h h dis %70
+    gis,8. cis16 fis,4 fis'
+    h, h h
+    h gis e
+    e r r
+    r r8 h' a dis %75
+    h( e) e( e) e( e)
+    r4 r r8 e
+    e8.\pocoF cis16 h4 fis
+    gis r r
+    e'\f cis dis %80
+    h e gis
+    cis, h'^\critnote e,
+    e e e
+    e fis fis
+    e e r8 h %85
+    h4 h r8 h\p
+    h4 h r8 h\f
+    cis8. cis16 dis!4 dis
+    e2\fermata r8
+    \time 3/8 \tempoMeinHerrE \newSpacingSection
+      \partial 8 r8 cis8(\pp cis cis) \noBreak %90
+    cis( cis cis)
+    d( d d)
+    d( d d)
+    e( e e)
+    a( a a) %95
+    e( e e)
+    e4 cis8
+    d( d d)
+    d( d d)
+    e( e e) %100
+    e( e e)
+    e( e e)
+    e( e e)
+    e( e e)
+    e4 r8 %105
+    a,8( a a)
+    a( a a)
+    h( h h)
+    h( h h)
+    cis( cis cis) %110
+    fis( fis fis)
+    cis( cis cis)
+    cis4 cis8
+    cis( cis cis)
+    fis( fis fis) %115
+    ais,( ais ais)
+    h( h h)
+    dis!( dis dis)
+    h( h h)
+    h( h h) %120
+    h4 h8
+    h( h h)
+    gis( gis gis)
+    a( a a)
+    e'( e e) %125
+    e( e e)
+    gis( gis gis)
+    e( cis cis)
+    cis( cis cis)
+    a( a a) %130
+    d( d d)
+    h( h h)
+    cis( cis fis)
+    e( cis cis)
+    gis( gis gis) %135
+    cis( cis cis)
+    cis( cis cis)
+    fis( fis fis)
+    fis( fis fis)
+    fis( fis fis) %140
+    h,( h h)
+    gis( gis gis)
+    gis( gis cis)
+    cis( cis cis)
+    cis( cis cis) %145
+    h( h h)
+    gis( gis gis)
+    d'( d d)
+    d( d d)
+    cis( cis cis) %150
+    cis( cis h)
+    a( a a)
+    a4 cis8
+    cis4 r8
+    cis4 r8 %155
+    R4.
+    cis4 fis8
+    gis4 r8
+    fis4 r8
+    gis4.( %160
+    fis4) r8
+    r r fis
+    h,4 r8
+    a4 r8
+    h4.~ %165
+    h4 r8
+    e4.(
+    gis4) r8
+    d4.~
+    d( %170
+    cis4) r8
+    cis4 r8
+    h4 r8
+    h4 r8
+    fis'4 r8 %175
+    dis4 r8
+    e4 e8
+    fis4 r8
+    e4 r8
+    fis4.( %180
+    e4) r8
+    dis!4.(
+    e4) r8
+    cis4 r8
+    r gis'( a %185
+    gis4) r8
+    r a( gis
+    a4) r8
+    r dis,( cis
+    his4) r8 %190
+    cis4 r8
+    r his( cis
+    dis cis his)
+    r r dis
+    e4.~ %195
+    e
+    fis
+    dis
+    e~
+    e4 fis8 %200
+    cis4 r8
+    cis4 r8
+    R4.
+    fis4 r8
+    h,4 r8 %205
+    h4 r8
+    R4.
+    e4 e8\pocoF
+    e( e e)
+    e( e e) %210
+    e( e e)
+    h( h h)
+    h( h h)
+    h( h h)
+    h( h h) %215
+    h4 \markDaCapo \bar "||" %216 finis
+  }
+}
