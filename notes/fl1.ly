@@ -523,3 +523,70 @@ MeinHerrFlautoI = {
     fis4) \markDaCapo \bar "||" %216 finis
   }
 }
+
+TriumphcFlautoI = {
+  \relative c' {
+    \clef treble
+    \key e \major \time 6/8 \tempoTriumphc
+    h''2.\fE
+    e
+    h~
+    h4 r8 r4 r8
+    R2.*2 %6
+    h2.
+    e
+    h
+    e %10
+    h
+    cis
+    dis
+    e
+    cis %15
+    \once \tieDashed fis~
+    fis4.~ fis4 e8
+    dis4.~ dis4 r8
+    R2.*2 %20
+    dis2.
+    cis
+    fis
+    h,
+    cis4.~ cis4 e8 %25
+    dis2.
+    cis
+    h4.~ h4 r8
+    R2.*4 %32
+    h2.
+    e
+    h %35
+    e
+    gis,
+    a
+    cis
+    h %40
+    e
+    h~
+    h4.~ h4 a!8
+    gis4.~ gis4 r8
+    R2.*3 %47
+    e'2.
+    cis
+    dis %50
+    e
+    cis
+    fis
+    dis
+    e4.~ e4 r8 %55
+    R2.*2
+    e2.
+    cis
+    dis %60
+    e
+    cis
+    fis
+    dis
+    e~ %65
+    e4.~ e4 r8
+    R2.*3
+    R2.\fermata \bar "|." %70 finis
+  }
+}

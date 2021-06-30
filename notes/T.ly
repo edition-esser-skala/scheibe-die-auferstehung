@@ -1454,6 +1454,124 @@ MeinHerrTenoreLyrics = \lyricmode {
   %200 finis
 }
 
+TriumphcTenoreNotes = {
+  \relative c' {
+    \clef "treble_8"
+    \key e \major \time 6/8 \autoBeamOff \tempoTriumphc
+    R2.*6 %6
+    \mvTr e2.\fE^\tuttiE
+    h
+    e
+    h %10
+    e
+    e
+    h
+    h
+    cis %15
+    cis~
+    cis
+    h4.~ h4 r8
+    R2.*2 %20
+    fis'2.
+    fis
+    fis
+    gis4.( fis)
+    gis( fis) %25
+    fis2.(
+    gis4.) e
+    dis4.~ dis4 r8
+    R2.*4 %32
+    e2.
+    h
+    e %35
+    h
+    h
+    cis
+    e
+    e %40
+    e
+    fis~
+    fis
+    h,4.~ h4 r8
+    R2.*3 %47
+    gis'2.
+    e
+    h %50
+    h
+    cis
+    cis
+    h
+    h4.~ h4 r8 %55
+    R2.*2
+    gis'2.
+    e
+    h %60
+    h
+    cis
+    cis
+    h
+    h~ %65
+    h4.~ h4 r8
+    R2.*3
+    R2.\fermata \bar "|." %70 finis
+  }
+}
+
+TriumphcTenoreLyrics = \lyricmode {
+  Tri -- %7
+  umph!
+  Tri --
+  umph! %10
+  der
+  Sohn
+  des
+  Höch --
+  ſten %15
+  ſie --
+
+  get! __
+
+  Er %21
+  eilt
+  zum
+  Sühn --
+  al -- %25
+  tar __
+  em --
+  por. __
+
+  Tri -- %33
+  umph!
+  Tri -- %35
+  umph!
+  Sein
+  Va --
+  ter
+  iſt %40
+  ver --
+  gnü --
+  
+  get. __
+
+  Er %48
+  nimmt
+  uns %50
+  in
+  der
+  En --
+  gel
+  Chor. __ %55
+
+  Er %58
+  nimmt
+  uns %60
+  in
+  der
+  En --
+  gel
+  Chor. __ %65 finis
+}
+
 % TenoreNotes = {
 %   \relative c' {
 %     \clef "treble_8"

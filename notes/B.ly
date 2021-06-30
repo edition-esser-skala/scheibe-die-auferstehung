@@ -731,6 +731,124 @@ TriumphbBassoLyrics = \lyricmode {
   roth. %21 finis
 }
 
+TriumphcBassoNotes = {
+  \relative c {
+    \clef bass
+    \key e \major \time 6/8 \autoBeamOff \tempoTriumphc
+    R2.*6 %6
+    \mvTr e2.\fE^\tuttiE
+    e
+    e
+    e %10
+    e
+    a
+    h
+    e,
+    a %15
+    ais~
+    ais
+    h4.~ h4 r8
+    R2.*2 %20
+    h2.
+    fis
+    dis
+    e4.( dis)
+    e( fis) %25
+    h2.
+    e,4.( fis)
+    h~ h4 r8
+    R2.*4 %32
+    e,2.
+    e
+    e %35
+    e
+    e
+    a
+    a
+    e %40
+    cis
+    dis~
+    dis
+    e4.~ e4 r8
+    R2.*3 %47
+    e2.
+    a
+    h %50
+    e,
+    a
+    fis
+    h
+    e,4.~ e4 r8 %55
+    R2.*2
+    e2.
+    a
+    h %60
+    e,
+    a
+    fis
+    h
+    e,~ %65
+    e4.~ e4 r8
+    R2.*3
+    R2.\fermata \bar "|." %70 finis
+  }
+}
+
+TriumphcBassoLyrics = \lyricmode {
+  Tri -- %7
+  umph!
+  Tri --
+  umph! %10
+  der
+  Sohn
+  des
+  Höch --
+  ſten %15
+  ſie --
+
+  get! __
+
+  Er %21
+  eilt
+  zum
+  Sühn --
+  al -- %25
+  tar
+  em --
+  por. __
+
+  Tri -- %33
+  umph!
+  Tri -- %35
+  umph!
+  Sein
+  Va --
+  ter
+  iſt %40
+  ver --
+  gnü --
+
+  get. __
+
+  Er %48
+  nimmt
+  uns %50
+  in
+  der
+  En --
+  gel
+  Chor. __ %55
+
+  Er %58
+  nimmt
+  uns %60
+  in
+  der
+  En --
+  gel
+  Chor. __ %65 finis
+}
+
 % BassoNotes = {
 %   \relative c {
 %     \clef bass

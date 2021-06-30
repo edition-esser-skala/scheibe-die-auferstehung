@@ -217,9 +217,9 @@
   %   \header {
   %     genre = "C H O R A L"
   %     number = "4"
-  %     title = "Triumph! des Herrn Geſalbter ſieget!"
+  %     title = "Triumph! Triumph! des Herrn Geſalbter ſieget!"
   %   }
-  %   \tocLabelLong "triumph" "4" "Choral" "Triumph! des Herrn Geſalbter ſieget!"
+  %   \tocLabelLong "triumph" "4" "Choral" "Triumph! Triumph! des Herrn Geſalbter ſieget!"
   %   \score {
   %     <<
   %       \new StaffGroup <<
@@ -820,9 +820,9 @@
   %   \header {
   %     genre = "C H O R A L"
   %     number = "14"
-  %     title = "Triumph! der Fürſt des Lebens ſieget!"
+  %     title = "Triumph! Triumph! der Fürſt des Lebens ſieget!"
   %   }
-  %   \tocLabelLong "triumphb" "14" "Choral" "Triumph! der Fürſt des Lebens ſieget!"
+  %   \tocLabelLong "triumphb" "14" "Choral" "Triumph! Triumph! der Fürſt des Lebens ſieget!"
   %   \score {
   %     <<
   %       \new StaffGroup <<
@@ -951,24 +951,87 @@
   %     \midi { \tempo 4 = 70 }
   %   }
   % }
+  % \bookpart {
+  %   \header {
+  %     genre = "A R I A"
+  %     number = "16"
+  %     title = "Mein Herr! mein Gott!"
+  %   }
+  %   \tocLabelLong "meinherr" "16" "Aria" "Mein Herr! mein Gott!"
+  %   \paper {
+  %     system-system-spacing.basic-distance = #25
+  %     system-system-spacing.minimum-distance = #25
+  %     systems-per-page = #2
+  %   }
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new Staff <<
+  %           \set Staff.instrumentName = \markup \center-column { "fl" "1, 2" }
+  %           \partCombine \MeinHerrFlautoI \MeinHerrFlautoII
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \MeinHerrViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \MeinHerrViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \MeinHerrViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T 2"
+  %           \new Voice = "Tenore" { \dynamicUp \MeinHerrTenoreNotes }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \MeinHerrTenoreLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \MeinHerrOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \MeinHerrBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 70 }
+  %   }
+  % }
   \bookpart {
     \header {
-      genre = "A R I A"
-      number = "16"
-      title = "Mein Herr! mein Gott!"
+      genre = "C H O R A L"
+      number = "17"
+      title = "Triumph! Triumph! der Sohn des Höchſten ſieget!"
     }
-    \tocLabelLong "meinherr" "16" "Aria" "Mein Herr! mein Gott!"
-    \paper {
-      system-system-spacing.basic-distance = #25
-      system-system-spacing.minimum-distance = #25
-      systems-per-page = #2
-    }
+    \tocLabelLong "triumphc" "17" "Choral" "Triumph! Triumph! der Sohn des Höchſten ſieget!"
     \score {
       <<
         \new StaffGroup <<
-          \new Staff <<
-            \set Staff.instrumentName = \markup \center-column { "fl" "1, 2" }
-            \partCombine \MeinHerrFlautoI \MeinHerrFlautoII
+          \new Staff \with { \smallStaffDistance } {
+            \set Staff.instrumentName= \markup \center-column { "fl" "1, 2" }
+            \partCombine \TriumphcFlautoI \TriumphcFlautoII
+          }
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = "ob"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \TriumphcOboeI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \TriumphcOboeII
+            }
           >>
         >>
         \new StaffGroup <<
@@ -976,36 +1039,54 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \MeinHerrViolinoI
+              \TriumphcViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \MeinHerrViolinoII
+              \TriumphcViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \MeinHerrViola
+            \TriumphcViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "T 2"
-            \new Voice = "Tenore" { \dynamicUp \MeinHerrTenoreNotes }
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \TriumphcSopranoNotes }
           }
-          \new Lyrics \lyricsto Tenore \MeinHerrTenoreLyrics
+          \new Lyrics \lyricsto Soprano \TriumphcSopranoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \TriumphcAltoNotes }
+          }
+          \new Lyrics \lyricsto Alto \TriumphcAltoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \TriumphcTenoreNotes }
+          }
+          \new Lyrics \lyricsto Tenore \TriumphcTenoreLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \TriumphcBassoNotes }
+          }
+          \new Lyrics \lyricsto Basso \TriumphcBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \MeinHerrOrgano
+            \TriumphcOrgano
           }
         >>
-        \new FiguredBass { \MeinHerrBassFigures }
+        \new FiguredBass { \TriumphcBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 70 }
+      \midi { \tempo 4. = 80 }
     }
   }
 }

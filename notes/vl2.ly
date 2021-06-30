@@ -1576,3 +1576,80 @@ MeinHerrViolinoII = {
     dis4) \markDaCapo \bar "||" %216 finis
   }
 }
+
+TriumphcViolinoII = {
+  \relative c' {
+    \clef treble
+    \key e \major \time 6/8 \tempoTriumphc
+    <e h' gis'>8\fE h'16 a gis fis e8 gis h
+    <e, h' gis'> h'16 a gis fis e8 gis h
+    gis' a( gis gis fis e)
+    e( dis fis) e( dis fis)
+    fis4.( e4) dis8 %5
+    e \parOn e,-\parenthesize-! fis-! gis-! a-! \parOff fis-\parenthesize-!
+    <e h' gis'> h'16 a gis fis e8 gis h
+    <e, h' gis'> h'16 a gis fis e8 gis h
+    e e, fis gis a fis
+    gis e' fis gis fis e %10
+    <e, h' gis'> h'16 a gis fis e8 e' d
+    cis e,16 d cis h \kneeBeam a8 fis'' e
+    dis! fis,16 e dis cis \kneeBeam h8 h'' a
+    gis e fis gis a h
+    a e16 d cis h a8 e' e %15
+    fis cis ais fis ais cis
+    cis fis, gis ais h cis
+    h fis16 e dis cis h8 dis fis
+    <dis' fis, h,> fis,16 e dis cis h8 dis fis
+    h h cis dis e cis %20
+    dis fis16 e dis cis h8 dis, eis
+    fis ais cis cis4 cis8
+    dis fis16 e dis cis h8 h' fis
+    fis( e) h'~ h h, fis'
+    e cis gis fis cis' ais %25
+    h dis e fis gis a!
+    gis4. ais,\prall
+    h8 h cis dis e cis
+    dis h cis dis e cis
+    dis fis, e dis cis h %30
+    e gis' e fis, ais cis
+    h h cis dis e fis
+    e h16 a gis fis e8 gis h
+    <e, h' gis'> h'16 a gis fis e8 gis h
+    e e, fis gis a fis %35
+    gis e' fis gis fis e
+    e h16 a gis fis e8 e' d
+    cis e,16 d cis h a8 cis e
+    <cis' e, a,> e16 d cis h a8 gis a
+    gis e fis gis a h %40
+    cis dis e ais, h cis
+    h fis'16 e dis cis h8 dis fis
+    h, h cis dis e fis
+    e e, fis gis a h
+    a( gis h) a( gis h) %45
+    h4.( a4) a'8
+    a4.( gis4) fis8
+    e h16 a gis fis e8 e' d
+    cis e,16 d cis h a8 cis' e
+    dis! fis,16 e dis cis \kneeBeam h8 fis'' a %50
+    gis e fis gis a h
+    cis cis, d e fis gis
+    a fis gis a h cis
+    cis4.( dis,!4) fis8
+    e h16 a gis fis e8 gis h %55
+    <e, h' gis'> h'16 a gis fis e8 gis h
+    e gis, a h cis dis
+    e h16 a gis fis e8 h' d
+    cis e,16 d cis h a8 cis' e
+    dis! fis16 e dis cis h8 fis' a %60
+    gis e, fis gis a h
+    a cis d e fis gis
+    a fis gis a h cis
+    cis4.( dis,!4) fis8
+    e h16 a gis fis e8 gis h %65
+    <e, h' gis'> h'16 a gis fis e8 gis h
+    <e, h' gis'> e fis gis fis e
+    a, a' fis h, fis' a
+    gis4 r8 <gis' h, e,>4 r8
+    q h,16 a gis fis <e h' gis'>4 r8\fermata \bar "|." %70 finis
+  }
+}

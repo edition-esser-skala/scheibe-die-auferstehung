@@ -1161,6 +1161,124 @@ TriumphbAltoLyrics = \lyricmode {
   roth. %21 finis
 }
 
+TriumphcAltoNotes = {
+  \relative c' {
+    \clef treble
+    \key e \major \time 6/8 \autoBeamOff \tempoTriumphc
+    R2.*6 %6
+    \mvTr gis'2.\fE^\tuttiE
+    gis
+    gis
+    gis %10
+    gis
+    a
+    fis
+    gis
+    a %15
+    fis~
+    fis
+    fis4.~ fis4 r8
+    R2.*2 %20
+    h2.
+    ais
+    h
+    h
+    h4.( ais) %25
+    h2.~
+    h4. ais
+    h4.~ h4 r8
+    R2.*4 %32
+    gis2.
+    gis
+    gis %35
+    gis
+    e
+    e
+    a
+    gis %40
+    gis4.( ais)
+    h2.~
+    h4.~ h4 a!8
+    gis4.~ gis4 r8
+    R2.*3 %47
+    h2.
+    a
+    fis %50
+    gis
+    a
+    a
+    fis
+    gis4.~ gis4 r8 %55
+    R2.*2
+    h2.
+    a
+    fis %60
+    gis
+    a
+    a
+    fis
+    gis~ %65
+    gis4.~ gis4 r8
+    R2.*3
+    R2.\fermata \bar "|." %70 finis
+  }
+}
+
+TriumphcAltoLyrics = \lyricmode {
+  Tri -- %7
+  umph!
+  Tri --
+  umph! %10
+  der
+  Sohn
+  des
+  Höch --
+  ſten %15
+  ſie --
+
+  get! __
+
+  Er %21
+  eilt
+  zum
+  Sühn --
+  al -- %25
+  tar __
+  em --
+  por. __
+
+  Tri -- %33
+  umph!
+  Tri -- %35
+  umph!
+  Sein
+  Va --
+  ter
+  iſt %40
+  ver --
+  gnü --
+  _
+  get. __
+
+  Er %48
+  nimmt
+  uns %50
+  in
+  der
+  En --
+  gel
+  Chor. __ %55
+
+  Er %58
+  nimmt
+  uns %60
+  in
+  der
+  En --
+  gel
+  Chor. __ %65 finis
+}
+
 % AltoNotes = {
 %   \relative c' {
 %     \clef treble

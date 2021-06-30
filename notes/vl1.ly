@@ -1569,6 +1569,83 @@ MeinHerrViolinoI = {
   }
 }
 
+TriumphcViolinoI = {
+  \relative c' {
+    \clef treble
+    \key e \major \time 6/8 \tempoTriumphc
+    <e h' gis'>8\fE h'16 a gis fis e8 gis h
+    <e, h' gis'> h'16 a gis fis e8 gis h
+    gis' cis( h h a gis)
+    gis( fis a) gis( fis a)
+    a4.( gis4) fis8 %5
+    gis gis,-! a-! h-! cis-! dis-!
+    <e, h' gis'> h'16 a gis fis e8 gis h
+    <e, h' gis'> h'16 a gis fis e8 gis h
+    e gis, a h cis dis
+    e gis a h a gis %10
+    <e, h' gis'> h'16 a gis fis e8 e' d
+    cis e,16 d cis h \kneeBeam a8 fis'' e
+    dis! fis,16 e dis cis \kneeBeam h8 h'' a
+    gis gis a h cis d
+    cis e,16 d cis h a8 cis' cis %15
+    cis cis, ais fis ais cis
+    fis ais, h cis dis e
+    dis fis,16 e dis cis h8 dis fis
+    <dis' fis, h,> fis,16 e dis cis h8 dis fis
+    dis' dis e fis gis ais %20
+    h fis16 e dis cis h8 dis, eis
+    fis ais cis fis gis ais
+    h fis16 e dis cis h8 h' a
+    a( gis) h~ h fis a
+    gis e cis ais fis' e %25
+    e( dis) e-! fis gis a!
+    gis4.( fis4) e8
+    dis dis e fis gis ais
+    h dis, e fis gis ais
+    h fis, e dis cis h %30
+    e gis' e fis, fis' ais
+    h dis, e fis gis a
+    <e, h' gis'> h'16 a gis fis e8 gis h
+    <e, h' gis'> h'16 a gis fis e8 gis h
+    e gis, a h cis dis %35
+    e gis a h a gis
+    gis h,16 a gis fis e8 e' d
+    cis e,16 d cis h a8 cis e
+    <cis' e, a,> e16 d cis h a8 h cis
+    h gis a h cis dis %40
+    e fis gis ais, h cis
+    h fis'16 e dis cis h8 dis fis
+    h dis, e fis gis a!
+    gis gis, a h cis d
+    cis( h d) cis( h d) %45
+    d4.( cis4) cis'8
+    cis4.( h4) a8
+    gis h,16 a gis fis e8 e' d
+    cis e,16 d cis h a8 cis' e
+    dis! fis,16 e dis cis \kneeBeam h8 fis'' a %50
+    gis e fis gis a h
+    cis cis, d e fis gis
+    a fis gis a h cis
+    cis4.( h4) a8
+    gis h,16 a gis fis e8 gis h %55
+    <e, h' gis'> h'16 a gis fis e8 gis h
+    e gis, a h cis dis
+    e h16 a gis fis e8 h' d
+    cis e,16 d cis h a8 cis' e
+    dis! fis16 e dis cis h8 fis' a %60
+    gis gis, a h cis d
+    cis cis d e fis gis
+    a fis gis a h cis
+    cis4.( h4) a8
+    gis h,16 a gis fis e8 gis h %65
+    <e, h' gis'> h'16 a gis fis e8 gis h
+    <e, h' gis'> e fis gis fis e
+    a, cis' a h, dis' fis
+    e4 r8 <gis h, e,>4 r8
+    q h,16 a gis fis <e h' gis'>4 r8\fermata \bar "|." %70 finis
+  }
+}
+
 % ViolinoI = {
 %   \relative c' {
 %     \clef treble

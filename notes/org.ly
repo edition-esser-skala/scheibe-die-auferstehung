@@ -2950,6 +2950,156 @@ MeinHerrBassFigures = \figuremode {
   r4 %216
 }
 
+TriumphcOrgano = {
+  \relative c {
+    \clef bass
+    \key e \major \time 6/8 \tempoTriumphc
+    \mvTr e4\fE-\tuttiE r8 e gis h
+    e,4 r8 e gis h
+    e,4 r8 e,4 r8
+    h'4 h'8 e, h' h,
+    e e e h h h %5
+    e,4 r8 h'4 r8
+    e4 r8 e gis h
+    e,4 r8 e gis h
+    e,4 r8 r4 r8
+    e,4 r8 e'4 r8 %10
+    e,4 r8 gis' fis e
+    a,4 r8 a' gis fis
+    h,4 r8 dis cis h
+    e,4 r8 e' e e
+    a,4 r8 a cis e %15
+    ais4 r8 fis ais cis
+    ais4 r8 ais gis fis
+    h4 r8 h, dis fis
+    h,4 r8 h dis fis
+    h,4 r8 r4 r8 %20
+    h4 r8 h dis eis
+    fis ais cis fis,4 e8
+    dis4 r8 h cis dis
+    e4 r8 dis cis h
+    e4 r8 fis4 r8 %25
+    h h, cis dis cis h
+    e dis cis fis4 fis,8
+    h4 r8 r4 r8
+    h4 r8 r4 r8
+    h fis'-\unisono e dis cis h %30
+    e4 cis8 fis4 fis,8
+    h4 r8 h'4 r8
+    e,4 r8 e gis h
+    e,4 r8 e gis h
+    e,4 r8 r4 r8 %35
+    e4 r8 e,4 r8
+    e'4 r8 gis fis e
+    a,4 r8 a cis e
+    a,4 r8 cis h a
+    e'4 r8 e, e' dis %40
+    cis4 r8 cis dis e
+    dis4 r8 h dis fis
+    dis4 r8 dis cis h
+    e4 r8 e,4 r8
+    a8 e' e, a e' e, %45
+    a a' gis a gis fis
+    h h, h' h h, h'
+    e,4 r8 e fis gis
+    a4 r8 a gis fis
+    h,4 r8 dis cis h %50
+    e,4 r8 d' cis h
+    a4 r8 a a' gis
+    fis4 r8 fis gis a
+    h h, h' h h, h'
+    e,4 r8 e gis h %55
+    e,4 r8 e gis h
+    e, gis-\unisono a h cis dis
+    e4 r8 e, fis gis
+    a4 r8 a gis fis
+    h4 r8 dis, cis h %60
+    e,4 r8 e'4 r8
+    a,4 r8 a a' gis
+    fis4 r8 fis gis a
+    h h, h' h h, h'
+    e,4 r8 e gis h %65
+    e,4 r8 e gis h
+    e, e-\unisono fis gis fis e
+    a,4 r8 h4 r8
+    e h'16-\unisono a gis fis e8 gis h
+    e, h'16 a gis fis e4 r8\fermata \bar "|." %70 finis
+  }
+}
+
+TriumphcBassFigures = \figuremode {
+  r2.
+  r
+  r
+  <6 4>8 <5 3> <7> r <5 3> <7 5>
+  <9 5 4>4. <6 4>4 <7>8 %5
+  r2.
+  r
+  r
+  r
+  r %10
+  r4. <6>
+  r <6 5>
+  r <6>
+  r2.
+  r %15
+  <6>4. <[_+]>
+  <6> <6 5>
+  r2.
+  r
+  r %20
+  r
+  <_+>4. r4 <4+ 2>8
+  <6>4. r4 <6 5!>8
+  r4. <6>
+  <6 5> <_+> %25
+  r <6>
+  <6 5> <_+>
+  r2.
+  r
+  r %30
+  <6 5>4. <_+>
+  r2.
+  r
+  r
+  r %35
+  r
+  r4. <6>
+  r2.
+  r4. <6>
+  r2. %40
+  <5>4. <6\\>
+  <6>2.
+  <6>
+  r
+  r4 <7!>4. q8 %45
+  <9 4!>4. <8 3>4 <5>8
+  <9 7 _+>4. <8 6 4>4 <7 5 3>8
+  r2.
+  r
+  <_+>4. <6> %50
+  r <4 2>
+  r2.
+  <5>
+  <9 7 _+>4. <8>4 <[7]>8
+  r2. %55
+  r
+  r
+  r
+  r
+  <_+> %60
+  r
+  r
+  <5>
+  <9 7 _+>4. <8>4 <7>8
+  r2. %65
+  r
+  r
+  r4. <7>
+  r2.
+  r %70 finis
+}
+
 % Organo = {
 %   \relative c {
 %     \clef bass

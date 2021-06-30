@@ -690,6 +690,124 @@ TriumphbSopranoLyrics = \lyricmode {
   roth. %21 finis
 }
 
+TriumphcSopranoNotes = {
+  \relative c' {
+    \clef treble
+    \key e \major \time 6/8 \autoBeamOff \tempoTriumphc
+    R2.*6 %6
+    \mvTr h'2.\fE^\tuttiE
+    e
+    h
+    e %10
+    h
+    cis
+    dis
+    e
+    cis %15
+    fis~
+    fis4.~ fis4 e8
+    dis4.~ dis4 r8
+    R2.*2 %20
+    dis2.
+    cis
+    fis
+    h,
+    cis4.~ cis4 e8 %25
+    dis2.
+    cis
+    h4.~ h4 r8
+    R2.*4 %32
+    h2.
+    e
+    h %35
+    e
+    gis,
+    a
+    cis
+    h %40
+    e
+    h~
+    h4.~ h4 a!8
+    gis4.~ gis4 r8
+    R2.*3 %47
+    e'2.
+    cis
+    dis %50
+    e
+    cis
+    fis
+    dis
+    e4.~ e4 r8 %55
+    R2.*2
+    e2.
+    cis
+    dis %60
+    e
+    cis
+    fis
+    dis
+    e~ %65
+    e4.~ e4 r8
+    R2.*3
+    R2.\fermata \bar "|." %70 finis
+  }
+}
+
+TriumphcSopranoLyrics = \lyricmode {
+  Tri -- %7
+  umph!
+  Tri --
+  umph! %10
+  der
+  Sohn
+  des
+  Höch --
+  ſten %15
+  ſie --
+  _
+  get! __
+
+  Er %21
+  eilt
+  zum
+  Sühn --
+  al -- _ %25
+  tar
+  em --
+  por. __
+
+  Tri -- %33
+  umph!
+  Tri -- %35
+  umph!
+  Sein
+  Va --
+  ter
+  iſt %40
+  ver --
+  gnü --
+  _
+  get. __
+
+  Er %48
+  nimmt
+  uns %50
+  in
+  der
+  En --
+  gel
+  Chor. __ %55
+
+  Er %58
+  nimmt
+  uns %60
+  in
+  der
+  En --
+  gel
+  Chor. __ %65 finis
+}
+
 % SopranoNotes = {
 %   \relative c' {
 %     \clef treble

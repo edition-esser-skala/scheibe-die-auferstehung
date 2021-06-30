@@ -230,3 +230,70 @@ TriumphbOboeII = {
     R\fermata \bar "|." %22 finis
   }
 }
+
+TriumphcOboeII = {
+  \relative c' {
+    \clef treble
+    \key e \major \time 6/8 \tempoTriumphc
+    h'2.\fE
+    e
+    h~
+    h4 r8 r4 r8
+    R2.*2 %6
+    h2.
+    e
+    h
+    gis %10
+    gis
+    a
+    fis
+    gis
+    a %15
+    \once \tieDashed cis~
+    cis
+    h4.~ h4 r8
+    R2.*2 %20
+    h2.
+    ais
+    h4.~ h4 a8
+    gis4. fis
+    gis ais %25
+    h2.~
+    h4. ais
+    h4.~ h4 r8
+    R2.*4 %32
+    gis2.
+    gis
+    gis %35
+    gis
+    e
+    e
+    a
+    gis %40
+    gis4.( ais)
+    h fis~
+    fis2.
+    e4.~ e4 r8
+    R2.*3 %47
+    gis2.
+    a
+    fis %50
+    gis
+    a
+    a
+    fis
+    gis4.~ gis4 r8 %55
+    R2.*2
+    gis2.
+    a
+    fis %60
+    gis
+    a
+    a
+    fis
+    \once \tieDashed gis~ %65
+    gis4.~ gis4 r8
+    R2.*3
+    R2.\fermata \bar "|." %70 finis
+  }
+}

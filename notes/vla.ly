@@ -1577,3 +1577,80 @@ MeinHerrViola = {
     h4 \markDaCapo \bar "||" %216 finis
   }
 }
+
+TriumphcViola = {
+  \relative c' {
+    \clef alto
+    \key e \major \time 6/8 \tempoTriumphc
+    e4\fE r8 e gis h
+    e,4 r8 e gis h
+    e,4 r8 h'4 r8
+    h h h h h h
+    h h h h h h %5
+    h4 r8 r4 r8
+    e,4 r8 e gis h
+    e,4 r8 e gis h
+    e,4 r8 r4 r8
+    e4 r8 r4 r8 %10
+    e4 r8 h' a gis
+    e4 r8 cis'4.
+    h4 r8 fis4.
+    e4 r8 e e e
+    e4 r8 cis a' a %15
+    cis,4 r8 fis ais cis
+    fis,4 r8 fis4 r8
+    fis4 r8 h, dis fis
+    fis4 r8 h, dis fis
+    fis4 r8 r4 r8 %20
+    fis4 r8 fis dis eis
+    fis ais cis fis,4 fis8
+    fis4 r8 fis4 h,8
+    h4 r8 fis'4 r8
+    e4 r8 cis4 r8 %25
+    h4 r8 h'4 r8
+    h4. cis,8 fis fis
+    fis4 r8 r4 r8
+    fis4 r8 r4 r8
+    fis fis e dis cis h %30
+    e4 gis8 fis4 e8
+    dis4 r8 h4 r8
+    h4 r8 e gis h
+    e,4 r8 e gis h
+    h4 r8 r4 r8 %35
+    e,4 r8 e4 r8
+    e4 r8 e fis gis
+    e4 r8 a, cis e
+    e4 r8 e4 r8
+    e4 r8 e4 fis8 %40
+    gis4 r8 e dis cis
+    fis4 r8 h, dis fis
+    fis4 r8 h4 r8
+    h4 r8 e,4 r8
+    e e e e e e %45
+    e4.~ e4 fis8
+    dis!4.( e4) h'8
+    h4 r8 e,4 h'8
+    e,4 r8 cis4 a'8
+    fis4 r8 fis4. %50
+    e4 r8 e4 r8
+    e4 r8 e4 r8
+    fis4 r8 fis4 r8
+    fis4.~ fis4 h8
+    h4 r8 e, gis h %55
+    e,4 r8 e gis h
+    e, gis a h cis dis
+    e4 r8 e,4.
+    e4 r8 e4.
+    h4 r8 fis'4. %60
+    e4 r8 e4 r8
+    e4 r8 e4 r8
+    fis4 r8 fis4 r8
+    fis4.~ fis4 h8
+    h4 r8 e, gis h %65
+    e,4 r8 e gis h
+    e, e fis gis fis e
+    a,4 r8 h4 r8
+    e h'16 a gis fis e8 gis h
+    e, h'16 a gis fis e4 r8\fermata \bar "|." %70 finis
+  }
+}
