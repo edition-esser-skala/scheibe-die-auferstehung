@@ -933,7 +933,7 @@
   %       >>
   %       \new ChoirStaff <<
   %         \new Staff {
-  %           \set Staff.instrumentName = \markup \center-column { "T 1" "B" }
+  %           \set Staff.instrumentName = "Soli"
   %           \new Voice = "Soli" { \dynamicUp \EilfSoliNotes }
   %         }
   %         \new Lyrics \lyricsto Soli \EilfSoliLyrics
@@ -1008,85 +1008,136 @@
   %     \midi { \tempo 4 = 70 }
   %   }
   % }
-  \bookpart {
-    \header {
-      genre = "C H O R A L"
-      number = "17"
-      title = "Triumph! Triumph! der Sohn des Höchſten ſieget!"
-    }
-    \tocLabelLong "triumphc" "17" "Choral" "Triumph! Triumph! der Sohn des Höchſten ſieget!"
-    \score {
-      <<
-        \new StaffGroup <<
-          \new Staff \with { \smallStaffDistance } {
-            \set Staff.instrumentName= \markup \center-column { "fl" "1, 2" }
-            \partCombine \TriumphcFlautoI \TriumphcFlautoII
-          }
-          \new GrandStaff <<
-            \set GrandStaff.instrumentName = "ob"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \TriumphcOboeI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \TriumphcOboeII
-            }
-          >>
-        >>
-        \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
-            \set GrandStaff.instrumentName = "vl"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \TriumphcViolinoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \TriumphcViolinoII
-            }
-          >>
-          \new Staff {
-            \set Staff.instrumentName = "vla"
-            \TriumphcViola
-          }
-        >>
-        \new ChoirStaff <<
-          \new Staff {
-            \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \TriumphcSopranoNotes }
-          }
-          \new Lyrics \lyricsto Soprano \TriumphcSopranoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \TriumphcAltoNotes }
-          }
-          \new Lyrics \lyricsto Alto \TriumphcAltoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \TriumphcTenoreNotes }
-          }
-          \new Lyrics \lyricsto Tenore \TriumphcTenoreLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \TriumphcBassoNotes }
-          }
-          \new Lyrics \lyricsto Basso \TriumphcBassoLyrics
-        >>
-        \new StaffGroup <<
-          \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "org" "b" }
-            % \transpose c c,
-            \TriumphcOrgano
-          }
-        >>
-        \new FiguredBass { \TriumphcBassFigures }
-      >>
-      \layout { }
-      \midi { \tempo 4. = 80 }
-    }
-  }
+  % \bookpart {
+  %   \header {
+  %     genre = "C H O R A L"
+  %     number = "17"
+  %     title = "Triumph! Triumph! der Sohn des Höchſten ſieget!"
+  %   }
+  %   \tocLabelLong "triumphc" "17" "Choral" "Triumph! Triumph! der Sohn des Höchſten ſieget!"
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new Staff \with { \smallStaffDistance } {
+  %           \set Staff.instrumentName= \markup \center-column { "fl" "1, 2" }
+  %           \partCombine \TriumphcFlautoI \TriumphcFlautoII
+  %         }
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "ob"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \TriumphcOboeI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \TriumphcOboeII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \TriumphcViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \TriumphcViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \TriumphcViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \TriumphcSopranoNotes }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \TriumphcSopranoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \TriumphcAltoNotes }
+  %         }
+  %         \new Lyrics \lyricsto Alto \TriumphcAltoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \TriumphcTenoreNotes }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \TriumphcTenoreLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \TriumphcBassoNotes }
+  %         }
+  %         \new Lyrics \lyricsto Basso \TriumphcBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \TriumphcOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \TriumphcBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4. = 80 }
+  %   }
+  % }
+  % \bookpart {
+  %   \header {
+  %     genre = "A C C O M P A G N A T O"
+  %     number = "18"
+  %     title = "Auf einem Hügel"
+  %   }
+  %   \tocLabelLong "aufeinem" "18" "Accompagnato" "Auf einem Hügel"
+  %   \paper {
+  %     system-system-spacing.basic-distance = #30
+  %     system-system-spacing.minimum-distance = #30
+  %     systems-per-page = #2
+  %   }
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \AufEinemViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \AufEinemViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \AufEinemViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "T 1" "T 2" "B" }
+  %           \new Voice = "Soli" { \dynamicUp \AufEinemSoliNotes }
+  %         }
+  %         \new Lyrics \lyricsto Soli \AufEinemSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \AufEinemOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \AufEinemBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 70 }
+  %   }
+  % }
 }

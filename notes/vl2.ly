@@ -1653,3 +1653,32 @@ TriumphcViolinoII = {
     q h,16 a gis fis <e h' gis'>4 r8\fermata \bar "|." %70 finis
   }
 }
+
+AufEinemViolinoII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \tempoAufEinem
+    R1*16 %16
+    r2 \tempoAufEinemB r16 a-!\f cis-! e-! a-! e-! cis'-! a-!
+    e8 e16.( a32) a16.( cis32) cis16.( e32) e4 r
+    r r8 cis,16.( e32) fis16.( a32) a16.( cis32) cis16.( fis32) fis16.( fis32)
+    fis4 r h,\p r %20
+    r2 h4 r
+    \tempoAufEinemC \mvTrr a8[\pp-\dolce r16 a] a( gis) gis( fis) fis( e) e( gis) gis8( a16) h
+    h( a) a( d) cis( e,) d( h) cis8 cis cis16( d) d( e)
+    e( d) r8 r4 r h'16( gis e d)
+    d8( cis) r4 r8 a''16.(\f fis32) fis16.( cis32) cis16.( a32) %25
+    h4 r r8 cis,16.( eis32) eis16.( gis32) gis16.( cis32)
+    cis4 r r16 fis,-! a-! cis-! fis-! cis-! a'-! fis-!
+    a,( a) a( a) a4 r2
+    r r8 h16(\p h) h( a) a( g)
+    r8 e16( e) e( f!) f( g) fis4 r %30
+    r a16( fis d c) c( h) c( h) a( h) r8
+    g'4 r fis r
+    r8 fis'16( d) d( e) e( fis) r8 h,16( h) h( a) a( g)
+    cis4 r r e16( cis a g)
+    g( fis) g( fis) e( fis) r8 \tempoAufEinemD r2 %35
+    R1*3
+    R1\fermata \bar "|." %39 finis
+  }
+}

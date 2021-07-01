@@ -1646,6 +1646,35 @@ TriumphcViolinoI = {
   }
 }
 
+AufEinemViolinoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \tempoAufEinem
+    R1*16 %16
+    r2 \tempoAufEinemB r16 a-!\f cis-! e-! a-! e-! cis'-! a-!
+    e16.( a32) a16.( cis32) cis16.( e32) e16.( a32) a4 r
+    r r8 e,16.( a32) a16.( cis32) cis16.( fis32) fis16.( a32) a16.( dis32)
+    dis4 r e,\p r %20
+    r2 gis4 r
+    \tempoAufEinemC \mvTrr cis,8[\pp-\dolce r16 cis] cis( h) h( a) a( gis) gis( h) h8( cis16) d!
+    d( cis) cis( fis) e( cis) h( gis) a8 e e16( fis) fis( g)
+    g( fis) r8 r4 r h16( gis e d)
+    d8( cis) r4 r8 cis''16.(\f a32) a16.( fis32) fis16.( cis32) %25
+    d4 r r8 eis,16.( gis32) gis16.( cis32) cis16.( eis32)
+    eis4 r r16 fis,-! a-! cis-! fis-! cis-! a'-! fis-!
+    d!( d) d( d) d4 r2
+    r r8 g16(\p d) d( c) c( h)
+    r8 g16( c) c( d) d( e) c4 r %30
+    r a16( fis d c) c( h) e( d) fis( g) r8
+    cis4 r d r
+    r8 a'16( fis) fis( g) g( a) r8 g16( d) d( c) c( h)
+    g'4 r r e16( cis a g)
+    g( fis) h( a) cis( d) r8 \tempoAufEinemD r2 %35
+    R1*3
+    R1\fermata \bar "|." %39 finis
+  }
+}
+
 % ViolinoI = {
 %   \relative c' {
 %     \clef treble

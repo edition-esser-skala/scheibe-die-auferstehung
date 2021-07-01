@@ -1654,3 +1654,32 @@ TriumphcViola = {
     e, h'16 a gis fis e4 r8\fermata \bar "|." %70 finis
   }
 }
+
+AufEinemViola = {
+  \relative c' {
+    \clef alto
+    \twotwotime \key c \major \time 2/2 \tempoAufEinem
+    R1*16 %16
+    r2 \tempoAufEinemB r16 a-!\f cis-! e-! a-! e-! cis'-! a-!
+    cis,8 cis16.( e32) e16.( a32) a16.( cis32) cis4 r
+    r r8 a,16.( cis32) cis16.( fis32) fis16.( a32) a16.( cis32) cis16.( a32)
+    h4 r h\p r %20
+    r2 cis,4 r
+    \tempoAufEinemC \mvTrr fis4\pp-\dolce r8 h, h e e e
+    e a, a a a a a a
+    a r r4 r gis
+    e r r8 fis'16.(\f cis'32) cis16.( a32) a16.) fis32) %25
+    fis4 r r8 gis,16.( cis32) cis16.( eis32) eis16.( gis32)
+    gis4 r r16 fis,-! a-! cis-! fis-! cis-! a'-! fis-!
+    fis( fis) fis( fis) fis4 r2
+    r r8 g,!\p g g
+    r c! c c c4 r %30
+    r fis, g r
+    e' r a, r
+    r8 d d d r g, g g
+    e'4 r r cis
+    d r \tempoAufEinemD r2 %35
+    R1*3
+    R1\fermata \bar "|." %39 finis
+  }
+}

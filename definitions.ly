@@ -711,6 +711,10 @@ tempoMeinHerr = \tempoMarkup "Larghetto"
   tempoMeinHerrD = \tempoMarkup "Poco allegro e spiritoso"
   tempoMeinHerrE = \tempoMarkup "Allegretto e cantabile"
 tempoTriumphc = \tempoMarkup "Poco allegro"
+tempoAufEinem = \tempoMarkup "Recitativo"
+  tempoAufEinemB = \tempoMarkup "Accompagnato"
+  tempoAufEinemC = \tempoMarkup "Arioso"
+  tempoAufEinemD = \tempoMarkup "Recitativo"
 
 
 fpp   = \dynScript "fpp"  ##f

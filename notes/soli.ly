@@ -426,6 +426,94 @@ EilfSoliLyrics = \lyricmode {
   Zeu -- ge! %41 finis
 }
 
+AufEinemSoliNotes = {
+  \relative c' {
+    \clef "treble_8"
+    \twotwotime \key c \major \time 2/2 \autoBeamOff \tempoAufEinem
+    r8 a^\STenoreI a h cis cis cis8. e16
+    e8 a,16 a a8 h g! g a8. e16
+    fis8 fis a4 d8 d d8. fis16
+    fis8 h, r4 r2
+    r4 cis8. gis16 gis8 gis gis8. a16 %5
+    h8 h cis gis a a cis8. a16
+    fis4 r r2
+    r8 a a8. cis16 a8 r16 a cis8 a
+    d d d8. a16 h4 r
+    r2 r8 cis cis r16 fis, %10
+    e'8 e fis cis d d r fis
+    gis, gis gis a h h r4
+    h8 h cis8. d16 cis4 r
+    r2 r8 gis cis([ d16)] h
+    \appoggiatura h8 a4 r\fermata dis dis8. gis,16 %15
+    e'8 e r cis fis fis fis8. e16
+    cis4 r \tempoAufEinemB r2
+    \clef bass r2 r8 e,^\SBasso a cis
+    cis8. a16 a4 r r8 fis
+    dis'8. h16 h8 r16 h e8 gis, gis8. h16 %20
+    h8 e, r gis h8. h16 cis8 gis
+    \tempoAufEinemC a8 r16 cis cis([ h)] h([ a)] a([ gis)] gis([ h)] h8([ cis16)] d!
+    d([ cis)] cis8 r4 r8 e, e16([ fis)] fis([ g)]
+    g([ fis)] d'([ h)] a8([ gis16)] a a8 e r4
+    r a8. e16 cis'4 r %25
+    r8 h h8. gis16 cis8 cis r4
+    r eis,8. cis16 fis4 r
+    r r8 a a d, fis a
+    d a r a c!16([ h)] h8 r4
+    g16([ e)] e8 r4 c'8 a g([ fis16)] h %30
+    \appoggiatura a8 g4 r r r8 g
+    cis g g8. a16 fis8 fis r d'16([ h)]
+    h([ a)] a8 r4 c16([ h)] h8 r4
+    g8 e d([ cis16)] fis \appoggiatura e8 d4 r
+    \clef "treble_8"r  r8 a'^\STenoreII \tempoAufEinemD h4 r8 fis %35
+    g4 r8 e' cis cis d e
+    fis fis r d d8. h16 h8 g
+    g4 r8 g e' e fis,8. g16
+    g8 d r4 r2\fermata \bar "|." %39 finis
+  }
+}
+
+AufEinemSoliLyrics = \lyricmode {
+  Auf ei -- nem Hü -- gel, deſ -- ſen
+  Rü -- cken der Oel -- baum und der Palm -- baum
+  ſchmü -- cken, ſteht der Ge -- ſalb -- te
+  Got -- tes.
+  Um ihn ſtehn die ſee -- li -- %5
+  gen Ge -- fähr -- ten ſei -- ner Pil -- grim --
+  ſchaft.
+  Sie ſehn er -- ſtaunt von ſei -- nem
+  Ant -- litz Strah -- len gehn.
+  Sie ſehn in %10
+  ei -- ner lich -- ten Wol -- ke den
+  Flam -- men -- wa -- gen war -- ten,
+  der ihn füh -- ren ſoll.
+  Sie be -- ten
+  an. Er hebt die %15
+  Hän -- de zum letz -- ten Se -- gen
+  auf.
+  Seyd mei -- nes
+  Geiſ -- tes voll! Geht
+  hin und lehrt, bis an der Er -- den %20
+  En -- de, was ihr von mir ge --
+  hört: das e -- wi -- ge Ge -- bot der
+  Lie -- be! das e -- wi --
+  ge Ge -- bot der Lie -- be!
+  Ge -- het hin! %25
+  thut mei -- ne Wun -- der!
+  Ge -- het hin!
+  Ver -- kün -- digt al -- lem
+  Vol -- ke Ver -- ſöh -- nung,
+  Frie -- de, Frie -- de, See -- lig -- %30
+  keit. Ver --
+  kün -- digt al -- lem Vol -- ke Ver --
+  ſöh -- nung, Frie -- de,
+  Frie -- de, See -- lig -- keit!
+  Er ſagts, ſteigt %35
+  auf, wird ſchnell em -- por ge --
+  tra -- gen. Ein ſtrah -- len -- des Ge --
+  folg um -- rin -- get ſei -- nen
+  Wa -- gen. %39 finis
+}
+
 % SoliNotes = {
 %   \relative c' {
 %     \clef "treble_8"

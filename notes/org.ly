@@ -3100,6 +3100,94 @@ TriumphcBassFigures = \figuremode {
   r %70 finis
 }
 
+AufEinemOrgano = {
+  \relative c {
+    \clef bass
+    \twotwotime \key c \major \time 2/2 \tempoAufEinem
+    a1~\pE
+    a
+    d2 h~
+    h4 r16 h'-\unisono cis d gis, gis a h eis, eis fis gis
+    cis,1~ %5
+    cis2 fis~
+    fis4 r16 a-!-\unisono gis-! fis-! d' cis h a gis fis e! d
+    cis2~ cis4 r
+    fis r g! r16 g-\unisonoE a h
+    e, e fis g cis, cis d e ais,2~ %10
+    ais h4 r
+    d2 r
+    gis, a4 r16 cis-\unisonoE h a
+    fis' e d cis h a gis fis eis2
+    fis4 r\fermata his2 %15
+    cis a'
+    r4 gis \tempoAufEinemB a16 a,-!\fE cis-! e-! a-! e-! cis'-! a-!
+    a,8 a' a a a4 r
+    r r8 a fis fis fis fis
+    a,4 r gis\pE r %20
+    r2 eis'4 r
+    \tempoAufEinemC \mvTrr fis4\ppE-\dolceE dis e8 e e e
+    a, a a a a a a a
+    d r r4 r e
+    a, r r8 fis\f fis fis %25
+    h4 r r8 h h h
+    h4 r r16 fis-! a-! cis-! fis cis a' fis
+    fis( fis) fis( fis) fis4 r2
+    r r8 g,!\p g g
+    r c! c c a4 r %30
+    r d g, r
+    e' r d r
+    r8 d d d r g, g g
+    e'4 r r a,
+    d r \tempoAufEinemD dis r %35
+    e r a r
+    d, r h r
+    e r c! r
+    r d g, r\fermata \bar "|." %39 finis
+  }
+}
+
+AufEinemBassFigures = \figuremode {
+  <_+>1
+  r2 <7! \t>
+  <_+>2 <5+>
+  r1
+  <5+ _+> %5
+  r2 <5+>
+  r1
+  <6>
+  <6>
+  r2 \bo <6+ [_+]> %10
+  \bc <5 [\t]>1
+  <4+ 2>
+  <6 5>2 <_+>
+  r <[6+ _+]>
+  <[5+]> <6+ [_+]> %15
+  <5+> <6\\ _+>
+  r4 <5+ _+>2.
+  <_+>1
+  r2 <5+>
+  <[6+] 4+ 2>2 <6> %20
+  r <6+ 5 [_+]>
+  <5+>4 \bo <7 [_+]>8 \bc <6 [\t]> <9 4> <8 _+>4 <6+ 4>16 <7! 5>
+  <9 4> <8 _+> <\t \t> <6+ 4> <5 _+>8 <7+ 4 2> <5 _+>2
+  <9 4!>16 <8 _+> r8 r2 <8 _+>8 <7 \t>
+  <4> <_+> r4. <5+ 3> %25
+  <[5+]>2 r8 <6+ 4+ 2+>4.
+  <\t \t \t>1
+  <6>
+  r
+  r2 <6\\> %30
+  r4 <_+>2.
+  <6\\>2 <_+>
+  r1
+  <6\\>2. <_+>4
+  q2 <6 [_+]> %35
+  r <_+>
+  q <6>
+  <5>1
+  r4 <_+>2. %39 finis
+}
+
 % Organo = {
 %   \relative c {
 %     \clef bass
