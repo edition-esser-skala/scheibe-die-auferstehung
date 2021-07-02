@@ -933,7 +933,7 @@
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "S, A" "T 1, 2" "b" }
+            \set Staff.instrumentName = \markup \center-column { "S, A" "T 1, 2" "B" }
             \new Voice = "Soli" { \dynamicUp \EilfSoliNotes }
           }
           \new Lyrics \lyricsto Soli \EilfSoliLyrics

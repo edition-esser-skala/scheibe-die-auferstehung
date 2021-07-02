@@ -38,7 +38,7 @@
 \layout {
   \context {
     \Staff
-    instrumentName = "b"
+    instrumentName = "vla"
   }
 }
 
@@ -53,8 +53,8 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Bassi"
-          \GottDuWirstOrgano
+          \set Staff.instrumentName = "Viola"
+          \GottDuWirstViola
         }
       >>
     }
@@ -65,17 +65,9 @@
       number = "2"
       title = "Judäa zittert!"
     }
-    \paper { systems-per-page = #5 }
     \score {
       <<
-        \new ChoirStaff <<
-          \new Staff {
-            \set Staff.instrumentName = "T 1"
-            \new Voice = "Tenore" { \dynamicUp \JudaeaZittertTenoreNotes }
-          }
-          \new Lyrics \lyricsto Tenore \JudaeaZittertTenoreLyrics
-        >>
-        \new Staff { \JudaeaZittertOrgano }
+        \new Staff { \JudaeaZittertViola }
       >>
     }
   }
@@ -87,7 +79,7 @@
     }
     \score {
       <<
-        \new Staff { \MeinGeistOrgano }
+        \new Staff { \MeinGeistViola }
       >>
     }
   }
@@ -100,7 +92,7 @@
     \paper { systems-per-page = #3 }
     \score {
       <<
-        \new Staff { \TriumphOrgano }
+        \new Staff { \TriumphViola }
       >>
     }
   }
@@ -110,17 +102,10 @@
       number = "5"
       title = "Die frommen Töchter Zions gehn verwundert"
     }
-    \paper { systems-per-page = #5 }
+    \paper { systems-per-page = #3 }
     \score {
       <<
-        \new ChoirStaff <<
-          \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "S" "T 1" }
-            \new Voice = "Soli" { \dynamicUp \DieFrommenSoliNotes }
-          }
-          \new Lyrics \lyricsto Soli \DieFrommenSoliLyrics
-        >>
-        \new Staff { \DieFrommenOrgano }
+        \new Staff { \DieFrommenViola }
       >>
     }
   }
@@ -132,27 +117,7 @@
     }
     \score {
       <<
-        \new Staff { \SeyGegruessetOrgano }
-      >>
-    }
-  }
-  \bookpart {
-    \header {
-      genre = "R E C I T A T I V O"
-      number = "7"
-      title = "Wer iſt die Sionitin"
-    }
-    \paper { systems-per-page = #5 }
-    \score {
-      <<
-        \new ChoirStaff <<
-          \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "A" "T 1" "B" }
-            \new Voice = "Soli" { \dynamicUp \WerIstDieSoliNotes }
-          }
-          \new Lyrics \lyricsto Soli \WerIstDieSoliLyrics
-        >>
-        \new Staff { \WerIstDieOrgano }
+        \new Staff { \SeyGegruessetViola }
       >>
     }
   }
@@ -164,7 +129,7 @@
     }
     \score {
       <<
-        \new Staff { \VaterDeinerOrgano }
+        \new Staff { \VaterDeinerViola }
       >>
     }
   }
@@ -174,17 +139,10 @@
       number = "9"
       title = "Freundinnen Jeſu!"
     }
-    \paper { systems-per-page = #5 }
+    \paper { systems-per-page = #3 }
     \score {
       <<
-        \new ChoirStaff <<
-          \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "T 1" "B" }
-            \new Voice = "Soli" { \dynamicUp \FreundinnenSoliNotes }
-          }
-          \new Lyrics \lyricsto Soli \FreundinnenSoliLyrics
-        >>
-        \new Staff { \FreundinnenOrgano }
+        \new Staff { \FreundinnenViola }
       >>
     }
   }
@@ -196,7 +154,7 @@
     }
     \score {
       <<
-        \new Staff { \IchFolgeOrgano }
+        \new Staff { \IchFolgeViola }
       >>
     }
   }
@@ -208,7 +166,7 @@
     }
     \score {
       <<
-        \new Staff { \TodWoOrgano }
+        \new Staff { \TodWoViola }
       >>
     }
   }
@@ -218,17 +176,9 @@
       number = "12"
       title = "Dort ſeh ich aus den Toren Jeruſalems"
     }
-    \paper { systems-per-page = #5 }
     \score {
       <<
-        \new ChoirStaff <<
-          \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "T 1" "B" }
-            \new Voice = "Soli" { \dynamicUp \DortSehSoliNotes }
-          }
-          \new Lyrics \lyricsto Soli \DortSehSoliLyrics
-        >>
-        \new Staff { \DortSehOrgano }
+        \new Staff { \DortSehViola }
       >>
     }
   }
@@ -240,7 +190,7 @@
     }
     \score {
       <<
-        \new Staff { \WillkommenOrgano }
+        \new Staff { \WillkommenViola }
       >>
     }
   }
@@ -250,9 +200,10 @@
       number = "14"
       title = "Triumph! Triumph! der Fürſt des Lebens ſieget!"
     }
+    \paper { systems-per-page = #3 }
     \score {
       <<
-        \new Staff { \TriumphbOrgano }
+        \new Staff { \TriumphbViola }
       >>
     }
   }
@@ -262,17 +213,10 @@
       number = "15"
       title = "Eilf auserwählte Jünger"
     }
-    \paper { systems-per-page = #5 }
+    \paper { systems-per-page = #4 }
     \score {
       <<
-        \new ChoirStaff <<
-          \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "S, A" "T 1, 2" "B" }
-            \new Voice = "Soli" { \dynamicUp \EilfSoliNotes }
-          }
-          \new Lyrics \lyricsto Soli \EilfSoliLyrics
-        >>
-        \new Staff { \EilfOrgano }
+        \new Staff { \EilfViola }
       >>
     }
   }
@@ -284,7 +228,7 @@
     }
     \score {
       <<
-        \new Staff { \MeinHerrOrgano }
+        \new Staff { \MeinHerrViola }
       >>
     }
   }
@@ -296,7 +240,7 @@
     }
     \score {
       <<
-        \new Staff { \TriumphcOrgano }
+        \new Staff { \TriumphcViola }
       >>
     }
   }
@@ -306,17 +250,10 @@
       number = "18"
       title = "Auf einem Hügel"
     }
-    \paper { systems-per-page = #5 }
+    \paper { systems-per-page = #6 }
     \score {
       <<
-        \new ChoirStaff <<
-          \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "T 1" "T 2" "B" }
-            \new Voice = "Soli" { \dynamicUp \AufEinemSoliNotes }
-          }
-          \new Lyrics \lyricsto Soli \AufEinemSoliLyrics
-        >>
-        \new Staff { \AufEinemOrgano }
+        \new Staff { \AufEinemViola }
       >>
     }
   }
@@ -328,7 +265,7 @@
     }
     \score {
       <<
-        \new Staff { \IhrThoreOrgano }
+        \new Staff { \IhrThoreViola }
       >>
     }
   }
@@ -340,7 +277,7 @@
     }
     \score {
       <<
-        \new Staff { \GottFaehretOrgano }
+        \new Staff { \GottFaehretViola }
       >>
     }
   }

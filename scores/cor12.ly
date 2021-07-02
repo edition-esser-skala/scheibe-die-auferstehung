@@ -7,8 +7,8 @@
   top-margin = 1.5\cm
   system-separator-markup = ##f
   system-system-spacing =
-    #'((basic-distance . 17)
-       (minimum-distance . 17)
+    #'((basic-distance . 16)
+       (minimum-distance . 16)
        (padding . -100)
        (stretchability . 0))
 
@@ -30,13 +30,7 @@
        (padding . -100)
        (stretchability . 0))
 
-  last-bottom-spacing =
-    #'((basic-distance . 0)
-       (minimum-distance . 0)
-       (padding . 0)
-       (stretchability . 1.0e7))
-
-  systems-per-page = #4
+  systems-per-page = #6
 }
 
 #(set-global-staff-size 17.82)
@@ -44,7 +38,6 @@
 \layout {
   \context {
     \GrandStaff
-    instrumentName = "clno"
     \override StaffGrouper.staffgroup-staff-spacing =
       #'((basic-distance . 12)
         (minimum-distance . 12)
@@ -57,88 +50,103 @@
         (stretchability . 0))
 
   }
-  \context {
-    \Staff
-    instrumentName = "timp"
-  }
 }
-
-
 \book {
   \bookpart {
     \header {
-      genre = "C H O R A L"
-      number = "4"
-      title = "Triumph! Triumph! des Herrn Geſalbter ſieget!"
+      genre = "C O R O"
+      number = "1"
+      title = "Gott, du wirſt ſeine Seele nicht in der Hölle laſſen!"
     }
-    \paper { indent = 2\cm page-count = #1 }
+    \paper { indent = 2\cm systems-per-page = #5 }
     \score {
       <<
         \new StaffGroup <<
           \new GrandStaff <<
-            \set GrandStaff.instrumentName = \markup \center-column { "Clarino" "in D" }
+            \set GrandStaff.instrumentName = \markup \center-column { "Corno" "in D" }
             \new Staff {
               \set Staff.instrumentName = "I"
-              \TriumphClarinoI
+              \GottDuWirstCornoI
             }
             \new Staff {
               \set Staff.instrumentName = "II"
-              \TriumphClarinoII
+              \GottDuWirstCornoII
             }
           >>
         >>
-        \new Staff {
-          \set Staff.instrumentName = \markup \center-column { "Timpani" "in D–A" }
-          \TriumphTimpani
-        }
       >>
     }
   }
   \bookpart {
     \header {
-      genre = "C O R O"
-      number = "11"
-      title = "Tod! wo iſt dein Stachel?"
+      genre = "A R I A"
+      number = "6"
+      title = "Sey gegrüßet, Fürſt des Lebens!"
     }
     \score {
       <<
         \new StaffGroup <<
           \new GrandStaff <<
+            \set GrandStaff.instrumentName = \markup \center-column { "cor" "(Es)" }
             \new Staff {
               \set Staff.instrumentName = "1"
-              \TodWoClarinoI
+              \SeyGegruessetCornoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \TodWoClarinoII
+              \SeyGegruessetCornoII
             }
           >>
         >>
-        \new Staff { \TodWoTimpani }
       >>
     }
   }
   \bookpart {
     \header {
-      genre = "C O R O"
-      number = "20"
-      title = "Gott fähret auf mit Jauchzen!"
+      genre = "C H O R A L"
+      number = "14"
+      title = "Triumph! Triumph! der Fürſt des Lebens ſieget!"
     }
     \score {
       <<
         \new StaffGroup <<
           \new GrandStaff <<
+            \set GrandStaff.instrumentName = \markup \center-column { "cor" "(F)" }
             \new Staff {
               \set Staff.instrumentName = "1"
-              \GottFaehretClarinoI
+              \TriumphbCornoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \GottFaehretClarinoI
+              \TriumphbCornoII
             }
           >>
         >>
-        \new Staff { \GottFaehretTimpani }
+      >>
+    }
+  }
+  \bookpart {
+    \header {
+      genre = "A R I A"
+      number = "19"
+      title = "Ihr Thore Gottes, öffnet euch!"
+    }
+    \paper { page-count = #4 }
+    \score {
+      <<
+        \new StaffGroup <<
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = \markup \center-column { "cor" "(G)" }
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \IhrThoreCornoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \IhrThoreCornoII
+            }
+          >>
+        >>
       >>
     }
   }
