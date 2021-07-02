@@ -1668,7 +1668,7 @@ AufEinemViola = {
     \tempoAufEinemC \mvTrr fis4\pp-\dolce r8 h, h e e e
     e a, a a a a a a
     a r r4 r gis
-    e r r8 fis'16.(\f cis'32) cis16.( a32) a16.) fis32) %25
+    e r r8 fis'16.(\f cis'32) cis16.( a32) a16.( fis32) %25
     fis4 r r8 gis,16.( cis32) cis16.( eis32) eis16.( gis32)
     gis4 r r16 fis,-! a-! cis-! fis-! cis-! a'-! fis-!
     fis( fis) fis( fis) fis4 r2
