@@ -715,6 +715,11 @@ tempoAufEinem = \tempoMarkup "Recitativo"
   tempoAufEinemB = \tempoMarkup "Accompagnato"
   tempoAufEinemC = \tempoMarkup "Arioso"
   tempoAufEinemD = \tempoMarkup "Recitativo"
+tempoIhrThore = \tempoMarkup "Moderato e pomposo"
+  tempoIhrThoreB = \tempoMarkup "Poco allegro e affettuoso"
+  tempoIhrThoreC = \tempoMarkup "Moderato e pomposo"
+tempoGottFaehret = \tempoMarkup "Allegro ma non troppo"
+  tempoGottFaehretB = \tempoMarkup "Moderato e pomposo"
 
 
 fpp   = \dynScript "fpp"  ##f

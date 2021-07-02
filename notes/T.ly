@@ -1550,7 +1550,7 @@ TriumphcTenoreLyrics = \lyricmode {
   iſt %40
   ver --
   gnü --
-  
+
   get. __
 
   Er %48
@@ -1572,13 +1572,217 @@ TriumphcTenoreLyrics = \lyricmode {
   Chor. __ %65 finis
 }
 
-% TenoreNotes = {
-%   \relative c' {
-%     \clef "treble_8"
-%
-%   }
-% }
-%
-% TenoreLyrics = \lyricmode {
-%
-% }
+GottFaehretTenoreNotes = {
+  \relative c' {
+    \clef "treble_8"
+    \key d \major \time 3/4 \autoBeamOff \tempoGottFaehret
+    R2.*37 %37
+    \mvTr fis4\fE^\tuttiE a,8 d fis d
+    d4 fis r
+    fis a,8 d fis d %40
+    d4 fis r
+    d8. d16 d4 r
+    e8. e16 e4 cis
+    fis e e
+    e e r %45
+    R2.*2
+    d4 d8 d d d
+    d4 d r
+    cis cis8 cis cis cis %50
+    cis4 cis r
+    g' d8 d d d
+    e4 cis r
+    cis cis8 cis cis cis
+    d4 h r %55
+    r g' e
+    e2 r4
+    r fis d
+    d2 r4
+    r8 e e([ cis)] e a %60
+    a4 a, r
+    e' e8 a, cis e
+    e4 cis r
+    d8. a16 h4 h
+    cis8 d16 fis e2 %65
+    cis r4
+    R2.*3
+    r8 e16([\pE cis)] cis4 h8 h16([ d)] %70
+    d8 cis16([ e)] e4 r
+    r8 cis16([\fE e)] e4 e8 cis16([ e)]
+    e8 d16([ fis)] fis8 g16([ e)] fis[( d)] e([ cis)]
+    d4 r8 fis16([ d)] d8 d16([ h)]
+    h4 r8 gis'16([ e)] e8 e16([ h)] %75
+    cis4 r8 e16([ cis)] cis8 cis16([ a)]
+    a4 r8 fis'16([ d)] d8 d16([ a)]
+    h8 h d g d g
+    g8. fis16 g4 r
+    r8 e h e g e %80
+    e8. dis16 e4 r
+    r8 c c4 d
+    d8 e d4. c8
+    h4 r r
+    R2.*2 %86
+    r8 h16([\pE d)] d4 c8 a16([ c)]
+    c8 h16([ d)] d4 r
+    r r8 h\fE a a
+    a4 d4. d8 %90
+    d16([ g)] g8 r4 r
+    r e4. e8
+    e16([ a)] a8 r4 r
+    r8 d,16([ fis)] fis4 e8 cis16([ e)]
+    e8 d16([ fis)] fis8 g16([ e)] fis([ d)] e([ cis)] %95
+    d8 fis16([ d)] d8 d16([ h)] h4
+    r8 e e4 fis
+    fis8 g fis4 fis
+    d r r
+    fis a,8 d fis d %100
+    d4 fis r
+    fis a,8 d fis d
+    d4 fis r
+    d8. d16 d4 r
+    e8. e16 e4 cis %105
+    fis e e
+    e cis r
+    e2 r4
+    e e8 e e e
+    fis4 d r %110
+    d d8 d d d
+    e4 e r
+    r d a32([ h c8.)]
+    h8 d g([ fis16 e)] fis8 d
+    a'4 a, r %115
+    R2.
+    r8 d\pE d4 cis8 cis16([ e)]
+    e8 d16([ fis)] fis8 g16([\fE e)] fis([ d)] e([ cis)]
+    d8 d16([ h)] a4 a
+    a r8 fis'16([ d)] d8 d16([ a)] %120
+    h4 r8 h16([ d)] d8 d16([ g)]
+    g4 r8 g16([ e)] e8 e16([ h)]
+    cis4 r8 cis16([ e)] e8 e16([ g)]
+    fis4 r r
+    R2. %125
+    r8 cis16([\pE e)] e4 d8 h16([ d)]
+    d8 cis16([ e)] e8 e16([ g!)] fis8 g16([ e)]
+    fis8 d\fE d4 a8 a
+    a d d g,16([ h)] a8 a
+    a a16([ d)] d8 d16([ fis)] fis4 %130
+    r8 d e4 e
+    fis8 g16([ e)] d4 cis
+    fis d r
+    r8 d e4 e
+    fis8 g16([ e)] d4 cis %135
+    fis fis,8 a d8. fis16
+    d4 r r
+    R2.*12 %149
+    \twotwotime \time 2/2 \tempoGottFaehretB
+      r4 d h gis \noBreak %150
+    a d d cis
+    fis fis8. fis16 g4. g8
+    fis2 r
+    R1\fermata \bar "|." %154 FINIS
+  }
+}
+
+GottFaehretTenoreLyrics = \lyricmode {
+  Gott fäh -- ret auf mit %38
+  Jauch -- zen!
+  Gott fäh -- ret auf mit %40
+  Jauch -- zen!
+  und der Herr,
+  und der Herr mit
+  hel -- ler Po --
+  ſau -- ne! %45
+
+  Gott fäh -- ret auf mit %48
+  Jauch -- zen!
+  Gott fäh -- ret auf mit %50
+  Jauch -- zen!
+  Gott fäh -- ret auf mit
+  Jauch -- zen!
+  Gott fäh -- ret auf mit
+  Jauch -- zen! %55
+  und der
+  Herr,
+  und der
+  Herr
+  mit hel -- ler Po -- %60
+  ſau -- ne!
+  Gott fäh -- ret auf mit
+  Jauch -- zen!
+  und der Herr mit
+  hel -- ler Po -- ſau -- %65
+  ne.
+
+  Lob -- ſin -- get, lob -- %70
+  ſin -- get Gott!
+  Lob -- ſin -- get, lob --
+  ſin -- get un -- ſerm Kö -- ni --
+  ge! Lob -- ſin -- get
+  Gott! Lob -- ſin -- get %75
+  Gott! Lob -- ſin -- get
+  Gott! Lob -- ſin -- get Gott!
+  Lob -- ſin -- get un -- ſerm
+  Kö -- ni -- ge!
+  Lob -- ſin -- get un -- ſerm %80
+  Kö -- ni -- ge!
+  Lob -- ſin -- get
+  un -- ſerm Kö -- ni --
+  ge!
+
+  Lob -- ſin -- get, lob -- %87
+  ſin -- get Gott!
+  Lob -- ſin -- get
+  Gott! Gott lob -- %90
+  ſin -- get!
+  Gott lob --
+  ſin -- get!
+  Lob -- ſin -- get, lob --
+  ſin -- get un -- ſerm Kö -- ni -- %95
+  ge! Lob -- ſin -- get Gott!
+  Lob -- ſin -- get
+  un -- ſerm Kö -- ni --
+  ge!
+  Gott fäh -- ret auf mit %100
+  Jauch -- zen!
+  Gott fäh -- ret auf mit
+  Jauch -- zen!
+  und der Herr,
+  und der Herr mit %105
+  hel -- ler Po --
+  ſau -- ne.
+  Gott!
+  Gott fäh -- ret auf mit
+  Jauch -- zen, %110
+  Gott fäh -- ret auf mit
+  Jauch -- zen!
+  und der __
+  Herr mit hel -- ler Po --
+  ſau -- ne! %115
+
+  Lob -- ſin -- get, lob --
+  ſin -- get Gott! Lob -- ſin -- get
+  un -- ſerm Kö -- ni --
+  ge! Lob -- ſin -- get %120
+  Gott! Lob -- ſin -- get
+  Gott! Lob -- ſin -- get
+  Gott! Lob -- ſin -- get
+  Gott!
+
+  Lob -- ſin -- get, lob -- %126
+  ſin -- get un -- ſerm Kö -- ni --
+  ge! Lob -- ſin -- get, lob --
+  ſin -- get un -- ſerm Kö -- ni --
+  ge! Lob -- ſin -- get Gott! %130
+  Lob -- ſin -- get
+  un -- ſerm Kö -- ni --
+  ge! Gott!
+  Lob -- ſin -- get
+  un -- ſerm Kö -- ni -- %135
+  ge! Un -- ſerm Kö -- ni --
+  ge!
+
+  Lob -- ſin -- get %150
+  un -- ſerm Kö -- ni --
+  ge! un -- ſerm Kö -- ni --
+  ge! %153 FINIS
+}

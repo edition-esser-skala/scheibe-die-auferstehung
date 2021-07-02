@@ -624,7 +624,7 @@
   %     number = "11"
   %     title = "Tod! wo iſt dein Stachel?"
   %   }
-  %   \tocLabelLong "todwo" "1" "Coro" "Tod! wo iſt dein Stachel?"
+  %   \tocLabelLong "todwo" "11" "Coro" "Tod! wo iſt dein Stachel?"
   %   \score {
   %     <<
   %       \new StaffGroup <<
@@ -1140,4 +1140,170 @@
   %     \midi { \tempo 4 = 70 }
   %   }
   % }
+  % \bookpart {
+  %   \header {
+  %     genre = "A R I A"
+  %     number = "19"
+  %     title = "Ihr Thore Gottes, öffnet euch!"
+  %   }
+  %   \tocLabelLong "ihrthore" "19" "Aria" "Ihr Thore Gottes, öffnet euch!"
+  %   \paper {
+  %     system-system-spacing.basic-distance = #25
+  %     system-system-spacing.minimum-distance = #25
+  %     systems-per-page = #2
+  %   }
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new Staff <<
+  %           \set Staff.instrumentName = \markup \center-column { "cor [G]" "1, 2" }
+  %           % \transpose c g,
+  %           \partCombine \IhrThoreCornoI \IhrThoreCornoII
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \IhrThoreViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \IhrThoreViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \IhrThoreViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \IhrThoreBassoNotes }
+  %         }
+  %         \new Lyrics \lyricsto Basso \IhrThoreBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \IhrThoreOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \IhrThoreBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 2 = 75 }
+  %   }
+  % }
+  \bookpart {
+    \header {
+      genre = "C O R O"
+      number = "20"
+      title = "Gott fähret auf mit Jauchzen!"
+    }
+    \tocLabelLong "gottfaehret" "20" "Coro" "Gott fähret auf mit Jauchzen!"
+    \paper {
+      top-system-spacing.basic-distance = #12
+      top-system-spacing.minimum-distance = #12
+      top-markup-spacing.basic-distance = #0
+      top-markup-spacing.minimum-distance = #0
+      markup-system-spacing.basic-distance = #12
+      markup-system-spacing.minimum-distance = #12
+    }
+    \score {
+      <<
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "fl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \GottFaehretFlautoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \GottFaehretFlautoII
+            }
+          >>
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = "ob"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \GottFaehretOboeI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \GottFaehretOboeII
+            }
+          >>
+        >>
+        \new StaffGroup \with { \smallGroupDistance } <<
+          \new Staff <<
+            \set Staff.instrumentName = \markup \center-column { "clno [D]" "1, 2" }
+            % \transpose c d
+            \partCombine \GottFaehretClarinoI \GottFaehretClarinoII
+          >>
+        >>
+        \new Staff {
+          \set Staff.instrumentName = \markup \center-column { "timp" "[D–A]" }
+          % \transpose c d
+          \GottFaehretTimpani
+        }
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \GottFaehretViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \GottFaehretViolinoII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "vla"
+            \GottFaehretViola
+          }
+        >>
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \GottFaehretSopranoNotes }
+          }
+          \new Lyrics \lyricsto Soprano \GottFaehretSopranoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \GottFaehretAltoNotes }
+          }
+          \new Lyrics \lyricsto Alto \GottFaehretAltoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \GottFaehretTenoreNotes }
+          }
+          \new Lyrics \lyricsto Tenore \GottFaehretTenoreLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \GottFaehretBassoNotes }
+          }
+          \new Lyrics \lyricsto Basso \GottFaehretBassoLyrics
+        >>
+        \new StaffGroup <<
+          \new Staff {
+            \set Staff.instrumentName = \markup \center-column { "org" "b" }
+            % \transpose c c,
+            \GottFaehretOrgano
+          }
+        >>
+        \new FiguredBass { \GottFaehretBassFigures }
+      >>
+      \layout { }
+      \midi { \tempo 4 = 110 }
+    }
+  }
 }

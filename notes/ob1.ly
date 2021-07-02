@@ -288,3 +288,160 @@ TriumphcOboeI = {
     R2.\fermata \bar "|." %70 finis
   }
 }
+
+GottFaehretOboeI = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 3/4 \tempoGottFaehret
+    r8 d\fE fis a d a
+    fis'16 e d cis d4 r
+    r8 d, fis a d a
+    fis'16 e d cis d4 r
+    h8 h4 g'16 fis e d cis h %5
+    cis8 cis4 a'16 g fis e d cis
+    d8 d4 h'16 a gis fis e d
+    cis4 r r
+    e r r
+    e8 a16 a a4 r8 a %10
+    h h, d g h h~
+    h h4 h a16 g
+    a8 a, cis fis a a~
+    a a4 a g16 fis
+    g8 g, h e g g~ %15
+    g g4 g fis16 e
+    fis8 fis, a d fis fis~
+    fis e4 e8~ e16 d cis h
+    cis8 cis4 cis cis8~
+    cis16 h fis' e d8 e16 fis g!4~ %20
+    g16 fis e d cis h a h a g fis e
+    fis8 d fis a d fis
+    a8.(\prall g32 a) h8 r e,8.(\prall d32 e)
+    fis8.(\prall e32 fis) g8 r cis,8.(\prall h32 cis)
+    d8.(\prall cis32 d) e8 r h8.(\prall a32 h) %25
+    cis8.(\prall h32 cis) d8 r a8.(\prall g32 a)
+    h8 h4 h h8
+    cis e16 g fis8 a, h h'~
+    h a4 g fis16 e
+    fis8 g fis32 e d8. e4\prall %30
+    d8 r r4 r
+    R2.*2
+    d4\fE r r
+    d r r %35
+    d8 e,16 g fis8 g16 h a8 cis
+    d fis16 fis fis8[ fis] fis r
+    r d fis, a d a
+    fis'4 d r
+    r8 d fis, a d a %40
+    fis'4 d r
+    h8. h16 h4 r
+    cis8. cis16 cis4 fis
+    d d d
+    cis e r4 %45
+    e r r
+    e8 a16 a a4 r
+    fis8 fis4 fis fis8~
+    fis fis4 fis e16 d
+    e8 e4 e e8~ %50
+    e e4 e a,8
+    h h4 h h8~
+    h h4 h a16 g!
+    a8 a4 a a8~
+    a a4 a g16 fis %55
+    g8 h4 h h8
+    cis a4 a g8
+    fis a4 a h16 c
+    h8 h4 h cis16 d
+    cis8 cis cis a cis e %60
+    e4 a r
+    cis,8 cis cis e, a cis
+    cis4 e r
+    fis8. fis,16 fis4 gis
+    a8 fis'16 d cis4 h\prall %65
+    a2 r4
+    R2.*2
+    r8 cis16(\pE e) e4( d8) h16( d)
+    d8( cis16)( e) e4 r %70
+    r r8 fis\fE e d
+    cis cis16( e) e4 e8 cis16( e)
+    e8( d16)( fis) fis8 g16( e) fis( d) e( cis)
+    d8 h16( d) d8 d16( fis) fis4
+    r8 gis,16( h) h8 h16( e) e4 %75
+    r8 a,16( cis) cis8 cis16( e) e4
+    r8 fis,16( a) a8 a16( d) d4
+    r8 g,! h d g d
+    d8. d16 d4 r
+    r8 h g h e h %80
+    g'8. fis16 g4 r
+    r8 e e4 fis
+    g8 e16 c h4 a-\parenthesize-\prall
+    g r r
+    R2.*3 %87
+    r8 d'16(\pE h) h4( a8) a16( c)
+    c8( h16) d d8 g16([\fE e)] d8( cis16 e)
+    e8( d) a8.( h32 c) h8 a %90
+    h16( d) d4 d8 dis8.(\prall cis32 dis)
+    e4 h8.( cis!32 d) cis8 h
+    cis16( e) e4 e8 ais,4\prall
+    h8 d16( fis) fis4( e8) cis16( e)
+    e8( d16) fis fis8 g16( e) fis( d) e( cis) %95
+    d8 h16( d) d8 d16( fis) fis4
+    r8 g g4 ais,
+    h8 g'16 e d32 cis h8. cis4\prall
+    h r r
+    r8 d a d fis d %100
+    fis4 d r
+    r8 d fis, a d a
+    fis'4 d r
+    h8. h16 h4 r
+    cis8. cis16 cis4 fis %105
+    d d d
+    cis e r
+    g g8 g g g~
+    g g4 g fis16 e
+    fis4 fis8 fis fis fis~ %110
+    fis fis4 fis e16 d
+    e4 e a,
+    fis' r r
+    r8 d g fis16 e fis8 fis
+    fis4\prall e r %115
+    r8 fis,16(\pE a) a4( g8) e16( g)
+    g8( fis16) a a4 r
+    r r8 g'16(\fE e) fis( d) e( cis)
+    d8 h16 e d4 cis\prall
+    d8 a16( d) d8 d16( fis) fis4 %120
+    r8 g16( d) d8 d16( h) h4
+    r8 h16( e) e8 e16( g) g4
+    r8 g16( e) e8 e16( cis) cis4
+    r8 d16(\pE fis) fis4( e8) cis16( e)
+    e8( d16) fis fis8 g16( e) fis8. g16 %125
+    e4 r r
+    R2.
+    r8 fis,16(\fE a) a4( g8) e16( g)
+    g8( fis16) a a8 h16( g) a( fis) g( e)
+    fis8 fis16( a) a8 \once \slurDashed a16( d) d4 %130
+    r8 h h4 cis\prall
+    d8 h16 g' fis4 e-\parenthesize-\prall
+    d fis r
+    r8 h, h4 cis\prall
+    d8 h16 g' fis32( e d8.) e4\prall %135
+    d8 fis, fis a d a
+    a r r4 e'8.(\prall d32 e)
+    fis8.(\prall e32 fis) g8 r cis,8.(\prall h32 cis)
+    d8.(\prall cis32 d) e8 r h8.(\prall a32 h)
+    cis8.(\prall h32 cis) d8 r a8.(-\parenthesize-\prall g32 a) %140
+    h8 h4 h h8
+    cis e16 g fis8 a, h h'~
+    h a4 g fis16 e
+    fis8 g fis32 e d8. e4\prall
+    d8 r r4 r %145
+    R2.*2
+    d4\fE r r \noBreak
+    d r r
+    \twotwotime \time 2/2 \tempoGottFaehretB
+      r4 d h gis \noBreak %150
+    a g'! fis e
+    d a8. a16 h8.[ h16 h8. h16]
+    a8.[ d16 d8. fis16] fis2~
+    fis r\fermata \bar "|." %154 FINIS
+  }
+}

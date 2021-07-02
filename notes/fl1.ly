@@ -590,3 +590,164 @@ TriumphcFlautoI = {
     R2.\fermata \bar "|." %70 finis
   }
 }
+
+GottFaehretFlautoI = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 3/4 \tempoGottFaehret
+    fis'8\fE d fis a d a
+    fis a d16 cis h a g fis e d
+    fis8 d fis a d a
+    fis a d16 cis h a g fis e d
+    h'8 \tuplet 3/2 8 { d16( cis h) } h8 h4 cis16 d %5
+    cis8 \tuplet 3/2 8 { e16( d cis) } cis8 cis4 d16 e
+    d8 \tuplet 3/2 8 { fis,16( e d) } d8 h'16 a gis fis e d
+    cis a h cis d cis d e fis e fis gis
+    a a, h cis d cis d e fis e fis gis
+    a e cis' a a4 r8 a %10
+    h2.~
+    h8 e4 e e,8
+    a2.~
+    a8 d4 d d,8
+    g2.~ %15
+    g8 cis4 cis cis,8
+    fis2.~
+    fis16 e h' a gis fis e fis e d' cis h
+    cis8 cis4 cis cis8~
+    cis16 h d cis h d, e fis g!4~ %20
+    g16 fis e d cis h a h' a g fis e
+    fis8 d fis a d a
+    a8.(\prall g32 a) h8 r e,8.(\prall d32 e)
+    fis8.(\prall e32 fis) g8 r cis,8.(\prall h32 cis)
+    d8.(\prall cis32 d) e8 r h8.(\prall a32 h) %25
+    cis8.(\prall h32 cis) d8 r a8.(\prall g32 a)
+    h8 g'4 g g8~
+    g e16 g fis8 a16 c h8 h~
+    h a4 g fis16 e
+    fis d' h g fis32 e d8. e4\prall %30
+    d8 e16([\pE g)] fis8 a16( c) h8 h~
+    h a4 g fis16 e
+    fis d' h g fis32 e d8. e4\prall
+    d16\fE d, e fis g fis g a h a h cis
+    d d, e fis g fis g a h a h cis %35
+    d8 e,16 g fis8 g16 h a8 cis'
+    d d, fis a d r
+    r d, fis a d a
+    fis a d16 cis h a g fis e d
+    r8 d fis a d a %40
+    fis a d16 cis h a g fis e d
+    h'8 \tuplet 3/2 8 { d16( cis h) } h8 h4 cis16 d
+    cis8 \tuplet 3/2 8 { e16( d cis) } cis8 cis4 d16 e
+    d8 \tuplet 3/2 8 { fis,16( e d) } d8 h'16 a gis fis e d
+    cis a h cis d cis d e fis e fis gis %45
+    a a, h cis d cis d e fis e fis gis
+    a e cis' a a4 r8 e
+    fis2.~
+    fis8 d'4 d h,8
+    e2.~ %50
+    e8 cis'4 cis d8
+    h2.~
+    h8 e4 e e,8
+    a2.~
+    a8 d4 d d,8 %55
+    g2.~
+    g16 fis e d cis h a h' a g fis e
+    fis8 a16 g fis e d e d c h a
+    h8 h'16 a g fis e fis e d cis h
+    cis8 a cis e a e %60
+    cis'16 h a gis a gis fis e d cis h a
+    a'8 a, cis e a e
+    cis'16 h a gis a gis fis e d cis h a
+    fis'8. fis16 fis4 gis\prall
+    a8 fis16 d' cis32 h a8. h4\prall %65
+    a16 a, h cis d cis d e fis e fis gis
+    a4 r r
+    R2.
+    r8 cis,16(\pE e) e4( d8) h'16( d,)
+    d8( cis16)( e) e4 r %70
+    r r16 e(\fE fis d) e( cis) d( h)
+    cis8 cis'4 cis cis16( e,)
+    e8( d16)( fis) fis8 g16( e) fis( d) e( cis)
+    d4 d'2~
+    d e,4 %75
+    cis'2.
+    d4 a2
+    h8 g, h d g d
+    h'16 a g fis g fis e d c h a g
+    r8 e' g h e h %80
+    g16 fis e dis e4 r
+    e8 e' e,4 fis\prall
+    g8 e'16 c h32 a g8. a4\prall
+    g16 g, a h c h c d e d e fis
+    g4 r r %85
+    R2.*2
+    r8 g16(\pE h,) h4( a8) a16( c)
+    c8( h16)( d) d8 g16([\fE e)] d8( cis!16 e)
+    e8( d) a'8.( h32 c) h8 a %90
+    h16( d) d8 r4 fis,8.(\prall e32 fis)
+    g16( h) h8 h8.( cis!32 d!) cis8 h
+    cis16( e) e8 r4 cis,8.(\prall h32 cis)
+    d8 d16( fis) fis h( ais h) cis8 cis,16( e)
+    e8( d16) fis fis( h) g( e) fis( d) e( cis) %95
+    d8 h16( d) d( fis) fis( h) fis8.(\prall e32 fis)
+    g8 g g4 ais\prall
+    h8 h16 e d32 cis h8. cis4\prall
+    h r r
+    r8 d, fis a d a %100
+    a16 g fis e fis4 r
+    r8 d fis a d a
+    a16 g fis e fis4 r
+    h8 \tuplet 3/2 8 { d16( cis h) } h8 h4 cis16 d
+    cis8 \tuplet 3/2 8 { e16( d cis) } cis8 cis4 d16 e %105
+    d8 d4 h16 a gis fis e d
+    cis8 a'4 a g16 fis
+    g2.~
+    g8 e'4 e cis,8
+    fis2.~ %110
+    fis8 d'4 d h8~
+    h16 a e' d cis h a h a g fis e
+    fis8 a16 g fis e d e d c h a
+    h8 h16 d g8 a16 g fis8 d'16 fis,
+    fis4\prall e r %115
+    r8 fis16(\pE a) a4( g8) e16( g)
+    g8( fis16)( a) a4 r
+    r r8 g16(\fE e) fis( d) e( cis)
+    d d' h g fis32 e d8. e4\prall
+    d8 a'4 a a8 %120
+    h h4 h h8~
+    h h4 h h8
+    cis cis4 cis cis8
+    d fis,16(\pE a) a4( g8) e16( g)
+    g8( fis16) d' d8 e16( cis) d8. e16 %125
+    cis4 r r
+    R2.
+    r8 fis,16(\fE a) a d( cis d) e8 e,16( g)
+    g8( fis16) a a d h( g) a( fis) g( e)
+    fis8 fis16( a) a8 a16( d) d4 %130
+    r8 h h4 cis\prall
+    d8 h16 e d4 cis\prall
+    d8 d, fis a d a
+    h h h4 cis\prall
+    d8 h16 e d4 cis-\parenthesize-\prall %135
+    d8 d, fis a d a
+    a8.(\prall g32 a) h8 r e,8.(\prall d32 e)
+    fis8.(\prall e32 fis) g8 r cis,8.(\prall h32 cis)
+    d8.(\prall cis32 d) e8 r h8.(\prall a32 h)
+    cis8.(\prall h32 cis) d8 r a8.(\prall g32 a) %140
+    h8 g'4 g g8~
+    g e16( g) fis8 a16 c h8 h~
+    h a4 g fis16 e
+    fis d' h g fis32( e d8.) e4\prall
+    d8 e16([\pE g)] fis8 a16( c) h8 h~ %145
+    h a4 g fis16 e
+    fis d' h g fis32 e d8. e4\prall
+    d16\fE d, e fis g fis g a h a h cis \noBreak
+    d d e fis g fis g a h a h cis
+    \twotwotime \time 2/2 \tempoGottFaehretB
+      d8-! r d4 h gis \noBreak %150
+    a4 g fis e
+    d8.[ a'16 a8. a16] h8.[ g16 d'8. h16]
+    a8.[ d,16 fis8. a16] d2~
+    d r\fermata \bar "|." %154 FINIS
+  }
+}

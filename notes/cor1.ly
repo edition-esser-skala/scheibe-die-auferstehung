@@ -219,3 +219,182 @@ TriumphbCornoI = {
     c2 r\fermata \bar "|." %22 finis
   }
 }
+
+IhrThoreCornoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \tempoIhrThore
+    \partial 4 r4 r e'8.\fE e16 e4 e
+    r e8. e16 e4 e
+    a8( f e2) d4
+    e2 r
+    r4 e8. e16 e4 e %5
+    r e8. e16 e4 e
+    a f2 e4
+    e( d) r2
+    R1
+    r4 \tuplet 3/2 4 { a'8 a a } a4 r %10
+    R1
+    r4 \tuplet 3/2 4 { g8 g g } g4 \pa g
+    a1
+    g
+    f \pd %15
+    e8. a16 g2 f4
+    e8. f16 e2 d4
+    e8( f) f( g) g4 g
+    a4. f8 e4 d
+    \tuplet 3/2 4 { c8 e e } e4 r \pao g, %20
+    \tuplet 3/2 4 { c8 e e } e4 r g,
+    c2 c
+    c\p\cresc g
+    c, r4 g''\f
+    a4. f8 e4 d \noBreak %25
+    c2 r \bar "S-S"
+    R1*3
+    \tuplet 3/2 4 { r8 e\fE e e[ e e] } e4 r %30
+    r e8.\pp e16 e4 e
+    r e8. e16 e4 e
+    a f2( e4)
+    e( d) r2
+    R1 %35
+    r4 \tuplet 3/2 4 { a'8\f a a } a4 r
+    R1
+    r4 \tuplet 3/2 4 { g8\fE g g } g4 \pa r
+    r2 a~\pp
+    a h~ %40
+    h \once \tieDashed c~
+    c fis,
+    g \pd r
+    g,1~
+    g %45
+    R
+    g2 d'
+    g r
+    R1
+    g2 r %50
+    R1
+    d2 r4\fermata d
+    \tuplet 3/2 4 { g8 g g } g4\fE r d
+    \tuplet 3/2 4 { g,8 g g } g4 r2
+    R1 %55
+    g~\pp
+    g2 d'
+    g, r
+    R1
+    d'2 r %60
+    g, d'
+    g r
+    R1
+    g,2 r
+    r4 d'-!\mf e-! g-! %65
+    c,2-! d-!
+    g, r
+    r4 d'8.\f d16 d4 d
+    r g8. g16 g4 g
+    e8( a g2) fis4 %70
+    g \tuplet 3/2 4 { g8 g g } g4 \pa r
+    r2 a~
+    a g~
+    g fis \pd
+    g r %75
+    g, d'
+    g, r4 g
+    c2 d
+    g, r
+    R1 %80
+    r2 r4 d'\p
+    \pa g4.( \tuplet 3/2 8 { fis16 e d } e4) fis \pd
+    g g8.\f g16 g4 r
+    r e8.\pp e16 e4 e
+    r e8. e16 e4 e %85
+    a8( f e2) d4
+    e e8.\f e16 e4 r
+    g,1\pp
+    c4 r d8( e) e( f)
+    e( f) f( g) g( f) f( e) %90
+    \pa a1
+    g
+    f \pd
+    e8( a g2) a8 h
+    c2 \pao g %95
+    e8( f) f( g) g4 r
+    R1
+    \tuplet 3/2 4 { e8\f e e } e4 r \pao g,
+    \tuplet 3/2 4 { e'8 e e } e4 r d\p
+    e2 r %100
+    r4 \tuplet 3/2 4 { a8\f a a } a4 r
+    R1
+    r4 \tuplet 3/2 4 { g8\fE g g } g4 r
+    c,,1\pp
+    g %105
+    c2 g
+    c1~\cresc
+    c2 g'
+    c\! r
+    d\pE r4 d %110
+    d2 r
+    c, g'
+    c r
+    R1
+    c2 r %115
+    r4 g'-!\mf a-! e-!
+    f4.\prall e16 f g4 g,
+    c2 \pa r4 g'\f
+    a1
+    h %120
+    c2 r4 c,
+    d2 g,
+    c8( f e2) d4
+    c8( f e2) \pd d4
+    e8( f) f( g) g4 g %125
+    a4. f8 e4 d
+    c2 r4\fermata \noBreak
+    \time 3/4 \tempoIhrThoreB
+      \partial 8 r8 \noBreak
+    R2.*9 %136
+    e,2\fE r4
+    e2\p r4
+    e2 r4
+    R2. %140
+    d'4 r r
+    d r r
+    g,2.
+    d'
+    g2 r4 %145
+    R2.*2
+    g2\fE r4
+    R2.
+    g2\pE r4 %150
+    e8. a16 g4 fis
+    g2 r4
+    R2.*2
+    \pa r8 g16\f a h8 a16 h \pd c8 h16 a %155
+    h4 r8 g16 g g8 g16^\critnote g
+    g4 r8 g,16 g g8 g16 g
+    g2 r4
+    R2.*8 %166
+    d'2\fE r4
+    d2 r4
+    d2 r4
+    d2\p r4 %170
+    r8 g,16 g g8 g16 g g8 g16 g
+    g2 g,4
+    c2 r4
+    R2.
+    c'4 r8 c16 c c8 c %175
+    c4 r8 c16 c c8 c
+    c4 r r
+    R2.*10 %187
+    e2\pE r4
+    r a2\pp \noBreak
+    \appoggiatura e4 d2 r4\fermata %190
+    \twotwotime \time 2/2 \tempoIhrThoreC
+      \tuplet 3/2 4 { e8\f e e } e4 r d \noBreak
+    \tuplet 3/2 4 { e8 e e } e4 r d
+    e8. a16 g2 a8 h
+    c8. f,16 e2 d4
+    e8( f) f( g) g4 g %195
+    a4. f8 e4 d
+    c2 r \bar "S-S" %197 finis
+  }
+}

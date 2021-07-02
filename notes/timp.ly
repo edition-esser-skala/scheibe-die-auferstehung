@@ -105,3 +105,102 @@ TodWoTimpani = {
     c2 r\fermata \bar "|." %124 finis
   }
 }
+
+GottFaehretTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \tempoGottFaehret
+    c4\fE r8 c16 c c8 c
+    c4 c r
+    c r8 c16 c c8 c
+    c4 c r
+    R2.*3 %7
+    g8. g16 g4 r
+    g r r
+    g8 g16 g g4 r %10
+    R2.*11 %21
+    c8 c16 c c8 c c4
+    R2.*5 %27
+    g4 r r
+    r r8 g16 g g8 g
+    c r r g16 g g8 g %30
+    c r r4 r
+    R2.*2
+    c4\fE r r
+    c r r %35
+    r r r16 g g g
+    c8 c16 c c8[ c] c r
+    c4 r8 c16 c c8 c
+    c4 c r
+    c r8 c16 c c8 c %40
+    c4 c r
+    R2.*3
+    g8. g16 g4 r %45
+    g r r
+    g8 g16 g g8 g16 g g4
+    R2.*12 %59
+    g4 r8 g16 g g8 g %60
+    g4 g r
+    g r8 g16 g g8 g
+    g4 g r
+    c r r
+    R2. %65
+    g2 r4
+    g r r
+    R2.
+    g4 r r
+    R2.*4 %73
+    c4\fE r r
+    R2. %75
+    g4 r8 g16 g g8 g
+    c4 r r
+    c r r
+    c r r
+    R2.*14 %93
+    c4\fE r r
+    R2. %95
+    c4 r r
+    R2.*2
+    c4 r r
+    c r8 c16 c c8 c %100
+    c4 c r
+    c r8 c16 c c8 c
+    c4 c r
+    R2.*3 %106
+    g8 g16 g g4 r
+    R2.*6 %113
+    r4 r8 g c c
+    g g16 g g8 g16 g g8 g %115
+    c4 r r
+    R2.
+    r4 r r8 g\fE
+    c4 r8 g16 g g8 g
+    c4 r r %120
+    R2.*3
+    c4 r r
+    R2.*3 %127
+    r8 c\fE c c g g
+    c4 r8 c c g
+    c4 r8 c16 c c8 c %130
+    c4 r r
+    r r8 g16 g g8 g
+    c c16 c c8 c16 c c4
+    r r g
+    c r8 g16 g g8 g16 g %135
+    c8 c16 c c8 c16 c c4
+    R2.*5 %141
+    g4 c r
+    r r8 g16 g g8 g
+    c r r g16 g g8 g
+    c-! r r4 r %145
+    R2.*2
+    c4\fE r r \noBreak
+    c r r
+    \twotwotime \time 2/2 \tempoGottFaehretB
+      c8-! r r4 r2 \noBreak %150
+    r4 c g8 g16 g g8 g
+    c4 r r2
+    c4. r16 c c8.[ c16 c8. c16]
+    c2 r\fermata \bar "|." %154 FINIS
+  }
+}

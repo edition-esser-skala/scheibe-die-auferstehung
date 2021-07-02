@@ -1675,9 +1675,371 @@ AufEinemViolinoI = {
   }
 }
 
-% ViolinoI = {
-%   \relative c' {
-%     \clef treble
-%
-%   }
-% }
+IhrThoreViolinoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key g \major \time 2/2 \tempoIhrThore
+    \partial 4 d4\fE g2 h4.\prall a16 g
+    g2 h4.\prall a16 g
+    \once \slurDashed e8( c' h2) a4
+    \tuplet 3/2 4 { h8-! g-! g-! g[-! d-! d]-! } h4 d'
+    g2 h4.\prall a16 g %5
+    g2 h4.\prall a16 g
+    e4 c'2 h4
+    h( a) r d,
+    g8. h32 a g8. d16 d8. g,16 f'8. f16
+    f4( \tuplet 3/2 4 { e8) c' c } c4 e, %10
+    a8. c32 h a8. e16 e8. a,16 g'8. g16
+    g4( \tuplet 3/2 4 { fis!8) d' d } d4 d,8. f16
+    e8. c'16 c4 \tuplet 3/2 4 { r8 c, h c[ d e] }
+    d8. h'16 h4 \tuplet 3/2 4 { r8 h, a h[ c d] }
+    c8. a'16 a4 \tuplet 3/2 4 { r8 a, g a[ h c] } %15
+    h8. e16 d2 e8 fis
+    g8. c16 h2 a4
+    h8( c) c( d) d4 d,
+    e4. c'8 \tuplet 3/2 4 { h a g fis[ g a] }
+    <g h, d,>4 \tuplet 3/2 4 { g8-! h,-! h-! h[ a a] a c c } %20
+    <g' h, d,>4 \tuplet 3/2 4 { g8 h, h h[ a a] a c c }
+    h( c) c( d) d( e) e( fis)
+    g(\p\cresc a) a( h) a( h) h( c)
+    h( c) c( d) d4 d,\f
+    e4. c8 \tuplet 3/2 4 { h a g fis[ g a] } \noBreak %25
+    g4 g, r d'\p \bar "S-S"
+    g2 h4.\prall a16 g \noBreak
+    g2 h4.\prall a16 g
+    e8( c' h2) a4
+    \tuplet 3/2 4 { h8 d-!\f d-! d[-! g-! g]-! } g4 d\p %30
+    g2 d4.\prall c16 h
+    g'2 h4.\prall a16 g
+    c4 c2( h4)
+    h( a) r d,
+    g8. h32 a g8. d16 d8. g,16 f'8. f16 %35
+    f4( \tuplet 3/2 4 { e8) c'\f c } c4 e,\p
+    a8. c32 h a8. e16 e8. a,16 g'8. g16
+    g4( \tuplet 3/2 4 { fis!8) d'\f d } d4 a,8.\p c16
+    h8. h'16 h4 \tuplet 3/2 4 { r8 h, a g[ fis e] }
+    cis'8. cis'16 cis4 \tuplet 3/2 4 { r8 cis, h a[ g fis] } %40
+    d'8. d'16 d4 \tuplet 3/2 4 { r8 d, cis h[ a g] }
+    e'8. e'16 e4 \tuplet 3/2 4 { r8 e, fis g[ fis e] }
+    fis( g) g( a) a( g) g( fis)
+    fis( g) g( a) a4 r
+    a,8( h) h( c!) c( h) h( a) %45
+    h( a) a( g) g( fis) fis( e)
+    fis( h a2) g4
+    fis8( g) g( a) a4 a
+    h4.( g'8) \tuplet 3/2 4 { fis e d cis[ d e] }
+    d4 d, r2 %50
+    fis2 e4. d8
+    cis2 r4\fermata e'8. g16
+    <fis a, d,>4 \tuplet 3/2 4 { d'8\f fis, fis fis[ e e] e g g }
+    <fis a, d,>4 \tuplet 3/2 4 { d'8 fis, fis fis[ e e] e g g }
+    <fis a, d,>4 r e,8(\p fis) fis( g) %55
+    fis( g) g( a) a( h) h( cis)
+    d\cresc( e) e( fis) e( fis) fis( g)
+    fis( g) g( a) a4 r
+    h,2\pE r4 e
+    cis2 r %60
+    fis,8( h a2) g4
+    fis8( g) g( a) a4 d
+    h4. g8 \tuplet 3/2 4 { fis e d cis[ d e] }
+    d4 e8 fis g a h cis
+    d4 a-!\mf h-! fis-! %65
+    g4.\prall fis16 g a4 a,
+    d2 r4 a'\f
+    d2 fis4.\prall e16 d
+    d2 fis4.\prall e16 d
+    h8( e d2) cis4 %70
+    \tuplet 3/2 4 { d8 fis fis fis[ a a] } d4 a,8. c16
+    h8. g'16 g4 \tuplet 3/2 4 { r8 g, fis g[ a h] }
+    a8. fis'16 fis4 \tuplet 3/2 4 { r8 fis, e fis[ g a] }
+    g8. e'16 e4 \tuplet 3/2 4 { r8 e, d e[ fis g] }
+    fis8. h16 a2 h8 cis %75
+    d8. g16 fis2 e4
+    fis8( g) g( a) a4 a,
+    h4. g'8 \tuplet 3/2 4 { fis e d cis[ d e] }
+    d4 d, r a'\p
+    d,2 fis4.\prall e16 d %80
+    a'2 cis4.\prall h16 a
+    d4.( \tuplet 3/2 8 { cis16 h a } h4) cis
+    d d,8.\f d16 d8 c! h a
+    g'2\p h4.\prall a16 g
+    g2 h4.\prall a16 g %85
+    e8( a g2) fis4
+    h8. d32\f c h8. d16 g8. g16 g8. h,16\pp
+    a8( h) h( c) c( h) h( a)
+    h4 r a8( h) h( c)
+    h( c) c( d) d4 g %90
+    e8. c'16 c4 \tuplet 3/2 4 { r8 c, h c[ d e] }
+    d8. h'16 h4 \tuplet 3/2 4 { r8 h, a h[ c d] }
+    c8. a'16 a4 \tuplet 3/2 4 { r8 a, g a[ h c] }
+    h( e d2) e8 fis
+    g8( c h2) a4 %95
+    h8( c) c( d) d4 d,
+    e4. c'8 \tuplet 3/2 4 { h a g fis[ g a] }
+    <g h, d,>4\f \tuplet 3/2 4 { g8 h, h h[ a a] a c c }
+    <g' h, d,>4 \tuplet 3/2 4 { g8 h, h h[ a a] a\p c c }
+    h8. d32 c h8. d16 d8. g,16 f'8. f16 %100
+    f4( \tuplet 3/2 4 { e8) c'\f c } c4 e,\p
+    a8. c32 h a8. e16 e8. a,16 g'8. g16
+    g4( \tuplet 3/2 4 { fis!8) d'\f d } d4 a,\pp
+    h8( c) c( d) d( c) c( h)
+    a( h) h( c) c( h) h( a) %105
+    h4 r a8( h) h( c)
+    h(\cresc c) c( d) d( e) e( fis)
+    g( a) a( h) a( h) h( c)
+    h( c) c( d) d4\! r
+    e,,2\pE r4 a %110
+    fis2 r
+    h8( e d2) c!4
+    h8( c) c( d) d4 g
+    e,4.( c'8) \tuplet 3/2 4 { h a g fis[ g a] }
+    g d e fis g a h c %115
+    d4 d,-!\mf e-! h-!
+    c4.\prall h16 c d4 fis'
+    <g h, d,>2 r4 h,8.\f d16
+    \tuplet 3/2 4 { c8[ g' f] e d c } c8. c'16 c4
+    \tuplet 3/2 4 { r8 a[ g] fis e d } d8. d'16 d4 %120
+    \tuplet 3/2 4 { r8 h[ a] g fis e } e8. e'16 e4
+    \tuplet 3/2 4 { r8 c,[ h] a g fis fis a h c[ h a] }
+    h8.( e16 d2) e8 fis
+    \once \slurDashed g8( c h2) a4
+    h8( c) c( d) d4 d, %125
+    e4. c8 \tuplet 3/2 4 { h[ a g] fis g a }
+    g4 g, r\fermata
+    \time 3/4 \tempoIhrThoreB
+      \partial 8 r8 \noBreak
+    r16 c d e f g a h c8 r \noBreak
+    a4(\pp g) c
+    d,4.( e16 f) e4 %130
+    e d r8-\critnote g
+    f4( e) c'~
+    c a fis
+    e8.( dis16) dis4 r
+    R2. %135
+    r8 e'16\f fis g8 fis16 g a8 g16 fis
+    g8 g16 a h8 a16 h c8 h16 a
+    \kneeBeam h8 e,,16\p fis g8 fis16 g a8 g16 fis
+    g8 g16 a h8 a16 h c8 h16 a
+    h8 h' r h r h, %140
+    cis a16 h cis8 h16 cis d8 cis16 h
+    cis a\f h cis d e fis gis a8 r
+    r d4\p fis,16 g a8 g16 fis
+    fis8 e4 e16 fis g8 fis16 e
+    fis4 r e, %145
+    fis8 fis16 g a8 g16 a h8 a16 g
+    a8. fis'16 fis4 r
+    <fis a, d,>\f r16 d e fis g a h cis
+    d8\p d,16 e fis8 e16 fis g8 fis16 e
+    fis8 fis16 g a8 fis16 g a8 g16 fis %150
+    h a g8 fis4 e
+    d16 d,\f e fis g a h cis d a h cis
+    d\mf e fis e d cis h a h a g fis
+    g fis e d a'4 cis
+    d8 d16\f e fis8 e16 fis g8 fis16 e %155
+    fis8 fis16 g a8 g16 a h8 a16 g
+    a8 d16 d d8 fis,16 fis fis8 d16 d
+    d2 r4
+    r16 a, h cis d e fis gis a8 r
+    fis4(\pp e) a %160
+    h,4.( cis16 d) cis4
+    cis h r8 e
+    d4( cis) a'~
+    a fis dis
+    cis8.( his16) his4 r %165
+    R2.
+    r8 a'16\f h cis8 h16 cis d8 cis16 h
+    cis8 e16 fis g!8 e16 fis g8 fis16 e
+    <fis a, d,>4 r8 cis16\p d e8 d16 cis
+    d8 d16 e fis8 e16 fis g8 fis16 e %170
+    fis8 d' r d r a
+    h g,16 a h8 a16 h c!8 h16 a
+    h g\f a h c d e fis g8 r
+    r c4\p e,16 f g8 f16 e
+    e8 d4 d16 e f8 e16 d %175
+    e4 r d,
+    e8 e16 f g8 f16 g a8 g16 f
+    g8. e'16 e4 r
+    <c e, g,> r16 c\f d e f g a h
+    c8 c,16\p d e8 d16 e f8 e16 d %180
+    e8 e16 f g8 e16 f g8 f16 e
+    a g f8 e4 d
+    c16 c,\f d e f g a h c g a h
+    c\mf d e d c h a g a g f e
+    f e d c g'4 h %185
+    c8.[ e16\f e8. e16 e8. e16]
+    e4(\p d) r
+    <g h, d,>2 r8 d,\pp
+    d4( e) c' \noBreak
+    \appoggiatura h a2 r4\fermata %190
+    \twotwotime \time 2/2 \tempoIhrThoreC
+      <g' h, d,>4\f \tuplet 3/2 4 { g8 h, h h[ a a] a c c } \noBreak
+    <g' h, d,>4 \tuplet 3/2 4 { g8 h, h h[ a a] a c c }
+    h8.( e16 d2) e8 fis
+    g8.( c16 h2) a4
+    h8( c) c( d) d4 d, %195
+    e4. c'8 \tuplet 3/2 4 { h a g fis[ g a] }
+    g4 g, r d\p \bar "S-S" %197 finis
+  }
+}
+
+GottFaehretViolinoI = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 3/4 \tempoGottFaehret
+    <d a' fis'>8\fE d16 d fis fis a a d d a a
+    fis' e d cis d cis h a g fis e d
+    <d a' fis'>8 d16 d fis fis a a d d a a
+    fis' e d cis d cis h a g fis e d
+    h'8 \tuplet 3/2 8 { d16( cis h) } h8 g'16 fis e d cis h %5
+    cis8 \tuplet 3/2 8 { e16 d( cis) } cis8 a'16 g fis e d cis
+    d8 \tuplet 3/2 8 { fis16( e d) } d8 h'16 a gis fis e d
+    cis a h cis d cis d e fis e fis gis
+    \kneeBeam a a,, h cis d cis d e fis e fis gis
+    a8 cis16 cis <cis e, a,>4 r8 a' %10
+    h16 d, e fis g fis g a h8 h,16 h'~
+    h8 cis,16 h'~ h8 h~ h16 g fis e
+    a cis, d e fis e fis g a8 a,16 a'~
+    a8 h,16 a'~ a8 a~ a16 fis e d
+    g h, cis d e d e fis g8 g,16 g'~ %15
+    g8 a,16 g'~ g8 g~ g16 e d cis
+    fis a, h cis d cis d e fis8 fis~
+    fis16 e h' a gis fis e fis e d cis h
+    cis8 cis4 cis cis8~
+    cis16 h fis' e d d e fis g!4~ %20
+    g16 fis e d cis h a h a g fis e
+    <d a' fis'>8 d16 d fis fis a a d d fis fis
+    a8.(\prall g32 a) h8 r e,8.(\prall d32 e)
+    fis8.(\prall e32 fis) g8 r cis,8.(\prall h32 cis)
+    d8.(\prall cis32 d) e8 r h8.(\prall a32 h) %25
+    cis8.(\prall h32 cis) d8 r a8.(\prall g32 a)
+    h8 h16 a g fis e fis e d cis h
+    \kneeBeam a8 e''16 g fis8 a,16 c h8 h'~
+    h a4 g fis16 e
+    fis d h g' fis32 e d8. e4\prall %30
+    d8 e,16[\p g] fis8 a,16 c h8 h'~
+    h a4 g fis16 e
+    fis d' h g fis32 e d8. e4\prall
+    <d a' fis'>16\f d e fis g fis g a h a h cis
+    d d, e fis g fis g a h a h cis %35
+    d8 e,16 g fis8 g16 h a8 a,
+    <d a' fis'>2 r4
+    <d a' fis'>8 d16 d fis fis a a d d a a
+    fis' e d cis d cis h a g fis e d
+    <d a' fis'>8 d16 d fis fis a a d d a a %40
+    fis' e d cis d cis h a g fis e d
+    h'8 \tuplet 3/2 8 { d16( cis h) } h8 g'16 fis e d cis h
+    cis8 \tuplet 3/2 8 { e16 d( cis) } cis8 a'16 g fis e d cis
+    d8 \tuplet 3/2 8 { fis16( e d) } d8 h'16 a gis fis e d
+    cis a h cis d cis d e fis e fis gis %45
+    \kneeBeam a a,, h cis d cis d e fis e fis gis
+    a8 cis16 cis <cis e, a,>4 r8 e
+    fis16 a, h cis d cis d e fis8 fis,16 fis'~
+    fis8 gis,16 fis'~ fis8 fis~ fis16 d cis h
+    e gis, a h cis h cis d e8 e,16 e'~ %50
+    e8 fis,16 e'~ e8 e~ e16 a g! fis
+    h d, e fis g fis g a h8 h,16 h'~
+    h8 cis,16 h'~ h8 h~ h16 g fis e
+    a cis, d e fis e fis g a8 a,16 a'~
+    a8 h,16 a'~ a8 a~ a16 fis e d %55
+    g h, cis d e d e fis g8 g,16 g'~
+    g fis e d cis h a h a g fis e
+    fis8 a'16 g fis e d e d c h a
+    h8 h'16 a g fis e fis e d cis h
+    <cis e, a,>8 a16 a cis cis e e a a e e %60
+    cis' h a gis a gis fis e d cis h a
+    <cis e, a,>8 a,16 a cis cis e e a a e e
+    cis' h a gis a gis fis e d cis h a
+    fis'' e d cis h a gis fis e d cis h
+    \kneeBeam a a'' fis d cis32 h a8. h4\prall %65
+    a16 a h cis d cis d e fis e fis gis
+    \kneeBeam a a,, h cis d cis d e fis e fis gis
+    a8 h,16 d cis8 d16 fis e8 gis'
+    a4 r r
+    r8 e,16(\p cis) cis4( h8) h16( d) %70
+    d8( cis16)( e) e e'(\f fis d) e( cis) d( h)
+    cis8 cis16( e) e( a) a( cis) cis8 cis,16( e)
+    e8( d16)( fis) fis h g( e) fis( d) e( cis)
+    d( h) h( d) d( fis) fis( h) h( d) d8-\parenthesize-\prall
+    d8. h16 h8.(\prall a32 h) h8.(\prall a32 h) %75
+    cis16( a,) a( cis) cis( e) e( a) a( cis) cis8\prall
+    d8. a16 a8.(\prall g!32 a) a8.(\prall g32 a)
+    h8 g,16 g h h d d g g d d
+    h' a g fis g fis e d c h a g
+    <e h' g'>8 e16 e g g h h e e h h %80
+    g' fis e dis e d c h a g fis e
+    e' d c h a g fis e d c h a
+    \kneeBeam g g'' e c h32( a g8.) a4\prall
+    g16 g, a h c h c d e d e fis
+    g g, a h c h c d e d e fis %85
+    g8 a,16 c h8 c16 e d8 fis'
+    g h,,16([\p d)] d( g fis g) a8 c,
+    c( h16)( d) d4 r
+    r r8 g'16(\f e) d8( cis!16 e)
+    e8( d) a8.( h32 c) h8 a %90
+    h16( d) d( g) h,( d) d( g) h,-! a-! g-! fis-!
+    e( g) g( h) h8.( cis!32 d!) cis8 h
+    cis16( e) e( a) cis,( e) e( a) fis,-! e-! d-! cis-!
+    h8 d'16( fis) fis h( ais h) cis8 cis,16( e)
+    e8( d16) fis fis( h) g( e) fis( d) e( cis) %95
+    d8 h16( d) d( fis) fis( h) fis8.(\prall e32 fis)
+    g16-! fis-! e-! d-! cis h ais g! fis e d cis
+    \kneeBeam h h'' g e d32 cis h8. cis4\prall
+    h16( d) d( fis) d( fis) fis( h) a,!-! g-! fis-! e-!
+    <d a' fis'>8 d16 d fis fis a a d d a a %100
+    fis' e d cis d cis h a g fis e d
+    <d a' fis'>8 d16 d fis fis a a d d a a
+    fis' e d cis d cis h a g fis e d
+    h'8 \tuplet 3/2 8 { d16( cis h) } h8 g'16 fis e d cis h
+    cis8 \tuplet 3/2 8 { e16( d cis) } cis8 a'16 g fis e d cis %105
+    d8 \tuplet 3/2 8 { fis16( e d) } d8 h'16 a gis fis e d
+    cis8 cis16 cis cis cis e e a a g fis
+    g h, cis dis e dis e fis g8 g,16 g'~
+    g8 a,16 g'~ g8 \once \tieDashed g~ g16 e d! cis
+    fis a, h cis d cis d e fis8 fis,16 fis'~ %110
+    fis8 g,16 fis'~ fis8 fis~ fis16 d cis h
+    e8 e4 e e8~
+    e16 d a' g fis e d e d c h a
+    h g h d g g fis e fis d a' fis
+    fis4\prall e8 a,16 h a g fis e %115
+    <d a' fis'>4 r r
+    R2.
+    r4 r8 g'16(\fE e) fis( d) e( cis)
+    d a h g' fis32 e d8. e4\prall
+    d16( a) a( d) d( fis) fis( a) a( fis) fis8\prall %120
+    g8. d16 d8.(\prall cis32 d) d8.(\prall cis32 d)
+    d16( g,) g( h) h( e) e( g) g( e) g8~
+    g8. e16 e8.(\prall d32 e) e8.(\prall d32 e)
+    <fis a, d,>4 r r
+    R2. %125
+    r8 cis,16(\p e) e4( d8) h16( d)
+    d8( cis16) e e8 e16( g!) fis8( g16 e)
+    fis8 fis'16([\f a)] a d( cis d) e8 e,16( g)
+    g8( fis16) a a d h( g) a( fis) g( e)
+    fis8 d16( fis16) fis( a) a( d) a8.(\prall g32 a) %130
+    h16 a g fis e d cis h a g fis e
+    d d' h g' fis32 e d8. e4\prall
+    <fis a, d,>8 d,16 d fis fis a a d d fis fis
+    <h, d, g,>8 g'16 fis e d cis h a g fis e
+    fis d' h g' fis32 e d8. e4\prall %135
+    <fis a, d,>8 d,16 d fis fis a a d d fis fis
+    a8.(\prall g32 a) h8 r e,8.(\prall d32 e)
+    fis8.(\prall e32 fis) g8 r cis,8.(\prall h32 cis)
+    d8.(\prall cis32 d) e8 r h8.(-\parenthesize-\prall a32 h)
+    cis8.(\prall h32 cis) d8 r a8.(\prall g32 a) %140
+    h8 h16 a g fis e fis e d cis h
+    \kneeBeam a8 e''16 g fis8 a,16 c h8 h'~
+    h a4 g fis16 e
+    fis d h g' fis32( e d8.) e4\prall
+    d8 e,16([\p g)] fis8 a,16( c) h8 h'~ %145
+    h a4 g fis16 e
+    fis d' h g fis32 e d8. e4\prall
+    <d a' fis'>16\f d e fis g fis g a h a h cis \noBreak
+    d d, e fis g fis g a h a h cis
+    \twotwotime \time 2/2 \tempoGottFaehretB
+       d8-! r d8. d16 h8.[ h16 gis8. gis16] \noBreak %150
+    a8.[ a16 g'!8. g16] fis4 e\prall
+    d8.[ a'16 a8. a16] h8.[ g16 h8. g16]
+    a8.[ d,16 fis8. a16] d8.[ a16 a8. fis16]
+    fis2 r\fermata \bar "|." %154 FINIS
+  }
+}

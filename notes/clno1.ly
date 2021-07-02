@@ -119,3 +119,107 @@ TodWoClarinoI = {
     g2 r\fermata \bar "|." %124 finis
   }
 }
+
+GottFaehretClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoGottFaehret
+    e'4\fE r8 e16 e e8 e
+    e4 e r
+    e r8 e16 e e8 e
+    e4 e r
+    R2.*3 %7
+    d8. d16 d4 r
+    d r r
+    d8 d16 d d4 r %10
+    R2.*11 %21
+    e8 e16 e e8 e e4
+    R2.*5 %27
+    \pa r8 d e g a a~
+    a g4 f e16 d
+    e8 f e4 d\prall %30
+    c8 \pd r r4 r
+    R2.*2
+    e4\fE r r
+    e r r %35
+    r r8 a16 f e8 d
+    c e16 e e8[ e] e r
+    e4 r8 e16 e e8 e
+    e4 e r
+    e r8 e16 e e8 g %40
+    e4 e r
+    R2.*3
+    d8. d16 d4 r %45
+    d r r
+    d8 d16 d d8 g16 g g4
+    R2.*12 %59
+    d4 r8 d16 d d8 d %60
+    d4 d r
+    d r8 d16 d d8 d
+    d4 d r
+    e8. e16 e4 fis\prall
+    g8. a16 g4 fis\prall %65
+    g2 r4
+    d r r
+    R2.
+    d4 r r
+    R2.*4 %73
+    \pao e4\fE r8 e16 e e8[ e]
+    fis4 r8 \pa d16 d d8 d %75
+    d4 \pd r8 d16 d d8 d
+    e4 r8 g16 g g8 g
+    a4 r8 a16 a a8 a
+    a4 r r
+    f r8 f16 f f8 f %80
+    f4 r r
+    R2.*12 %93
+    e,4\fE r8 e16 e e8 e
+    e4 r r %95
+    e r8 e'16 e e8 e
+    f4 r r
+    r r8 e16 e e8 e
+    e4 r r
+    e r8 e16 e e8 g %100
+    e4 e r
+    e r8 e16 e e8 g
+    e4 e r
+    R2.*3 %106
+    d8 d16 d d4 r
+    R2.*6 %113
+    r8 a' f g16 f e8 e
+    e4\prall d8 d16 d d8 d %115
+    e4 r r
+    R2.
+    r4 r r8 \pa d\fE
+    e f e e16 e d8 d \pd
+    c4 r r %120
+    a'2.~
+    a8 f~ f2~
+    f8 d~ d4. f8
+    e4 r r
+    R2.*3 %127
+    r8 e16(\fE g) g4( f8) d16( f)
+    f8( e16) g g8 a16( f) g( e) f( d)
+    e4 r8 g g8.(\prall f32 g) %130
+    a4 r r
+    r8 f e4 d-\parenthesize-\prall
+    c8 e16 e e8 e16 e e4
+    r r d8.( e32 f)
+    \pa e8 a16 f e8 e16 e d8 d \pd %135
+    c e16 e e8 e16 e e4
+    R2.*5 %141
+    \pa r8 d16( f) e8 g a a~
+    a g4 f e16 d
+    e8 f e32 d c8. d4\prall \pd
+    c8-! r r4 r %145
+    R2.*2
+    e4\fE r r \noBreak
+    e r r
+    \twotwotime \time 2/2 \tempoGottFaehretB
+      e8-! r r4 r2 \noBreak %150
+    r4 f4 e8 e16 e d8 d
+    c4 r r2
+    e4. r16 g g8.[ e16 e8. e16]
+    e2 r\fermata \bar "|." %154 FINIS
+  }
+}

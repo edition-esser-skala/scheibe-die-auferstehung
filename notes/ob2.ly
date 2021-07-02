@@ -297,3 +297,160 @@ TriumphcOboeII = {
     R2.\fermata \bar "|." %70 finis
   }
 }
+
+GottFaehretOboeII = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 3/4 \tempoGottFaehret
+    r8 d\fE fis a d a
+    fis'16 e d cis d4 r
+    r8 d, fis a d a
+    fis'16 e d cis d4 r
+    h8 h4 g'16 fis e d cis h %5
+    cis8 cis4 a'16 g fis e d cis
+    d8 d4 h'16 a gis fis e d
+    cis4 r r
+    cis r r
+    cis8 cis16 cis cis4 r %10
+    r r r8 d
+    e e, g cis e e~
+    e e4 e d16 cis
+    d8 d, fis h d d~
+    d d4 d cis16 h %15
+    cis4 e,8 a cis cis~
+    cis cis4 cis h16 a
+    h8 h4 h h8~
+    h16 a cis h a8.[ g16 fis8. e16]
+    d8 d'4 d8~ d16 h cis d %20
+    cis8 cis16 d cis h a h a g fis e
+    fis8 d fis a d fis
+    a8 r d,8.(\prall cis32 d) e8 a
+    <fis a, d,> r h,8.(\prall a32 h) cis8 fis
+    fis r r h, e e %25
+    e a, a d d d~
+    d g,4 g g8~
+    g e' d a h g'~
+    g cis,!16 d e8 a,4 a8
+    a h a4 cis\prall %30
+    d8 r r4 r
+    R2.*2
+    d4\fE r r
+    d r r %35
+    d8 e,16 g fis8 g16 h a8 e
+    fis a16 a a8[ a] a r
+    r fis d fis a fis
+    d'4 a r
+    r8 d d, fis a fis %40
+    d'4 a r
+    g8. g16 g4 r
+    a8. a16 a4 cis
+    h h h
+    a a r %45
+    cis r r
+    cis8 cis16 cis cis4 r
+    r r r8 a
+    h h4 h h8~
+    h h4 h a16 gis %50
+    a8 a4 a d!8~
+    d d4 d d8
+    e e4 e e8~
+    e e4 e d16 cis
+    d8 d4 d d8~ %55
+    d d4 d e16 d
+    cis8 e,4 e e8
+    d fis4 fis g16 a
+    g8 g4 h cis!16 h
+    a8 a a e a cis %60
+    cis4 cis r
+    a8 a a e e a
+    a4 cis r
+    a8. d,16 d4 e
+    e8 d'16 h a4 gis-\parenthesize-\prall %65
+    a2 r4
+    R2.*2
+    r8 a16(\pE cis) cis4( h8) gis16( h)
+    h8( a16)( cis) cis4 r %70
+    r r8 d\fE cis h
+    a a16( cis) cis4 cis8 ais16( cis)
+    cis8( h16)( d) d8 e16( cis) d( h) cis( ais)
+    h8 fis16( h) h8 h16( d) d4
+    r8 e,16( gis) gis8 gis16( h) gis4 %75
+    r8 e16( a) a8 \once \slurDashed a16( cis) cis4
+    r8 d,16( fis) fis8 fis16( a) fis4
+    r8 d g! h d h
+    h8. a16 h4 r
+    r8 g e g h g %80
+    h8. h16 h4 r
+    r8 g a4 a
+    h8 c16 a g4 fis-\parenthesize-\prall
+    g r r
+    R2.*3 %87
+    r8 h16(\pE g) g4( fis8) fis16( a)
+    a8( g16) h h8 h16([\fE g)] fis8( e16 g)
+    g8( fis) fis8.( g32 a) g8 fis %90
+    g16( h) h4 h8 dis8.(\prall cis!32 dis)
+    e4 gis,8.( a32 h) a8 gis
+    \once \slurDashed a16( cis!) cis4 cis8 ais4\prall
+    h8 h16( d) d4( cis8) ais16( cis)
+    cis8( h16) d d8 e16( cis) d( h) cis( ais) %95
+    h8 fis16( h) h8 h16( d) d4
+    r8 h cis4 cis
+    d8 e16 cis h4 ais-\parenthesize-\prall
+    h r r
+    r8 a fis a d a %100
+    d4 a r
+    r8 fis d fis a fis
+    d'4 a r
+    g8. g16 g4 r
+    a8. a16 a4 cis %105
+    h h h
+    a cis r
+    h h8 h h h
+    cis e4 e d16 cis
+    d4 a8 a a a %110
+    h d4 d cis16 h
+    e4 a, a
+    a r r
+    r8 h e d16 cis d8 d
+    d4\prall cis r %115
+    r8 d,16(\pE fis) fis4( e8) cis16( e)
+    e8( d16) fis fis4 r
+    r r8 h16(\fE g) a( fis) g( e)
+    fis8 g fis4 e-\parenthesize-\prall
+    fis8 fis16( a) a8 a16( d) d4 %120
+    r8 d16( h) h8 h16( g) g4
+    r8 g16( h) h8 h16( e) e4
+    r8 e16( cis) cis8 cis16( a) a4
+    r8 fis16(\pE a) a4( g8) e16( g)
+    g8( fis16) d' d8 e16( cis) d8. e16 %125
+    cis4 r r
+    R2.
+    r8 d,16(\fE fis) fis4( e8) \once \slurDashed cis16( e)
+    e8( d16) fis fis8 g16( e) fis( d) e( cis)
+    d8 d16( fis) fis8 \once \slurDashed fis16( a) fis4 %130
+    r8 g g4 a
+    a8 g16 e' d4 cis-\parenthesize-\prall
+    d d r
+    r8 g, g4 a-\parenthesize-\prall
+    a8 h16 e d4 cis\prall %135
+    d8 d, d fis a fis
+    fis r d'8.(\prall cis32 d) e8 a
+    a r h,8.(\prall a32 h) cis8 fis
+    fis r r h, e e~
+    e a, d d4 d8~ %140
+    d g,4 g g8~
+    g e' e a, h g'~
+    g cis,!16 d e8 a,4 a8
+    a h a4 cis-\parenthesize-\prall
+    d8 r r4 r %145
+    R2.*2
+    d4\fE r r \noBreak
+    d r r
+    \twotwotime \time 2/2 \tempoGottFaehretB
+      r4 d h gis \noBreak %150
+    a g a cis
+    d fis,8. fis16 g8.[ g16 g8. g16]
+    fis8.[ fis16 fis8. d'16] d2~
+    d r\fermata \bar "|." %154 FINIS
+  }
+}
