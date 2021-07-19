@@ -1,0 +1,24 @@
+composer: Scheibe, Johann Adolph
+title: Die Auferstehung und Himmelfahrt Jesu 
+id: SchW online B2:301, 302
+genre: oratorio
+scoring: S, A, 2 T, B (solo), S, A, T, B (coro), 2 fl, 2 ob, 2 cor (D/Es/F/G), 2 clno (D), timp (D–A), 2 vl, vla, b, org
+sources:
+  1:
+    siglum: D-B
+    shelfmark: Mus.ms.autogr. Scheibe, J. A. 1a
+    type: autograph manuscript
+    date: ca. 1760
+    rism: 464131750
+    url: http://resolver.staatsbibliothek-berlin.de/SBB0001D7ED00000000
+  2:
+    siglum: D-B
+    shelfmark: Mus.ms.autogr. Scheibe, J. A. 1b
+    type: autograph manuscript
+    date: ca. 1760
+    rism: 464131751
+    url: http://resolver.staatsbibliothek-berlin.de/SBB0001D7F000000000
+github:  scheibe-die-auferstehung
+imslp: Die_Auferstehung_und_Himmelfahrt_Jesu%2C_SchW_B2:301_(Scheibe%2C_Johann_Adolph)
+notes:
+
