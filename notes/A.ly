@@ -1,16 +1,5 @@
 \version "2.22.0"
 
-AltoIncipit = \markup {
-  \center-column { "Canto II" "overo" "Alto" } \hspace #-18.8 \score {
-    \new Staff \with {
-      \remove Time_signature_engraver
-    } {
-      \clef soprano s4 \bar empty
-    }
-    \layout { }
-  } \hspace #-1.8
-}
-
 GottDuWirstAltoNotes = {
   \relative c' {
     \clef treble

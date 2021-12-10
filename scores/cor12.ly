@@ -1,69 +1,21 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
+#(define option-instrument-name "cor")
+\include "score_settings/two-staves.ly"
 
-\paper {
-  indent = 1\cm
-  top-margin = 1.5\cm
-  system-separator-markup = ##f
-  system-system-spacing =
-    #'((basic-distance . 16)
-       (minimum-distance . 16)
-       (padding . -100)
-       (stretchability . 0))
+\paper { indent = 1.5\cm }
 
-  top-system-spacing =
-    #'((basic-distance . 12)
-       (minimum-distance . 12)
-       (padding . -100)
-       (stretchability . 0))
-
-  top-markup-spacing =
-    #'((basic-distance . 0)
-       (minimum-distance . 0)
-       (padding . -100)
-       (stretchability . 0))
-
-  markup-system-spacing =
-    #'((basic-distance . 12)
-       (minimum-distance . 12)
-       (padding . -100)
-       (stretchability . 0))
-
-  systems-per-page = #6
-}
-
-#(set-global-staff-size 17.82)
-
-\layout {
-  \context {
-    \GrandStaff
-    \override StaffGrouper.staffgroup-staff-spacing =
-      #'((basic-distance . 12)
-        (minimum-distance . 12)
-        (padding . -100)
-        (stretchability . 0))
-    \override StaffGrouper.staff-staff-spacing =
-      #'((basic-distance . 12)
-        (minimum-distance . 12)
-        (padding . -100)
-        (stretchability . 0))
-
-  }
-}
 \book {
   \bookpart {
-    \header {
-      genre = "C O R O"
-      number = "1"
-      title = "Gott, du wirſt ſeine Seele nicht in der Hölle laſſen!"
-    }
+    \section "1" "Coro" "Gott, du wirſt ſeine Seele nicht in der Hölle laſſen!"
+    \addTocEntry
     \paper { indent = 2\cm systems-per-page = #5 }
     \score {
       <<
         \new StaffGroup <<
           \new GrandStaff <<
-            \set GrandStaff.instrumentName = \markup \center-column { "Corno" "in D" }
+            \set GrandStaff.instrumentName = \transposedName "Corno" "D" ""
             \new Staff {
               \set Staff.instrumentName = "I"
               \GottDuWirstCornoI
@@ -78,16 +30,13 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "A R I A"
-      number = "6"
-      title = "Sey gegrüßet, Fürſt des Lebens!"
-    }
+    \section "6" "Aria" "Sey gegrüßet, Fürſt des Lebens!"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup <<
           \new GrandStaff <<
-            \set GrandStaff.instrumentName = \markup \center-column { "cor" "(Es)" }
+            \set GrandStaff.instrumentName = \transposedNameShort "cor" "E" "flat"
             \new Staff {
               \set Staff.instrumentName = "1"
               \SeyGegruessetCornoI
@@ -102,16 +51,13 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "C H O R A L"
-      number = "14"
-      title = "Triumph! Triumph! der Fürſt des Lebens ſieget!"
-    }
+    \section "14" "Choral" "Triumph! Triumph! der Fürſt des Lebens ſieget!"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup <<
           \new GrandStaff <<
-            \set GrandStaff.instrumentName = \markup \center-column { "cor" "(F)" }
+            \set GrandStaff.instrumentName = \transposedNameShort "cor" "F" ""
             \new Staff {
               \set Staff.instrumentName = "1"
               \TriumphbCornoI
@@ -126,17 +72,14 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "A R I A"
-      number = "19"
-      title = "Ihr Thore Gottes, öffnet euch!"
-    }
+    \section "19" "Aria" "Ihr Thore Gottes, öffnet euch!"
+    \addTocEntry
     \paper { page-count = #4 }
     \score {
       <<
         \new StaffGroup <<
           \new GrandStaff <<
-            \set GrandStaff.instrumentName = \markup \center-column { "cor" "(G)" }
+            \set GrandStaff.instrumentName = \transposedNameShort "cor" "G" ""
             \new Staff {
               \set Staff.instrumentName = "1"
               \IhrThoreCornoI

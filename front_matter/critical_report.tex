@@ -1,323 +1,33 @@
-\documentclass[parskip=full]{scrreprt}
+\documentclass[tocstyle=ref-genre]{ees}
 
-\RedeclareSectionCommand[pagestyle=plain,afterskip=10pt plus 1pt]{chapter}
-\setkomafont{chapter}{\mdseries\headingfont\fontsize{40}{40}\selectfont\color{black!80}}
-\setkomafont{pageheadfoot}{\normalsize}
-
-\def\pnumbox#1{#1\hspace*{8cm}}
-\def\gobble#1{}
-\DeclareTOCStyleEntry[
-  indent=0pt,
-  beforeskip=0pt,
-  entryformat=\itshape,
-  entrynumberformat=\textcolor{oldred},
-  numwidth=2em,
-  linefill=\hfill,
-  pagenumberbox=\pnumbox,
-  pagenumberformat=\itshape
-]{tocline}{part}
-
-\DeclareTOCStyleEntry[
-  indent=0pt,
-  beforeskip=0pt,
-  entrynumberformat=\textcolor{oldred},
-  numwidth=2em,
-  linefill=\hfill,
-  pagenumberbox=\pnumbox
-]{tocline}{section}
-
-\DeclareTOCStyleEntry[
-  indent=0pt,
-  beforeskip=-\parskip,
-  entrynumberformat=\gobble,
-  entryformat=\ltseries,
-  numwidth=2em,
-  linefill=\hfill,
-  pagenumberbox=\pnumbox,
-  pagenumberformat=\ltseries
-]{tocline}{subsection}
-
-
-\usepackage{polyglossia}
-\setdefaultlanguage{english}
-
-
-\usepackage{fontspec}
-\setmainfont{Source Sans Pro}[
-  ItalicFont = Source Sans Pro Italic,
-  BoldFont = Source Sans Pro Bold,
-  BoldItalicFont = Source Sans Pro Bold Italic,
-  FontFace = {lt}{n}{Source Sans Pro Light},
-  FontFace = {lt}{it}{Source Sans Pro Light Italic},
-  FontFace = {sb}{n}{Source Sans Pro Semibold},
-  FontFace = {sb}{it}{Source Sans Pro Semibold Italic},
-  Numbers = Proportional,
-  Ligatures = Common
-]
-\DeclareRobustCommand{\ltseries}{\fontseries{lt}\selectfont}
-\DeclareRobustCommand{\sbseries}{\fontseries{sb}\selectfont}
-\DeclareTextFontCommand{\textlt}{\ltseries}
-\DeclareTextFontCommand{\textsb}{\sbseries}
-\newfontfamily\headingfont{Fredericka the Great}
-
-
-\usepackage[pass]{geometry}
-\newgeometry{twoside,inner=20mm,outer=40mm,top=20mm,bottom=40mm}
-
-
-\usepackage{url}
-\urlstyle{same}
-
-
-\usepackage{microtype}
-\microtypesetup{verbose=silent}
-
-
-\usepackage{booktabs,array,longtable}
-\newcolumntype{L}[1]{%
-  >{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}p{#1}%
-}
-
-
-\usepackage{graphicx}
-
-
-\usepackage{xcolor}
-\definecolor{oldred}{rgb}{.8313,0,0}
-
-
-\usepackage{pdfpages}
-
-
-\usepackage{scrlayer-scrpage}
-\pagestyle{scrheadings}
-\clearscrheadfoot
-\cfoot[\thepage]{\thepage}
-\pagenumbering{roman}
-
-\usepackage{enumitem}
-\setlist[description]{%
- labelindent=2em,%
- labelwidth=6.5em,%
- leftmargin=8.5em,%
- labelsep=0pt,
- first=\ltseries,%
- font=\normalfont\itshape\ltseries%
-}
-\def\lyrefitem#1{\item[\lyref{#1}]}
-
-
-\makeatletter
-
-\def\@firstofthree#1#2#3{#1}
-\def\@secondofthree#1#2#3{#2}
-\def\@thirdofthree#1#2#3{#3}
-\def\@firstoffour#1#2#3#4{#1}
-\def\@secondoffour#1#2#3#4{#2}
-\def\@thirdoffour#1#2#3#4{#3}
-\def\@fourthoffour#1#2#3#4{#4}
-\def\Dotfill{\leavevmode\cleaders\hb@xt@ .75em{\hss .\hss }\hfill \kern \z@}
-
-\def\lyrefnumber#1{\expandafter\@setref\csname r@#1\endcsname\@firstofthree{#1}}
-\def\lyreftitle#1{\expandafter\@setref\csname r@#1\endcsname\@secondofthree{#1}}
-\def\lyrefpage#1{\expandafter\@setref\csname r@#1\endcsname\@thirdofthree{#1}}
-
-\def\lyrefgenrenumber#1{\expandafter\@setref\csname r@#1\endcsname\@firstoffour{#1}}
-\def\lyrefgenregenre#1{\expandafter\@setref\csname r@#1\endcsname\@secondoffour{#1}}
-\def\lyrefgenretitle#1{\expandafter\@setref\csname r@#1\endcsname\@thirdoffour{#1}}
-\def\lyrefgenrepage#1{\expandafter\@setref\csname r@#1\endcsname\@fourthoffour{#1}}
-
-\def\lyref#1{%
-  \begingroup%
-  \makebox[0pt][l]{\color{oldred}\lyrefnumber{#1}}\hspace*{2em}%
-  \lyreftitle{#1}\Dotfill\lyrefpage{#1}%
-  \endgroup%
-}
-\def\lyrefpart#1{%
-  \begingroup%
-  \makebox[0pt][l]{\sbseries\color{oldred}\lyrefnumber{#1}}\hspace*{2em}%
-  \makebox[0pt][l]{\sbseries\lyreftitle{#1}}\hspace*{6.5em}%
-  \hfill\sbseries\lyrefpage{#1}%
-  \endgroup%
-}
-\def\lyrefsection#1{%
-  \begingroup%
-  \makebox[0pt][l]{\color{oldred}\lyrefgenrenumber{#1}}\hspace*{2em}%
-  \makebox[0pt][l]{\ltseries\lyrefgenregenre{#1}}\hspace*{6.5em}%
-  \lyrefgenretitle{#1}\Dotfill\lyrefgenrepage{#1}%
-  \endgroup%
-}
-\InputIfFileExists{../tmp/lilypond.ref}{}{\InputIfFileExists{../lilypond.ref}{}{}}
-
-
-\newcommand\fancytitlehead{
-  \headingfont%
-  \fontsize{80}{80}\selectfont%
-  \textcolor{black!80}{%
-    \makebox[0pt][l]{\@ifundefined{@shortname}{\@lastname}{\@shortname}.}%
-  }\\[15pt]%
-  \fontsize{60}{60}\selectfont%
-  \makebox[0pt][l]{\@ifundefined{@shorttitle}{\@title}{\@shorttitle}.}%
-}
-
-
-\def\firstname#1{\def\@firstname{#1}}
-\def\lastname#1{\def\@lastname{#1}}
-\def\shortname#1{\def\@shortname{#1}}
-\def\shorttitle#1{\def\@shorttitle{#1}}
-\def\namesuffix#1{\def\@namesuffix{#1}}
-\def\scoring#1{\def\@scoring{#1}}
-\def\parts#1{\def\@parts{#1}}
-
-\firstname{\relax}
-\lastname{\relax}
-\namesuffix{\relax}
-\scoring{\relax}
-\parts{\relax}
-
-
-\def\maketitle{%
-\begin{titlepage}%
-  \Large%
-  {\@titlehead}%
-  \vfill%
-  {\strut\@firstname}\\%
-  {\sbseries\color{oldred}\strut\@lastname}\\%
-  {\strut\@namesuffix}%
-  \vfill%
-  {\sbseries\@title}\\%
-  {\@subtitle}\\[\baselineskip]%
-  {\itshape\@scoring}%
-  \vfill%
-  {\itshape\@parts}\hspace*{\fill}\raisebox{0pt}[0pt][0pt]{\includegraphics{ees_logo}}%
-\end{titlepage}%
-}
-
-
-\newif\iftemplate\templatetrue
-\newif\ifprintreport\printreportfalse
-\directlua{
-scores = {
-  fl1 = "Flauto I",
-  fl2 = "Flauto II",
-  ob1 = "Oboe I",
-  ob2 = "Oboe II",
-  cor12 = "Corno I, II in D/Es/F/G",
-  ottoni = "Clarino I, II in D\string\\newline Timpani in D–A",
-  vl1 = "Violino I",
-  vl2 = "Violino II",
-  vla = "Viola",
-  soli = "Soli",
-  coro = "Coro",
-  org = "Organo",
-  b = "Bassi",
-  full_score = "Full Score"
-}
-
-last_arg = arg[\string#arg]
-texio.write("Last argument: " .. last_arg)
-if not (scores[last_arg] == nil) then
-  tex.print("\string\\def\string\\lypdfname{" .. last_arg .. "}")
-  tex.print("\string\\parts{" .. scores[last_arg] .. "}")
-  if (last_arg == "full_score") then
-    tex.print("\string\\printreporttrue")
-  end
-end
-}
-
-\@ifundefined{lypdfname}{%
-  \templatefalse
-  \printreporttrue
-  \parts{Draft}
-}{\templatetrue}
-
-\makeatother
-
-
+\shorttitle{Die Auferstehung}
 
 \begin{document}
-\frenchspacing
 
-\titlehead{\fancytitlehead}
-\firstname{Johann Adolph}
-\lastname{Scheibe}
-\title{Die Auferstehung und Himmelfarth Jesu}
-\shorttitle{Die Auferstehung}
-\subtitle{Auferstehungs- und Himmelfarths=Cantate\\SchW online B2:301, 302\\[1ex]Libretto: Karl Wilhelm Ramler}
-\scoring{S, A, 2 T, B (solo), S, A, T, B (coro),\\2 fl, 2 ob, 2 cor, 2 clno, timp, 2 vl, vla, b, org}
-\maketitle
+\eesTitlePage
 
-
-\thispagestyle{empty}
-
-\vspace*{\fill}
-
-\raisebox{-4mm}{\includegraphics{byncsaeu}}\hspace*{1em}Wolfgang Esser-Skala, 2021
-
-© 2021 by Wolfgang Esser-Skala. This edition is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit \url{http://creativecommons.org/licenses/by-nc-sa/4.0/}.
-
-Music engraving by LilyPond 2.22.0 (\url{http://www.lilypond.org}).\\
-Front matter typeset with Source Sans Pro and Fredericka the Great.
-
-\textit{First version, July 2021}
-
-\vspace*{2cm}
-
-\ifprintreport
-\chapter*{Critical Report}
-
-This edition bases upon two autograph manuscripts in the Staatsbibliothek Berlin (D-B). The digital versions of the manuscripts are available at
-\begin{enumerate}
-  \item \url{http://resolver.staatsbibliothek-berlin.de/SBB0001D7ED00000000}\\
-  (siglum Mus.ms.autogr. Scheibe, J. A. 1a; see also RISM ID 464131750), and
-  \item \url{http://resolver.staatsbibliothek-berlin.de/SBB0001D7F000000000}\\
-  (siglum Mus.ms.autogr. Scheibe, J. A. 1b; see also RISM ID 464131751)
-\end{enumerate}
-
-In general, this edition closely follows the manuscript. Any changes that were introduced by the editor are indicated by italic type (lyrics, dynamics and directions), parentheses (expressive marks and bass figures) or dashes (slurs and ties). Accidentals are used according to modern conventions. Asterisks denote changes that are clarified in the detailed remarks below.\footnote{Abbreviations: A, alto; B, bass; b, basses; fl, flute; clno, clarion; cor, horn; Ms, manuscript; ob, oboe; org, organ; r,~rest; S, soprano; T, tenor; timp, timpani; vl, violin; vla, viola.}
-
-\bigskip
-
-\begin{longtable}{lll L{10cm}}
-  \toprule
-  \itshape Mov. & \itshape Bar & \itshape Staff & \itshape Note \\
-  \midrule \endhead
+\eesCriticalReport{
   – & –  & A       & S 2 may be replaced by A throughout the piece (as indicated by \textit{Canto 2 overo Alto} in all respective movements). \\
-  1  & 73  & ob 1, 2 & grace note missing in Ms \\
-  8  & 122 & vl 1    & 2nd quarter in Ms: fis′8–d′8 \\
-  9  & 17  & vla     & bar in Ms: bes′1 \\
-  10 & 62  & B       & grace note missing in Ms \\
-     & 80  & B       & grace note missing in Ms \\
-     & 164 & vla     & bar in Ms: cis′4–r4 \\
-  16 & 78  & vl 2    & 1st quarter in Ms: b′4 \\
-     & 82  & vla     & 2nd quarter in Ms: a′4 \\
-  19 & 131 & vl 1    & 3rd quarter in Ms: g′4 \\
-     & 156 & cor 1   & last eighth in Ms: g″8 \\
-  \bottomrule
-\end{longtable}
+  1  & 73  & ob 1, 2 & grace note missing in \A1 \\
+  8  & 122 & vl 1    & 2nd \quarterNote\ in \A1: \sharp f′8–d′8 \\
+  9  & 17  & vla     & bar in \A1: \flat b′1 \\
+  10 & 62  & B       & grace note missing in \A1 \\
+     & 80  & B       & grace note missing in \A1 \\
+     & 164 & vla     & bar in \A1: \sharp c′4–\crotchetRest \\
+  16 & 78  & vl 2    & 1st \quarterNote\ in \A1: b′4 \\
+     & 82  & vla     & 2nd \quarterNote\ in \A1: a′4 \\
+  19 & 131 & vl 1    & 3rd \quarterNote\ in \A1: g′4 \\
+     & 156 & cor 1   & last \eighthNote\ in : g″8 \\
+}
 
-
-This edition has been compiled and checked with utmost diligence. Nevertheless, errors and mistakes cannot be totally excluded. Please report any errors and mistakes to \url{wolfgang@esser-skala.at} or create an issue or pull request on the edition’s GitHub page \url{https://github.com/skafdasschaf/scheibe-die-auferstehung}. Your help will be greatly appreciated.
-
-\smallskip
-\textit{Koppl, July 2021\\
-Wolfgang Esser-Skala}
-
-\cleardoublepage
-\chapter*{Contents.}
-
-
-\lyrefsection{gottduwirst}
-
-\begin{description}
+\eesToc{
+\begin{movement}{gottduwirst}
   \item[Coro]
   Gott! du wirſt ſeine Seele nicht in der Hölle laſſen!\\
   Und nicht zugeben, daß dein Heiliger die Verweſung ſehe!
-\end{description}
+\end{movement}
 
-\lyrefsection{judaeazittert}
-
-\begin{description}
+\begin{movement}{judaeazittert}
   \item[Tenore I]
   Judäa zittert! ſeine Berge beben!\\
   der Jordan flieht den Strand!\\
@@ -333,11 +43,9 @@ Wolfgang Esser-Skala}
   Sein Antlitz flammt, ſein Auge glühet.\\
   Die Schaar der Römer ſtürzt erblaßt auf ihre Schilde:\\
   Flieht, ihr Brüder! der Götter Rache trifft uns! fliehet!
-\end{description}
+\end{movement}
 
-\lyrefsection{meingeist}
-
-\begin{description}
+\begin{movement}{meingeist}
   \item[Tenore I]
   Mein Geiſt voll Furcht und Freude bebet:\\
   der Fels zerſpringt! die Nacht wird lichte!\\
@@ -349,22 +57,17 @@ Wolfgang Esser-Skala}
   Floß nicht ſein Blut aus ſeinem Herzen?\\
   Hat nicht der Held in dieſer Hölle\\
   der Erde ſeine Schuld bezahlt?
-\end{description}
+\end{movement}
 
-\clearpage
-\lyrefsection{triumph}
-
-\begin{description}
-  \item[Coro]
+\begin{movement}{triumph}
+  \item[Coro]\enlargethispage\baselineskip
   Triumph! Triumph! des Herrn Geſalbter ſieget!\\
   Er ſteigt aus ſeiner Felſengruft.\\
   Triumph! Triumph! ein Chor von Engeln flieget\\
   mit lautem Jubel durch die Luft.
-\end{description}
+\end{movement}
 
-\lyrefsection{diefrommen}
-
-\begin{description}
+\begin{movement}{diefrommen}
   \item[Tenore I]
   Die frommen Töchter Zions gehn verwundernd\\
   durch des offnen Grabes Thür;\\
@@ -380,11 +83,9 @@ Wolfgang Esser-Skala}
   Hier iſt er nicht vorhanden.\\
   Er hat es euch zuvor geſagt:\\
   Er lebt! Er lebt! Er iſt erſtanden!
-\end{description}
+\end{movement}
 
-\lyrefsection{seygegruesset}
-
-\begin{description}
+\begin{movement}{seygegruesset}
   \item[Alto]
   Sey gegrüßet, Fürſt des Lebens!\\
   Jauchzet, die ſein Tod betrübte!\\
@@ -397,11 +98,9 @@ Wolfgang Esser-Skala}
   Himmel! Soll der Gottgeliebte,\\
   ſoll der Gottheit Sohn zerſtäuben?\\
   Todesengel laſſet ab!
-\end{description}
+\end{movement}
 
-\lyrefsection{weristdie}
-
-\begin{description}
+\begin{movement}{weristdie}
   \item[Tenore I]
   Wer iſt die Sionitin, die vom Grabe ſo ſchüchtern\\
   in den Garten flieht, und weinet?\\
@@ -440,11 +139,9 @@ Wolfgang Esser-Skala}
   noch werd ich nicht zu meinem Vater gehen.\\
   Steh auf, und ſuche meine Brüder, und meinen Simon!\\
   Sag: Ich leb und will ihn ſehen.
-\end{description}
+\end{movement}
 
-\lyrefsection{vaterdeiner}
-
-\begin{description}
+\begin{movement}{vaterdeiner}
   \item[Alto, Tenore I]
   Vater deiner ſchwachen Kinder,\\
   der Gefallne, der Betrübte\\
@@ -462,11 +159,9 @@ Wolfgang Esser-Skala}
   Liebe, die du ſelbſt geweint.\\
   O wie wird durch jede Zähre\\
   dein allgütig Herz erweicht!
-\end{description}
+\end{movement}
 
-\lyrefsection{freundinnen}
-
-\begin{description}
+\begin{movement}{freundinnen}
   \item[Tenore I]
   Freundinnen Jeſu!\\
   Sagt, woher ſo oft in dieſen Garten?\\
@@ -491,11 +186,9 @@ Wolfgang Esser-Skala}
   doch will ich alle ſehn,\\
   bevor ich mich für euch zu meinem Gott\\
   und eurem Gott gen Himmel hebe.
-\end{description}
+\end{movement}
 
-\lyrefsection{ichfolge}
-
-\begin{description}
+\begin{movement}{ichfolge}
   \item[Basso]
   Ich folge dir, erklärter Held!\\
   dir, Erſtling der entſchlafnen Frommen!\\
@@ -505,21 +198,17 @@ Wolfgang Esser-Skala}
   wächſt frölich aus dem Staube wieder.\\
   O ruft in Hoffnung, meine Glieder,\\
   bis an den großen Erndtetag!
-\end{description}
+\end{movement}
 
-\lyrefsection{todwo}
-
-\begin{description}
+\begin{movement}{todwo}
   \item[Coro]
   Tod! wo iſt dein Stachel?\\
   dein Sieg, o Hölle! wo iſt er?\\
   Unſer iſt der Sieg!\\
   Dank ſey Gott! und Jeſus iſt Sieger!
-\end{description}
+\end{movement}
 
-\lyrefsection{dortseh}
-
-\begin{description}
+\begin{movement}{dortseh}
   \item[Tenore I]
   Dort ſeh ich aus den Toren Jeruſalems\\
   zween Schüler Jeſu gehn.\\
@@ -577,11 +266,9 @@ Wolfgang Esser-Skala}
   Er bricht das Brodt, und ſaget Dank.\\
   Die Jünger kennen ſeinen Dank;\\
   der Nebel fällt, ſie ſehn ihn, er verſchwindet.
-\end{description}
+\end{movement}
 
-\lyrefsection{willkommen}
-
-\begin{description}
+\begin{movement}{willkommen}
   \item[Canto]
   Willkommen, Heyland! Freut euch, Väter!\\
   Die Hoffnung Zions iſt erfüllt!\\
@@ -593,21 +280,17 @@ Wolfgang Esser-Skala}
   Er tritt das Haupt der Hölle nieder,\\
   er bringet die Rebellen wieder:\\
   Der Himmel nimmt uns an.
-\end{description}
+\end{movement}
 
-\lyrefsection{triumphb}
-
-\begin{description}
+\begin{movement}{triumphb}\enlargethispage\baselineskip
   \item[Coro]
   Triumph! Triumph! der Fürſt des Lebens ſieget!\\
   Gefeßelt führt er Höll und Tod.\\
   Triumph! Triumph! die Siegesfahne flieget!\\
   Sein Kleid iſt noch vom Blute roth.
-\end{description}
+\end{movement}
 
-\lyrefsection{eilf}
-
-\begin{description}
+\begin{movement}{eilf}
   \item[Tenore I]
   Eilf auserwählte Jünger,\\
   bey verſchloßnen Thüren,\\
@@ -660,11 +343,9 @@ Wolfgang Esser-Skala}
   \item[Basso]
   So geh in alle Welt,\\
   und ſey mein Zeuge!
-\end{description}
+\end{movement}
 
-\lyrefsection{meinherr}
-
-\begin{description}
+\begin{movement}{meinherr}
   \item[Tenore II]
   Mein Herr! mein Gott! mein Herr! mein Gott!\\
   Dein iſt das Reich, die Macht iſt dein!\\
@@ -680,21 +361,17 @@ Wolfgang Esser-Skala}
   Lallt meine Zunge nicht mehr Dank:\\
   ſo ſey der Ehrfurcht fromme Zähre\\
   mein letzter Lobgeſang.
-\end{description}
+\end{movement}
 
-\lyrefsection{triumphc}
-
-\begin{description}
+\begin{movement}{triumphc}
   \item[Coro]
   Triumph! Triumph! der Sohn des Höchſten ſieget!\\
   Er eilt zum Sühnaltar empor.\\
   Triumph! Triumph! Sein Vater iſt vergnüget.\\
   Er nimmt uns in der Engel Chor.
-\end{description}
+\end{movement}
 
-\lyrefsection{aufeinem}
-
-\begin{description}
+\begin{movement}{aufeinem}
   \item[Tenore I]
   Auf einem Hügel, deſſen Rücken\\
   der Oelbaum und der Palmbaum ſchmücken,\\
@@ -722,11 +399,10 @@ Wolfgang Esser-Skala}
   wird ſchnell empor getragen.\\
   Ein ſtrahlendes Gefolg\\
   umringet ſeinen Wagen.
-\end{description}
+\end{movement}
 
-\lyrefsection{ihrthore}
-
-\begin{description}
+\clearpage
+\begin{movement}{ihrthore}
   \item[Basso]
   Ihr Thore Gottes, öffnet euch!\\
   der König ziehet in ſein Reich.\\
@@ -736,17 +412,15 @@ Wolfgang Esser-Skala}
   Triumph! ſo ſchallt der weite Himmel wieder.\\
   Triumph! gebt unſrem Gott die Ehre!\\
   Heil unſrem Gott und ſeinem Sohn!
-\end{description}
+\end{movement}
 
-\lyrefsection{gottfaehret}
-
-\begin{description}
+\begin{movement}{gottfaehret}
   \item[Coro]
   Gott fähret auf mit Jauchzen!\\
   und der Herr mit heller Poſaune.\\
   Lobſinget, lobſinget Gott!\\
   Lobſinget, lobſinget unſerm Könige!
-\end{description}
+\end{movement}
 
 \textlt{[\textit{Note on final music page:}]
 Man hat nicht für nöthig befunden,
@@ -757,12 +431,8 @@ auch die letzte Arie ſchon
 den Grad der Freude bezeichnet,
 der der wahreſte Inhalt der
 folgenden proſaiſchen Worte iſt.}
+}
 
-\cleardoublepage
-\fi
-
-\iftemplate
-\includepdf[pages=-]{../tmp/\lypdfname.pdf}
-\fi
+\eesScore
 
 \end{document}

@@ -1,71 +1,12 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
-
-\paper {
-  indent = 1\cm
-  top-margin = 1\cm
-  system-separator-markup = ##f
-  system-system-spacing =
-    #'((basic-distance . 17)
-       (minimum-distance . 17)
-       (padding . -100)
-       (stretchability . 0))
-
-  top-system-spacing =
-    #'((basic-distance . 10)
-       (minimum-distance . 10)
-       (padding . -100)
-       (stretchability . 0))
-
-  top-markup-spacing =
-    #'((basic-distance . 0)
-       (minimum-distance . 0)
-       (padding . -100)
-       (stretchability . 0))
-
-  markup-system-spacing =
-    #'((basic-distance . 10)
-       (minimum-distance . 10)
-       (padding . -100)
-       (stretchability . 0))
-
-  systems-per-page = #3
-}
-
-\layout {
-  \context {
-    \Lyrics
-    \override LyricText.font-size = #-.5
-  }
-  \context {
-    \ChoirStaff
-    \override StaffGrouper.staff-staff-spacing =
-      #'((basic-distance . 12)
-         (minimum-distance . 12)
-         (padding . -100)
-         (stretchability . 0))
-    \override StaffGrouper.staffgroup-staff-spacing =
-      #'((basic-distance . 13)
-         (minimum-distance . 13)
-         (padding . -100)
-         (stretchability . 0))
-  }
-  \context {
-    \Staff
-    instrumentName = "org"
-  }
-}
-
-#(set-global-staff-size 15.87)
+\include "score_settings/coro.ly"
 
 \book {
   \bookpart {
-    \header {
-      genre = "C O R O"
-      number = "1"
-      title = "Gott, du wirſt ſeine Seele nicht in der Hölle laſſen!"
-    }
+    \section "1" "Coro" "Gott, du wirſt ſeine Seele nicht in der Hölle laſſen!"
+    \addTocEntry
     \paper { indent = 2\cm }
     \score {
       <<
@@ -103,10 +44,13 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "C H O R A L"
-      number = "4"
-      title = "Triumph! Triumph! des Herrn Geſalbter ſieget!"
+    \section "4" "Choral" "Triumph! Triumph! des Herrn Geſalbter ſieget!"
+    \addTocEntry
+    \paper {
+      top-system-spacing.basic-distance = #12
+      top-system-spacing.minimum-distance = #12
+      markup-system-spacing.basic-distance = #12
+      markup-system-spacing.minimum-distance = #12
     }
     \score {
       <<
@@ -141,10 +85,13 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "C O R O"
-      number = "11"
-      title = "Tod! wo iſt dein Stachel?"
+    \section "11" "Coro" "Tod! wo iſt dein Stachel?"
+    \addTocEntry
+    \paper {
+      top-system-spacing.basic-distance = #12
+      top-system-spacing.minimum-distance = #12
+      markup-system-spacing.basic-distance = #12
+      markup-system-spacing.minimum-distance = #12
     }
     \score {
       <<
@@ -179,12 +126,15 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "C H O R A L"
-      number = "14"
-      title = "Triumph! Triumph! der Fürſt des Lebens ſieget!"
+    \section "14" "Choral" "Triumph! Triumph! der Fürſt des Lebens ſieget!"
+    \addTocEntry
+    \paper {
+      top-system-spacing.basic-distance = #12
+      top-system-spacing.minimum-distance = #12
+      markup-system-spacing.basic-distance = #12
+      markup-system-spacing.minimum-distance = #12
+      page-count = #2
     }
-    \paper { page-count = #2 }
     \score {
       <<
         \new ChoirStaff <<
@@ -218,11 +168,8 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "C H O R A L"
-      number = "17"
-      title = "Triumph! Triumph! der Sohn des Höchſten ſieget!"
-    }
+    \section "17" "Choral" "Triumph! Triumph! der Sohn des Höchſten ſieget!"
+    \addTocEntry
     \score {
       <<
         \new ChoirStaff <<
@@ -256,11 +203,8 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "C O R O"
-      number = "20"
-      title = "Gott fähret auf mit Jauchzen!"
-    }
+    \section "20" "Coro" "Gott fähret auf mit Jauchzen!"
+    \addTocEntry
     \score {
       <<
         \new ChoirStaff <<

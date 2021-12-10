@@ -1,16 +1,5 @@
 \version "2.22.0"
 
-SopranoIncipit = \markup {
-  "Canto I" \hspace #-18.3 \score {
-    \new Staff \with {
-      \remove Time_signature_engraver
-    } {
-      \clef soprano s4 \bar empty
-    }
-    \layout { }
-  } \hspace #-1.8
-}
-
 GottDuWirstSopranoNotes = {
   \relative c' {
     \clef treble
